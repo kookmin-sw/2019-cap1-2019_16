@@ -1,3 +1,5 @@
+# 2019 소프트웨어 융합대학 캡스톤 디자인Ⅰ 16조 Surreal
+
 # LOST DARK
 
 
@@ -5,12 +7,12 @@
 
 ## 1. 프로잭트 소개
 
-3D 쿼터뷰 RPG 게임 Lost Dark 입니다.
+Unreal Engine을 기반으로 한 3D 쿼터뷰 MMORPG 게임 Lost Dark 입니다.
 
 ## 2. 소개 영상
 
 프로젝트 소개하는 영상을 추가하세요
-[![sample](https://github.com/kookmin-sw/2019-cap1-2019_16/blob/master/thumbnail.PNG)](https://youtu.be/fB5ZA5iRoRc)
+[![sample](./thumbnail.PNG)](https://youtu.be/fB5ZA5iRoRc)
 
 ## 3. 팀 소개
 
@@ -43,37 +45,31 @@
 
 ## 4. 사용법
 
-소스코드제출시 설치법이나 사용법을 작성하세요.
+1. 계정 생성 및 로그인
+2. 게임 접속 및 시작
+
+향후 프로젝트가 진행됨에 따라 추가할 예정입니다.
 
 ## 5. 기타
 
-추가적인 내용은 자유롭게 작성하세요.
+### 개발 예정
+
+#### 1. 클라이언트 개발
+- Unreal Engine 4 사용. 게임 실행을 위한 기본적인 클라이언트 개발. 기본 플랫폼은 Window PC로 하며, 여건에 따라 모바일 버전도 개발할 예정.
+
+#### 2. 서버 환경 구축
+- 실시간 온라인 게임이므로 사용자들이 게임을 같이 즐길 수 있도록 네트워크 환경을 구축.
+- Photon cloud의 realtime기능을 사용.
 
 
-## Markdown을 사용하여 내용꾸미기
+#### 3. 데이터베이스 구축
+- 사용자의 아이디와 아이디와 연동된 캐릭터 정보를 담을 데이터베이스를 구축.
+- MySQL 사용.
 
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
 
-```markdown
-Syntax highlighted code block
+#### 4. 게임 내부 컨텐츠 개발
+- 기획 단계에서 계획한 아이디어들을 구현.
+- 캐릭터 모션 및 카메라 움직임, 플레이어, 몬스터, 맵 레벨 디자인, 기타 여러가지 편의 기능 추가 예정.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
+#### 5. AI 개발
+- 기본 몬스터들의 인공지능은 simple, 보스급 이상의 몬스터들은 플레이어의 공격 방식에 따라 패턴을 달리 하는 인공지능을 적용.
