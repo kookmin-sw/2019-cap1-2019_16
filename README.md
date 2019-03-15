@@ -7,7 +7,7 @@
 
 ## 1. 프로잭트 소개
 
-[![sample2](./thumbnail2.PNG)]
+[![sample2](./thumbnail2.png)]
 Unreal Engine을 기반으로 한 3D 쿼터뷰 MMORPG 게임 Lost Dark 입니다.
 
 ## 2. 소개 영상
