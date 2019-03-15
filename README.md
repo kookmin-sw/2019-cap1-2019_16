@@ -10,7 +10,7 @@
 ## 2. 소개 영상
 
 프로젝트 소개하는 영상을 추가하세요
-[![sample](https://github.com/kookmin-sw/2019-cap1-2019_16/blob/master/thumbnail.PNG)](https://youtu.be/fB5ZA5iRoRc)
+[![sample](./thumbnail.PNG)](https://youtu.be/fB5ZA5iRoRc)
 
 ## 3. 팀 소개
 
