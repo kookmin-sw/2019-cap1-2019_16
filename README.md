@@ -1,9 +1,7 @@
 # LOST DARK
 
 
-**팀페이지 주소** -> https://kookmin-sw.github.io/ `{{자신의 리파지토리 아이디}}`
-
-**예시)** 1조  https://kookmin-sw.github.io/2018-cap-1
+**팀페이지 주소** -> https://kookmin-sw.github.io/2019-cap1-2019_16/
 
 ## 1. 프로잭트 소개
 
