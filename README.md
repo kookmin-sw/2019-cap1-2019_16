@@ -18,8 +18,8 @@ Unreal Engine을 기반으로 한 3D 쿼터뷰 MMORPG 게임 Lost Dark 입니다
 
 
 ### 김성훈(팀장)
-* 학번 :
-* Email :
+* 학번 : 20133203
+* Email : 610ksh@kookmin.ac.kr
 * 역할 : 맵 레벨 디자인 및 아트 담당
 
 ### 김종균
@@ -33,13 +33,13 @@ Unreal Engine을 기반으로 한 3D 쿼터뷰 MMORPG 게임 Lost Dark 입니다
 * 역할 : 캐릭터 및 UI 개발
 
 ### 장윤지
-* 학번 :
-* Email :
+* 학번 : 20153222
+* Email : engineering11111@gmail.com
 * 역할 : 몬스터 및 AI 개발
 
 ### 갈경달
-* 학번 :
-* Email :
+* 학번 : 20155277
+* Email : 748075155@qq.com
 * 역할 : Tester
 
 
