@@ -34,7 +34,7 @@ Unreal Engine을 기반으로 한 3D 쿼터뷰 MMORPG 게임 Lost Dark 입니다
 
 ### 장윤지
 * 학번 : 20153222
-* Email : 
+* Email : engineering11111@gmail.com
 * 역할 : 몬스터 및 AI 개발
 
 ### 갈경달
