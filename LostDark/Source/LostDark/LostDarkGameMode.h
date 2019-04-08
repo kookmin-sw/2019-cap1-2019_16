@@ -14,6 +14,3 @@ class ALostDarkGameMode : public AGameModeBase
 public:
 	ALostDarkGameMode();
 };
-
-
-
