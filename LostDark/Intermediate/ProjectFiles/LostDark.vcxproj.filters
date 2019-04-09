@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{43CA6A72-AEC3-46A1-A72E-C5144713E0D7}</UniqueIdentifier>
+      <UniqueIdentifier>{FBE37FC2-112D-4996-BABC-0F3209954DD0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{68D7D071-0985-4AE1-BAC0-6C6CDD24EDE2}</UniqueIdentifier>
+      <UniqueIdentifier>{1E244E01-D547-4188-A23B-D12FB0853246}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{E4DE9422-2D84-409C-8478-64E844CA86C3}</UniqueIdentifier>
+      <UniqueIdentifier>{9EC657EC-EA0D-4A2F-84D0-936318A0EF1F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
@@ -51,12 +51,6 @@
       <Filter>Source\LostDark</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LostDark\LostDarkGameMode.h">
-      <Filter>Source\LostDark</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\LostDark\Workspace.cpp">
-      <Filter>Source\LostDark</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\LostDark\Workspace.h">
       <Filter>Source\LostDark</Filter>
     </ClInclude>
   </ItemGroup>
