@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FBE37FC2-112D-4996-BABC-0F3209954DD0}</UniqueIdentifier>
+      <UniqueIdentifier>{2FDC221C-5B95-42BD-85AE-EE018BE66E64}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1E244E01-D547-4188-A23B-D12FB0853246}</UniqueIdentifier>
+      <UniqueIdentifier>{BE89560E-0217-4933-9E48-B75C9E6777F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{9EC657EC-EA0D-4A2F-84D0-936318A0EF1F}</UniqueIdentifier>
+      <UniqueIdentifier>{59855605-09C0-42A8-AEF8-A062B25C8BAE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
