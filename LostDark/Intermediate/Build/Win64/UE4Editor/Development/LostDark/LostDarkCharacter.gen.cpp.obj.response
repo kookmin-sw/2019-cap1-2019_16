@@ -24,9 +24,15 @@
 /wd4838
 /we4668
 /I .
+<<<<<<< HEAD
 /I E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDark
 /I E:\Capstone_Git\LostDark\Source
 /I E:\Capstone_Git\LostDark\Source\LostDark
+=======
+/I B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDark
+/I B:\Develope\Sourcetree\LostDark\LostDark\Source
+/I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark
+>>>>>>> master
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -421,12 +427,21 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+<<<<<<< HEAD
 /FI"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDark\LostDarkCharacter.gen.cpp"
 /FI"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\Definitions.LostDark.h"
 /Fo"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\LostDarkCharacter.gen.cpp.obj"
+=======
+/FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDark\LostDarkCharacter.gen.cpp"
+/FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\Definitions.LostDark.h"
+/Fo"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\LostDarkCharacter.gen.cpp.obj"
+>>>>>>> master
 /TP
 /GR-
 /W4
