@@ -953,3 +953,42 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.04.14-07.31.25:681][567]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2019.04.14-07.31.25:682][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
 [2019.04.14-07.31.25:757][568]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.04.14-07.36.03:270][529]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.04.14-07.36.04:680][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
+[2019.04.14-07.36.04:771][616]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint0165CDBD44EC2BC6AC7AE1BB66D69E5E.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
+[2019.04.14-07.36.35:838][  5]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.04.14-07.36.36:526][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
+[2019.04.14-07.36.36:609][ 32]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint4688266A4B37217A6AC308A47CA43887.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
+[2019.04.14-07.36.37:137][ 72]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.04.14-07.36.37:156][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.14-07.36.37:156][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.14-07.36.37:156][ 72]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:36:37)
+[2019.04.14-07.36.37:156][ 72]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.04.14-07.36.37:159][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003014s)
+[2019.04.14-07.36.37:160][ 72]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.04.14-07.36.37:160][ 72]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2019.04.14-07.36.37:160][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004116s)
+[2019.04.14-07.36.37:254][ 72]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.14-07.36.37:297][ 72]LogInit: FAudioDevice initialized.
+[2019.04.14-07.36.37:308][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.14-07.36.37:348][ 72]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.04.14-07.36.37:350][ 72]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.36.37
+[2019.04.14-07.36.37:350][ 72]LogWorld: Bringing up level for play took: 0.000943
+[2019.04.14-07.36.37:372][ 72]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.728
+[2019.04.14-07.36.37:372][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.14-07.36.57:430][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.14-07.36.57:431][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.14-07.36.57:450][408]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.04.14-07.36.57:486][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.14-07.36.57:487][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.14-07.36.57:558][409]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.04.14-07.36.58:903][507]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.04.14-07.36.59:569][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
+[2019.04.14-07.36.59:653][531]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint2AB209D44B31EFA4A9467AA291007E04.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
+[2019.04.14-07.38.05:317][430]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.04.14-07.41.06:567][902]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.037
+[2019.04.14-07.41.06:569][902]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JK/RollsAndDodges/DodgeBLprint] ([1] browsable assets)...
+[2019.04.14-07.41.06:663][902]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint]
+[2019.04.14-07.41.06:663][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/RollsAndDodges/DodgeBLprint]
+[2019.04.14-07.41.06:771][902]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint_Auto2780A71C449C5B80010F11ABA8784669A.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto2.uasset'
+[2019.04.14-07.41.06:774][902]LogFileHelpers: Auto-saving content packages took 0.205
