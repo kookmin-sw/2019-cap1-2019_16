@@ -1,4 +1,4 @@
-﻿Log file open, 04/14/19 16:16:05
+﻿Log file open, 04/16/19 01:53:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: LostDark
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.913939
+LogStats: Stats thread started at 0.227240
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.200s to configure plugins.
+LogStreaming: Display: Took  0.191s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,846 +149,605 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.008s to delete old logs.
+LogStreaming: Display: Took  0.011s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.04.14-07.16.06:837][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.04.14-07.16.06:837][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.04.14-07.16.06:837][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:837][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.04.14-07.16.06:837][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:837][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:837][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.04.14-07.16.06:838][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:838][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:846][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.14-07.16.06:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.14-07.16.06:847][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:847][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.14-07.16.06:848][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.14-07.16.06:848][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.14-07.16.06:848][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.14-07.16.06:875][  0]LogHAL: Display: Platform has ~ 8 GB [8565673984 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.14-07.16.06:875][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.04.14-07.16.06:876][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.14-07.16.06:876][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.14-07.16.06:876][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.14-07.16.06:877][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.04.14-07.16.06:882][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.04.14-07.16.06:882][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
-[2019.04.14-07.16.06:883][  0]LogInit: Computer: DESKTOP-6TE68PK
-[2019.04.14-07.16.06:883][  0]LogInit: User: Gyun
-[2019.04.14-07.16.06:883][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.14-07.16.06:883][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.04.14-07.16.06:884][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2019.04.14-07.16.06:884][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.14-07.16.06:884][  0]LogMemory: Process Physical Memory: 102.58 MB used, 102.58 MB peak
-[2019.04.14-07.16.06:884][  0]LogMemory: Process Virtual Memory: 84.46 MB used, 84.46 MB peak
-[2019.04.14-07.16.06:884][  0]LogMemory: Physical Memory: 3171.09 MB used,  4997.78 MB free, 8168.86 MB total
-[2019.04.14-07.16.06:884][  0]LogMemory: Virtual Memory: 4630.32 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.04.14-07.16.07:109][  0]LogInit: Using OS detected language (ko-KR).
-[2019.04.14-07.16.07:109][  0]LogInit: Using OS detected locale (ko-KR).
-[2019.04.14-07.16.07:112][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2019.04.14-07.16.07:709][  0]LogStreaming: Display: Took  0.599s to InitEngineTextLocalization.
-[2019.04.14-07.16.07:709][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.14-07.16.07:848][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.14-07.16.07:848][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.14-07.16.10:013][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.14-07.16.10:013][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.14-07.16.10:128][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560' (Feature Level 11_0)
-[2019.04.14-07.16.10:128][  0]LogD3D11RHI:       979/0/4084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.14-07.16.10:133][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.14-07.16.10:133][  0]LogD3D11RHI:       0/0/4084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.14-07.16.10:133][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.14-07.16.10:141][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.14-07.16.10:141][  0]LogD3D11RHI:     GPU DeviceId: 0x1201 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.14-07.16.10:141][  0]LogWindows: EnumDisplayDevices:
-[2019.04.14-07.16.10:142][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560' (P:1 D:1)
-[2019.04.14-07.16.10:144][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560' (P:0 D:0)
-[2019.04.14-07.16.10:146][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2019.04.14-07.16.10:146][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560
-[2019.04.14-07.16.10:146][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2019.04.14-07.16.10:146][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2019.04.14-07.16.10:146][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
-[2019.04.14-07.16.10:201][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2019.04.14-07.16.10:202][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.14-07.16.10:226][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.14-07.16.11:155][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.14-07.16.11:176][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.14-07.16.11:197][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.14-07.16.11:217][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.14-07.16.11:242][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.14-07.16.11:263][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.14-07.16.11:284][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.14-07.16.11:305][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.14-07.16.11:317][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.14-07.16.11:444][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.14-07.16.11:531][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.14-07.16.11:531][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.14-07.16.11:564][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.14-07.16.11:564][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.14-07.16.11:584][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.14-07.16.11:603][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.14-07.16.11:623][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.14-07.16.11:650][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.14-07.16.11:720][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.14-07.16.11:720][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.14-07.16.11:720][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.14-07.16.11:920][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Gyun/Desktop/LD/LostDark/Intermediate/Shaders/WorkingDirectory/5628/).
-[2019.04.14-07.16.11:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gyun/AppData/Local/Temp/UnrealShaderWorkingDir/BC494F6941AD699C1D243AA2D95DA6D2/'.
-[2019.04.14-07.16.11:925][  0]LogXGEController: Cleaning working directory: C:/Users/Gyun/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.14-07.16.11:926][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.14-07.16.11:926][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.14-07.16.11:926][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.14-07.16.13:921][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.14-07.16.14:160][  0]LogDerivedDataCache: Loaded boot cache 0.24s 74MB C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.14-07.16.14:160][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.04.14-07.16.14:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gyun/Desktop/LD/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.14-07.16.14:160][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.14-07.16.14:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gyun/Desktop/LD/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.14-07.16.14:160][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.14-07.16.14:195][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.14-07.16.14:208][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.04.14-07.16.14:221][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gyun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.14-07.16.14:221][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.14-07.16.14:221][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.14-07.16.14:253][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.14-07.16.14:261][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.14-07.16.14:272][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.14-07.16.14:674][  0]LogAssetRegistry: FAssetRegistry took 0.0406 seconds to start up
-[2019.04.14-07.16.15:265][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.14-07.16.15:563][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.14-07.16.15:589][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.14-07.16.15:589][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.14-07.16.15:590][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.14-07.16.15:590][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.14-07.16.15:775][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
-[2019.04.14-07.16.17:348][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.162149 seconds
-[2019.04.14-07.16.17:357][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.04.14-07.16.17:357][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2019.04.14-07.16.17:357][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.14-07.16.21:919][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.14-07.16.21:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.14-07.16.23:643][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.04.14-07.16.23:643][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.04.14-07.16.23:658][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.04.14-07.16.23:665][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.04.14-07.16.24:052][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.14-07.16.24:328][  0]LogOcInput: OculusInput pre-init called
-[2019.04.14-07.16.24:562][  0]LogEngine: Initializing Engine...
-[2019.04.14-07.16.24:565][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.14-07.16.24:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.14-07.16.24:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.14-07.16.24:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.14-07.16.24:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.14-07.16.25:103][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.14-07.16.25:151][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.14-07.16.25:245][  0]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.16.25:319][  0]LogInit: FAudioDevice initialized.
-[2019.04.14-07.16.25:319][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.14-07.16.25:425][  0]LogDerivedDataCache: Saved boot cache 0.11s 73MB C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.14-07.16.25:436][  0]LogInit: Texture streaming: Enabled
-[2019.04.14-07.16.25:480][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.14-07.16.25:509][  0]LogInit: Transaction tracking system initialized
-[2019.04.14-07.16.25:586][  0]BlueprintLog: New page: 에디터 로드
-[2019.04.14-07.16.25:889][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2019.04.14-07.16.26:313][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.26:313][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.26:313][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
-[2019.04.14-07.16.28:231][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/' took 0.02s
-[2019.04.14-07.16.28:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.14-07.16.28:231][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.14-07.16.28:231][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.14-07.16.28:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.14-07.16.28:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.14-07.16.28:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.14-07.16.28:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.14-07.16.28:729][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
-[2019.04.14-07.16.28:730][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.14-07.16.28:737][  0]LightingResults: New page: 라이팅 빌드
-[2019.04.14-07.16.28:748][  0]MapCheck: New page: 맵 체크
-[2019.04.14-07.16.28:748][  0]LightingResults: New page: 라이팅 빌드
-[2019.04.14-07.16.28:901][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:902][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:902][  0]LoadErrors: Error: /Game/DefaultLevel/DefaultLevel : 애셋에 대한 파일을 찾을 수 없습니다. /Game/DefaultLevel/DefaultLevel_BuiltData
-[2019.04.14-07.16.28:904][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:904][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:904][  0]LoadErrors: Error: /Game/DefaultLevel/DefaultLevel : 애셋에 대한 파일을 찾을 수 없습니다. /Game/DefaultLevel/DefaultLevel_BuiltData
-[2019.04.14-07.16.28:914][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:915][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:915][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block
-[2019.04.14-07.16.28:915][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:916][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:916][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars
-[2019.04.14-07.16.28:916][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:917][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:917][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall
-[2019.04.14-07.16.28:917][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:917][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:917][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block
-[2019.04.14-07.16.28:918][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:918][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:918][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars
-[2019.04.14-07.16.28:918][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:919][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:919][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall
-[2019.04.14-07.16.28:922][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:922][  0]LogLinker: Warning: NULL 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:923][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:923][  0]LogLinker: Warning: NULL 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:934][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:934][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:935][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:935][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:935][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:935][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:935][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:936][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:936][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:936][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:936][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:936][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:937][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:937][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:937][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:937][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:937][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:937][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:938][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:938][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:938][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:938][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:938][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:938][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
-[2019.04.14-07.16.28:940][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:940][  0]LoadErrors: 로드에 실패했습니다. /Game/DefaultLevel/DefaultLevel_BuiltData.DefaultLevel_BuiltData 레퍼런싱한 것: PersistentLevel
-[2019.04.14-07.16.28:940][  0]LogLinker: Warning: NULL 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
-[2019.04.14-07.16.28:940][  0]LoadErrors: 로드에 실패했습니다. /Game/DefaultLevel/DefaultLevel_BuiltData.DefaultLevel_BuiltData 레퍼런싱한 것: PersistentLevel
-[2019.04.14-07.16.29:071][  0]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.16.29:101][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.14-07.16.29:130][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.14-07.16.29:130][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.281ms.
-[2019.04.14-07.16.29:130][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.401
-[2019.04.14-07.16.29:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.16.29:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.16.29:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.16.29:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.16.29:396][  0]LogCollectionManager: Loaded 0 collections in 0.003106 seconds
-[2019.04.14-07.16.29:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Saved/Collections/' took 0.01s
-[2019.04.14-07.16.29:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/Developers/Gyun/Collections/' took 0.01s
-[2019.04.14-07.16.29:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/Collections/' took 0.00s
-[2019.04.14-07.16.29:443][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.04.14-07.16.29:460][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2653 classes and 622 folders.
-[2019.04.14-07.16.29:478][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.04.14-07.16.29:493][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:502][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:519][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:527][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:542][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:548][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:553][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:654][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:661][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:697][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:704][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:710][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:718][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:725][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:732][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.29:746][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.14-07.16.30:037][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.04.14-07.16.30:053][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2019.04.14-07.16.30:234][  0]LogSlate: Took 0.007206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.14-07.16.30:252][  0]LogSlate: Took 0.017129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.04.14-07.16.30:269][  0]LogSlate: Took 0.015611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2019.04.14-07.16.30:274][  0]LogSlate: Took 0.005125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.14-07.16.30:286][  0]LogSlate: Took 0.005223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.14-07.16.30:559][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
-[2019.04.14-07.16.30:656][  0]LogSlate: Took 0.002887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2019.04.14-07.16.30:885][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.04.14-07.16.30:885][  0]LogLoad: (Engine Initialization) Total time: 30.90 seconds
-[2019.04.14-07.16.30:885][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.14-07.16.30:970][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.04.14-07.16.30:973][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.04.14-07.16.31:024][  0]LogSlate: Took 0.006033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.14-07.16.31:552][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2019.04.14-07.16.31:579][  2]LogAssetRegistry: Asset discovery search completed in 16.9279 seconds
-[2019.04.14-07.16.31:581][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.14-07.16.31:581][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
-[2019.04.14-07.16.54:829][220]LogSlate: Window '메시지 로그' being destroyed
-[2019.04.14-07.16.54:833][220]LogSlate: Window '메시지 로그' being destroyed
-[2019.04.14-07.16.55:719][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.14-07.17.01:011][729]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.14-07.17.19:620][282]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/JK/RollsAndDodges/MyPersonCharacter.MyPersonCharacter
-[2019.04.14-07.17.20:399][282]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
-[2019.04.14-07.17.21:632][282]LogSlate: Took 0.005307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.04.14-07.17.21:947][283]LogSlate: Took 0.005403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.04.14-07.19.29:002][673]BlueprintLog: New page: MyPersonCharacter 컴파일
-[2019.04.14-07.19.30:307][745]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.04.14-07.19.30:327][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.30:327][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.19.30:329][745]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:19:30)
-[2019.04.14-07.19.30:343][745]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.19.30:347][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003756s)
-[2019.04.14-07.19.30:348][745]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.19.30:348][745]LogPlayLevel: PIE: World Init took: (0.001057s)
-[2019.04.14-07.19.30:348][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.005320s)
-[2019.04.14-07.19.30:450][745]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.19.30:496][745]LogInit: FAudioDevice initialized.
-[2019.04.14-07.19.30:541][745]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.19.30:544][745]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.19.30
-[2019.04.14-07.19.30:544][745]LogWorld: Bringing up level for play took: 0.000925
-[2019.04.14-07.19.30:573][745]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2019.04.14-07.19.30:578][745]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.066
-[2019.04.14-07.19.30:578][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.35:320][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.35:320][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.19.35:353][145]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.19.35:354][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.35:389][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.19.35:426][147]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.04.14-07.19.36:217][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.14-07.19.36:910][286]LogTemp: Repeating last play command: 선택된 뷰포트
-[2019.04.14-07.19.36:929][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.36:929][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.19.36:929][286]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:19:36)
-[2019.04.14-07.19.36:929][286]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.19.36:932][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002814s)
-[2019.04.14-07.19.36:933][286]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.19.36:933][286]LogPlayLevel: PIE: World Init took: (0.000728s)
-[2019.04.14-07.19.36:933][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.003703s)
-[2019.04.14-07.19.37:032][286]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.19.37:074][286]LogInit: FAudioDevice initialized.
-[2019.04.14-07.19.37:110][286]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.19.37:112][286]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.19.37
-[2019.04.14-07.19.37:112][286]LogWorld: Bringing up level for play took: 0.000807
-[2019.04.14-07.19.37:127][286]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.483
-[2019.04.14-07.19.37:127][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.39:898][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.39:899][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.19.39:935][581]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.19.39:936][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.39:970][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.19.40:017][584]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.04.14-07.19.41:892][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.41:892][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.19.41:893][794]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:19:41)
-[2019.04.14-07.19.41:893][794]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.19.41:895][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002742s)
-[2019.04.14-07.19.41:896][794]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.19.41:896][794]LogPlayLevel: PIE: World Init took: (0.000676s)
-[2019.04.14-07.19.41:896][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.003582s)
-[2019.04.14-07.19.41:991][794]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.19.42:032][794]LogInit: FAudioDevice initialized.
-[2019.04.14-07.19.42:042][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.19.42:083][794]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.19.42:084][794]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.19.42
-[2019.04.14-07.19.42:085][794]LogWorld: Bringing up level for play took: 0.000923
-[2019.04.14-07.19.42:107][794]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.537
-[2019.04.14-07.19.42:108][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.42:147][794]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2019.04.14-07.19.51:582][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.51:582][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.19.51:601][523]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.19.51:633][523]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.19.51:633][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.19.51:684][524]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.04.14-07.19.59:655][131]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.04.14-07.19.59:804][133]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
-[2019.04.14-07.19.59:804][133]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.04.14-07.19.59:804][133]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2019.04.14-07.19.59:804][133]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.04.14-07.19.59:811][133]LogTemp: BranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2019.04.14-07.19.59:842][133]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Gyun\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.04.14-07.20.18:323][867]LogSlate: Window '프로젝트 세팅' being destroyed
-[2019.04.14-07.20.18:327][867]LogSlate: Window '프로젝트 세팅' being destroyed
-[2019.04.14-07.20.32:460][477]LogMetaData: Removing '/Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint_C' ref from Metadata '/Game/JK/RollsAndDodges/MyPersonCharacter.PackageMetaData'
-[2019.04.14-07.20.32:461][477]LogMetaData: Removing '/Game/JK/RollsAndDodges/DodgeBLprint.SKEL_DodgeBLprint_C' ref from Metadata '/Game/JK/RollsAndDodges/MyPersonCharacter.PackageMetaData'
-[2019.04.14-07.20.32:521][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
-[2019.04.14-07.20.32:621][477]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprintC335E4EA4BF76B19F459FE9B279A5854.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
-[2019.04.14-07.20.43:187][893]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.04.14-07.20.43:372][896]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
-[2019.04.14-07.20.43:372][896]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.04.14-07.20.43:372][896]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2019.04.14-07.20.43:372][896]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2019.04.14-07.20.43:372][896]LogTemp: BranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2019.04.14-07.20.43:403][898]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Gyun\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.04.14-07.20.47:108][215]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2019.04.14-07.21.03:950][ 47]LogSlate: Window '프로젝트 세팅' being destroyed
-[2019.04.14-07.21.03:953][ 47]LogSlate: Window '프로젝트 세팅' being destroyed
-[2019.04.14-07.21.05:170][167]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.21.05:189][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.21.05:189][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.21.05:189][167]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:21:05)
-[2019.04.14-07.21.05:189][167]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.21.05:192][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002993s)
-[2019.04.14-07.21.05:193][167]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.21.05:193][167]LogPlayLevel: PIE: World Init took: (0.000866s)
-[2019.04.14-07.21.05:193][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004009s)
-[2019.04.14-07.21.05:291][167]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.21.05:333][167]LogInit: FAudioDevice initialized.
-[2019.04.14-07.21.05:344][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.21.05:381][167]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.21.05:383][167]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.21.05
-[2019.04.14-07.21.05:383][167]LogWorld: Bringing up level for play took: 0.001109
-[2019.04.14-07.21.05:403][167]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.759
-[2019.04.14-07.21.05:403][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.21.12:646][719]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.21.12:646][719]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.21.12:665][719]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.21.12:704][719]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.21.12:704][719]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.21.12:755][720]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.04.14-07.26.37:195][393]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.26.37:925][427]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.26.37:944][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.26.37:944][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.26.37:944][427]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:26:37)
-[2019.04.14-07.26.37:944][427]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.26.37:947][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003002s)
-[2019.04.14-07.26.37:948][427]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.26.37:948][427]LogPlayLevel: PIE: World Init took: (0.001086s)
-[2019.04.14-07.26.37:948][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004249s)
-[2019.04.14-07.26.38:046][427]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.26.38:089][427]LogInit: FAudioDevice initialized.
-[2019.04.14-07.26.38:099][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.26.38:135][427]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.26.38:137][427]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.26.38
-[2019.04.14-07.26.38:137][427]LogWorld: Bringing up level for play took: 0.000895
-[2019.04.14-07.26.38:159][427]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.484
-[2019.04.14-07.26.38:160][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.26.45:830][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.26.45:831][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.26.45:849][938]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.26.45:880][938]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.26.45:881][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.26.45:950][939]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.04.14-07.26.53:582][567]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.26.54:269][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
-[2019.04.14-07.26.54:357][596]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint1273A74D4086A6238164AA8D97A04C53.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
-[2019.04.14-07.26.54:956][645]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.26.54:973][645]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.26.54:974][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.26.54:974][645]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:26:54)
-[2019.04.14-07.26.54:974][645]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.26.54:977][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002811s)
-[2019.04.14-07.26.54:978][645]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.26.54:978][645]LogPlayLevel: PIE: World Init took: (0.001275s)
-[2019.04.14-07.26.54:978][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004236s)
-[2019.04.14-07.26.55:076][645]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.26.55:117][645]LogInit: FAudioDevice initialized.
-[2019.04.14-07.26.55:126][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.26.55:162][645]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.26.55:163][645]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.26.55
-[2019.04.14-07.26.55:164][645]LogWorld: Bringing up level for play took: 0.000833
-[2019.04.14-07.26.55:186][645]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.542
-[2019.04.14-07.26.55:187][645]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.03:404][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.03:404][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.27.03:424][197]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.27.03:457][197]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.27.03:458][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.03:526][198]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.04.14-07.27.49:130][764]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.27.49:149][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.49:149][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.27.49:149][764]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:27:49)
-[2019.04.14-07.27.49:149][764]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.27.49:152][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003002s)
-[2019.04.14-07.27.49:153][764]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.27.49:153][764]LogPlayLevel: PIE: World Init took: (0.001058s)
-[2019.04.14-07.27.49:153][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004345s)
-[2019.04.14-07.27.49:246][764]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.27.49:287][764]LogInit: FAudioDevice initialized.
-[2019.04.14-07.27.49:297][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.27.49:336][764]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.27.49:337][764]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.27.49
-[2019.04.14-07.27.49:338][764]LogWorld: Bringing up level for play took: 0.000826
-[2019.04.14-07.27.49:360][764]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.716
-[2019.04.14-07.27.49:361][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.55:348][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.55:348][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.27.55:368][159]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.27.55:403][159]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.27.55:404][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.27.55:474][160]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.04.14-07.28.49:952][277]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.28.50:657][306]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.28.50:676][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.28.50:676][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.28.50:676][306]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:28:50)
-[2019.04.14-07.28.50:676][306]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.28.50:679][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
-[2019.04.14-07.28.50:680][306]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.28.50:680][306]LogPlayLevel: PIE: World Init took: (0.001032s)
-[2019.04.14-07.28.50:680][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004107s)
-[2019.04.14-07.28.50:777][306]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.28.50:819][306]LogInit: FAudioDevice initialized.
-[2019.04.14-07.28.50:828][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.28.50:867][306]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.28.50:869][306]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.28.50
-[2019.04.14-07.28.50:869][306]LogWorld: Bringing up level for play took: 0.000901
-[2019.04.14-07.28.50:891][306]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.247
-[2019.04.14-07.28.50:892][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.08:798][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.08:799][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.29.08:821][511]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.29.08:857][511]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.29.08:858][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.08:935][512]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.04.14-07.29.48:065][705]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.29.48:083][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.48:083][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.29.48:084][705]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:29:48)
-[2019.04.14-07.29.48:084][705]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.29.48:087][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002867s)
-[2019.04.14-07.29.48:087][705]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.29.48:087][705]LogPlayLevel: PIE: World Init took: (0.000711s)
-[2019.04.14-07.29.48:087][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.003790s)
-[2019.04.14-07.29.48:187][705]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.29.48:230][705]LogInit: FAudioDevice initialized.
-[2019.04.14-07.29.48:240][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.29.48:283][705]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.29.48:284][705]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.29.48
-[2019.04.14-07.29.48:285][705]LogWorld: Bringing up level for play took: 0.000832
-[2019.04.14-07.29.48:306][705]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.339
-[2019.04.14-07.29.48:306][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.52:995][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.52:996][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.29.53:014][ 13]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.29.53:047][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.29.53:048][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.53:122][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.04.14-07.29.54:017][ 81]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.29.54:038][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.54:038][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.29.54:039][ 81]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:29:54)
-[2019.04.14-07.29.54:039][ 81]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.29.54:042][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003175s)
-[2019.04.14-07.29.54:043][ 81]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.29.54:043][ 81]LogPlayLevel: PIE: World Init took: (0.001107s)
-[2019.04.14-07.29.54:043][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004456s)
-[2019.04.14-07.29.54:151][ 81]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.29.54:195][ 81]LogInit: FAudioDevice initialized.
-[2019.04.14-07.29.54:205][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.29.54:246][ 81]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.29.54:248][ 81]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.29.54
-[2019.04.14-07.29.54:248][ 81]LogWorld: Bringing up level for play took: 0.000823
-[2019.04.14-07.29.54:270][ 81]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.374
-[2019.04.14-07.29.54:270][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.58:795][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.58:795][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.29.58:814][383]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.29.58:847][383]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.29.58:848][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.29.58:919][384]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.04.14-07.30.23:913][343]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.030
-[2019.04.14-07.30.23:915][343]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/YJ/Blueprints/MyPersonGameMode] ([1] browsable assets)...
-[2019.04.14-07.30.23:915][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/YJ/Blueprints/MyPersonGameMode]
-[2019.04.14-07.30.23:940][343]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/MyPersonGameMode_Auto192949DC341AD82286ECC9CB4FBD5F966.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/YJ/Blueprints/MyPersonGameMode_Auto1.uasset'
-[2019.04.14-07.30.23:942][343]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JK/RollsAndDodges/DodgeBLprint] ([1] browsable assets)...
-[2019.04.14-07.30.23:968][343]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint]
-[2019.04.14-07.30.23:968][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/RollsAndDodges/DodgeBLprint]
-[2019.04.14-07.30.24:047][343]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint_Auto13AF87F8D4B26D48A8385B093E74F0119.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto1.uasset'
-[2019.04.14-07.30.24:049][343]LogFileHelpers: Auto-saving content packages took 0.136
-[2019.04.14-07.30.31:536][867]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.30.32:109][887]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.30.32:127][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.30.32:127][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.30.32:127][887]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:30:32)
-[2019.04.14-07.30.32:127][887]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.30.32:130][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003160s)
-[2019.04.14-07.30.32:131][887]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.30.32:132][887]LogPlayLevel: PIE: World Init took: (0.001130s)
-[2019.04.14-07.30.32:132][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004572s)
-[2019.04.14-07.30.32:231][887]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.30.32:274][887]LogInit: FAudioDevice initialized.
-[2019.04.14-07.30.32:284][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.30.32:326][887]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.30.32:327][887]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.30.32
-[2019.04.14-07.30.32:328][887]LogWorld: Bringing up level for play took: 0.000814
-[2019.04.14-07.30.32:350][887]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.294
-[2019.04.14-07.30.32:351][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.30.37:216][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.30.37:216][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.30.37:236][196]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.30.37:271][196]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.30.37:271][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.30.37:345][197]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.04.14-07.31.08:058][432]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.31.08:773][460]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.31.08:791][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.31.08:791][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.31.08:791][460]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:31:08)
-[2019.04.14-07.31.08:792][460]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.31.08:794][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002749s)
-[2019.04.14-07.31.08:795][460]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.31.08:796][460]LogPlayLevel: PIE: World Init took: (0.001097s)
-[2019.04.14-07.31.08:796][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004005s)
-[2019.04.14-07.31.08:893][460]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.31.08:935][460]LogInit: FAudioDevice initialized.
-[2019.04.14-07.31.08:946][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.31.08:985][460]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.31.08:987][460]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.31.08
-[2019.04.14-07.31.08:987][460]LogWorld: Bringing up level for play took: 0.000873
-[2019.04.14-07.31.09:010][460]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.365
-[2019.04.14-07.31.09:010][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.31.25:625][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.31.25:626][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.31.25:647][567]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.31.25:681][567]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.31.25:682][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.31.25:757][568]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2019.04.14-07.36.03:270][529]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.36.04:680][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
-[2019.04.14-07.36.04:771][616]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint0165CDBD44EC2BC6AC7AE1BB66D69E5E.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
-[2019.04.14-07.36.35:838][  5]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.36.36:526][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
-[2019.04.14-07.36.36:609][ 32]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint4688266A4B37217A6AC308A47CA43887.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
-[2019.04.14-07.36.37:137][ 72]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2019.04.14-07.36.37:156][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.36.37:156][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.14-07.36.37:156][ 72]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 15. 오전 1:36:37)
-[2019.04.14-07.36.37:156][ 72]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
-[2019.04.14-07.36.37:159][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003014s)
-[2019.04.14-07.36.37:160][ 72]LogAIModule: Creating AISystem for world DefaultLevel
-[2019.04.14-07.36.37:160][ 72]LogPlayLevel: PIE: World Init took: (0.000913s)
-[2019.04.14-07.36.37:160][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004116s)
-[2019.04.14-07.36.37:254][ 72]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.04.14-07.36.37:297][ 72]LogInit: FAudioDevice initialized.
-[2019.04.14-07.36.37:308][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.36.37:348][ 72]LogLoad: Game class is 'MyPersonGameMode_C'
-[2019.04.14-07.36.37:350][ 72]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.14-16.36.37
-[2019.04.14-07.36.37:350][ 72]LogWorld: Bringing up level for play took: 0.000943
-[2019.04.14-07.36.37:372][ 72]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.728
-[2019.04.14-07.36.37:372][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.36.57:430][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.36.57:431][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.14-07.36.57:450][408]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2019.04.14-07.36.57:486][408]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.04.14-07.36.57:487][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
-[2019.04.14-07.36.57:558][409]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2019.04.14-07.36.58:903][507]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.36.59:569][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
-[2019.04.14-07.36.59:653][531]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint2AB209D44B31EFA4A9467AA291007E04.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
-[2019.04.14-07.38.05:317][430]BlueprintLog: New page: DodgeBLprint 컴파일
-[2019.04.14-07.41.06:567][902]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.037
-[2019.04.14-07.41.06:569][902]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JK/RollsAndDodges/DodgeBLprint] ([1] browsable assets)...
-[2019.04.14-07.41.06:663][902]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint]
-[2019.04.14-07.41.06:663][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/RollsAndDodges/DodgeBLprint]
-[2019.04.14-07.41.06:771][902]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DodgeBLprint_Auto2780A71C449C5B80010F11ABA8784669A.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto2.uasset'
-[2019.04.14-07.41.06:774][902]LogFileHelpers: Auto-saving content packages took 0.205
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:588][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.15-16.53.36:588][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.15-16.53.36:589][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:589][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:594][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:594][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.15-16.53.36:595][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.15-16.53.36:596][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.15-16.53.36:597][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.15-16.53.36:598][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.15-16.53.36:599][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.15-16.53.36:599][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.15-16.53.36:625][  0]LogHAL: Display: Platform has ~ 8 GB [8565673984 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.15-16.53.36:626][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.15-16.53.36:626][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.15-16.53.36:626][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.15-16.53.36:627][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.15-16.53.36:628][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.15-16.53.36:629][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.15-16.53.36:630][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.15-16.53.36:630][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.15-16.53.36:630][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.15-16.53.36:630][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.15-16.53.36:630][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.15-16.53.36:630][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.15-16.53.36:635][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.15-16.53.36:635][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.15-16.53.36:635][  0]LogInit: Computer: DESKTOP-6TE68PK
+[2019.04.15-16.53.36:635][  0]LogInit: User: Gyun
+[2019.04.15-16.53.36:635][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.15-16.53.36:635][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.15-16.53.36:635][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.04.15-16.53.36:635][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.15-16.53.36:635][  0]LogMemory: Process Physical Memory: 103.45 MB used, 103.46 MB peak
+[2019.04.15-16.53.36:636][  0]LogMemory: Process Virtual Memory: 92.54 MB used, 92.54 MB peak
+[2019.04.15-16.53.36:636][  0]LogMemory: Physical Memory: 4549.34 MB used,  3619.53 MB free, 8168.86 MB total
+[2019.04.15-16.53.36:636][  0]LogMemory: Virtual Memory: 4638.32 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.04.15-16.53.36:681][  0]LogInit: Using OS detected language (ko-KR).
+[2019.04.15-16.53.36:681][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.04.15-16.53.36:683][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.04.15-16.53.37:308][  0]LogStreaming: Display: Took  0.627s to InitEngineTextLocalization.
+[2019.04.15-16.53.37:309][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.15-16.53.37:431][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.15-16.53.37:431][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.15-16.53.40:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.15-16.53.40:187][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.15-16.53.40:357][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560' (Feature Level 11_0)
+[2019.04.15-16.53.40:357][  0]LogD3D11RHI:       979/0/4084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.15-16.53.40:366][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.15-16.53.40:366][  0]LogD3D11RHI:       0/0/4084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.15-16.53.40:366][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.15-16.53.40:375][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.15-16.53.40:375][  0]LogD3D11RHI:     GPU DeviceId: 0x1201 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.15-16.53.40:375][  0]LogWindows: EnumDisplayDevices:
+[2019.04.15-16.53.40:376][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560' (P:1 D:1)
+[2019.04.15-16.53.40:379][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560' (P:0 D:0)
+[2019.04.15-16.53.40:385][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2019.04.15-16.53.40:388][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560
+[2019.04.15-16.53.40:388][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.04.15-16.53.40:388][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.04.15-16.53.40:388][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2019.04.15-16.53.40:449][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.04.15-16.53.40:449][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.15-16.53.40:464][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.15-16.53.41:721][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.15-16.53.41:748][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.15-16.53.41:776][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.15-16.53.41:804][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.15-16.53.41:837][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.15-16.53.41:864][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.15-16.53.41:888][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.15-16.53.41:916][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.15-16.53.41:932][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.15-16.53.42:073][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:073][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:073][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:073][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:073][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:073][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:074][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-16.53.42:079][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.15-16.53.42:183][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.15-16.53.42:183][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.15-16.53.42:225][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.15-16.53.42:225][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.15-16.53.42:250][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.15-16.53.42:274][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.15-16.53.42:301][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.15-16.53.42:337][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.15-16.53.42:428][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.15-16.53.42:428][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.15-16.53.42:429][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.15-16.53.42:586][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Gyun/Desktop/LD/LostDark/Intermediate/Shaders/WorkingDirectory/7028/).
+[2019.04.15-16.53.42:587][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gyun/AppData/Local/Temp/UnrealShaderWorkingDir/1BF6979C402E82CFD5046EA0DD04FBB3/'.
+[2019.04.15-16.53.42:591][  0]LogXGEController: Cleaning working directory: C:/Users/Gyun/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.15-16.53.42:592][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.15-16.53.42:592][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.15-16.53.42:592][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.15-16.53.45:121][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.15-16.53.45:332][  0]LogDerivedDataCache: Loaded boot cache 0.21s 71MB C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.15-16.53.45:332][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.15-16.53.45:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gyun/Desktop/LD/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.15-16.53.45:332][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.15-16.53.45:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gyun/Desktop/LD/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.15-16.53.45:332][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.15-16.53.45:358][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.15-16.53.45:366][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.04.15-16.53.45:380][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gyun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.15-16.53.45:380][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.15-16.53.45:380][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.15-16.53.45:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.15-16.53.45:420][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.15-16.53.45:432][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.15-16.53.45:863][  0]LogAssetRegistry: FAssetRegistry took 0.0413 seconds to start up
+[2019.04.15-16.53.46:501][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.15-16.53.46:773][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.15-16.53.46:784][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.15-16.53.46:784][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.15-16.53.46:784][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.15-16.53.46:784][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.15-16.53.46:805][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.04.15-16.53.47:699][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.178478 seconds
+[2019.04.15-16.53.47:708][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.15-16.53.47:708][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.15-16.53.47:708][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.15-16.53.52:799][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.15-16.53.52:818][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.15-16.53.54:817][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.15-16.53.54:817][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.15-16.53.54:822][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.15-16.53.54:826][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.15-16.53.55:150][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.15-16.53.55:537][  0]LogOcInput: OculusInput pre-init called
+[2019.04.15-16.53.55:740][  0]LogEngine: Initializing Engine...
+[2019.04.15-16.53.55:742][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.15-16.53.55:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.15-16.53.55:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.15-16.53.55:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.15-16.53.55:744][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.15-16.53.56:191][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.15-16.53.56:224][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.15-16.53.56:349][  0]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.15-16.53.56:492][  0]LogInit: FAudioDevice initialized.
+[2019.04.15-16.53.56:492][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.15-16.53.56:637][  0]LogDerivedDataCache: Saved boot cache 0.14s 74MB C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.15-16.53.56:654][  0]LogInit: Texture streaming: Enabled
+[2019.04.15-16.53.56:700][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.15-16.53.56:732][  0]LogInit: Transaction tracking system initialized
+[2019.04.15-16.53.56:805][  0]BlueprintLog: New page: 에디터 로드
+[2019.04.15-16.53.57:098][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.04.15-16.53.57:687][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2019.04.15-16.53.57:687][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2019.04.15-16.53.57:688][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2019.04.15-16.54.06:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/' took 0.03s
+[2019.04.15-16.54.06:758][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.15-16.54.06:759][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.15-16.54.06:759][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.15-16.54.06:759][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.15-16.54.06:759][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.15-16.54.06:759][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.15-16.54.06:759][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.15-16.54.07:193][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.15-16.54.07:194][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.15-16.54.07:194][  0]LightingResults: New page: 라이팅 빌드
+[2019.04.15-16.54.07:201][  0]MapCheck: New page: 맵 체크
+[2019.04.15-16.54.07:201][  0]LightingResults: New page: 라이팅 빌드
+[2019.04.15-16.54.07:407][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:408][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:408][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block
+[2019.04.15-16.54.07:409][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:410][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:410][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars
+[2019.04.15-16.54.07:411][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:412][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:412][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall
+[2019.04.15-16.54.07:413][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:414][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:414][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block
+[2019.04.15-16.54.07:414][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:415][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:415][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars
+[2019.04.15-16.54.07:415][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:416][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/SM_SQUARE.uasset 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:416][  0]LoadErrors: Error: /Game/DefaultLevel/SM_SQUARE : 애셋에 대한 파일을 찾을 수 없습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall
+[2019.04.15-16.54.07:444][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:445][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:445][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:445][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:446][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:446][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:446][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:446][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:447][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:447][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:448][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:448][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:448][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:448][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:449][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:449][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:449][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:449][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:450][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:450][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_Pillars.M_Plains_Pillars 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:450][  0]LogLinker: Warning: '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:450][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:451][  0]LogLinker: Warning: NULL 로드중 '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.15-16.54.07:451][  0]LoadErrors: 로드에 실패했습니다. /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Ruins/Materials/M_Plains_StoneWall.M_Plains_StoneWall 레퍼런싱한 것: SM_SQUARE
+[2019.04.15-16.54.07:620][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.04.15-16.54.07:632][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/JK/Maps/JK_DefaultLevel) is flushing async loading
+[2019.04.15-16.54.07:633][  0]LogStreaming: Display: Flushing async loaders.
+[2019.04.15-16.54.07:664][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.15-16.54.07:726][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.15-16.54.07:726][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.376ms.
+[2019.04.15-16.54.07:726][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.533
+[2019.04.15-16.54.07:918][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-16.54.07:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-16.54.07:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-16.54.07:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-16.54.07:975][  0]LogCollectionManager: Loaded 0 collections in 0.003217 seconds
+[2019.04.15-16.54.08:018][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Saved/Collections/' took 0.01s
+[2019.04.15-16.54.08:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/Developers/Gyun/Collections/' took 0.01s
+[2019.04.15-16.54.08:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/Collections/' took 0.01s
+[2019.04.15-16.54.08:020][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.15-16.54.08:035][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2653 classes and 622 folders.
+[2019.04.15-16.54.08:047][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.15-16.54.08:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:082][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:089][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:102][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:108][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:114][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:129][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:158][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:164][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:170][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:204][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:211][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:218][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:266][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:273][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:294][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.15-16.54.08:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.15-16.54.08:530][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.04.15-16.54.08:635][  0]LogSlate: Took 0.007988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.15-16.54.08:639][  0]LogSlate: Took 0.002456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.04.15-16.54.08:657][  0]LogSlate: Took 0.016276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.04.15-16.54.08:663][  0]LogSlate: Took 0.006351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.15-16.54.08:675][  0]LogSlate: Took 0.006027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.15-16.54.08:897][  0]LogRenderer: Reallocating scene render targets to support 940x556 Format 10 NumSamples 1 (Frame:1).
+[2019.04.15-16.54.08:967][  0]LogSlate: Took 0.002712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.04.15-16.54.09:115][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.15-16.54.09:115][  0]LogLoad: (Engine Initialization) Total time: 37.80 seconds
+[2019.04.15-16.54.09:115][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.15-16.54.09:199][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.15-16.54.09:202][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.15-16.54.09:257][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.15-16.54.09:793][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.15-16.54.10:047][  2]LogAssetRegistry: Asset discovery search completed in 24.2066 seconds
+[2019.04.15-16.54.10:049][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.15-16.54.10:049][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000151 seconds (updated 0 objects)
+[2019.04.15-17.00.25:866][208]LogSlate: Window '애셋을 다른 이름으로 저장' being destroyed
+[2019.04.15-17.00.25:912][208]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.15-17.00.25:919][208]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/JK/Scenechange/FadeoutFadein.FadeoutFadein
+[2019.04.15-17.00.26:032][209]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.15-17.00.58:396][654]Cmd: TRANSACTION UNDO
+[2019.04.15-17.00.58:396][654]LogEditorTransaction: Undo 키 값 설정
+[2019.04.15-17.01.09:128][430]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (43.095 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.15-17.02.24:217][582]LogSlate: Window '시퀸서' being destroyed
+[2019.04.15-17.02.24:220][582]LogSlate: Window '시퀸서' being destroyed
+[2019.04.15-17.02.28:556][771]LogSlate: Window '메시지 로그' being destroyed
+[2019.04.15-17.02.28:561][771]LogSlate: Window '메시지 로그' being destroyed
+[2019.04.15-17.02.34:991][136]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.04.15-17.04.09:723][458]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DefaultLevel_Auto1817858A148A1FBA397BC14A7DA732A58.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/DefaultLevel/DefaultLevel_Auto1.umap'
+[2019.04.15-17.04.09:728][458]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.214
+[2019.04.15-17.04.09:729][458]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.214
+[2019.04.15-17.04.09:739][458]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/JK/Scenechange/FadeoutFadein] ([1] browsable assets)...
+[2019.04.15-17.04.09:739][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/Scenechange/FadeoutFadein]
+[2019.04.15-17.04.09:753][458]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/FadeoutFadein_Auto1B937957D47A86FF5C5981C8D5A57B604.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/JK/Scenechange/FadeoutFadein_Auto1.uasset'
+[2019.04.15-17.04.09:755][458]LogFileHelpers: Auto-saving content packages took 0.017
+[2019.04.15-17.17.26:288][476]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.04.15-17.17.26:307][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.26:307][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.26:307][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.15-17.17.26:307][476]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 16. 오전 11:17:26)
+[2019.04.15-17.17.26:321][476]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.04.15-17.17.26:327][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005678s)
+[2019.04.15-17.17.26:328][476]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.04.15-17.17.26:328][476]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2019.04.15-17.17.26:328][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.007432s)
+[2019.04.15-17.17.26:450][476]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.15-17.17.26:516][476]LogInit: FAudioDevice initialized.
+[2019.04.15-17.17.26:528][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-17.17.26:660][476]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.04.15-17.17.26:663][476]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.16-02.17.26
+[2019.04.15-17.17.26:665][476]LogWorld: Bringing up level for play took: 0.002548
+[2019.04.15-17.17.26:689][476]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.04.15-17.17.26:698][476]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.35
+[2019.04.15-17.17.26:699][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.26:699][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.26:736][476]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.04.15-17.17.32:212][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.32:213][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.32:213][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-17.17.32:233][876]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.04.15-17.17.32:269][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.15-17.17.32:270][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.32:270][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.32:340][877]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.15-17.17.33:426][959]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.04.15-17.17.33:447][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.33:448][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.33:448][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.15-17.17.33:448][959]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 16. 오전 11:17:33)
+[2019.04.15-17.17.33:448][959]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.04.15-17.17.33:454][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005613s)
+[2019.04.15-17.17.33:455][959]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.04.15-17.17.33:455][959]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2019.04.15-17.17.33:455][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.007321s)
+[2019.04.15-17.17.33:572][959]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.15-17.17.33:627][959]LogInit: FAudioDevice initialized.
+[2019.04.15-17.17.33:637][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-17.17.33:674][959]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.04.15-17.17.33:675][959]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.16-02.17.33
+[2019.04.15-17.17.33:676][959]LogWorld: Bringing up level for play took: 0.001115
+[2019.04.15-17.17.33:695][959]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.647
+[2019.04.15-17.17.33:695][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.33:695][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.41:382][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.41:382][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.41:382][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-17.17.41:407][531]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.04.15-17.17.41:437][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.15-17.17.41:438][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-17.17.41:438][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-17.17.41:488][532]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.04.15-17.23.09:700][ 91]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel
+[2019.04.15-17.23.10:529][ 91]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 117 classes and 0 folders.
+[2019.04.15-17.23.11:848][ 91]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.15-17.23.26:389][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-17.23.26:482][ 84]LogActorFactory: Actor Factory created Cube
+[2019.04.15-17.23.26:495][ 84]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.04.15-17.23.26:625][ 84]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.04.15-17.23.26:625][ 84]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.04.15-17.23.26:625][ 84]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.04.15-17.23.27:663][146]LogActorFactory: Actor Factory created Cube
+[2019.04.15-17.23.32:885][458]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2019.04.15-17.23.46:297][ 21]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.15-17.23.47:143][ 29]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.15-17.23.48:210][ 37]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.15-17.23.54:177][ 88]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.15-17.27.24:842][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.15-17.27.32:633][153]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2019.04.15-17.27.34:107][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-17.27.36:322][388]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.15-17.28.20:925][102]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DefaultLevel_Auto23A94C2E94EA5D0178D8E33A23C04367C.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/DefaultLevel/DefaultLevel_Auto2.umap'
+[2019.04.15-17.28.20:930][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.290
+[2019.04.15-17.28.20:930][102]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2019.04.15-17.48.46:704][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-17.49.18:962][889]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DefaultLevel_Auto35D2FCF014E007D9CC15FE7A65BC36DBC.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/Autosaves/Game/DefaultLevel/DefaultLevel_Auto3.umap'
+[2019.04.15-17.49.18:969][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.507
+[2019.04.15-17.49.18:969][889]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.507
+[2019.04.15-17.53.05:202][232]BlueprintLog: New page: DefaultLevel 컴파일
+[2019.04.15-17.53.05:736][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultLevel/DefaultLevel" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.15-17.53.06:022][256]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/DefaultLevel9D5BCE3D45FB583F9F6A189E70E516E1.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap'
+[2019.04.15-17.53.06:061][256]LogFileHelpers: Saving map 'DefaultLevel' took 0.326
+[2019.04.15-18.05.57:462][623]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.04.15-18.05.57:477][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-18.05.57:477][623]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-18.05.57:477][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.15-18.05.57:478][623]PIE: New page: PIE 세션: DefaultLevel (2019. 4. 16. 오후 12:05:57)
+[2019.04.15-18.05.57:478][623]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.04.15-18.05.57:484][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006252s)
+[2019.04.15-18.05.57:485][623]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.04.15-18.05.57:485][623]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2019.04.15-18.05.57:485][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.007601s)
+[2019.04.15-18.05.57:588][623]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.15-18.05.57:631][623]LogInit: FAudioDevice initialized.
+[2019.04.15-18.05.57:642][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-18.05.57:683][623]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.04.15-18.05.57:685][623]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.04.16-03.05.57
+[2019.04.15-18.05.57:686][623]LogWorld: Bringing up level for play took: 0.001989
+[2019.04.15-18.05.57:707][623]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.66
+[2019.04.15-18.05.57:707][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-18.05.57:707][623]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-18.06.07:692][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-18.06.07:692][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-18.06.07:692][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-18.06.07:711][352]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.04.15-18.06.07:745][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.15-18.06.07:745][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.04.15-18.06.07:746][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel' with GeneratedClass '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel_C' with ClassGeneratedBy '/Game/JK/Maps/JK_DefaultLevel.JK_DefaultLevel:PersistentLevel.JK_DefaultLevel'
+[2019.04.15-18.06.07:815][353]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.15-18.06.15:096][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Scenechange/FadeoutFadein" FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/Scenechange/FadeoutFadein.uasset" SILENT=true
+[2019.04.15-18.06.15:110][981]LogSavePackage: Moving '../../../../../../Users/Gyun/Desktop/LD/LostDark/Saved/FadeoutFadeinA038B1A5405DA192294DC49F93E5614E.tmp' to '../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/JK/Scenechange/FadeoutFadein.uasset'
