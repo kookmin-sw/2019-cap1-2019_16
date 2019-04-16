@@ -4,10 +4,14 @@
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{E6338801-13BC-46D7-B99B-9E0FBE99C462}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{2FDC221C-5B95-42BD-85AE-EE018BE66E64}</UniqueIdentifier>
 >>>>>>> master
+=======
+      <UniqueIdentifier>{80D59455-C2D6-462B-A9C2-4C31616A9279}</UniqueIdentifier>
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -17,10 +21,14 @@
     </None>
     <Filter Include="Config">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{3C7509E9-FF7D-4D7F-9FCE-85A361992C19}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{BE89560E-0217-4933-9E48-B75C9E6777F9}</UniqueIdentifier>
 >>>>>>> master
+=======
+      <UniqueIdentifier>{7CEC4C6C-480A-4DDE-983C-1E9E40C3E337}</UniqueIdentifier>
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -39,10 +47,14 @@
     </None>
     <Filter Include="Source\LostDark">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{F7581C6A-16E8-460B-A92B-8E1C614E84C9}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{59855605-09C0-42A8-AEF8-A062B25C8BAE}</UniqueIdentifier>
 >>>>>>> master
+=======
+      <UniqueIdentifier>{52E89359-B23B-4CB2-8C04-4D3AA4C6BA3D}</UniqueIdentifier>
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>

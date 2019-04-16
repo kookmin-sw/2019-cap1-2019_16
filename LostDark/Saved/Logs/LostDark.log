@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 04/16/19 23:35:32
+=======
+﻿Log file open, 04/16/19 23:51:42
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: LostDark
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.423848
+=======
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.370944
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +103,11 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.075s to configure plugins.
+=======
+LogStreaming: Display: Took  0.455s to configure plugins.
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,7 +131,11 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 1600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1070
+=======
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz, GPU: Intel(R) HD Graphics Family
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -149,11 +166,12 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.015s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.04.16-14.35.32:344][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.04.16-14.35.32:344][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.04.16-14.35.32:344][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
@@ -5931,3 +5949,446 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.04.16-15.46.50:997][366]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2019.04.16-15.46.51:010][366]LogExit: Exiting.
 [2019.04.16-15.46.51:051][366]Log file closed, 04/17/19 00:46:51
+=======
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.16-14.51.45:242][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:242][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:245][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.16-14.51.45:246][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.16-14.51.45:247][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.16-14.51.45:247][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.16-14.51.45:247][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.16-14.51.45:453][  0]LogHAL: Display: Platform has ~ 4 GB [3983548416 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.16-14.51.45:454][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.16-14.51.45:454][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.16-14.51.45:454][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.16-14.51.45:455][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.16-14.51.45:473][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.16-14.51.45:473][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Gyun/Desktop/LD/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.04.16-14.51.45:473][  0]LogInit: Computer: DESKTOP-SQ46NC5
+[2019.04.16-14.51.45:473][  0]LogInit: User: Gyun
+[2019.04.16-14.51.45:473][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.04.16-14.51.45:473][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.16-14.51.45:473][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx)
+[2019.04.16-14.51.45:474][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.16-14.51.45:474][  0]LogMemory: Process Physical Memory: 102.53 MB used, 102.53 MB peak
+[2019.04.16-14.51.45:474][  0]LogMemory: Process Virtual Memory: 84.24 MB used, 84.24 MB peak
+[2019.04.16-14.51.45:474][  0]LogMemory: Physical Memory: 1604.21 MB used,  2194.79 MB free, 3799.01 MB total
+[2019.04.16-14.51.45:474][  0]LogMemory: Virtual Memory: 4626.26 MB used,  134213104.00 MB free, 134217728.00 MB total
+[2019.04.16-14.51.45:827][  0]LogInit: Using OS detected language (ko-KR).
+[2019.04.16-14.51.45:827][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.04.16-14.51.45:832][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.04.16-14.51.47:872][  0]LogStreaming: Display: Took  2.046s to InitEngineTextLocalization.
+[2019.04.16-14.51.47:873][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.16-14.51.48:355][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.16-14.51.48:355][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.16-14.52.01:903][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.16-14.52.01:903][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.16-14.52.02:397][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 720M' (Feature Level 11_0)
+[2019.04.16-14.52.02:397][  0]LogD3D11RHI:       979/0/1899 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.16-14.52.02:503][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2019.04.16-14.52.02:503][  0]LogD3D11RHI:       112/0/1899 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.16-14.52.02:559][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.16-14.52.02:559][  0]LogD3D11RHI:       0/0/1899 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.16-14.52.02:559][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.16-14.52.02:613][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.16-14.52.02:613][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.16-14.52.02:613][  0]LogWindows: EnumDisplayDevices:
+[2019.04.16-14.52.02:614][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2019.04.16-14.52.02:614][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.04.16-14.52.02:615][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2019.04.16-14.52.02:615][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.16-14.52.02:615][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 720M
+[2019.04.16-14.52.02:615][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.16-14.52.02:615][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.16-14.52.02:615][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2019.04.16-14.52.02:708][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2019.04.16-14.52.02:708][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.16-14.52.02:722][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.16-14.52.05:177][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.16-14.52.05:208][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.16-14.52.05:239][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.16-14.52.05:256][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.16-14.52.05:324][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.16-14.52.05:352][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.16-14.52.05:388][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.16-14.52.05:417][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.16-14.52.05:427][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:629][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:630][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.16-14.52.05:754][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.16-14.52.05:931][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.16-14.52.05:931][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.16-14.52.05:969][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.16-14.52.05:969][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.16-14.52.06:006][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.16-14.52.06:034][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.16-14.52.06:061][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.16-14.52.06:098][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.16-14.52.06:207][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.16-14.52.06:207][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.16-14.52.06:207][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.16-14.52.06:940][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Users/Gyun/Desktop/LD/LostDark/Intermediate/Shaders/WorkingDirectory/10676/).
+[2019.04.16-14.52.06:940][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gyun/AppData/Local/Temp/UnrealShaderWorkingDir/68B08020435BE0B108A606BFC4E1E44F/'.
+[2019.04.16-14.52.06:948][  0]LogXGEController: Cleaning working directory: C:/Users/Gyun/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.16-14.52.06:949][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.16-14.52.06:949][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.16-14.52.06:949][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.16-14.52.11:941][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.16-14.52.12:725][  0]LogDerivedDataCache: Loaded boot cache 0.77s 73MB C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.16-14.52.12:725][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.16-14.52.12:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gyun/Desktop/LD/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.16-14.52.12:726][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.16-14.52.12:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gyun/Desktop/LD/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.16-14.52.12:726][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.16-14.52.12:911][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.16-14.52.12:961][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.04.16-14.52.12:974][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gyun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.16-14.52.12:974][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.16-14.52.12:974][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.16-14.52.13:007][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.16-14.52.13:008][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.16-14.52.13:095][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.16-14.52.15:483][  0]LogAssetRegistry: FAssetRegistry took 0.0365 seconds to start up
+[2019.04.16-14.52.16:232][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.16-14.52.17:429][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.16-14.52.17:484][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.16-14.52.17:484][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.16-14.52.17:484][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.16-14.52.17:484][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.16-14.52.17:734][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.04.16-14.52.22:629][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.521129 seconds
+[2019.04.16-14.52.22:639][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.16-14.52.22:639][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.04.16-14.52.22:639][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.16-14.52.52:414][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.16-14.52.52:443][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.16-14.52.54:954][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.16-14.52.54:954][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.16-14.52.54:984][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.16-14.52.54:994][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.16-14.52.55:791][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.16-14.52.56:050][  0]LogOcInput: OculusInput pre-init called
+[2019.04.16-14.52.56:424][  0]LogEngine: Initializing Engine...
+[2019.04.16-14.52.56:425][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.16-14.52.56:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.16-14.52.56:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.16-14.52.56:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.16-14.52.56:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.16-14.52.57:485][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.16-14.52.57:551][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.16-14.52.57:575][  0]LogInit: XAudio2 using '스피커/헤드폰(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.16-14.52.57:887][  0]LogInit: FAudioDevice initialized.
+[2019.04.16-14.52.57:887][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.16-14.52.58:099][  0]LogDerivedDataCache: Saved boot cache 0.21s 73MB C:/Users/Gyun/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.16-14.52.58:116][  0]LogInit: Texture streaming: Enabled
+[2019.04.16-14.52.58:222][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.16-14.52.58:232][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={1F2E03AB-40B4-1B11-273D-6C9B180A74C0}
+[2019.04.16-14.52.58:277][  0]LogInit: Transaction tracking system initialized
+[2019.04.16-14.52.58:518][  0]BlueprintLog: New page: 에디터 로드
+[2019.04.16-14.52.59:138][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.04.16-14.53.05:034][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.16-14.53.05:035][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.16-14.53.05:035][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.16-14.53.05:035][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.16-14.53.05:035][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.16-14.53.05:035][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.16-14.53.05:035][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.16-14.53.06:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/' took 0.17s
+[2019.04.16-14.53.06:548][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.04.16-14.53.06:548][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.16-14.53.06:569][  0]LightingResults: New page: 라이팅 빌드
+[2019.04.16-14.53.06:591][  0]MapCheck: New page: 맵 체크
+[2019.04.16-14.53.06:591][  0]LightingResults: New page: 라이팅 빌드
+[2019.04.16-14.53.14:454][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:454][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:454][  0]LoadErrors: Error: /Game/DefaultLevel/DefaultLevel : 애셋에 대한 파일을 찾을 수 없습니다. /Game/DefaultLevel/DefaultLevel_BuiltData
+[2019.04.16-14.53.14:456][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:456][  0]LogLinker: Warning: ../../../../../../Users/Gyun/Desktop/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:456][  0]LoadErrors: Error: /Game/DefaultLevel/DefaultLevel : 애셋에 대한 파일을 찾을 수 없습니다. /Game/DefaultLevel/DefaultLevel_BuiltData
+[2019.04.16-14.53.14:612][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:613][  0]LogLinker: Warning: NULL 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:613][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.14:613][  0]LogLinker: Warning: NULL 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.16:569][  0]LogLinker: Warning: '/Game/DefaultLevel/DefaultLevel_BuiltData' 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.16:570][  0]LoadErrors: 로드에 실패했습니다. /Game/DefaultLevel/DefaultLevel_BuiltData.DefaultLevel_BuiltData 레퍼런싱한 것: PersistentLevel
+[2019.04.16-14.53.16:570][  0]LogLinker: Warning: NULL 로드중 '/Game/DefaultLevel/DefaultLevel_BuiltData' 애셋에 대한 파일을 찾을 수 없습니다.
+[2019.04.16-14.53.16:570][  0]LoadErrors: 로드에 실패했습니다. /Game/DefaultLevel/DefaultLevel_BuiltData.DefaultLevel_BuiltData 레퍼런싱한 것: PersistentLevel
+[2019.04.16-14.53.18:669][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.04.16-14.53.18:716][  0]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2019.04.16-14.53.18:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.16-14.53.18:746][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.16-14.53.18:746][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.177ms.
+[2019.04.16-14.53.18:746][  0]LogFileHelpers: Loading map 'DefaultLevel' took 12.198
+[2019.04.16-14.53.19:106][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-14.53.19:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-14.53.19:139][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-14.53.19:149][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.16-14.53.19:180][  0]LogCollectionManager: Loaded 0 collections in 0.003562 seconds
+[2019.04.16-14.53.19:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Saved/Collections/' took 0.01s
+[2019.04.16-14.53.19:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/Developers/Gyun/Collections/' took 0.00s
+[2019.04.16-14.53.19:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gyun/Desktop/LD/LostDark/Content/Collections/' took 0.01s
+[2019.04.16-14.53.19:244][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.16-14.53.19:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0390 seconds. Added 2653 classes and 622 folders.
+[2019.04.16-14.53.19:340][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.16-14.53.19:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:585][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:629][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:651][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:660][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:677][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:719][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:752][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:803][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:810][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:823][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:840][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.19:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.16-14.53.21:440][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.04.16-14.53.21:493][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0162 seconds. Added 1 classes and 2 folders.
+[2019.04.16-14.53.21:614][  0]LogSlate: Took 0.028798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.16-14.53.21:997][  0]LogSlate: Took 0.381939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.04.16-14.53.22:100][  0]LogSlate: Took 0.099661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.04.16-14.53.22:138][  0]LogSlate: Took 0.037052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.16-14.53.22:170][  0]LogSlate: Took 0.025373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.16-14.53.22:626][  0]LogRenderer: Reallocating scene render targets to support 1004x456 Format 10 NumSamples 1 (Frame:1).
+[2019.04.16-14.53.22:757][  0]LogSlate: Took 0.003355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.04.16-14.53.23:093][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2019.04.16-14.53.23:094][  0]LogLoad: (Engine Initialization) Total time: 117.99 seconds
+[2019.04.16-14.53.23:094][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.16-14.53.23:178][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.16-14.53.23:181][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.16-14.53.23:832][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.16-14.53.25:026][  4]LogAssetRegistry: Asset discovery search completed in 69.5657 seconds
+[2019.04.16-14.53.25:028][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.16-14.53.25:028][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.04.16-14.53.27:942][ 86]LogSlate: Took 0.023589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.16-14.53.45:562][592]LogSlate: Window '메시지 로그' being destroyed
+[2019.04.16-14.53.45:568][592]LogSlate: Window '메시지 로그' being destroyed
+>>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
