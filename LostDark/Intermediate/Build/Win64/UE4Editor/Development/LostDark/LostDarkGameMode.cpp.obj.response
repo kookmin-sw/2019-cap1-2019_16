@@ -424,7 +424,7 @@
 /FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\LostDarkGameMode.cpp"
+"B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\SH\LostDarkGameMode.cpp"
 /FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\Definitions.LostDark.h"
 /Fo"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\LostDarkGameMode.cpp.obj"
 /TP
