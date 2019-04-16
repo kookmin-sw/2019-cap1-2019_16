@@ -1,0 +1,23 @@
+﻿  Performing full C++ include scan (building a new target)
+  Using 'git status' to determine working set for adaptive non-unity build (E:\Workspace\SourceTree\Capstone).
+  Creating makefile for LostDarkEditor (no existing makefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for LostDarkEditor
+    Running UnrealHeaderTool "E:\Workspace\SourceTree\Capstone\LostDark\LostDark.uproject" "E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LostDarkEditor in 11.9861953 seconds
+  Building 11 actions with 8 processes...
+    [1/11] PCLaunch.rc
+    [2/11] SharedPCH.Engine.cpp
+    [3/11] Workspace.cpp
+    [4/11] LostDark.cpp
+    [5/11] LostDark.init.gen.cpp
+    [6/11] LostDarkGameMode.gen.cpp
+    [7/11] LostDarkGameMode.cpp
+    [8/11] LostDarkCharacter.gen.cpp
+    [9/11] LostDarkCharacter.cpp
+    [10/11] UE4Editor-LostDark.lib
+       E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
+    [11/11] UE4Editor-LostDark.dll
+       E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
+  Deploying LostDarkEditor Win64 Development...
+  Total build time: 51.41 seconds (Parallel executor: 29.25 seconds)
