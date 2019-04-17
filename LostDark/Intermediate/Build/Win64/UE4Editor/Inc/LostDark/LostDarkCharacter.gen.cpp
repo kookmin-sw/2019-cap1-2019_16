@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "SH/LostDarkCharacter.h"
+#include "LostDark/SH/LostDarkCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -60,14 +60,15 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "LostDarkCharacter.h" },
-		{ "ModuleRelativePath", "LostDarkCharacter.h" },
+		{ "IncludePath", "SH/LostDarkCharacter.h" },
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
+		{ "ToolTip", "\xc5\xac???? ?????? : Config = ConfigName\n?? \xc5\xac?????? \xc8\xaf?\xe6\xbc\xb3??(.ini)???\xcf\xbf? ?????\xcd\xb8? ?????? ?? ?????? ??\xc5\xb8????.\n?? ?????\xda\xb4? ?? ??????\xc6\xbc?? ?\xd8\xb4? ?\xcc\xb8??? \xc8\xaf?\xe6\xbc\xb3?? ???\xcf\xbf? ?????\xcf\xb5??? ?\xd1\xb4?.\n???? ?\xda\xbd? \xc5\xac?????? ???\xc4\xb5\xc7\xb8?, ?\xda\xbd? \xc5\xac???????? \xc8\xaf?\xe6\xbc\xb3?? ?????? ?\xd9\xb2? ?? ?\xd6\xb4?." },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "LostDarkCharacter.h" },
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
 	};
 #endif
@@ -75,7 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "LostDarkCharacter.h" },
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
 	};
 #endif
@@ -85,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "LostDarkCharacter.h" },
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
@@ -95,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "LostDarkCharacter.h" },
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
@@ -129,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 2188958652);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 3292082132);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,7 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
-  Creating makefile for hot reloading LostDarkEditor (modules to compile have changed)
+  Creating makefile for hot reloading LostDarkEditor (game project files are newer)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
+  Parsing headers for LostDarkEditor
+    Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LostDarkEditor in 9.039687 seconds
+  Building 8 actions with 6 processes...
+    [1/8] LostDark.init.gen.cpp
+    [2/8] LostDarkCharacter.gen.cpp
+    [3/8] LostDarkCharacter.cpp
+    [4/8] LostDark.cpp
+    [5/8] LostDarkGameMode.gen.cpp
+    [6/8] LostDarkGameMode.cpp
+    [7/8] UE4Editor-LostDark-4000.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.exp 개체를 생성하고 있습니다.
+    [8/8] UE4Editor-LostDark-4000.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.suppressed.exp 개체를 생성하고 있습니다.
   Deploying LostDarkEditor Win64 Development...
-  Total build time: 5.33 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 169.29 seconds (Parallel executor: 133.12 seconds)

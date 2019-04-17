@@ -2,10 +2,16 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "LostDark.h"
 #include "GameFramework/Character.h"
 #include "LostDarkCharacter.generated.h"
 
+/*
+	클래스 지정자 : Config = ConfigName
+	이 클래스는 환경설정(.ini)파일에 데이터를 저장할 수 있음을 나타낸다.
+	이 지정자는 그 프로퍼티를 해당 이름의 환경설정 파일에 저장하도록 한다.
+	모든 자식 클래스에 전파되며, 자식 클래스에서 환경설정 파일을 바꿀 수 있다.
+*/
 UCLASS(config=Game)
 class ALostDarkCharacter : public ACharacter
 {
@@ -18,6 +24,7 @@ class ALostDarkCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 public:
 	ALostDarkCharacter();
 
