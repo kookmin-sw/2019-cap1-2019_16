@@ -1,7 +1,7 @@
 # 2019 소프트웨어 융합대학 캡스톤 디자인Ⅰ 16조 Surreal
-![team](./TeamLogo_resize.png)
+![team](./Docs/img/TeamLogo_resize.png)
 # LOST DARK
-![game](./GameLogo_resize.png)
+![game](./Docs/img/GameLogo_resize.png)
 
 **팀페이지 주소** -> https://kookmin-sw.github.io/2019-cap1-2019_16/
 
@@ -16,7 +16,7 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 ## 3. 소개 영상
 
 프로젝트 소개하는 영상을 추가하세요
-[![sample](./preview.png)](https://youtu.be/RcuCcFQuh7Q)
+[![sample](./Docs/img/preview.png)](https://youtu.be/ruyiLo79qhc)
 
 ## 4. 팀 소개
 
@@ -57,8 +57,9 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 2. 게임 접속 및 시작
 3. 튜토리얼
 4. 퀘스트를 따라 진행
-5. 보스몬스터와 전투
-6. 분기 선택 & 엔딩 - 스토리상 절정에 해당하는 부분으로, 플레이어의 선택에 따라 최종 엔딩이 달라지도록 분기를 제공
+5. 분기 선택
+6. 보스몬스터와 전투
+7. 엔딩 - 엔딩은 스토리상 절정에 해당하는 부분으로, 플레이어의 선택에 따라 최종 엔딩이 달라짐
 
 향후 프로젝트가 진행됨에 따라 추가할 예정입니다.
 
@@ -74,4 +75,4 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 - 몬스터가 플레이어를 발견하면 추적, 공격
 - 몬스터가 공격받고 데미지를 받아 HP 0이 되면 사망
 - NPC에게 접근해 마우스 좌클릭 시 NPC와 대화
-- 맵과 맵을 이동 시, Fade in/out으로 Scene 전환
+- 맵과 맵을 이동 시, Fade in/out 효과와 함께 Scene 전환
