@@ -1,7 +1,7 @@
 # 2019 소프트웨어 융합대학 캡스톤 디자인Ⅰ 16조 Surreal
-[![sample](./TeamLogo.png)]
+![team](./TeamLogo-resize.png)
 # LOST DARK
-[![sample](./GameLogo.PNG)]
+![game](./GameLogo_resize.png)
 
 **팀페이지 주소** -> https://kookmin-sw.github.io/2019-cap1-2019_16/
 
