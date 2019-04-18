@@ -1,5 +1,5 @@
 # 2019 소프트웨어 융합대학 캡스톤 디자인Ⅰ 16조 Surreal
-![team](./TeamLogo-resize.png)
+![team](./TeamLogo_resize.png)
 # LOST DARK
 ![game](./GameLogo_resize.png)
 
