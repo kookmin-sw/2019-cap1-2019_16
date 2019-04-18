@@ -15,7 +15,7 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 
 ## 3. 소개 영상
 
-프로젝트 소개하는 영상을 추가하세요
+사진을 클릭하면 유튜브로 이동합니다.
 [![sample](./Docs/img/preview.png)](https://youtu.be/ruyiLo79qhc)
 
 ## 4. 팀 소개
