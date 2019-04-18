@@ -1,13 +1,13 @@
 # 2019 소프트웨어 융합대학 캡스톤 디자인Ⅰ 16조 Surreal
-
+[![sample](./TeamLogo.png)]
 # LOST DARK
-
+[![sample](./GameLogo.PNG)]
 
 **팀페이지 주소** -> https://kookmin-sw.github.io/2019-cap1-2019_16/
 
 ## 1. 프로잭트 소개
 
-Unreal Engine으로 제작한 3D RPG 게임 LostDark 입니다.
+Unreal Engine으로 제작한 3D 어드벤쳐 RPG 게임 LostDark 입니다.
 플레이어는 스토리의 진행에 따라 퀘스트를 수행하거나 필드의 몬스터를 처치하여 경험치를 얻고 성장합니다.
 특정 레벨에 도달하면 던전에 입장할 수 있습니다.
 던전의 보스를 처치하고 최종 분기점에서 분기를 선택하면 분기에 따른 엔딩이 진행됩니다.
