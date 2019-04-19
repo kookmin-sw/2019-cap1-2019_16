@@ -3,7 +3,11 @@
 # LOST DARK
 ![game](./Docs/img/GameLogo_resize.png)
 
-**팀페이지 주소** -> https://kookmin-sw.github.io/2019-cap1-2019_16/
+
+### 팀페이지 주소 -> https://kookmin-sw.github.io/2019-cap1-2019_16/
+### Trello -> https://trello.com/b/hbH84neL
+
+#
 
 ## 1. 프로잭트 소개
 
