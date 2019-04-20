@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LOSTDARK_BackupGameModeBase_generated_h
 
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_RPC_WRAPPERS
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_RPC_WRAPPERS
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABackupGameModeBase(); \
 	friend struct Z_Construct_UClass_ABackupGameModeBase_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ABackupGameModeBase)
 
 
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_INCLASS \
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesABackupGameModeBase(); \
 	friend struct Z_Construct_UClass_ABackupGameModeBase_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ABackupGameModeBase)
 
 
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABackupGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABackupGameModeBase) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABackupGameModeBase(ABackupGameModeBase&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABackupGameModeBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABackupGameModeBase)
 
 
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_12_PROLOG
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_PRIVATE_PROPERTY_OFFSET
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_17_PROLOG
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_RPC_WRAPPERS \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_INCLASS \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_RPC_WRAPPERS \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_INCLASS \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_GENERATED_BODY \
+#define LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_SH_BackupGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_INCLASS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_SH_BackupGameModeBase_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
