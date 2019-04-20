@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0515330F-FFF5-4AED-B84F-B304ABE5EBF2}</UniqueIdentifier>
+      <UniqueIdentifier>{85B5F054-5CC7-4830-8774-70CA80A81C36}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A9D88FE1-CC4F-4FF1-86A6-928ED56BCE62}</UniqueIdentifier>
+      <UniqueIdentifier>{BE16ADF9-0F32-426C-8C6A-85E171422229}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,18 +30,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{F2720211-6CDB-442B-8813-3D30F50C23D0}</UniqueIdentifier>
+      <UniqueIdentifier>{7FA313FA-604C-402B-8C8A-9EC02A5B8608}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\SH">
-      <UniqueIdentifier>{45783EFA-8605-4238-97A6-3CEB8FA9C212}</UniqueIdentifier>
+      <UniqueIdentifier>{82A4EE0F-4C20-432C-8AC8-AF24CA97F7E2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\SH\BackupCharacter.cpp">
       <Filter>Source\LostDark\SH</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LostDark\SH\BackupCharacter.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LostDark\SH\BackupGameModeBase.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\BackupGameModeBase.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\LostDark\SH\LostDark.cpp">
@@ -62,15 +68,11 @@
     <ClInclude Include="..\..\Source\LostDark\SH\LostDarkGameMode.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\LostDark\SH\BackupGameModeBase.h">
-      <Filter>Source\LostDark\SH</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\LostDark\SH\BackupGameModeBase.cpp">
+    <ClCompile Include="..\..\Source\LostDark\SH\LostDarkPlayerController.cpp">
       <Filter>Source\LostDark\SH</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\LostDarkPlayerController.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

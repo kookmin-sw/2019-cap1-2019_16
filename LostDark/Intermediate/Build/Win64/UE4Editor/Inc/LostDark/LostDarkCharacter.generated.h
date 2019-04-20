@@ -57,11 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALostDarkCharacter)
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ALostDarkCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ALostDarkCharacter, FollowCamera); }
-
-
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_PRIVATE_PROPERTY_OFFSET
 #define LostDark_Source_LostDark_SH_LostDarkCharacter_h_15_PROLOG
 #define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
