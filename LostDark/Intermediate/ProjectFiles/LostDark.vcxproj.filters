@@ -3,15 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{E6338801-13BC-46D7-B99B-9E0FBE99C462}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{2FDC221C-5B95-42BD-85AE-EE018BE66E64}</UniqueIdentifier>
->>>>>>> master
-=======
-      <UniqueIdentifier>{80D59455-C2D6-462B-A9C2-4C31616A9279}</UniqueIdentifier>
->>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
+      <UniqueIdentifier>{11EE786D-C581-4CFD-A111-058DED4297EE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -20,15 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{3C7509E9-FF7D-4D7F-9FCE-85A361992C19}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{BE89560E-0217-4933-9E48-B75C9E6777F9}</UniqueIdentifier>
->>>>>>> master
-=======
-      <UniqueIdentifier>{7CEC4C6C-480A-4DDE-983C-1E9E40C3E337}</UniqueIdentifier>
->>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
+      <UniqueIdentifier>{90143F25-4BAB-41A1-93C7-C15A6341513D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -46,15 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <UniqueIdentifier>{F7581C6A-16E8-460B-A92B-8E1C614E84C9}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{59855605-09C0-42A8-AEF8-A062B25C8BAE}</UniqueIdentifier>
->>>>>>> master
-=======
-      <UniqueIdentifier>{52E89359-B23B-4CB2-8C04-4D3AA4C6BA3D}</UniqueIdentifier>
->>>>>>> 4a9e1f2525ff7b594a8d82421c5c453925ded032
+      <UniqueIdentifier>{63F933E9-CACA-4124-9317-0D90EB60FDC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
@@ -76,6 +52,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\LostDark\LostDarkGameMode.h">
       <Filter>Source\LostDark</Filter>
+    </ClInclude>
+    <Filter Include="Source\LostDark\SH">
+      <UniqueIdentifier>{4CC0B611-DA50-4576-84F4-FFA3BD5DB44C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LostDark\SH\MyCharacter.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\MyCharacter.h">
+      <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

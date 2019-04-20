@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-E:\Capstone_Git\LostDark\Source\LostDark\LostDark.Build.cs
-E:\Capstone_Git\LostDark\Source\LostDark.Target.cs
-E:\Capstone_Git\LostDark\Source\LostDarkEditor.Target.cs
-=======
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\LostDark.Build.cs
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark.Target.cs
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkEditor.Target.cs
->>>>>>> master
