@@ -4,6 +4,7 @@
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for LostDarkEditor
     Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+<<<<<<< HEAD
   Reflection code generated for LostDarkEditor in 9.2017131 seconds
   Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-113.dll".
   Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1398.dll".
@@ -28,6 +29,17 @@
     [5/12] MyCharacter.cpp
     [6/12] LostDarkGameMode.gen.cpp
     [7/12] LostDarkGameMode.cpp
+=======
+  Reflection code generated for LostDarkEditor in 8.8113832 seconds
+  Building 12 actions with 6 processes...
+    [1/12] PCLaunch.rc
+    [2/12] SharedPCH.Engine.cpp
+    [3/12] MyCharacter.cpp
+    [4/12] LostDark.init.gen.cpp
+    [5/12] LostDarkGameMode.gen.cpp
+    [6/12] LostDarkGameMode.cpp
+    [7/12] LostDarkCharacter.gen.cpp
+>>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
     [8/12] LostDark.cpp
     [9/12] MyCharacter.gen.cpp
     [10/12] LostDarkCharacter.cpp
@@ -36,4 +48,8 @@
     [12/12] UE4Editor-LostDark.dll
        B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
   Deploying LostDarkEditor Win64 Development...
+<<<<<<< HEAD
   Total build time: 68.81 seconds (Parallel executor: 26.22 seconds)
+=======
+  Total build time: 42.10 seconds (Parallel executor: 27.82 seconds)
+>>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
