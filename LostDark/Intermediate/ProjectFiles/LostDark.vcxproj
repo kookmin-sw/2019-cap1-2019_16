@@ -111,11 +111,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-<<<<<<< HEAD
-    <ProjectGuid>{1B8A2831-7D98-4759-95AA-1F169168927D}</ProjectGuid>
-=======
-    <ProjectGuid>{FDD1A726-5917-4E6A-9122-C265DFB404BF}</ProjectGuid>
->>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
+    <ProjectGuid>{62FC0160-38A0-4473-B33A-F73BBF1DFC04}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>LostDark</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>

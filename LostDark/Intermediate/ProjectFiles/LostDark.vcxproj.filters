@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-      <UniqueIdentifier>{11EE786D-C581-4CFD-A111-058DED4297EE}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{B8542BD9-3801-4AD3-9161-E555AA315B5F}</UniqueIdentifier>
->>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
+      <UniqueIdentifier>{56D708E2-9CEB-4E3E-83DF-86D2505746F7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -16,11 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-      <UniqueIdentifier>{90143F25-4BAB-41A1-93C7-C15A6341513D}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{D7DEFE62-5D89-4588-9778-452B05E97A58}</UniqueIdentifier>
->>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
+      <UniqueIdentifier>{31E1BD3D-C110-423B-8D55-999A7BF6ED68}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -38,11 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-<<<<<<< HEAD
-      <UniqueIdentifier>{63F933E9-CACA-4124-9317-0D90EB60FDC1}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7EB67738-3CA2-4E5C-A404-B3D46BDF93A4}</UniqueIdentifier>
->>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
+      <UniqueIdentifier>{974E37ED-57BB-4E14-9226-B94C7FA3C65E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
@@ -66,11 +54,7 @@
       <Filter>Source\LostDark</Filter>
     </ClInclude>
     <Filter Include="Source\LostDark\SH">
-<<<<<<< HEAD
-      <UniqueIdentifier>{4CC0B611-DA50-4576-84F4-FFA3BD5DB44C}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{C86C344D-B08E-43EC-BB59-12AE026A6DCC}</UniqueIdentifier>
->>>>>>> d3646a7339b71a0cf0dcbb728fb1d34e4c27931b
+      <UniqueIdentifier>{4C940AC5-AD63-4ED4-86BB-CAE9726A1CAC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\SH\MyCharacter.cpp">
       <Filter>Source\LostDark\SH</Filter>
