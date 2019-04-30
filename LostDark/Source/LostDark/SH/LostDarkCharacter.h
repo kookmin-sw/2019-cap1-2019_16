@@ -38,8 +38,28 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	// 시점 전환 열거형
+	enum class EControlMode
+	{
+		BackView, //백뷰
+		QuaterView //쿼터뷰
+	};
+
 	// 시점 전환 함수
-	void SetControlMode(int32 ControlMode);
+	void SetControlMode(EControlMode NewControlMode);
+	// 현재 시점 변수
+	EControlMode CurrentControlMode = EControlMode::BackView;
+	// 쿼터뷰에서 앞방향(X방향)을 나타내는 멤버변수
+	FVector DirectionToMove = FVector::ZeroVector;
+
+	// Boom 길이
+	float BoomLengthTo = 0.0f;
+	// Boom 회전값
+	FRotator BoomRotationTo = FRotator::ZeroRotator;
+	// 시점 변경시 해당 Boom으로 늘어나거나 줄어드는 속도
+	float BoomLengthSpeed = 0.0f;
+	// 시점 변경시 해당 Boom으로 회전하는 속도
+	float BoomRotationSpeed = 0.0f;
 
 private:
 	// Called for forwards/backward input
@@ -50,6 +70,9 @@ private:
 	// 아래 함수는 Pawn에서 기본적으로 제공하는 함수가 있어서 그걸 이용하면됨.
 	//void LookUp(float Value);
 	//void Turn(float Value);
+
+	// 시점 변수 설정하는 함수
+	void ViewChange();
 
 // 마네킹에 있는거 놔둔 함수. 쓸모있을지도?
 public:
