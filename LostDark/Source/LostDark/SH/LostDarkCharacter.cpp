@@ -47,7 +47,7 @@ ALostDarkCharacter::ALostDarkCharacter()
 
 	// 애니메이션 인스턴스 정보를 변수로 가져오기. ※애니메이션 인스턴스는 클래스이다 => FClassFinder, 마지막에 _C를 적어줘야함.
 	static ConstructorHelpers::FClassFinder<UAnimInstance> Greyston_Anim(TEXT(
-		"/Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C"));
+		"/Game/ParagonGreystone/Characters/Heroes/Greystone/GS_AnimBlueprint.GS_AnimBlueprint_C"));
 
 	// 애님인스턴스가 유효하다면,
 	if (Greyston_Anim.Succeeded())
