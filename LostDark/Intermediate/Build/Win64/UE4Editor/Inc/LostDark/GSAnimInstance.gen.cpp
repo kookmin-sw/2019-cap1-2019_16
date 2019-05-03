@@ -18,9 +18,63 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 	LOSTDARK_API UClass* Z_Construct_UClass_UGSAnimInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 	UPackage* Z_Construct_UPackage__Script_LostDark();
+	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck();
+	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
 	void UGSAnimInstance::StaticRegisterNativesUGSAnimInstance()
 	{
+		UClass* Class = UGSAnimInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "AnimNotify_AttackHitCheck", &UGSAnimInstance::execAnimNotify_AttackHitCheck },
+			{ "AnimNotify_NextAttackCheck", &UGSAnimInstance::execAnimNotify_NextAttackCheck },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SH/GSAnimInstance.h" },
+		{ "ToolTip", "??\xc6\xbc???? ?\xd4\xbc?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSAnimInstance, "AnimNotify_AttackHitCheck", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SH/GSAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSAnimInstance, "AnimNotify_NextAttackCheck", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UGSAnimInstance_NoRegister()
 	{
@@ -29,9 +83,19 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 	struct Z_Construct_UClass_UGSAnimInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackMontage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AttackMontage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsInAir2_MetaData[];
+#endif
+		static void NewProp_IsInAir2_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsInAir2;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentPawnSpeed_MetaData[];
 #endif
@@ -44,6 +108,10 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		(UObject* (*)())Z_Construct_UClass_UAnimInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_LostDark,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UGSAnimInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 248246680
+		{ &Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck, "AnimNotify_NextAttackCheck" }, // 990663404
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "AnimInstance" },
@@ -53,15 +121,39 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "SH/GSAnimInstance.h" },
+		{ "ToolTip", "??\xc5\xb8?? ?\xd6\xbc? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage = { UE4CodeGen_Private::EPropertyClass::Object, "AttackMontage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000030015, 1, nullptr, STRUCT_OFFSET(UGSAnimInstance, AttackMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Pawn" },
+		{ "ModuleRelativePath", "SH/GSAnimInstance.h" },
+		{ "ToolTip", "???? ???\xdf\xbf? ???\xd6\xb4??? \xc8\xae???\xcf\xb4? ?\xd2\xb0? ???? (???? ???\xcf\xb4???)" },
+	};
+#endif
+	void Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2_SetBit(void* Obj)
+	{
+		((UGSAnimInstance*)Obj)->IsInAir2 = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2 = { UE4CodeGen_Private::EPropertyClass::Bool, "IsInAir2", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UGSAnimInstance), &Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2_SetBit, METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
 		{ "ModuleRelativePath", "SH/GSAnimInstance.h" },
-		{ "ToolTip", "???? \xc4\xb3???? ?\xd3\xb5? ??????\xc6\xbc(????????)" },
+		{ "ToolTip", "???? \xc4\xb3???? ?\xd3\xb5? ??????\xc6\xbc(????????) (???????\xcf\xb4???)" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentPawnSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000015, 1, nullptr, STRUCT_OFFSET(UGSAnimInstance, CurrentPawnSpeed), METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSAnimInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGSAnimInstance_Statics::StaticCppClassTypeInfo = {
@@ -71,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		&UGSAnimInstance::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A8u,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
 		Z_Construct_UClass_UGSAnimInstance_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -87,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSAnimInstance, 2583085786);
+	IMPLEMENT_CLASS(UGSAnimInstance, 1773474861);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSAnimInstance(Z_Construct_UClass_UGSAnimInstance, &UGSAnimInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSAnimInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSAnimInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -2,6 +2,7 @@
 
 #include "LostDarkCharacter.h"
 #include "LostDarkPlayerController.h"
+#include "GSAnimInstance.h"
 
 ALostDarkCharacter::ALostDarkCharacter()
 {
@@ -19,15 +20,11 @@ ALostDarkCharacter::ALostDarkCharacter()
 	FollowCamera->SetupAttachment(CameraBoom);
 
 	// 시점 쿼터뷰로 초기화 (카메라, SpringArm 설정)
-	SetControlMode(EControlMode::QuaterView);
+	SetControlMode(EControlMode::BackView);
 
 	// 외부 메시 초기 위치값, 방향 언리얼 좌표계에 맞게 재설정 (높이 88만큼 내리고, 회전 앞으로 90도 회전)
 	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.0f), FRotator(0.0f, -90.0f, 0.0f));
 
-
-	/*
-		<스켈레탈 메시 적용>
-	*/
 	// 외부 메시 정보를 변수로 가져오기. ※외부메시는 오브젝트이다 => FObjectFinder
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> Greystone(TEXT(
 		"/Game/ParagonGreystone/Characters/Heroes/Greystone/Meshes/Greystone.Greystone"));
@@ -39,15 +36,12 @@ ALostDarkCharacter::ALostDarkCharacter()
 		GetMesh()->SetSkeletalMesh(Greystone.Object);
 	}
 
-	/*
-		<애니메이션 블루프린트 적용>
-	*/
 	// 애니메이션을 애니메이션 블루프린트로 처리하기 위해 애니메이션 모드 옵션 재설정. ※애니메이션은 Mesh가 최종 관리하기 때문에 GetMesh()에서 설정함.
 	GetMesh()->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 
 	// 애니메이션 인스턴스 정보를 변수로 가져오기. ※애니메이션 인스턴스는 클래스이다 => FClassFinder, 마지막에 _C를 적어줘야함.
 	static ConstructorHelpers::FClassFinder<UAnimInstance> Greyston_Anim(TEXT(
-		"/Game/ParagonGreystone/Characters/Heroes/Greystone/GS_AnimBlueprint.GS_AnimBlueprint_C"));
+		"/Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C"));
 
 	// 애님인스턴스가 유효하다면,
 	if (Greyston_Anim.Succeeded())
@@ -56,9 +50,20 @@ ALostDarkCharacter::ALostDarkCharacter()
 		GetMesh()->SetAnimInstanceClass(Greyston_Anim.Class);
 	}
 
+	// 시점 변경에서 카메라 막대로 변경되는 속도 조절
 	BoomLengthSpeed = 3.0f;
 	BoomRotationSpeed = 10.0f;
 
+	// 점프속도 변경. Z축 속도 변경. 
+	GetCharacterMovement()->JumpZVelocity = 450.0f;
+
+	// 초기 공격상태는 false
+	IsAttacking = false;
+
+	// 최대 콤보 카운트 수
+	MaxCombo = 3;
+	// 시작할때 먼저 호출하고 시작함.
+	AttackEndComboState();
 }
 
 
@@ -91,7 +96,7 @@ void ALostDarkCharacter::Tick(float DeltaTime)
 	case ALostDarkCharacter::EControlMode::BackView:
 		break;
 	case ALostDarkCharacter::EControlMode::QuaterView:
-		// SizeSquard() ??
+		// SizeSquard() 나중에 찾아보기
 		if (DirectionToMove.SizeSquared() > 0.0f)
 		{
 			// 캐릭터 컨트롤러의 회전값 설정. X축 방향의 회전행렬을 구하고, 그것에 일치하는 FRotator(Rotator)값을 얻어옴.
@@ -104,6 +109,36 @@ void ALostDarkCharacter::Tick(float DeltaTime)
 	}
 }
 
+// 모든 컴포넌트가 초기화되면 불리어지는 함수. 일종의 BeginPlay함수인듯. 차이가 있는데 생략.
+void ALostDarkCharacter::PostInitializeComponents()
+{
+	// 부모것 호출
+	Super::PostInitializeComponents();
+	// GS 애님인스턴스 정보 가져오기
+	GSAnim = Cast<UGSAnimInstance>(GetMesh()->GetAnimInstance());
+	// 애님인스턴스를 델리게이트로 연결시키기. AnimInstance->OnMontageEnded는 이미 제공함. OnAttackMontageEnded 라는 함수 호출하는것임
+	GSAnim->OnMontageEnded.AddDynamic(this, &ALostDarkCharacter::OnAttackMontageEnded);
+	UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents, AddDynamic"));
+
+	// 노티파이 신호가 들어오면 일로 들어옴. 람다함수를 이용해서 GSAnimInstance의 OnNextAttackCheck 델리게이트를 등록함.
+	GSAnim->OnNextAttackCheck.AddLambda([this]() -> void {
+		// 다음 콤보로 못가게 하고
+		CanNextCombo = false;
+		UE_LOG(LogTemp, Warning, TEXT("123"));
+		// 콤보 입력이 들어왔다면
+		if (IsComboInputOn)
+		{
+			// 콤보 시작 함수 호출
+			AttackStartComboState();
+			// CurrentCombo는 최초 0이 들어감. Section은 배열형태라서 0번이 1번째 섹션을 뜻함.
+			GSAnim->JumpToAttackMontageSection(CurrentCombo);
+		}
+		UE_LOG(LogTemp, Warning, TEXT("456"));
+	});
+
+	UE_LOG(LogTemp, Warning, TEXT("OnNextAttackCheck AddLambda"));
+}
+
 // Input 설정 (일종의 Input을 위한 Tick함수)
 void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
@@ -111,6 +146,12 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 	// BindAction 설정. EInputEvent::IE_Pressed, Released 함수가 있다. 누르고 뗄때.
 	PlayerInputComponent->BindAction(TEXT("ViewChange"), EInputEvent::IE_Pressed, this, &ALostDarkCharacter::ViewChange);
+
+	// Jump 설정. Jump는 기본적으로 Character 클래스에 이미 설계되어 있어서, 부모의 함수로 바인딩 시키면 됨.
+	PlayerInputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ALostDarkCharacter::Jump);
+
+	// Attack, Mouse X 바인딩하기.
+	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &ALostDarkCharacter::Attack);
 
 	/*
 		BindAxis(1, 2, 3)
@@ -130,6 +171,78 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	// 부모 Pawn 클래스에 있는 AddControllerPitchInput 함수를 호출함
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APawn::AddControllerPitchInput);
 
+}
+
+// 마우스 좌클릭, Attack 구현
+void ALostDarkCharacter::Attack()
+{
+
+	// 지금 공격중이라면 취소. 중복해서 사용될수 없음.
+	if (IsAttacking)
+	{
+		// 공격중인데, 다음 콤보로 갈수 있다면,
+		if (CanNextCombo)
+		{
+			// 콤보 입력이 가능으로 바꿈
+			IsComboInputOn = true;
+			UE_LOG(LogTemp, Warning, TEXT("111"));
+		}
+	}
+	// 공격중이 아니라면,
+	else
+	{
+		// 로고 찍힘. 마우스 왼쪽 클릭할때마다 이 함수 불리어지기 때문.
+		UE_LOG(LogTemp, Warning, TEXT("Current Combo is 0"));
+		// 콤보 스테이트 호출
+		AttackStartComboState(); // CurrentCombo = 1;
+		// 애님인스턴스 몽타주 함수 호출. 애니메이션 재생
+		GSAnim->PlayAttackMontage();
+		// 다음 섹션으로 현재 콤보 카운트를 넘김.
+		GSAnim->JumpToAttackMontageSection(CurrentCombo);
+		// 공격 상태 변수 설정
+		IsAttacking = true;
+	}
+	//// 애님 인스턴스 가져옴. Mesh에 달려있는 애님인스턴스를 UGS로 형변환후 등록.
+	//auto AnimInstance = Cast<UGSAnimInstance>(GetMesh()->GetAnimInstance());
+	//// 혹시 애님 인스턴스로 받지 못했을때 (exception handler)
+	//if (nullptr == AnimInstance) return;
+	//// 애님 인스턴스에 있는 몽타주 함수를 재생시킴.
+	//AnimInstance->PlayAttackMontage();
+}
+
+// 델리게이트로 지정된 함수. 몽타주가 완전히 끝나면, 자동으로 불리어짐.
+void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterruped)
+{
+	UE_LOG(LogTemp, Warning, TEXT("IsAttacking = false!"));
+	// 재생중인 몽타주가 끝나면 Attack 변수를 다시 false로 초기화.
+	IsAttacking = false;
+	// 몽타주가 끝나면 호출
+	AttackEndComboState();
+}
+
+// 공격이 시작할때 관련 속성 지정하는 함수
+void ALostDarkCharacter::AttackStartComboState()
+{
+	// 다음 콤보로 갈수 있음.
+	CanNextCombo = true;
+	// 아직 콤보는 들어가지 않음. (최초)
+	IsComboInputOn = false;
+	/*
+		Clamp : 최소 최대값 제한 함수. (현재 값 , 최소, 최대) 작거나 최대값보다 크면, 해당값을 리턴함.
+		(1,3)이 최대임. CurrentCombo는 3에서는 증가가 안됨.
+	*/
+	CurrentCombo = FMath::Clamp<int32>(CurrentCombo + 1, 1, MaxCombo);
+}
+
+// 공격이 종료할 때 사용할 함수
+void ALostDarkCharacter::AttackEndComboState()
+{
+	// 콤보 입력 여부를 다시 false로 바꿔줌
+	IsComboInputOn = false;
+	// 다음 콤보로 가는걸 막음 (최대)
+	CanNextCombo = false;
+	// 현재 콤보를 다시 0으로 초기화
+	CurrentCombo = 0;
 }
 
 // 시점 변수 변경

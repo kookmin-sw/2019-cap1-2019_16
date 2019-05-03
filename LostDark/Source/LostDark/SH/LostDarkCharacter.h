@@ -68,20 +68,58 @@ private:
 	void MoveRight(float Value);
 
 	// 아래 함수는 Pawn에서 기본적으로 제공하는 함수가 있어서 그걸 이용하면됨.
-	//void LookUp(float Value);
-	//void Turn(float Value);
+	// void LookUp(float Value);
+	// void Turn(float Value);
 
 	// 시점 변수 설정하는 함수
 	void ViewChange();
+
+	// Attack 기능 함수
+	void Attack();
+
+	// BP와 관련된 C++함수는 반드시 UFUNCTION 매크로를 사용해야한다. 다이나믹 델리게이트.
+	UFUNCTION()
+		// 몽타주 관련 델리게이트 함수. UAnimMontage을 적어야함!
+		void OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted);
+
+	// 공격이 시작할때 관련 속성 지정하는 함수
+	void AttackStartComboState();
+	// 공격이 종료할 때 사용할 함수
+	void AttackEndComboState();
+
+private:
+	//인스턴스 속성을 보여주는 에디터 뷰포트에서만 보여지는 VisibleInstanceOnly.
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 현재 공격중인지 확인하는 변수. 
+		bool IsAttacking;
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 다음 콤보로 이동 가능 여부
+		bool CanNextCombo;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 콤보 입력여부
+		bool IsComboInputOn;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 현재 실행중인 콤보 카운트
+		int32 CurrentCombo;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 콤보 카운트 최대치
+		int32 MaxCombo;
+
+	// 자주사용할 애님 인스턴스 클래스를 포인터로 아예 가져오자. (전방선언)
+	UPROPERTY()
+		class UGSAnimInstance* GSAnim;
 
 // 마네킹에 있는거 놔둔 함수. 쓸모있을지도?
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	// 몽타주 재생을 위한 델리게이트 함수 선언 (모든 컴포넌트가 초기화 됐을때 불리어짐). OnMontageEnded 델리게이트에 바인딩한다.
+	virtual void PostInitializeComponents() override;
+
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
 };
-
