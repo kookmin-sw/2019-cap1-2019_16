@@ -1,20 +1,10 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
-  Creating makefile for hot reloading LostDarkEditor (game project files are newer)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Workspace\SourceTree\Capstone).
+  Creating makefile for hot reloading LostDarkEditor (source directory changed)
   Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for LostDarkEditor
-    Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LostDarkEditor in 9.039687 seconds
-  Building 8 actions with 6 processes...
-    [1/8] LostDark.init.gen.cpp
-    [2/8] LostDarkCharacter.gen.cpp
-    [3/8] LostDarkCharacter.cpp
-    [4/8] LostDark.cpp
-    [5/8] LostDarkGameMode.gen.cpp
-    [6/8] LostDarkGameMode.cpp
-    [7/8] UE4Editor-LostDark-4000.lib
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.exp 개체를 생성하고 있습니다.
-    [8/8] UE4Editor-LostDark-4000.dll
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-4000.suppressed.exp 개체를 생성하고 있습니다.
-  Deploying LostDarkEditor Win64 Development...
-  Total build time: 169.29 seconds (Parallel executor: 133.12 seconds)
+    Running UnrealHeaderTool "E:\Workspace\SourceTree\Capstone\LostDark\LostDark.uproject" "E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  E:/Workspace/SourceTree/Capstone/LostDark/Source/LostDark/YJ/YJCharacter.h(27) : LogCompile: Error: Type 'int16' is not supported by blueprint. YJCharacter.HealthPoint
+  E:/Workspace/SourceTree/Capstone/LostDark/Source/LostDark/YJ/YJCharacter.h(30) : LogCompile: Error: Type 'int16' is not supported by blueprint. YJCharacter.MentalPoint
+EXEC : error : UnrealHeaderTool failed for target 'LostDarkEditor' (platform: Win64, module info: E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""E:\Program Files\Epic Games\UE_4.21\Engine\Build\BatchFiles\Build.bat" LostDarkEditor Win64 Development "E:\Workspace\SourceTree\Capstone\LostDark\LostDark.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.

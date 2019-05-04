@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{85B5F054-5CC7-4830-8774-70CA80A81C36}</UniqueIdentifier>
+      <UniqueIdentifier>{6F0F7F25-4946-4551-95D5-1D6B2CC5522D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BE16ADF9-0F32-426C-8C6A-85E171422229}</UniqueIdentifier>
+      <UniqueIdentifier>{2644BED2-AC5F-463C-BD05-1964742C292C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,13 +30,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{7FA313FA-604C-402B-8C8A-9EC02A5B8608}</UniqueIdentifier>
+      <UniqueIdentifier>{77BEB637-6509-4F00-B738-7F89BA898A2A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\SH">
-      <UniqueIdentifier>{82A4EE0F-4C20-432C-8AC8-AF24CA97F7E2}</UniqueIdentifier>
+      <UniqueIdentifier>{050D2D0C-8D2E-4F25-B9BE-410007782285}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\SH\BackupCharacter.cpp">
       <Filter>Source\LostDark\SH</Filter>
@@ -73,6 +73,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\LostDark\SH\LostDarkPlayerController.h">
       <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <Filter Include="Source\LostDark\YJ">
+      <UniqueIdentifier>{5E0B5941-2629-48E2-AE3A-DDA07BBF9EA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\LostDark\YJ\YJCharacter.cpp">
+      <Filter>Source\LostDark\YJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\YJ\YJCharacter.h">
+      <Filter>Source\LostDark\YJ</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
