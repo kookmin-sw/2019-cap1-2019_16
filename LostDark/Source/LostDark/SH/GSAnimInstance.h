@@ -40,9 +40,12 @@ private:
 	// 노티파이 함수
 	UFUNCTION()
 		void AnimNotify_AttackHitCheck();
-
+	// 실제 다음 콤보로 넘어가는지 체크하는 함수
 	UFUNCTION()
 		void AnimNotify_NextAttackCheck();
+	// 이 노티파이가 불려진 이후에 들어온 공격만 콤보로 받아들임
+	UFUNCTION()
+		void AnimNotify_IsInputCombo();
 
 	// 현재 몽타주 섹션의 이름을 출력하기 위한 함수
 	FName GetAttackMontageSectionName(int32 Section);
@@ -55,9 +58,16 @@ private:
 	// 현재 공중에 떠있는지 확인하는 불값 변수 (사용 안하는중)
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		bool IsInAir2;
+
 	
 	// 몽타주 애셋 정보
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* AttackMontage;
+
+public:
+	// 콤보 입력 들어왔는지 확인함
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		bool IsInputCombo;
+
 
 };

@@ -20,7 +20,8 @@ UGSAnimInstance::UGSAnimInstance()
 		AttackMontage = Attack_Montage1.Object;
 		UE_LOG(LogTemp, Warning, TEXT("Enroll Attack Montage"));
 	}
-
+	// 최초 콤보 입력이 들어오지 않았음.
+	IsInputCombo = false;
 }
 
 // 일반 Tick과 완전히 일치. 실시간으로 애니메이션 시스템의 틱에서 폰에 접근해 폰의 속력 값을 얻어옴
@@ -80,11 +81,22 @@ void UGSAnimInstance::AnimNotify_AttackHitCheck()
 	OnAttackHitCheck.Broadcast();
 }
 
+// 다음 콤보가 있으면 발동.
 void UGSAnimInstance::AnimNotify_NextAttackCheck()
 {
+	// 다시 콤보 입력값 없앰.
+	IsInputCombo = false;
 	//UE_LOG(LogTemp, Warning, TEXT("NextAttackCheck"));
 	// 아래 델리게이트 로직은 람다식으로 구현할 예정
 	OnNextAttackCheck.Broadcast();
+
+}
+
+// 이 함수가 불리어지고 NextAttackCheck()가 불리기 전까지 들어온 공격만 추가 콤보 입력으로 받아들임
+void UGSAnimInstance::AnimNotify_IsInputCombo()
+{
+	// 이제부터 들어오는 공격은 전부 추가 콤보 공격임.
+	IsInputCombo = true;
 }
 
 // 다음 공격 섹션 정보를 출력

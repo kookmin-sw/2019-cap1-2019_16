@@ -183,13 +183,18 @@ void ALostDarkCharacter::Attack()
 	{
 		// 만약 현재 Combo카운트가 1~3 사이가 아니라면 반환 (예외처리)
 		ABCHECK(FMath::IsWithinInclusive<int32>(CurrentCombo, 1, MaxCombo));
-		// 공격중인데, 다음 콤보로 갈수 있다면,
-		if (CanNextCombo)
+		// IsInputCombo 노티파이가 불리어졌는지
+		if (GSAnim->IsInputCombo)
 		{
-			// 콤보를 넣었다는 주문을 넣어줌.
-			IsComboInputOn = true;
-			//UE_LOG(LogTemp, Warning, TEXT("Can NextCombo : %d"),CurrentCombo);
+			// 공격중인데, 다음 콤보로 갈수 있다면,
+			if (CanNextCombo)
+			{
+				// 콤보를 넣었다는 신호임.
+				IsComboInputOn = true;
+				//UE_LOG(LogTemp, Warning, TEXT("Can NextCombo : %d"),CurrentCombo);
+			}
 		}
+
 	}
 	// 공격중이 아니라면,
 	else
