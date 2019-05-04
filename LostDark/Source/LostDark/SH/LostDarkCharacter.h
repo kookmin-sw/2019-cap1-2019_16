@@ -86,6 +86,8 @@ private:
 	void AttackStartComboState();
 	// 공격이 종료할 때 사용할 함수
 	void AttackEndComboState();
+	// 공격 물리판정 함수
+	void AttackCheck();
 
 private:
 	//인스턴스 속성을 보여주는 에디터 뷰포트에서만 보여지는 VisibleInstanceOnly.
@@ -110,12 +112,22 @@ private:
 	UPROPERTY()
 		class UGSAnimInstance* GSAnim;
 
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 공격 길이 변수
+		float AttackRange;
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		// 공격 반경 (반지름)
+		float AttackRadius;
+
 // 마네킹에 있는거 놔둔 함수. 쓸모있을지도?
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	// 몽타주 재생을 위한 델리게이트 함수 선언 (모든 컴포넌트가 초기화 됐을때 불리어짐). OnMontageEnded 델리게이트에 바인딩한다.
 	virtual void PostInitializeComponents() override;
+
+	// AActor에 있는 TakeDamage함수를 추가 구현한다. 가상함수. 받는부분에 대한 로직을 여기서 구현함.
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }

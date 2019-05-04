@@ -123,6 +123,11 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AttackMontage;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsDead_MetaData[];
+#endif
+		static void NewProp_IsDead_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsDead;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsInAir2_MetaData[];
 #endif
 		static void NewProp_IsInAir2_SetBit(void* Obj);
@@ -175,6 +180,19 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage = { UE4CodeGen_Private::EPropertyClass::Object, "AttackMontage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000030015, 1, nullptr, STRUCT_OFFSET(UGSAnimInstance, AttackMontage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Pawn" },
+		{ "ModuleRelativePath", "SH/GSAnimInstance.h" },
+		{ "ToolTip", "?\xda\xbd??? ???????????? \xc8\xae???\xcf\xb4? ????" },
+	};
+#endif
+	void Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead_SetBit(void* Obj)
+	{
+		((UGSAnimInstance*)Obj)->IsDead = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead = { UE4CodeGen_Private::EPropertyClass::Bool, "IsDead", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UGSAnimInstance), &Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead_SetBit, METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Pawn" },
@@ -199,6 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSAnimInstance_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInputCombo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsDead,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInAir2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed,
 	};
@@ -225,7 +244,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSAnimInstance, 4187917195);
+	IMPLEMENT_CLASS(UGSAnimInstance, 110788798);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSAnimInstance(Z_Construct_UClass_UGSAnimInstance, &UGSAnimInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSAnimInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSAnimInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

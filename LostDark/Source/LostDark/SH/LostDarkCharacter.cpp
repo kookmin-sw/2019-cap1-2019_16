@@ -1,8 +1,9 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 #include "LostDarkCharacter.h"
-#include "LostDarkPlayerController.h"
+//#include "LostDarkPlayerController.h"
 #include "GSAnimInstance.h"
+#include "DrawDebugHelpers.h"
 
 ALostDarkCharacter::ALostDarkCharacter()
 {
@@ -64,6 +65,14 @@ ALostDarkCharacter::ALostDarkCharacter()
 	MaxCombo = 3;
 	// 시작할때 먼저 호출하고 시작함.
 	AttackEndComboState();
+
+	// 캡슐컴포넌트에 우리가 만든 콜리전채널 설정. GSCharacter라는 콜리전채널임
+	GetCapsuleComponent()->SetCollisionProfileName(TEXT("GSCharacter"));
+
+	// 디버깅 캡슐 길이 200cm
+	AttackRange = 200.0f;
+	// 디버깅 캡슐 반지름 50cm
+	AttackRadius = 50.0f;
 }
 
 
@@ -139,6 +148,28 @@ void ALostDarkCharacter::PostInitializeComponents()
 			UE_LOG(LogTemp, Warning, TEXT("Called JumpTo Function, Combo : %d"),CurrentCombo);
 		}
 	});
+	// OnAttackHitCheck 노티파이에서 브로드캐스트가 들어오면, 2번째 인자에 해당하는 함수를 호출함(=AttackCheck)
+	GSAnim->OnAttackHitCheck.AddUObject(this, &ALostDarkCharacter::AttackCheck);
+}
+
+// 데미지 받는 로직을 구현하는 함수. AActor에 있는 로직을 추가 구현함.
+float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
+{
+	// 부모로직에 받은 데미지 프레임워크를 던져서 결과값을 받음. (결과값은 최종적으로 받은 데미지 크기)
+	float FinalDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	// 데미지를 받아서 데미지 프레임워크가 발동한 폰의 이름과, 결과적으로 받은 총 데미지 크기를 LOG로 출력함.
+	ABLOG(Warning, TEXT("Actor : %s took Damage : %f"), *GetName(), FinalDamage);
+
+	// 들어온 데미지가 0보다 크다면
+	if (FinalDamage > 0.0f)
+	{
+		// 현재 자신의 상태를 Dead로 바꾼다.
+		GSAnim->SetDeadAnim();
+		// 현재 자신의 액터 콜리전을 끈다.
+		SetActorEnableCollision(false);
+	}
+	// 최종적으로 받은 데미지를 반환한다
+	return FinalDamage;
 }
 
 // Input 설정 (일종의 Input을 위한 Tick함수)
@@ -261,6 +292,82 @@ void ALostDarkCharacter::AttackEndComboState()
 	CanNextCombo = false;
 	// 현재 콤보를 다시 0으로 초기화
 	CurrentCombo = 0;
+}
+
+void ALostDarkCharacter::AttackCheck()
+{
+	// 충돌된 물체의 정보를 담는 구조체변수
+	FHitResult HitResult;
+	// 탐색 방법은 자기자신은 탐지되지 않도록 this를 넣어줌. 구조체임.
+	FCollisionQueryParams Params(NAME_None, false, this);
+	// Sweep 실행. (일종의 Ray발사)
+	bool bResult = GetWorld()->SweepSingleByChannel(
+		// 충돌된 물체를 담는 변수
+		HitResult,
+		// 시작 위치로 현재 액터의 위치를 넣어줌. Vector값
+		GetActorLocation(),
+		// 끝낼 위치로 현재 액터 앞방향으로 2m 떨어진곳. Vector값
+		GetActorLocation() + GetActorForwardVector()*AttackRange,
+		// 탐색할 도형의 회전값 기본으로
+		FQuat::Identity,
+		// 물리 충돌 감지에 사용할 트레이스 채널 정보
+		ECollisionChannel::ECC_GameTraceChannel2,
+		// 탐색할 도형의 종류와 반지름 길이
+		FCollisionShape::MakeSphere(AttackRadius),
+		// 탐색 방법에 대한 설정값을 모아둔 구조체
+		Params);
+
+	// 만약 디버그를 그릴수 있다면,
+#if ENABLE_DRAW_DEBUG
+
+	// 공격 길이를 벡터로 변수화
+	FVector TraceVec = GetActorForwardVector()*AttackRange;
+	// 중앙값은 현재위치값 + 앞방향의 중간
+	FVector Center = GetActorLocation() + TraceVec * 0.5f;
+	// 절반높이 = 절반값 + 반지름값. 캡슐형이기 때문에 실제 절반 높이는 반지름값을 더해줘야함.
+	float HalfHeight = AttackRange * 0.5f + AttackRadius;
+	// 서있는 캡슐을 눕히는 회전행렬
+	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
+	// 디버깅 캡슐의 색깔. 충돌하면 초록색, 아니면 빨간색
+	FColor DrawColor = bResult ? FColor::Green : FColor::Red;
+	// 디버깅 캡슐의 생존시간
+	float DebugLifeTime = 5.0f;
+
+	// 디버그 캡슐
+	DrawDebugCapsule(
+		// 세상에 그리고
+		GetWorld(),
+		// 중심값
+		Center,
+		// 중심까지의 길이
+		HalfHeight,
+		// 전체 판정 길이
+		AttackRadius,
+		// 디버그 캡슐의 회전량
+		CapsuleRot,
+		// 색깔
+		DrawColor,
+		// 무시
+		false,
+		// 생존시간
+		DebugLifeTime);
+
+#endif
+
+	// 만약 충돌된 물체가 있다면,
+	if (bResult)
+	{
+		// 충돌된 액터의 물체가 유효한 것이라면
+		if (HitResult.Actor.IsValid())
+		{
+			// 부딪힌 물체의 액터의 이름을 출력한다.
+			ABLOG(Warning, TEXT("Hit Actor Name : %s"), *HitResult.Actor->GetName());
+			// 언리얼에서 제공하는 데미지 프레임워크 구조체 변수 선언. (데미지 종류중 기본값인듯)
+			FDamageEvent DamageEvent;
+			// 충돌한 물체에 데미지 프레임워크를 발동함. (전달할 데미지 세기, 데미지 종류, 공격명령을 내린 가해자(컨트롤러), 제미지 전달을 위해 사용한 도구(폰))
+			HitResult.Actor->TakeDamage(50.0f, DamageEvent, GetController(), this);
+		}
+	}
 }
 
 // 시점 변수 변경

@@ -9,6 +9,8 @@ UGSAnimInstance::UGSAnimInstance()
 	CurrentPawnSpeed = 0.0f;
 	// 최초 점프 상태는 false
 	IsInAir2 = false;
+	// 최초 사망상태는 false
+	IsDead = false;
 
 	// 몽타주 애셋 정보 등록. 몽타주는 Object 단위다.
 	static ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_Montage1(TEXT(
@@ -32,9 +34,10 @@ void UGSAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 
 	// APawn 객체 생성후, 현재 해당하는 이 애님인스턴스가 관리하는 폰의 정보를 넘김.
 	auto Pawn = TryGetPawnOwner();
+	// Pawn을 가져올 수 없다면 반환 (예외처리)
+	if (!::IsValid(Pawn)) return;
 
-	// 애님 인스턴스가 Pawn 정보를 제대로 갖고 왔다면,
-	if (::IsValid(Pawn))
+	if (!IsDead)
 	{
 		// 현재 속도를 float으로 반환.
 		CurrentPawnSpeed = Pawn->GetVelocity().Size();
@@ -60,7 +63,9 @@ void UGSAnimInstance::PlayAttackMontage()
 	//	// 몽타주 재생시킴 (재생시킬 몽타주 정보, 속도)
 	//	Montage_Play(AttackMontage, 1.0f);
 	//}
-	// ABCHECK(!IsDead);
+
+	// 자신이 죽었다면 return.
+	ABCHECK(!IsDead);
 	// 등록된 몽타주 재생.
 	Montage_Play(AttackMontage, 1.0f);
 }
@@ -68,6 +73,8 @@ void UGSAnimInstance::PlayAttackMontage()
 // 몽타주에서 다음 공격 섹션으로 넘어가는 함수
 void UGSAnimInstance::JumpToAttackMontageSection(int32 NewSection)
 {
+	// 자신이 죽었다면 return
+	ABCHECK(!IsDead);
 	// 만약 몽타주가 재생중이지 않다면, 빨간 에러 출력하고 return. (예외처리)
 	ABCHECK(Montage_IsPlaying(AttackMontage));
 	// Montage_JumpToSection는 부모 AnimInstance에서 미리 기능제공. (현재 섹션 넘버, 재생중인 몽타주 정보)

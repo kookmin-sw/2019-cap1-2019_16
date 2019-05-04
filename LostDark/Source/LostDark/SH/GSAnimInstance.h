@@ -36,6 +36,9 @@ public:
 	FOnNextAttackCheckDelegate OnNextAttackCheck;
 	FOnAttackHitCheckDelegate OnAttackHitCheck;
 
+	// 사망변수를 true로 바꿈.
+	void SetDeadAnim() { IsDead = true; }
+
 private:
 	// 노티파이 함수
 	UFUNCTION()
@@ -59,10 +62,14 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
 		bool IsInAir2;
 
-	
+	// 자신이 사망상태인지 확인하는 변수
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
+		bool IsDead;
+
 	// 몽타주 애셋 정보
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* AttackMontage;
+
 
 public:
 	// 콤보 입력 들어왔는지 확인함

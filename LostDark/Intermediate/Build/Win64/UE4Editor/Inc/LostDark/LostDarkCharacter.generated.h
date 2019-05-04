@@ -88,7 +88,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkCharacter); \
 	FORCEINLINE static uint32 __PPO__IsComboInputOn() { return STRUCT_OFFSET(ALostDarkCharacter, IsComboInputOn); } \
 	FORCEINLINE static uint32 __PPO__CurrentCombo() { return STRUCT_OFFSET(ALostDarkCharacter, CurrentCombo); } \
 	FORCEINLINE static uint32 __PPO__MaxCombo() { return STRUCT_OFFSET(ALostDarkCharacter, MaxCombo); } \
-	FORCEINLINE static uint32 __PPO__GSAnim() { return STRUCT_OFFSET(ALostDarkCharacter, GSAnim); }
+	FORCEINLINE static uint32 __PPO__GSAnim() { return STRUCT_OFFSET(ALostDarkCharacter, GSAnim); } \
+	FORCEINLINE static uint32 __PPO__AttackRange() { return STRUCT_OFFSET(ALostDarkCharacter, AttackRange); } \
+	FORCEINLINE static uint32 __PPO__AttackRadius() { return STRUCT_OFFSET(ALostDarkCharacter, AttackRadius); }
 
 
 #define LostDark_Source_LostDark_SH_LostDarkCharacter_h_15_PROLOG
