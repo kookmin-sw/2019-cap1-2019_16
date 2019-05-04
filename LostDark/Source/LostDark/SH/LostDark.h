@@ -8,3 +8,10 @@
 	대부분의 경우 엔진 기능을 사용하기 때문에 EngineMinimal을 지정한다.
 */
 #include "EngineMinimal.h"
+
+DECLARE_LOG_CATEGORY_EXTERN(LostDark, Log, All);
+#define ABLOG_CALLINFO (FString(__FUNCTION__) + TEXT("(") + FString::FromInt(__LINE__) + TEXT(")"))
+#define ABLOG_S(Verbosity) UE_LOG(LostDark, Verbosity, TEXT("%s"), *ABLOG_CALLINFO)
+#define ABLOG(Verbosity, Format, ...) UE_LOG(LostDark, Verbosity, TEXT("%s %s"), *ABLOG_CALLINFO, *FString::Printf(Format, ##__VA_ARGS__))
+// 매크로 안의 조건이 참이 아닌경우 로그가 붉게 띄고 바로 함수 반환함.
+#define ABCHECK(Expr, ...) {if(!(Expr)) { ABLOG(Error,TEXT("ASSERTION : %s"), TEXT("'"#Expr"'")); return __VA_ARGS__; } }

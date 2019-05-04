@@ -6,7 +6,7 @@
 #include "Animation/AnimInstance.h"
 #include "GSAnimInstance.generated.h"
 
-// 멀티캐스트 델리게이트 선언
+// 멀티캐스트 델리게이트 선언 반환값과 인자 값이 없는 함수 유형. 여러개 의 함수가 등록될수 있음.
 DECLARE_MULTICAST_DELEGATE(FOnNextAttackCheckDelegate);
 DECLARE_MULTICAST_DELEGATE(FOnAttackHitCheckDelegate);
 
@@ -32,7 +32,7 @@ public:
 	void JumpToAttackMontageSection(int32 NewSection);
 
 public:
-	// 멀티캐스트 델리게이트 선언
+	// 멀티캐스트 델리게이트 선언. 반환값과 인자 값이 없는 함수 유형. 여러개 의 함수가 등록될수 있음.
 	FOnNextAttackCheckDelegate OnNextAttackCheck;
 	FOnAttackHitCheckDelegate OnAttackHitCheck;
 
@@ -44,6 +44,7 @@ private:
 	UFUNCTION()
 		void AnimNotify_NextAttackCheck();
 
+	// 현재 몽타주 섹션의 이름을 출력하기 위한 함수
 	FName GetAttackMontageSectionName(int32 Section);
 
 private:

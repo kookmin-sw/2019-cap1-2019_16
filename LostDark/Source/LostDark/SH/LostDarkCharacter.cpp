@@ -116,27 +116,29 @@ void ALostDarkCharacter::PostInitializeComponents()
 	Super::PostInitializeComponents();
 	// GS 애님인스턴스 정보 가져오기
 	GSAnim = Cast<UGSAnimInstance>(GetMesh()->GetAnimInstance());
-	// 애님인스턴스를 델리게이트로 연결시키기. AnimInstance->OnMontageEnded는 이미 제공함. OnAttackMontageEnded 라는 함수 호출하는것임
+	// GS 애님인스턴스를 가져오지 못했다면 예외처리후 함수반환
+	ABCHECK(nullptr != GSAnim);
+	// 몽타주 재생이 끝나면, 자동으로 OnAttackMontageEnded 라는 함수를 호출하는것임. AnimInstance->OnMontageEnded는 이미 제공함.
 	GSAnim->OnMontageEnded.AddDynamic(this, &ALostDarkCharacter::OnAttackMontageEnded);
 	UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents, AddDynamic"));
 
-	// 노티파이 신호가 들어오면 일로 들어옴. 람다함수를 이용해서 GSAnimInstance의 OnNextAttackCheck 델리게이트를 등록함.
+	// 노티파이 신호가 들어오면 일로 들어옴. void를 반환
 	GSAnim->OnNextAttackCheck.AddLambda([this]() -> void {
+		// OnNextAttackCheck 브로드캐스트가 발동됨을 Log로 찍음.
+		UE_LOG(LogTemp, Warning, TEXT("OnNextAttackCheck Lambda Called"));
+		//ABLOG(Warning, TEXT("OnNextAttackCheck"));
 		// 다음 콤보로 못가게 하고
 		CanNextCombo = false;
-		UE_LOG(LogTemp, Warning, TEXT("123"));
-		// 콤보 입력이 들어왔다면
+		// 콤보 입력이 들어왔다면 // NextAttackCheck 노티파이 브로드캐스트 이전까지 공격이 2번이상 눌렸다면
 		if (IsComboInputOn)
 		{
-			// 콤보 시작 함수 호출
+			// 콤보 시작 함수 호출 (콤보 카운트 증가)
 			AttackStartComboState();
-			// CurrentCombo는 최초 0이 들어감. Section은 배열형태라서 0번이 1번째 섹션을 뜻함.
+			// 다음 섹션 콤보를 불러옴
 			GSAnim->JumpToAttackMontageSection(CurrentCombo);
+			UE_LOG(LogTemp, Warning, TEXT("Called JumpTo Function, Combo : %d"),CurrentCombo);
 		}
-		UE_LOG(LogTemp, Warning, TEXT("456"));
 	});
-
-	UE_LOG(LogTemp, Warning, TEXT("OnNextAttackCheck AddLambda"));
 }
 
 // Input 설정 (일종의 Input을 위한 Tick함수)
@@ -173,29 +175,30 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 }
 
-// 마우스 좌클릭, Attack 구현
+// 마우스 좌클릭, Attack 구현. 몽타주를 사용해 공격 애니메이션을 재생함.
 void ALostDarkCharacter::Attack()
 {
-
-	// 지금 공격중이라면 취소. 중복해서 사용될수 없음.
+	// 현재 몽타주 재생중이라면
 	if (IsAttacking)
 	{
+		// 만약 현재 Combo카운트가 1~3 사이가 아니라면 반환 (예외처리)
+		ABCHECK(FMath::IsWithinInclusive<int32>(CurrentCombo, 1, MaxCombo));
 		// 공격중인데, 다음 콤보로 갈수 있다면,
 		if (CanNextCombo)
 		{
-			// 콤보 입력이 가능으로 바꿈
+			// 콤보를 넣었다는 주문을 넣어줌.
 			IsComboInputOn = true;
-			UE_LOG(LogTemp, Warning, TEXT("111"));
+			//UE_LOG(LogTemp, Warning, TEXT("Can NextCombo : %d"),CurrentCombo);
 		}
 	}
 	// 공격중이 아니라면,
 	else
 	{
-		// 로고 찍힘. 마우스 왼쪽 클릭할때마다 이 함수 불리어지기 때문.
-		UE_LOG(LogTemp, Warning, TEXT("Current Combo is 0"));
-		// 콤보 스테이트 호출
-		AttackStartComboState(); // CurrentCombo = 1;
-		// 애님인스턴스 몽타주 함수 호출. 애니메이션 재생
+		// 만약 현재 Combo가 0이 아니면 반환
+		ABCHECK(CurrentCombo == 0);
+		// 콤보 스테이트 호출. 콤보 카운트 증가 1로
+		AttackStartComboState();
+		// 애님인스턴스 몽타주 함수 호출. 최초 애니메이션 재생
 		GSAnim->PlayAttackMontage();
 		// 다음 섹션으로 현재 콤보 카운트를 넘김.
 		GSAnim->JumpToAttackMontageSection(CurrentCombo);
@@ -208,29 +211,39 @@ void ALostDarkCharacter::Attack()
 	//if (nullptr == AnimInstance) return;
 	//// 애님 인스턴스에 있는 몽타주 함수를 재생시킴.
 	//AnimInstance->PlayAttackMontage();
+
+	//IsAttacking = true;
 }
 
 // 델리게이트로 지정된 함수. 몽타주가 완전히 끝나면, 자동으로 불리어짐.
 void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterruped)
 {
-	UE_LOG(LogTemp, Warning, TEXT("IsAttacking = false!"));
-	// 재생중인 몽타주가 끝나면 Attack 변수를 다시 false로 초기화.
+	// IsAttacking이 아니라면 바로 붉은 에러 띄우고 return.
+	ABCHECK(IsAttacking);
+	// CurrentCombo가 0보다 크지 않으면 return.
+	ABCHECK(CurrentCombo > 0);
+	// 재생중인 몽타주가 끝나면 IsAttacking 변수를 다시 false로 초기화.
 	IsAttacking = false;
 	// 몽타주가 끝나면 호출
 	AttackEndComboState();
+	// 몽타주 끝난거 Log 찍어주기
+	UE_LOG(LogTemp, Warning, TEXT("MontageEnded"));
 }
 
-// 공격이 시작할때 관련 속성 지정하는 함수
+// 공격이 시작할때 관련 속성 지정하는 함수. Combo 카운트를 증가시킴
 void ALostDarkCharacter::AttackStartComboState()
 {
-	// 다음 콤보로 갈수 있음.
+	// 다음 콤보로 넘어갈 수 있음.
 	CanNextCombo = true;
 	// 아직 콤보는 들어가지 않음. (최초)
 	IsComboInputOn = false;
+	// 만약 CurrentCombo가 0~2 값이 아니라면 빨간 오류 출력하고 반환
+	ABCHECK(FMath::IsWithinInclusive<int32>(CurrentCombo, 0, MaxCombo - 1));
 	/*
 		Clamp : 최소 최대값 제한 함수. (현재 값 , 최소, 최대) 작거나 최대값보다 크면, 해당값을 리턴함.
-		(1,3)이 최대임. CurrentCombo는 3에서는 증가가 안됨.
+		(1,3)이 최대임. CurrentCombo는 3에서는 증가가 안됨. 참고로 최초는 0이 들어와서 1이됨. 그래서 첫번째 콤보 애니메이션 1이 찍히는것임
 	*/
+	/// 실제 콤보 카운트가 증가하는 코드임.
 	CurrentCombo = FMath::Clamp<int32>(CurrentCombo + 1, 1, MaxCombo);
 }
 
