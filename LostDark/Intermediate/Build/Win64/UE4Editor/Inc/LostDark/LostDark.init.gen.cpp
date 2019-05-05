@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeLostDark_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/LostDark",
 				PKG_CompiledIn | 0x00000000,
-				0xA21207FA,
-				0x20E969B7,
+				0xA4F5D672,
+				0x12383841,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

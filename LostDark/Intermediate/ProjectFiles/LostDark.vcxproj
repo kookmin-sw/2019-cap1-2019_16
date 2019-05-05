@@ -499,6 +499,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\LostDark-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\LostDark\SH\SH_ItemBox.cpp" />
+    <ClInclude Include="..\..\Source\LostDark\SH\SH_ItemBox.h" />
     <None Include="..\..\LostDark.uproject" />
     <None Include="..\..\Source\LostDark.Target.cs" />
     <None Include="..\..\Source\LostDarkEditor.Target.cs" />

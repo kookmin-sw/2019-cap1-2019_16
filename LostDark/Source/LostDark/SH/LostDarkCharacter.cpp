@@ -101,17 +101,17 @@ ALostDarkCharacter::ALostDarkCharacter()
 void ALostDarkCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	FName WeaponSocket(TEXT("sword_bottom")); //이름은 실제 bone의 이름과 일치해야함.
-	// 무기 액터를 월드에 생성시킴.
-	auto CurrentWeapon = GetWorld()->SpawnActor<AGSWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
-	// 무기 액터가 생성됐다면
-	if (nullptr != CurrentWeapon)
-	{
-		// 생성된 무기액터를 자신의 메시에 FAttachmentTransformRules::SnapToTargetNotIncludingScale??? 로 하게, WeaponSocket에 위치한 bone에 부착한다.
-		/// 실제 부착하는 내용이라고 볼 수 있음.
-		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
-	}
+	/// 캐릭터가 생성되자마자 손에 무기를 가지게 되는 함수
+	//FName WeaponSocket(TEXT("sword_bottom")); //이름은 실제 bone의 이름과 일치해야함.
+	//// 무기 액터를 월드에 생성시킴.
+	//auto CurrentWeapon = GetWorld()->SpawnActor<AGSWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
+	//// 무기 액터가 생성됐다면
+	//if (nullptr != CurrentWeapon)
+	//{
+	//	// 생성된 무기액터를 자신의 메시에 FAttachmentTransformRules::SnapToTargetNotIncludingScale??? 로 하게, WeaponSocket에 위치한 bone에 부착한다.
+	//	/// 실제 부착하는 내용이라고 볼 수 있음.
+	//	CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+	//}
 }
 
 void ALostDarkCharacter::Tick(float DeltaTime)
@@ -203,6 +203,32 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 	}
 	// 최종적으로 받은 데미지를 반환한다
 	return FinalDamage;
+}
+
+// 현재 무기를 장착하고 있는지 확인하는 함수
+bool ALostDarkCharacter::CanSetWeapon()
+{
+	// 없으면 true, 무기가 있다면 false
+	return (nullptr==CurrentWeapon);
+}
+
+// 무기 장착함수
+void ALostDarkCharacter::SetWeapon(AGSWeapon * NewWeapon)
+{
+	// (무기 정보가 있고, 동시에 현재 무기가 없다면) 통과. 아니면 경고 로그로 찍고 return.
+	ABCHECK(nullptr != NewWeapon && nullptr == CurrentWeapon);
+	// 스켈레탈 메시의 Bone의 이름을 변수화시킴. 이름은 실제 bone의 이름과 일치해야함.
+	FName WeaponSocket(TEXT("sword_bottom"));
+	// 무기 클래스가 없지 않다면,
+	if (nullptr != NewWeapon)
+	{
+		// NewWeapon 무기에 해당하는걸 자신의 메시(GetMesh)에 FAttachmentTransformRules::SnapToTargetNotIncludingScale??? 로 하게, WeaponSocket에 위치한 bone에 부착한다.
+		NewWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+		// 무기의 소유자를 변경
+		NewWeapon->SetOwner(this);
+		// 현재 장착 무기를 등록
+		CurrentWeapon = NewWeapon;
+	}
 }
 
 // Input 설정 (일종의 Input을 위한 Tick함수)

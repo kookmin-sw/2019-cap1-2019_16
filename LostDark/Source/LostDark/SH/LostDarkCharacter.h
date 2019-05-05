@@ -132,6 +132,14 @@ public:
 	// AActor에 있는 TakeDamage함수를 추가 구현한다. 가상함수. 받는부분에 대한 로직을 여기서 구현함.
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
+	// 무기 장착여부 조사
+	bool CanSetWeapon();
+	// 무기를 장착하는 함수
+	void SetWeapon(class AGSWeapon* NewWeapon);
+	// 무기 클래스에 대한 전방선언
+	UPROPERTY(VisibleAnywhere, Category = Weapon)
+		class AGSWeapon* CurrentWeapon;
+
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
