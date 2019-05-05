@@ -513,8 +513,10 @@
     <ClCompile Include="..\..\Source\LostDark\SH\BackupGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\LostDark\SH\BackupGameModeBase.h" />
     <ClCompile Include="..\..\Source\LostDark\SH\GSAnimInstance.cpp" />
+    <ClCompile Include="..\..\Source\LostDark\SH\GSWeapon.cpp" />
     <ClCompile Include="..\..\Source\LostDark\SH\LostDark.cpp" />
     <ClInclude Include="..\..\Source\LostDark\SH\GSAnimInstance.h" />
+    <ClInclude Include="..\..\Source\LostDark\SH\GSWeapon.h" />
     <ClInclude Include="..\..\Source\LostDark\SH\LostDark.h" />
     <ClCompile Include="..\..\Source\LostDark\SH\LostDarkCharacter.cpp" />
     <ClInclude Include="..\..\Source\LostDark\SH\LostDarkCharacter.h" />

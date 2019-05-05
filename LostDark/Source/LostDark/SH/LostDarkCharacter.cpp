@@ -3,6 +3,7 @@
 #include "LostDarkCharacter.h"
 //#include "LostDarkPlayerController.h"
 #include "GSAnimInstance.h"
+#include "GSWeapon.h"
 #include "DrawDebugHelpers.h"
 
 ALostDarkCharacter::ALostDarkCharacter()
@@ -73,12 +74,44 @@ ALostDarkCharacter::ALostDarkCharacter()
 	AttackRange = 200.0f;
 	// 디버깅 캡슐 반지름 50cm
 	AttackRadius = 50.0f;
+
+	///* 부착할 무기 애셋 캐릭터 메시에 부착  */
+	//FName WeaponSocket(TEXT("sword_bottom")); //이름은 실제 bone의 이름과 일치해야함.
+	//// 해당 메시에 소켓이 존재한다면
+	//if (GetMesh()->DoesSocketExist(WeaponSocket))
+	//{
+	//	// 스켈레탈 메시 컴포넌트를 생성하고
+	//	Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Weapon"));
+	//	// 애셋 정보를 변수로 받고
+	//	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_WEAPON(TEXT(
+	//		"/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight"));
+	//	// 애셋 정보를 무사히 받아왔다면
+	//	if (SK_WEAPON.Succeeded())
+	//	{
+	//		// 스켈레탈 메시 컴포넌트에 해당 애셋 정보를 넘겨줌 (실제 부착)
+	//		Weapon->SetSkeletalMesh(SK_WEAPON.Object);
+	//	}
+	//	// 새로만든 컴포넌트를 자신의 메시에 적절한 위치에 상속시킴. 소켓 위치를 기준으로 트랜스폼이 자동으로 설정됨. (위치조절)
+	//	Weapon->SetupAttachment(GetMesh(), WeaponSocket);
+
+	//}
 }
 
 
 void ALostDarkCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	FName WeaponSocket(TEXT("sword_bottom")); //이름은 실제 bone의 이름과 일치해야함.
+	// 무기 액터를 월드에 생성시킴.
+	auto CurrentWeapon = GetWorld()->SpawnActor<AGSWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
+	// 무기 액터가 생성됐다면
+	if (nullptr != CurrentWeapon)
+	{
+		// 생성된 무기액터를 자신의 메시에 FAttachmentTransformRules::SnapToTargetNotIncludingScale??? 로 하게, WeaponSocket에 위치한 bone에 부착한다.
+		/// 실제 부착하는 내용이라고 볼 수 있음.
+		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+	}
 }
 
 void ALostDarkCharacter::Tick(float DeltaTime)

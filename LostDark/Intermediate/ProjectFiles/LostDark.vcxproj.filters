@@ -79,9 +79,15 @@
     <ClInclude Include="..\..\Source\LostDark\SH\GSAnimInstance.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\SH\GSWeapon.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\LostDark\SH\GSAnimInstance.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\SH\GSWeapon.cpp">
       <Filter>Source\LostDark\SH</Filter>
     </ClCompile>
   </ItemGroup>

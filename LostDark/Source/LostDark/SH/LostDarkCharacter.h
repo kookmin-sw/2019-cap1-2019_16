@@ -29,6 +29,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
 	
+	// 부착할 무기 애셋 변수
+	UPROPERTY(VisibleAnywhere, Category = Weapon)
+		USkeletalMeshComponent* Weapon;
 
 protected:
 	// Called when the game starts or when spawned
