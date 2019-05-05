@@ -14,7 +14,7 @@
 	컴파일 시간이 향상됨.
 	http://api.unrealengine.com/KOR/Programming/UnrealArchitecture/Reference/Classes/
 */
-UCLASS()
+UCLASS(minimalapi)
 class LOSTDARK_API ABackupGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()

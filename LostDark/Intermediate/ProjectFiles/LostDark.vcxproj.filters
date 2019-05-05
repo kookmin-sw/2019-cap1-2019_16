@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6058C7CB-F37A-41F5-A705-79F99C1242D0}</UniqueIdentifier>
+      <UniqueIdentifier>{017399E9-D3F2-4B63-9F38-BB7EE9C099DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1C476F7A-E453-4BF4-B65E-2C9FE406D5AD}</UniqueIdentifier>
+      <UniqueIdentifier>{1F3A6F76-AE7F-4494-BD2F-E47A8DAC9326}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,13 +30,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{2642A4D3-F9B1-4CE2-8D8B-3EF6466B2DE6}</UniqueIdentifier>
+      <UniqueIdentifier>{1BB99B5F-0CFC-406C-AE34-D4F6C15880A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs">
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\SH">
-      <UniqueIdentifier>{90A8CECD-F373-4560-B266-AC42E3C1826F}</UniqueIdentifier>
+      <UniqueIdentifier>{E7DF77AC-F168-4C62-9726-1624E1400156}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\SH\BackupCharacter.cpp">
       <Filter>Source\LostDark\SH</Filter>
@@ -54,6 +54,18 @@
       <Filter>Source\LostDark\SH</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LostDark\SH\GSAnimInstance.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LostDark\SH\GSCharacterStatComponent.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\GSCharacterStatComponent.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LostDark\SH\GSCharacterWidget.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\GSCharacterWidget.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\LostDark\SH\GSWeapon.cpp">
@@ -98,15 +110,5 @@
     <ClInclude Include="..\..\Source\LostDark\SH\SH_ItemBox.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\LostDark\SH\GSCharacterStatComponent.h">
-      <Filter>Source\LostDark\SH</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\LostDark\SH\GSCharacterStatComponent.cpp">
-      <Filter>Source\LostDark\SH</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

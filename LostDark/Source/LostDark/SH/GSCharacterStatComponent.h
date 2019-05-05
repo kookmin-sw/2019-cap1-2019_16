@@ -8,6 +8,7 @@
 
 // 멀리캐스트 델리게이트 선언
 DECLARE_MULTICAST_DELEGATE(FOnHPIsZeroDelegate);
+DECLARE_MULTICAST_DELEGATE(FOnHPChangeDelegate);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class LOSTDARK_API UGSCharacterStatComponent : public UActorComponent
@@ -32,11 +33,16 @@ public:
 	void SetNewLevel(int32 NewLevel);
 	// 캐릭터의 TakeDamage 함수에서 이를 호출해서 데미지 상호작용을 처리
 	void SetDamage(float NewDamage);
+	// HP 설정
+	void SetHP(float NewHP);
 	// 데미지 크기 반환
 	float GetAttack();
+	// 현재 HP 비율 반환
+	float GetHPRatio();
 
 	// 델리게이트 변수
 	FOnHPIsZeroDelegate OnHPIsZero;
+	FOnHPChangeDelegate OnHPChanged;
 
 private:
 	// 캐릭터 데이터 테이블 구조체 참조 변수

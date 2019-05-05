@@ -7,7 +7,12 @@
 // 스텟 정보
 #include "GSCharacterStatComponent.h"
 #include "DrawDebugHelpers.h"
+// UI 위젯 사용하기 위해 반드시 필요한 UMG 언리얼 엔진 헤더
+#include "Components/WidgetComponent.h"
+// 우리가 만든 위젯의 로직이 들어간 클래스
+#include "GSCharacterWidget.h"
 
+/// 생성자 Sets Default values
 ALostDarkCharacter::ALostDarkCharacter()
 {
 	// tick 함수 활성화
@@ -17,14 +22,18 @@ ALostDarkCharacter::ALostDarkCharacter()
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	// Camera 초기화 (기본세팅) 컴포넌트 생성
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-
 	// 캐릭터 스텟에 관한 컴포넌트 생성
 	CharacterStat = CreateDefaultSubobject<UGSCharacterStatComponent>(TEXT("CHARACTERSTAT"));
+	// UI 위젯 컴포넌트 생성
+	HPBarWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("HPBARWIDGET"));
+
 
 	// Boom 캡슐에 붙이기(상속)
 	CameraBoom->SetupAttachment(GetCapsuleComponent());
 	// Camera를 Boom에 붙이기(상속)
 	FollowCamera->SetupAttachment(CameraBoom);
+	// 메시에 위젯 컴포넌트를 부착한다.
+	HPBarWidget->SetupAttachment(GetMesh());
 
 	// 시점 쿼터뷰로 초기화 (카메라, SpringArm 설정)
 	SetControlMode(EControlMode::BackView);
@@ -98,8 +107,22 @@ ALostDarkCharacter::ALostDarkCharacter()
 	//	}
 	//	// 새로만든 컴포넌트를 자신의 메시에 적절한 위치에 상속시킴. 소켓 위치를 기준으로 트랜스폼이 자동으로 설정됨. (위치조절)
 	//	Weapon->SetupAttachment(GetMesh(), WeaponSocket);
-
 	//}
+	
+	/* HPBarWidget에 대한 내용 */
+	// 위젯 위치 Z축으로 180cm
+	HPBarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 180.0f));
+	// UI 위젯은 항상 플레이어를 향해 보도록 Screen 모드로 지정.
+	HPBarWidget->SetWidgetSpace(EWidgetSpace::Screen);
+	// 외부 애셋 정보 가져옴. 위젯은 Class단위이므로 반드시 _C를 붙여준다. (★실수주의)
+	static ConstructorHelpers::FClassFinder<UUserWidget> UI_HUD(TEXT("/Game/SH/UI/UI_HPBar.UI_HPBar_C"));
+	if (UI_HUD.Succeeded())
+	{
+		// 외부 위젯 클래스 정보를 등록 (우리가 만든 위젯 등록) => 실제로 화면에 그리는 함수이기도 함.
+		HPBarWidget->SetWidgetClass(UI_HUD.Class);
+		// 위젯의 크기를 조절해주는 함수. (가로=150cm , 세로=50cm)
+		HPBarWidget->SetDrawSize(FVector2D(150.0f, 50.0f));
+	}
 }
 
 
@@ -161,18 +184,18 @@ void ALostDarkCharacter::PostInitializeComponents()
 {
 	// 부모것 호출
 	Super::PostInitializeComponents();
+	UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents"));
 	// GS 애님인스턴스 정보 가져오기
 	GSAnim = Cast<UGSAnimInstance>(GetMesh()->GetAnimInstance());
 	// GS 애님인스턴스를 가져오지 못했다면 예외처리후 함수반환
 	ABCHECK(nullptr != GSAnim);
 	// 몽타주 재생이 끝나면, 자동으로 OnAttackMontageEnded 라는 함수를 호출하는것임. AnimInstance->OnMontageEnded는 이미 제공함.
 	GSAnim->OnMontageEnded.AddDynamic(this, &ALostDarkCharacter::OnAttackMontageEnded);
-	UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents, AddDynamic"));
 
 	// 노티파이 신호가 들어오면 일로 들어옴. void를 반환
 	GSAnim->OnNextAttackCheck.AddLambda([this]() -> void {
 		// OnNextAttackCheck 브로드캐스트가 발동됨을 Log로 찍음.
-		UE_LOG(LogTemp, Warning, TEXT("OnNextAttackCheck Lambda Called"));
+		//UE_LOG(LogTemp, Warning, TEXT("OnNextAttackCheck Lambda Called"));
 		//ABLOG(Warning, TEXT("OnNextAttackCheck"));
 		// 다음 콤보로 못가게 하고
 		CanNextCombo = false;
@@ -197,6 +220,18 @@ void ALostDarkCharacter::PostInitializeComponents()
 		// 현재 액터의 콜리전을 끔.
 		SetActorEnableCollision(false);
 	});
+
+	// 위젯 블루프린트 정보를 UserWidget 클래스 기반의 변수로 형변환
+	auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+	// CharacterWidget->BindCharacterStat(CharacterStat);
+	ABCHECK(nullptr != CharacterWidget);
+	ABLOG(Warning, TEXT("Hi222"));
+	if (nullptr != CharacterWidget)
+	{
+		ABLOG(Warning, TEXT("HI~~~~~~~"));
+		// 캐릭터의 PostInitializeComponents 함수에서 캐릭터 컴포넌트와 UI 위젯을 연결하는 함수.
+		CharacterWidget->BindCharacterStat(CharacterStat);
+	}
 }
 
 // 데미지 받는 로직을 구현하는 함수. AActor에 있는 로직을 추가 구현함.

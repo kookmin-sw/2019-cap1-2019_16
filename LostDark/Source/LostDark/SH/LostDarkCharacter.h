@@ -28,10 +28,15 @@ public:
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
-	
+
 	// 부착할 무기 애셋 변수
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 		USkeletalMeshComponent* Weapon;
+
+	// UI 위젯 전방선언. 액터에 UI 위젯을 부착할 수 있는 UWidgetComponent 클래스임.
+	UPROPERTY(VisibleAnywhere, Category = UI)
+		// 외부 위젯 블루프린트 클래스 정보를 담는 변수
+		class UWidgetComponent* HPBarWidget;
 
 protected:
 	// Called when the game starts or when spawned

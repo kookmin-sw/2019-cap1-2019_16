@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LOSTDARK_GSCharacterStatComponent_generated_h
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_RPC_WRAPPERS
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_INCLASS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_RPC_WRAPPERS
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGSCharacterStatComponent(); \
 	friend struct Z_Construct_UClass_UGSCharacterStatComponent_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UGSCharacterStatComponent)
 
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_INCLASS \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUGSCharacterStatComponent(); \
 	friend struct Z_Construct_UClass_UGSCharacterStatComponent_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UGSCharacterStatComponent)
 
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_STANDARD_CONSTRUCTORS \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGSCharacterStatComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGSCharacterStatComponent) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_ENHANCED_CONSTRUCTORS \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGSCharacterStatComponent(UGSCharacterStatComponent&&); \
@@ -57,30 +57,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGSCharacterStatComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGSCharacterStatComponent)
 
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_PRIVATE_PROPERTY_OFFSET \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Level() { return STRUCT_OFFSET(UGSCharacterStatComponent, Level); } \
 	FORCEINLINE static uint32 __PPO__CurrentHP() { return STRUCT_OFFSET(UGSCharacterStatComponent, CurrentHP); }
 
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_12_PROLOG
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_GENERATED_BODY_LEGACY \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_13_PROLOG
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_RPC_WRAPPERS \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_INCLASS \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_STANDARD_CONSTRUCTORS \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_RPC_WRAPPERS \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_INCLASS \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_GENERATED_BODY \
+#define LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_INCLASS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_15_ENHANCED_CONSTRUCTORS \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_INCLASS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_SH_GSCharacterStatComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
