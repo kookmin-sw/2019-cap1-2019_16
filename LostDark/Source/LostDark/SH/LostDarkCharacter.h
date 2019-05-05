@@ -140,6 +140,10 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Weapon)
 		class AGSWeapon* CurrentWeapon;
 
+	// 캐릭터 스텟 컴포넌트 전방선언
+	UPROPERTY(VisibleAnywhere, Category = Stat)
+		class UGSCharacterStatComponent* CharacterStat;
+
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/

@@ -4,6 +4,8 @@
 //#include "LostDarkPlayerController.h"
 #include "GSAnimInstance.h"
 #include "GSWeapon.h"
+// 스텟 정보
+#include "GSCharacterStatComponent.h"
 #include "DrawDebugHelpers.h"
 
 ALostDarkCharacter::ALostDarkCharacter()
@@ -11,10 +13,13 @@ ALostDarkCharacter::ALostDarkCharacter()
 	// tick 함수 활성화
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Boom(=SpingArm) 초기화 (기본세팅)
+	// Boom(=SpingArm) 초기화 (기본세팅) 컴포넌트 생성
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	// Camera 초기화 (기본세팅)
+	// Camera 초기화 (기본세팅) 컴포넌트 생성
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+
+	// 캐릭터 스텟에 관한 컴포넌트 생성
+	CharacterStat = CreateDefaultSubobject<UGSCharacterStatComponent>(TEXT("CHARACTERSTAT"));
 
 	// Boom 캡슐에 붙이기(상속)
 	CameraBoom->SetupAttachment(GetCapsuleComponent());
@@ -183,6 +188,15 @@ void ALostDarkCharacter::PostInitializeComponents()
 	});
 	// OnAttackHitCheck 노티파이에서 브로드캐스트가 들어오면, 2번째 인자에 해당하는 함수를 호출함(=AttackCheck)
 	GSAnim->OnAttackHitCheck.AddUObject(this, &ALostDarkCharacter::AttackCheck);
+
+	// GSCharacterStatComponent의 OnHPIsZero 델리게이트가 브로드캐스트 하면 호출되는 람다함수. HP가 0이하로 떨어지면 호출함.
+	CharacterStat->OnHPIsZero.AddLambda([this]()->void {
+		ABLOG(Warning, TEXT("OnHP Is Zero"));
+		// 죽는 애니메이션 작동
+		GSAnim->SetDeadAnim();
+		// 현재 액터의 콜리전을 끔.
+		SetActorEnableCollision(false);
+	});
 }
 
 // 데미지 받는 로직을 구현하는 함수. AActor에 있는 로직을 추가 구현함.
@@ -193,6 +207,7 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 	// 데미지를 받아서 데미지 프레임워크가 발동한 폰의 이름과, 결과적으로 받은 총 데미지 크기를 LOG로 출력함.
 	ABLOG(Warning, TEXT("Actor : %s took Damage : %f"), *GetName(), FinalDamage);
 
+	/*
 	// 들어온 데미지가 0보다 크다면
 	if (FinalDamage > 0.0f)
 	{
@@ -201,6 +216,11 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 		// 현재 자신의 액터 콜리전을 끈다.
 		SetActorEnableCollision(false);
 	}
+	*/
+	
+	// 캐릭터스텟 (액터 컴포넌트)에 있는 SetDamage를 호출함. 데미지 받은 데이터를 그쪽으로 넘겨줌. 참고로 거기서 상호작용 끝내고 반대로 반환함.
+	CharacterStat->SetDamage(FinalDamage);
+
 	// 최종적으로 받은 데미지를 반환한다
 	return FinalDamage;
 }
@@ -424,7 +444,8 @@ void ALostDarkCharacter::AttackCheck()
 			// 언리얼에서 제공하는 데미지 프레임워크 구조체 변수 선언. (데미지 종류중 기본값인듯)
 			FDamageEvent DamageEvent;
 			// 충돌한 물체에 데미지 프레임워크를 발동함. (전달할 데미지 세기, 데미지 종류, 공격명령을 내린 가해자(컨트롤러), 제미지 전달을 위해 사용한 도구(폰))
-			HitResult.Actor->TakeDamage(50.0f, DamageEvent, GetController(), this);
+			HitResult.Actor->TakeDamage(CharacterStat->GetAttack(), DamageEvent, GetController(), this);
+			/// 캐릭터 스텟 테이블에 있는 변수를 참조해서 공격력을 넘김GetAttack()
 		}
 	}
 }

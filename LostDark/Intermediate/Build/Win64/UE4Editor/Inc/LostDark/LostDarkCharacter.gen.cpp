@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_LostDark();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	LOSTDARK_API UClass* Z_Construct_UClass_UGSCharacterStatComponent_NoRegister();
 	LOSTDARK_API UClass* Z_Construct_UClass_AGSWeapon_NoRegister();
 	LOSTDARK_API UClass* Z_Construct_UClass_UGSAnimInstance_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
@@ -86,6 +87,10 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterStat_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CharacterStat;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWeapon_MetaData[];
 #endif
@@ -156,6 +161,15 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		{ "ToolTip", "\xc5\xac???? ?????? : Config = ConfigName\n?? \xc5\xac?????? \xc8\xaf?\xe6\xbc\xb3??(.ini)???\xcf\xbf? ?????\xcd\xb8? ?????? ?? ?????? ??\xc5\xb8????.\n?? ?????\xda\xb4? ?? ??????\xc6\xbc?? ?\xd8\xb4? ?\xcc\xb8??? \xc8\xaf?\xe6\xbc\xb3?? ???\xcf\xbf? ?????\xcf\xb5??? ?\xd1\xb4?.\n???? ?\xda\xbd? \xc5\xac?????? ???\xc4\xb5\xc7\xb8?, ?\xda\xbd? \xc5\xac???????? \xc8\xaf?\xe6\xbc\xb3?? ?????? ?\xd9\xb2? ?? ?\xd6\xb4?." },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat_MetaData[] = {
+		{ "Category", "Stat" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
+		{ "ToolTip", "\xc4\xb3???? ???? ??????\xc6\xae ???\xe6\xbc\xb1??" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat = { UE4CodeGen_Private::EPropertyClass::Object, "CharacterStat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, CharacterStat), Z_Construct_UClass_UGSCharacterStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon_MetaData[] = {
 		{ "Category", "Weapon" },
@@ -275,6 +289,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CameraBoom = { UE4CodeGen_Private::EPropertyClass::Object, "CameraBoom", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALostDarkCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange,
@@ -311,7 +326,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 2271761362);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 2826365097);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
