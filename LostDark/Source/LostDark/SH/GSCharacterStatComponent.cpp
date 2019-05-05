@@ -29,10 +29,11 @@ void UGSCharacterStatComponent::BeginPlay()
 	
 }
 
+// PostInitializeComponent보다 먼저 불리어지는 함수. (※생성자보다는 당연히 느림.)
 void UGSCharacterStatComponent::InitializeComponent()
 {
 	Super::InitializeComponent();
-	SetNewLevel(Level); // Level 1이 들어감.
+	SetNewLevel(Level); // Level 1이 들어감 (생성자에서 초기화)
 }
 
 
@@ -44,21 +45,21 @@ void UGSCharacterStatComponent::TickComponent(float DeltaTime, ELevelTick TickTy
 	// ...
 }
 
-// 새로운 레벨을 설정할때
+// 게임이 최초에 시작됐을때(InitializeComponent) or 새로운 레벨을 설정할때
 void UGSCharacterStatComponent::SetNewLevel(int32 NewLevel)
 {
-	// 현재 프로젝트 설정에 넣어진 게임 인스턴스를 변수로 초기화.
+	// 현재 프로젝트 설정에 넣어진 게임 인스턴스를 변수로 가져와 할당. (스탯정보가 담긴 클래스)
 	auto LDGameInstance = Cast<ULDGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
-
-	// 혹시 설정된 게임인스터스가 없다면 (None) 예외처리
+	// 혹시 월드에 설정된 게임인스터스가 없다면 (None) 예외처리
 	ABCHECK(nullptr != LDGameInstance);
-	// Level에 해당하는 테이블 데이터 전부 구조체 변수로 가져옴.
+
+	// NewLevel에 해당하는 테이블 행(Row) 데이터 전부 구조체 변수로 가져옴. (실제 스탯 정보는 구조체에 있음)
 	CurrentStatData = LDGameInstance->GetGSCharacterData(NewLevel);
-	ABLOG(Warning, TEXT("CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp"));
+	ABLOG(Warning, TEXT("Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp")); ///디버깅용 코드
 	if (nullptr != CurrentStatData)
 	{
 		// 레벨 변경
-		Level = NewLevel;
+		Level = NewLevel; /// 최초에는 Level = Level이 됨.
 		// 현재 HP를 최대 HP값으로 설정
 		SetHP(CurrentStatData->MaxHP);
 		// 현재 HP, 다음 레벨에 해당하는 HP로 변경
@@ -71,7 +72,7 @@ void UGSCharacterStatComponent::SetNewLevel(int32 NewLevel)
 	}
 }
 
-// 데미지 상호작용 및 브로드캐스트(델리게이트)
+// 데미지 상호작용 및 브로드캐스트(델리게이트) (TakeDamage처리할때 호출함)
 void UGSCharacterStatComponent::SetDamage(float NewDamage)
 {
 	// 현재 캐릭터 데이터 테이블을 가지고 있지 않다면 예외처리
@@ -94,15 +95,14 @@ void UGSCharacterStatComponent::SetHP(float NewHP)
 	// 현재 HP를 새롭게 설정
 	CurrentHP = NewHP;
 	// HP가 변한것을 브로드 캐스트
-	ABLOG(Warning, TEXT("BroadCast ~~"));
-	OnHPChanged.Broadcast();
-	ABLOG(Warning, TEXT("after BroadCast"));
+	OnHPChanged.Broadcast(); /// GSCharacterWidget.cpp에 Lambda 함수로 구현되어 있음. /// 처음 브로드 캐스트는 아무 효과없음. 받으려고 등록된 함수가 없기때문.
 	// KINAD_SMALL_NUMBER : 무시 가능한 오차를 측정하도록 사용하는 float의 0값에 가까운 숫자.
-	if (CurrentHP <= KINDA_SMALL_NUMBER)
+	if (CurrentHP < KINDA_SMALL_NUMBER)
 	{
+		// 현재 HP를 0으로 재설정
 		CurrentHP = 0.0f;
-		// HP가 0이하로 떨어지면 브로드캐스트
-		OnHPIsZero.Broadcast();
+		// HP가 0이하로 떨어지면 브로드캐스트 (사망상태로)
+		OnHPIsZero.Broadcast(); /// LostDarkCharacter에 Lambda 함수로 구현되어있음.
 	}
 }
 
@@ -122,5 +122,5 @@ float UGSCharacterStatComponent::GetHPRatio()
 	ABCHECK(nullptr != CurrentStatData, 0.0f);
 
 	// 0에 가까운 숫자면 0을 반환하고, 그게 아니면 현재 HP를 전체 HP
-	return (CurrentStatData->MaxHP < KINDA_SMALL_NUMBER) ? 0.0f : (CurrentHP / CurrentStatData->MaxHP);
+	return ((CurrentStatData->MaxHP < KINDA_SMALL_NUMBER) ? 0.0f : (CurrentHP / CurrentStatData->MaxHP));
 }

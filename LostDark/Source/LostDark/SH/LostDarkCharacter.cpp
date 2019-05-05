@@ -12,6 +12,7 @@
 // 우리가 만든 위젯의 로직이 들어간 클래스
 #include "GSCharacterWidget.h"
 
+
 /// 생성자 Sets Default values
 ALostDarkCharacter::ALostDarkCharacter()
 {
@@ -140,6 +141,21 @@ void ALostDarkCharacter::BeginPlay()
 	//	/// 실제 부착하는 내용이라고 볼 수 있음.
 	//	CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
 	//}
+
+
+
+	/* ★★★ Changed in 4.21. copied from PostInitializeComponents() ㅠㅠ  */
+
+	// 위젯에 설정된 부모 UserWidget 정보를 넘겨줌. /// 여기서 자꾸 null처리됨.
+	auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+	/// 내가 임시로 추가한것. 여기서 에러뜸. (이걸 제대로 받아오지 못하고 있음)
+	ABCHECK(nullptr != CharacterWidget);
+
+	if (nullptr != CharacterWidget)
+	{
+		// 캐릭터의 PostInitializeComponents 함수에서 캐릭터 컴포넌트와 UI 위젯을 연결하는 함수.
+		CharacterWidget->BindCharacterStat(CharacterStat);
+	}
 }
 
 void ALostDarkCharacter::Tick(float DeltaTime)
@@ -184,7 +200,7 @@ void ALostDarkCharacter::PostInitializeComponents()
 {
 	// 부모것 호출
 	Super::PostInitializeComponents();
-	UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents"));
+	/*UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents Start !!! to LostDarkCharacter.cpp"));*/
 	// GS 애님인스턴스 정보 가져오기
 	GSAnim = Cast<UGSAnimInstance>(GetMesh()->GetAnimInstance());
 	// GS 애님인스턴스를 가져오지 못했다면 예외처리후 함수반환
@@ -196,7 +212,7 @@ void ALostDarkCharacter::PostInitializeComponents()
 	GSAnim->OnNextAttackCheck.AddLambda([this]() -> void {
 		// OnNextAttackCheck 브로드캐스트가 발동됨을 Log로 찍음.
 		//UE_LOG(LogTemp, Warning, TEXT("OnNextAttackCheck Lambda Called"));
-		//ABLOG(Warning, TEXT("OnNextAttackCheck"));
+		ABLOG(Warning, TEXT("OnNextAttackCheck"));
 		// 다음 콤보로 못가게 하고
 		CanNextCombo = false;
 		// 콤보 입력이 들어왔다면 // NextAttackCheck 노티파이 브로드캐스트 이전까지 공격이 2번이상 눌렸다면
@@ -214,24 +230,24 @@ void ALostDarkCharacter::PostInitializeComponents()
 
 	// GSCharacterStatComponent의 OnHPIsZero 델리게이트가 브로드캐스트 하면 호출되는 람다함수. HP가 0이하로 떨어지면 호출함.
 	CharacterStat->OnHPIsZero.AddLambda([this]()->void {
-		ABLOG(Warning, TEXT("OnHP Is Zero"));
+		ABLOG(Warning, TEXT("@@ HP Is Zero"));
 		// 죽는 애니메이션 작동
 		GSAnim->SetDeadAnim();
 		// 현재 액터의 콜리전을 끔.
 		SetActorEnableCollision(false);
 	});
 
-	// 위젯 블루프린트 정보를 UserWidget 클래스 기반의 변수로 형변환
-	auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
-	// CharacterWidget->BindCharacterStat(CharacterStat);
-	ABCHECK(nullptr != CharacterWidget);
-	ABLOG(Warning, TEXT("Hi222"));
-	if (nullptr != CharacterWidget)
-	{
-		ABLOG(Warning, TEXT("HI~~~~~~~"));
-		// 캐릭터의 PostInitializeComponents 함수에서 캐릭터 컴포넌트와 UI 위젯을 연결하는 함수.
-		CharacterWidget->BindCharacterStat(CharacterStat);
-	}
+	//// 위젯에 설정된 부모 UserWidget 정보를 넘겨줌. /// 여기서 자꾸 null처리됨.
+	//auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+	///// 내가 임시로 추가한것. 여기서 에러뜸. (이걸 제대로 받아오지 못하고 있음)
+	//ABCHECK(nullptr != CharacterWidget);
+
+	//if (nullptr != CharacterWidget)
+	//{
+	//	ABLOG(Warning, TEXT("Success!!!!!!!!!!!!!!!!!! :("));
+	//	// 캐릭터의 PostInitializeComponents 함수에서 캐릭터 컴포넌트와 UI 위젯을 연결하는 함수.
+	//	CharacterWidget->BindCharacterStat(CharacterStat);
+	//}
 }
 
 // 데미지 받는 로직을 구현하는 함수. AActor에 있는 로직을 추가 구현함.

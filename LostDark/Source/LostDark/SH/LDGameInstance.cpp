@@ -23,6 +23,7 @@ void ULDGameInstance::Init()
 	//ABLOG(Warning,TEXT("DropExp of Level 20 GSCharacter : %d"), GetGSCharacterData(20)->DropExp);
 }
 
+// 실제 스탯 데이터가 저장된 구조체를 반환해주는 함수.
 FGSCharacterData * ULDGameInstance::GetGSCharacterData(int32 Level)
 {
 	// 실제로 테이블에서 찾는 함수

@@ -507,11 +507,11 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\LostDark\BackupCharacter.cpp"/>
+    <ClInclude Include="..\..\Source\LostDark\BackupCharacter.h"/>
+    <ClCompile Include="..\..\Source\LostDark\BackupGameModeBase.cpp"/>
+    <ClInclude Include="..\..\Source\LostDark\BackupGameModeBase.h"/>
     <None Include="..\..\Source\LostDark\LostDark.Build.cs"/>
-    <ClCompile Include="..\..\Source\LostDark\SH\BackupCharacter.cpp"/>
-    <ClInclude Include="..\..\Source\LostDark\SH\BackupCharacter.h"/>
-    <ClCompile Include="..\..\Source\LostDark\SH\BackupGameModeBase.cpp"/>
-    <ClInclude Include="..\..\Source\LostDark\SH\BackupGameModeBase.h"/>
     <ClCompile Include="..\..\Source\LostDark\SH\GSAnimInstance.cpp"/>
     <ClInclude Include="..\..\Source\LostDark\SH\GSAnimInstance.h"/>
     <ClCompile Include="..\..\Source\LostDark\SH\GSCharacterStatComponent.cpp"/>

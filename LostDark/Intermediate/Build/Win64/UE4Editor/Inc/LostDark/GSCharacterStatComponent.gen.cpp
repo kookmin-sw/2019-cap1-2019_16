@@ -53,6 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		{ "ClassGroupNames", "Custom" },
 		{ "IncludePath", "SH/GSCharacterStatComponent.h" },
 		{ "ModuleRelativePath", "SH/GSCharacterStatComponent.h" },
+		{ "ToolTip", "UI ?????? ???? ????????\xc6\xae(->GSCharacterWidget)" },
 	};
 #endif
 #if WITH_METADATA
@@ -99,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSCharacterStatComponent, 3553334113);
+	IMPLEMENT_CLASS(UGSCharacterStatComponent, 4145942583);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSCharacterStatComponent(Z_Construct_UClass_UGSCharacterStatComponent, &UGSCharacterStatComponent::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSCharacterStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCharacterStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

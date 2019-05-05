@@ -7,8 +7,8 @@
 #include "GSCharacterStatComponent.generated.h"
 
 // 멀리캐스트 델리게이트 선언
-DECLARE_MULTICAST_DELEGATE(FOnHPIsZeroDelegate);
-DECLARE_MULTICAST_DELEGATE(FOnHPChangeDelegate);
+DECLARE_MULTICAST_DELEGATE(FOnHPIsZeroDelegate); // Dead 판정을 위한 델리게이트
+DECLARE_MULTICAST_DELEGATE(FOnHPChangeDelegate); // UI 위젯을 위한 델리게이트(->GSCharacterWidget)
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class LOSTDARK_API UGSCharacterStatComponent : public UActorComponent

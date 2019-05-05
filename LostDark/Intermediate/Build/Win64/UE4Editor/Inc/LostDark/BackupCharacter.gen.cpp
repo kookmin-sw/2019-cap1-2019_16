@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/BackupCharacter.h"
+#include "LostDark/BackupCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -60,14 +60,14 @@ void EmptyLinkFunctionForGeneratedCodeBackupCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABackupCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "SH/BackupCharacter.h" },
-		{ "ModuleRelativePath", "SH/BackupCharacter.h" },
+		{ "IncludePath", "BackupCharacter.h" },
+		{ "ModuleRelativePath", "BackupCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABackupCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "SH/BackupCharacter.h" },
+		{ "ModuleRelativePath", "BackupCharacter.h" },
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
 	};
 #endif
@@ -75,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeBackupCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABackupCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "SH/BackupCharacter.h" },
+		{ "ModuleRelativePath", "BackupCharacter.h" },
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
 	};
 #endif
@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeBackupCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "SH/BackupCharacter.h" },
+		{ "ModuleRelativePath", "BackupCharacter.h" },
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeBackupCharacter() {}
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "SH/BackupCharacter.h" },
+		{ "ModuleRelativePath", "BackupCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
@@ -129,7 +129,7 @@ void EmptyLinkFunctionForGeneratedCodeBackupCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABackupCharacter, 3436660740);
+	IMPLEMENT_CLASS(ABackupCharacter, 1215715621);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABackupCharacter(Z_Construct_UClass_ABackupCharacter, &ABackupCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ABackupCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABackupCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
