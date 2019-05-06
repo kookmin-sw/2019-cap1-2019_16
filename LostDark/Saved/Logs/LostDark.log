@@ -850,3 +850,60 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.06-16.38.05:428][ 44]LogSavePackage: Moving 'E:/LD/LostDark/Saved/GameHUD000E032B49CD086BB32E8DB51403EE2B.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset'
 [2019.05.06-16.38.05:435][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
 [2019.05.06-16.38.05:511][ 44]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DodgeBLprint1AAC327A4560CC5F2FCB7FB3C968B8F3.tmp' to 'E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
+[2019.05.06-16.38.45:171][363]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/JK/Inventory/InventorySlot.InventorySlot
+[2019.05.06-16.41.38:922][955]BlueprintLog: New page: InventorySlot 컴파일
+[2019.05.06-16.42.22:167][896]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.42.35:728][704]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.42.51:072][652]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.43.04:743][519]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.44.27:146][767]BlueprintLog: New page: InventorySlot 컴파일
+[2019.05.06-16.45.55:695][381]BlueprintLog: New page: InventorySlot 컴파일
+[2019.05.06-16.46.57:690][917]BlueprintLog: New page: InventorySlot 컴파일
+[2019.05.06-16.48.21:113][347]BlueprintLog: New page: InventorySlot 컴파일
+[2019.05.06-16.48.21:611][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/InventorySlot" FILE="E:/LD/LostDark/Content/JK/Inventory/InventorySlot.uasset" SILENT=true
+[2019.05.06-16.48.21:646][383]LogSavePackage: Moving 'E:/LD/LostDark/Saved/InventorySlot59969B494DD55721A88C06885D282CFF.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/InventorySlot.uasset'
+[2019.05.06-16.48.32:881][234]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.49.00:622][863]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.50.31:102][264]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.036
+[2019.05.06-16.50.31:104][264]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/JK/Inventory/GameHUD] ([1] browsable assets)...
+[2019.05.06-16.50.31:104][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/Inventory/GameHUD]
+[2019.05.06-16.50.31:104][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/GameHUD" FILE="E:/LD/LostDark/Saved/Autosaves/Game/JK/Inventory/GameHUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.05.06-16.50.31:141][264]LogSavePackage: Moving 'E:/LD/LostDark/Saved/GameHUD_Auto211093FF14D1230B2528FE5BB60DDF101.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/JK/Inventory/GameHUD_Auto2.uasset'
+[2019.05.06-16.50.31:141][264]LogFileHelpers: Auto-saving content packages took 0.038
+[2019.05.06-16.50.44:002][ 36]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_12.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.44:002][ 36]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_13.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.44:002][ 36]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_14.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.44:002][ 36]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_15.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.44:002][ 36]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0.UniformGridSlot_0) from referencer (InventorySlot_C /Engine/UMG/Editor/Transient.Slot_0).  Import failed...
+[2019.05.06-16.50.44:002][ 36]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'"UniformGridPanel_0.UniformGridSlot_0"''
+[2019.05.06-16.50.46:368][173]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_12.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.46:368][173]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_13.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.46:368][173]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_14.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.46:368][173]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_15.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.46:368][173]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_16.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.46:368][173]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0.UniformGridSlot_0) from referencer (InventorySlot_C /Engine/UMG/Editor/Transient.Slot_0).  Import failed...
+[2019.05.06-16.50.46:368][173]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'"UniformGridPanel_0.UniformGridSlot_0"''
+[2019.05.06-16.50.48:540][293]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_12.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.48:540][293]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_13.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.48:540][293]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_14.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.48:540][293]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_15.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.48:540][293]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_16.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.48:540][293]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_17.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.48:540][293]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0.UniformGridSlot_0) from referencer (InventorySlot_C /Engine/UMG/Editor/Transient.Slot_0).  Import failed...
+[2019.05.06-16.50.48:540][293]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'"UniformGridPanel_0.UniformGridSlot_0"''
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_12.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_13.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_14.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_15.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_16.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_17.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogUObjectHash: Warning: Ambiguous search, could be UniformGridPanel /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0 or UniformGridPanel /Engine/Transient.World_9:GameHUD_C_18.WidgetTree_0.UniformGridPanel_0
+[2019.05.06-16.50.49:061][318]LogProperty: Warning: Illegal TEXT reference to a private object in external package (UniformGridSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.UniformGridPanel_0.UniformGridSlot_0) from referencer (InventorySlot_C /Engine/UMG/Editor/Transient.Slot_0).  Import failed...
+[2019.05.06-16.50.49:061][318]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'UniformGridSlot'"UniformGridPanel_0.UniformGridSlot_0"''
+[2019.05.06-16.52.54:538][422]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.53.31:927][613]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.53.54:383][541]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.54.25:021][442]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.54.33:711][733]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-16.54.33:727][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/GameHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset" SILENT=true
+[2019.05.06-16.54.33:765][733]LogSavePackage: Moving 'E:/LD/LostDark/Saved/GameHUD204230DA49DBFD82DCAB4AAE365AC9E3.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset'
