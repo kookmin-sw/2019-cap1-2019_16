@@ -1447,3 +1447,53 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.06-17.18.59:482][281]LogSlate: Window '콘텐츠 저장' being destroyed
 [2019.05.06-17.18.59:499][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/GameHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset" SILENT=true
 [2019.05.06-17.18.59:602][281]LogSavePackage: Moving 'E:/LD/LostDark/Saved/GameHUD756C8B25460CE24EAAE016B352363387.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset'
+[2019.05.06-17.20.57:060][219]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/JK/Inventory/PickupText.PickupText
+[2019.05.06-17.21.56:703][959]BlueprintLog: New page: PickupText 컴파일
+[2019.05.06-17.22.37:190][290]BlueprintLog: New page: PickupText 컴파일
+[2019.05.06-17.22.37:448][306]BlueprintLog: New page: PickupText 컴파일
+[2019.05.06-17.25.50:260][892]BlueprintLog: New page: PickupText 컴파일
+[2019.05.06-17.25.57:796][531]LogSlate: Window 'GameHUD' being destroyed
+[2019.05.06-17.25.57:801][531]LogSlate: Window 'GameHUD' being destroyed
+[2019.05.06-17.26.12:238][782]LogSlate: Window '부모 클래스 선택' being destroyed
+[2019.05.06-17.26.32:154][949]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/JK/Inventory/TemplatePickup.TemplatePickup
+[2019.05.06-17.26.32:605][949]LogRenderer: Reallocating scene render targets to support 996x688 Format 10 NumSamples 1 (Frame:1).
+[2019.05.06-17.28.44:331][582]LogStaticMesh: Wall_Upper_Decor_03 스태틱 메시 빌드중...
+[2019.05.06-17.28.44:356][582]LogStaticMesh: Built static mesh [0.03s] /Game/MultistoryDungeons/Meshes/FP_Update/Wall_Upper_Decor_03.Wall_Upper_Decor_03
+[2019.05.06-17.28.53:743][  4]LogStaticMesh: Column_Low_Special_01 스태틱 메시 빌드중...
+[2019.05.06-17.28.53:757][  4]LogStaticMesh: Built static mesh [0.01s] /Game/MultistoryDungeons/Meshes/FP_Update/Column_Low_Special_01.Column_Low_Special_01
+[2019.05.06-17.30.18:886][214]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-17.30.24:749][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/TemplatePickup" FILE="E:/LD/LostDark/Content/JK/Inventory/TemplatePickup.uasset" SILENT=true
+[2019.05.06-17.30.24:777][552]LogSavePackage: Moving 'E:/LD/LostDark/Saved/TemplatePickup5BD7D5324C5C5949071BF889BCAA3DEC.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/TemplatePickup.uasset'
+[2019.05.06-17.31.15:553][743]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-17.33.49:570][150]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-17.34.29:920][573]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.06-17.37.23:446][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.040
+[2019.05.06-17.37.23:448][132]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/JK/Inventory/PickupText] ([1] browsable assets)...
+[2019.05.06-17.37.23:448][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/Inventory/PickupText]
+[2019.05.06-17.37.23:448][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/PickupText" FILE="E:/LD/LostDark/Saved/Autosaves/Game/JK/Inventory/PickupText_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.05.06-17.37.23:482][132]LogSavePackage: Moving 'E:/LD/LostDark/Saved/PickupText_Auto40C4780DC42800FF724D6DF92F2850DFA.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/JK/Inventory/PickupText_Auto4.uasset'
+[2019.05.06-17.37.23:484][132]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JK/Inventory/TemplatePickup] ([1] browsable assets)...
+[2019.05.06-17.37.23:502][132]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JK/Inventory/TemplatePickup.TemplatePickup]
+[2019.05.06-17.37.23:502][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/Inventory/TemplatePickup]
+[2019.05.06-17.37.23:502][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/TemplatePickup" FILE="E:/LD/LostDark/Saved/Autosaves/Game/JK/Inventory/TemplatePickup_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.05.06-17.37.23:555][132]LogSavePackage: Moving 'E:/LD/LostDark/Saved/TemplatePickup_Auto45748265F43161D5619B5F8A66B8C6271.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/JK/Inventory/TemplatePickup_Auto4.uasset'
+[2019.05.06-17.37.23:556][132]LogFileHelpers: Auto-saving content packages took 0.110
+[2019.05.06-17.37.56:941][842]LogSlate: Window '변수 유형 변경' being destroyed
+[2019.05.06-17.38.32:053][673]LogEditorTransaction: Undo 변수로 승격
+[2019.05.06-17.38.32:398][692]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2019.05.06-17.38.33:428][765]LogEditorTransaction: Undo 변수 유형 변경
+[2019.05.06-17.38.46:673][708]LogSlate: Window '변수 유형 변경' being destroyed
+[2019.05.06-17.41.27:299][132]Cmd: TRANSACTION UNDO
+[2019.05.06-17.41.27:299][132]LogEditorTransaction: Undo 변수 추가
+[2019.05.06-17.44.15:881][670]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-17.44.18:730][834]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.06-17.44.28:165][510]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-17.45.05:490][187]LogEditorTransaction: Undo 노드 추가
+[2019.05.06-17.48.15:359][662]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-17.48.16:064][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/TemplatePickup" FILE="E:/LD/LostDark/Content/JK/Inventory/TemplatePickup.uasset" SILENT=true
+[2019.05.06-17.48.16:147][686]LogSavePackage: Moving 'E:/LD/LostDark/Saved/TemplatePickup8B9D91E34513DF9042FC4DBD504342D4.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/TemplatePickup.uasset'
+[2019.05.06-17.48.25:028][104]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2019.05.06-17.48.25:035][104]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2019.05.06-17.48.28:564][260]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-17.48.28:581][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/PickupText" FILE="E:/LD/LostDark/Content/JK/Inventory/PickupText.uasset" SILENT=true
+[2019.05.06-17.48.28:623][260]LogSavePackage: Moving 'E:/LD/LostDark/Saved/PickupText09F26C3742765EDFF8FE4FAAE4D04F00.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/PickupText.uasset'
