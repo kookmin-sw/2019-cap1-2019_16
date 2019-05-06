@@ -691,3 +691,162 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.06-16.19.20:366][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/InventoryStruct" FILE="E:/LD/LostDark/Content/JK/Inventory/InventoryStruct.uasset" SILENT=true
 [2019.05.06-16.19.20:379][863]LogSavePackage: Moving 'E:/LD/LostDark/Saved/InventoryStructC0A8183C4958815E9786B4B66403B9D8.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/InventoryStruct.uasset'
 [2019.05.06-16.19.24:053][204]LogSlate: Window 'InventoryStruct' being destroyed
+[2019.05.06-16.20.57:130][725]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/JK/Inventory/GameHUD.GameHUD
+[2019.05.06-16.21.57:868][850]LogSlate: Took 0.014933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.05.06-16.22.00:265][ 12]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:GameHUD_C_2.WidgetTree_0.HorizontalBox_0
+[2019.05.06-16.22.00:265][ 12]LogUObjectHash: Warning: Ambiguous search, could be HorizontalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.HorizontalBox_0 or HorizontalBox /Engine/Transient.World_4:GameHUD_C_3.WidgetTree_0.HorizontalBox_0
+[2019.05.06-16.22.00:265][ 12]LogProperty: Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0) from referencer (VerticalBox /Engine/UMG/Editor/Transient.VerticalBox_0).  Import failed...
+[2019.05.06-16.22.00:265][ 12]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'"HorizontalBox_0.HorizontalBoxSlot_0"''
+[2019.05.06-16.22.23:751][426]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_3.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.23:751][426]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_4.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.23:751][426]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_5.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.23:751][426]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_6.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.23:751][426]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0.VerticalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2019.05.06-16.22.23:751][426]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_0"''
+[2019.05.06-16.22.24:147][446]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_3.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.24:147][446]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_4.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.24:147][446]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_5.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.24:147][446]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_6.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.24:147][446]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_4:GameHUD_C_7.WidgetTree_0.VerticalBox_0
+[2019.05.06-16.22.24:147][446]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_0.VerticalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_0).  Import failed...
+[2019.05.06-16.22.24:147][446]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_0.VerticalBoxSlot_0"''
+[2019.05.06-16.22.50:951][ 81]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_4.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.50:951][ 81]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_5.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.50:951][ 81]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_6.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.50:952][ 81]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_7.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.50:952][ 81]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_8.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.50:952][ 81]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_9.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.50:952][ 81]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1.VerticalBoxSlot_0) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_0).  Import failed...
+[2019.05.06-16.22.50:952][ 81]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_1.VerticalBoxSlot_0"''
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_4.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_5.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_6.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_7.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_8.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_9.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1 or VerticalBox /Engine/Transient.World_4:GameHUD_C_10.WidgetTree_0.VerticalBox_1
+[2019.05.06-16.22.51:158][ 89]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/JK/Inventory/GameHUD.GameHUD:WidgetTree.VerticalBox_1.VerticalBoxSlot_0) from referencer (ProgressBar /Engine/UMG/Editor/Transient.ProgressBar_0).  Import failed...
+[2019.05.06-16.22.51:158][ 89]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'"VerticalBox_1.VerticalBoxSlot_0"''
+[2019.05.06-16.24.28:824][728]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.25.18:331][735]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.25.29:433][403]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.25.45:160][359]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.06-16.28.12:775][401]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.28.12:784][401]LogBlueprint: Error: [Compiler GameHUD] 바인딩: 프로퍼티 ' Percent Delegate ', 위젯 ' HP ': Get_HP_Percent_0 멤버에 인수의 개수가 잘못되었습니다. 1 개의 값을 반환하고 파라미터는 받지 않습니다.
+[2019.05.06-16.28.12:833][401]LogBlueprint: Warning: [Compiler GameHUD] [1252.37] GameHUD 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 58 ms] (/Game/JK/Inventory/GameHUD.GameHUD)
+[2019.05.06-16.28.30:098][874]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.28.30:108][874]LogBlueprint: Error: [Compiler GameHUD] 바인딩: 프로퍼티 ' Percent Delegate ', 위젯 ' HP ': Get_HP_Percent_0 멤버에 인수의 개수가 잘못되었습니다. 1 개의 값을 반환하고 파라미터는 받지 않습니다.
+[2019.05.06-16.28.30:153][874]LogBlueprint: Warning: [Compiler GameHUD] [1269.69] GameHUD 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 55 ms] (/Game/JK/Inventory/GameHUD.GameHUD)
+[2019.05.06-16.28.43:495][ 35]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.28.43:505][ 35]LogBlueprint: Error: [Compiler GameHUD] 바인딩: 프로퍼티 ' Percent Delegate ', 위젯 ' HP ': 바인딩: 'None' : 'Game HUD' 에서 'None' 검색에 실패했습니다.
+[2019.05.06-16.28.43:542][ 35]LogBlueprint: Warning: [Compiler GameHUD] [1283.08] GameHUD 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 47 ms] (/Game/JK/Inventory/GameHUD.GameHUD)
+[2019.05.06-16.28.48:769][492]LogBlueprint: Warning: Unknown type of hyperlinked object (HP), cannot focus it
+[2019.05.06-16.28.50:561][649]LogBlueprint: Warning: Unknown type of hyperlinked object (PercentDelegate), cannot focus it
+[2019.05.06-16.28.52:676][835]LogBlueprint: Warning: Unknown type of hyperlinked object (PercentDelegate), cannot focus it
+[2019.05.06-16.28.52:855][851]LogBlueprint: Warning: Unknown type of hyperlinked object (PercentDelegate), cannot focus it
+[2019.05.06-16.28.53:013][865]LogBlueprint: Warning: Unknown type of hyperlinked object (PercentDelegate), cannot focus it
+[2019.05.06-16.28.53:648][918]LogBlueprint: Warning: Unknown type of hyperlinked object (HP), cannot focus it
+[2019.05.06-16.28.53:951][945]LogBlueprint: Warning: Unknown type of hyperlinked object (HP), cannot focus it
+[2019.05.06-16.28.54:120][960]LogBlueprint: Warning: Unknown type of hyperlinked object (HP), cannot focus it
+[2019.05.06-16.28.56:175][138]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.28.56:184][138]LogBlueprint: Error: [Compiler GameHUD] 바인딩: 프로퍼티 ' Percent Delegate ', 위젯 ' HP ': 바인딩: 'None' : 'Game HUD' 에서 'None' 검색에 실패했습니다.
+[2019.05.06-16.28.56:227][138]LogBlueprint: Warning: [Compiler GameHUD] [1295.77] GameHUD 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 51 ms] (/Game/JK/Inventory/GameHUD.GameHUD)
+[2019.05.06-16.29.13:361][438]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.29.13:709][449]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.29.55:115][964]BlueprintLog: New page: GameHUD 컴파일
+[2019.05.06-16.30.00:065][277]LogSlate: Window 'GameHUD*' being destroyed
+[2019.05.06-16.30.00:071][277]LogSlate: Window 'GameHUD*' being destroyed
+[2019.05.06-16.30.11:073][679]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-16.30.11:089][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/GameHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset" SILENT=true
+[2019.05.06-16.30.11:122][679]LogSavePackage: Moving 'E:/LD/LostDark/Saved/GameHUD18E8026E417ECA58B10978A6BAA0C80F.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset'
+[2019.05.06-16.31.35:139][ 32]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint
+[2019.05.06-16.35.57:338][231]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-16.35.58:583][294]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.06-16.35.58:605][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.35.58:605][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.06-16.35.58:605][294]PIE: New page: PIE 세션: DefaultLevel (2019. 5. 7. 오전 10:35:58)
+[2019.05.06-16.35.58:606][294]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.05.06-16.35.58:609][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003124s)
+[2019.05.06-16.35.58:610][294]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.06-16.35.58:610][294]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2019.05.06-16.35.58:610][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004089s)
+[2019.05.06-16.35.58:713][294]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.06-16.35.58:757][294]LogInit: FAudioDevice initialized.
+[2019.05.06-16.35.58:790][294]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.06-16.35.58:791][294]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.05.07-01.35.58
+[2019.05.06-16.35.58:791][294]LogWorld: Bringing up level for play took: 0.000860
+[2019.05.06-16.35.58:807][294]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.77
+[2019.05.06-16.35.58:807][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.16:654][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.16:655][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-16.36.16:694][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.06-16.36.16:694][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.16:735][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-16.36.16:764][298]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.05.06-16.36.18:166][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.06-16.36.22:383][629]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-16.36.23:138][656]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.06-16.36.23:159][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.23:160][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.06-16.36.23:160][656]PIE: New page: PIE 세션: DefaultLevel (2019. 5. 7. 오전 10:36:23)
+[2019.05.06-16.36.23:160][656]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.05.06-16.36.23:163][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003000s)
+[2019.05.06-16.36.23:164][656]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.06-16.36.23:164][656]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2019.05.06-16.36.23:164][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004094s)
+[2019.05.06-16.36.23:262][656]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.06-16.36.23:302][656]LogInit: FAudioDevice initialized.
+[2019.05.06-16.36.23:336][656]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.06-16.36.23:338][656]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.05.07-01.36.23
+[2019.05.06-16.36.23:338][656]LogWorld: Bringing up level for play took: 0.000810
+[2019.05.06-16.36.23:354][656]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.683
+[2019.05.06-16.36.23:354][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.23:973][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-16.36.27:486][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.27:487][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-16.36.27:525][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.06-16.36.27:526][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.36.27:566][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-16.36.27:594][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.05.06-16.36.28:918][159]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.06-16.37.00:976][478]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-16.37.03:579][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-16.37.03:679][710]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.06-16.37.03:706][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.37.03:706][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.06-16.37.03:706][710]PIE: New page: PIE 세션: DefaultLevel (2019. 5. 7. 오전 10:37:03)
+[2019.05.06-16.37.03:706][710]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.05.06-16.37.03:710][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003371s)
+[2019.05.06-16.37.03:710][710]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.06-16.37.03:711][710]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2019.05.06-16.37.03:711][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004304s)
+[2019.05.06-16.37.03:818][710]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.06-16.37.03:859][710]LogInit: FAudioDevice initialized.
+[2019.05.06-16.37.03:893][710]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.06-16.37.03:895][710]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.05.07-01.37.03
+[2019.05.06-16.37.03:895][710]LogWorld: Bringing up level for play took: 0.000724
+[2019.05.06-16.37.03:911][710]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.126
+[2019.05.06-16.37.03:911][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.37.14:991][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.37.14:992][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-16.37.15:028][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.06-16.37.15:028][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-16.37.15:062][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-16.37.15:118][950]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.06-16.37.40:245][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.035
+[2019.05.06-16.37.40:247][612]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JK/RollsAndDodges/DodgeBLprint] ([1] browsable assets)...
+[2019.05.06-16.37.40:267][612]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint]
+[2019.05.06-16.37.40:267][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/RollsAndDodges/DodgeBLprint]
+[2019.05.06-16.37.40:267][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="E:/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.05.06-16.37.40:383][612]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DodgeBLprint_Auto1E7383A394C6E31C40A3F9990E07CD7B8.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto1.uasset'
+[2019.05.06-16.37.40:384][612]LogFileHelpers: Auto-saving content packages took 0.137
+[2019.05.06-16.37.40:715][614]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.06-16.37.42:524][775]LogSlate: Window 'DodgeBLprint*' being destroyed
+[2019.05.06-16.37.42:530][775]LogSlate: Window 'DodgeBLprint*' being destroyed
+[2019.05.06-16.37.44:061][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-16.37.45:341][965]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/JK/Inventory/GameHUD.GameHUD
+[2019.05.06-16.38.05:374][ 44]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-16.38.05:395][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/GameHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset" SILENT=true
+[2019.05.06-16.38.05:428][ 44]LogSavePackage: Moving 'E:/LD/LostDark/Saved/GameHUD000E032B49CD086BB32E8DB51403EE2B.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/GameHUD.uasset'
+[2019.05.06-16.38.05:435][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
+[2019.05.06-16.38.05:511][ 44]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DodgeBLprint1AAC327A4560CC5F2FCB7FB3C968B8F3.tmp' to 'E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
