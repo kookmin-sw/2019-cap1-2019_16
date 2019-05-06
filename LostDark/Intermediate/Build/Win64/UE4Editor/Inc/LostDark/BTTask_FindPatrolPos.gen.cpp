@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTTask_FindPatrolPos_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "SH/BTTask_FindPatrolPos.h" },
 		{ "ModuleRelativePath", "SH/BTTask_FindPatrolPos.h" },
+		{ "ToolTip", "AI?? ?\xcc\xb5??? ?????? PatrolPos ??????" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBTTask_FindPatrolPos_Statics::StaticCppClassTypeInfo = {
@@ -67,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 2343497502);
+	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 1776132378);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_FindPatrolPos(Z_Construct_UClass_UBTTask_FindPatrolPos, &UBTTask_FindPatrolPos::StaticClass, TEXT("/Script/LostDark"), TEXT("UBTTask_FindPatrolPos"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_FindPatrolPos);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

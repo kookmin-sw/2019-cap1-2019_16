@@ -6,7 +6,7 @@
 #include "GameFramework/Character.h"
 #include "LostDarkCharacter.generated.h"
 
-// AI가 공격이 끝났을때 발동할 델리게이트 선언
+// AI가 공격이 끝났을때 발동할 델리게이트 선언. BTTask_Attack 클래스에 델리게이트 등록하는 함수 있음.
 DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
 
 /*

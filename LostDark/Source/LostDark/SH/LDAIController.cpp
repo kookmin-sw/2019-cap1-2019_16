@@ -8,7 +8,7 @@
 #include "BehaviorTree/BlackboardData.h" // 블랙보드
 #include "BehaviorTree/BlackboardComponent.h" // Blackboard 컴포넌트 기능 사용하려면 헤더파일 추가해야함.
 
-// 블랙보드 기반의 이름을 초기화후 const로 고정시킴
+// 블랙보드 기반의 이름을 초기화후 const로 고정시킴. 블랙보드 이름과 완전히 일치해야만함. 실수 주의
 const FName ALDAIController::HomePosKey(TEXT("HomePos"));
 const FName ALDAIController::PatrolPosKey(TEXT("PatrolPos"));
 const FName ALDAIController::TargetKey(TEXT("Target"));
@@ -33,7 +33,7 @@ ALDAIController::ALDAIController()
 	}
 }
 
-
+// AI가 빙의됐을때 불리는 함수.
 void ALDAIController::Possess(APawn * InPawn)
 {
 	Super::Possess(InPawn);
@@ -45,7 +45,7 @@ void ALDAIController::Possess(APawn * InPawn)
 	{
 		/// Blackboard 컴포넌트 기능 사용하려면 헤더파일 추가해야함.
 		// 블랙보드에 있는 HomePosKey에 현재 폰의 위치를 초기화 해줌. (HomePosKey = InPawn->GetActorLocation() 이라고 볼수 있음)
-		Blackboard->SetValueAsVector(HomePosKey, InPawn->GetActorLocation());
+		Blackboard->SetValueAsVector(HomePosKey, InPawn->GetActorLocation()); // HomePosKey에 해당하는 이름의 블랙보드 변수에 폰의 위치값을 넣어줌.
 		// RunBehaviorTree(비헤이비어 트리 정보) : 비헤이비어 트리 연동(binding)시키는 함수. 성공여부를 bool값으로 반환
 		if (!RunBehaviorTree(BTAsset))
 		{

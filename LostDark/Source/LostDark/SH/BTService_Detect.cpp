@@ -3,7 +3,7 @@
 #include "BTService_Detect.h"
 //
 #include "LDAIController.h" // UBehaviorTreeComponent & OwnerComp 에서 OwnerComp의 컴포넌트 기능을 사용하려면 필요
-#include "LostDarkCharacter.h" // 탐지한 폰이 우리 플레이어인지 추려낼때 필요함 (ALostDarkCharacter* GSCharacter~~)
+#include "LostDarkCharacter.h" // 탐지한 폰이 우리 플레이어인지 추려낼때 필요함 (ALostDarkCharacter* AnyCharacter~~)
 #include "BehaviorTree/BlackboardComponent.h" // OwnerComp 컴포넌트 사용하고 싶을때
 #include "DrawDebugHelpers.h" // 탐지 디버깅용을 그리고 싶을때
 
@@ -41,7 +41,7 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * Nod
 		OverlapResults,
 		Center,
 		FQuat::Identity,
-		ECollisionChannel::ECC_GameTraceChannel2,
+		ECollisionChannel::ECC_GameTraceChannel2, // Attack Trace 콜리전 채널임. GSCharacter만 찾도록 되어있는 콜리전 채널이기 때문.
 		FCollisionShape::MakeSphere(DetectRadius),
 		CollisionQueryParam
 	);
@@ -54,16 +54,16 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * Nod
 		for (auto OverlapResult : OverlapResults)
 		{
 			// 현재 탐지한 정보를 가진 액터(폰, 캐릭터)를 등록
-			ALostDarkCharacter* GSCharacter = Cast<ALostDarkCharacter>(OverlapResult.GetActor());
+			ALostDarkCharacter* AnyCharacter = Cast<ALostDarkCharacter>(OverlapResult.GetActor());
 			// 만약 그 캐릭터의 컨트롤러가 PlayerController라면 (사용자라면)
-			if (GSCharacter&&GSCharacter->GetController()->IsPlayerController())
+			if (AnyCharacter && AnyCharacter->GetController()->IsPlayerController())
 			{
 				// 블랙보드 TargetKey 값의 대상을 현재 정보를 가진 캐릭터로 지정 (사용자로 타깃 지정)
-				OwnerComp.GetBlackboardComponent()->SetValueAsObject(ALDAIController::TargetKey, GSCharacter);
-				// 디버깅용 구 영역을 그림.
+				OwnerComp.GetBlackboardComponent()->SetValueAsObject(ALDAIController::TargetKey, AnyCharacter);
+				// 디버깅용 구 영역을 그림. 찾았으니까 녹색으로
 				DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Green, false, 0.2f);
-				// 플레이어까지 디버깅용 선도 그림
-				DrawDebugLine(World, ControllingPawn->GetActorLocation(), GSCharacter->GetActorLocation(), FColor::Blue, false, 0.2f);
+				// 플레이어까지 디버깅용 선도 그림, 맨 마지막은 굵기(Thick)임
+				DrawDebugLine(World, ControllingPawn->GetActorLocation(), AnyCharacter->GetActorLocation(), FColor::Blue, false, 0.2f, 0, 5.0f);
 				return;
 			}
 		}
@@ -74,7 +74,6 @@ void UBTService_Detect::TickNode(UBehaviorTreeComponent & OwnerComp, uint8 * Nod
 		// 다시 블랙보드의 TargetKey에는 nullptr을 넣어줌. (찾았다가, 플레이어가 영역밖으로 도망갈 경우를 대비)
 		OwnerComp.GetBlackboardComponent()->SetValueAsObject(ALDAIController::TargetKey, nullptr);
 	}
-
 	// 디버깅용 구
 	DrawDebugSphere(World, Center, DetectRadius, 16, FColor::Red, false, 0.2f);
 }

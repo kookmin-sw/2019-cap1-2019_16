@@ -7,7 +7,7 @@
 #include "BTTask_FindPatrolPos.generated.h"
 
 /**
- * 
+ *  AI가 이동할 목적지 PatrolPos 데이터
  */
 UCLASS()
 class LOSTDARK_API UBTTask_FindPatrolPos : public UBTTaskNode

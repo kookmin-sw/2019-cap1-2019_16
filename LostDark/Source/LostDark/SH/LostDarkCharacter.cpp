@@ -365,7 +365,7 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 }
 
-// 마우스 좌클릭, Attack 구현. 몽타주를 사용해 공격 애니메이션을 재생함.
+// 마우스 좌클릭시, Attack 구현. 몽타주를 사용해 공격 애니메이션을 재생함. 실제 공격 로직의 최초 시작임. 이거 사용하면 공격됨
 void ALostDarkCharacter::Attack()
 {
 	// 현재 몽타주 재생중이라면
@@ -425,7 +425,7 @@ void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInter
 	UE_LOG(LogTemp, Warning, TEXT("MontageEnded"));
 
 	// AI의 경우 FinishLatentTask 함수를 호출하기 위해 만듦.
-	OnAttackEnd.Broadcast();
+	OnAttackEnd.Broadcast(); // BTTask_Attack.cpp 에 델리게이트 등록한 함수 있음.
 }
 
 // 공격이 시작할때 관련 속성 지정하는 함수. Combo 카운트를 증가시킴
