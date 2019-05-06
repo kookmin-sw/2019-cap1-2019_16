@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "LostDarkCharacter.generated.h"
 
+// AI가 공격이 끝났을때 발동할 델리게이트 선언
+DECLARE_MULTICAST_DELEGATE(FOnAttackEndDelegate);
+
 /*
 	클래스 지정자 : Config = ConfigName
 	이 클래스는 환경설정(.ini)파일에 데이터를 저장할 수 있음을 나타낸다.
@@ -38,6 +41,11 @@ public:
 		// 외부 위젯 블루프린트 클래스 정보를 담는 변수
 		class UWidgetComponent* HPBarWidget;
 
+	// Attack 기능을 담당하는 함수. AI컨트롤러에게 명령을 내릴수 있도록 public으로 변경함
+	void Attack();
+	// 델리게이트 변수 선언
+	FOnAttackEndDelegate OnAttackEnd;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -50,7 +58,8 @@ protected:
 	enum class EControlMode
 	{
 		BackView, //백뷰
-		QuaterView //쿼터뷰
+		QuaterView, //쿼터뷰
+		NPC
 	};
 
 	// 시점 전환 함수
@@ -82,8 +91,8 @@ private:
 	// 시점 변수 설정하는 함수
 	void ViewChange();
 
-	// Attack 기능 함수
-	void Attack();
+	//// Attack 기능 함수
+	//void Attack();
 
 	// BP와 관련된 C++함수는 반드시 UFUNCTION 매크로를 사용해야한다. 다이나믹 델리게이트.
 	UFUNCTION()
@@ -133,9 +142,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	// 몽타주 재생을 위한 델리게이트 함수 선언 (모든 컴포넌트가 초기화 됐을때 불리어짐). OnMontageEnded 델리게이트에 바인딩한다.
 	virtual void PostInitializeComponents() override;
-
 	// AActor에 있는 TakeDamage함수를 추가 구현한다. 가상함수. 받는부분에 대한 로직을 여기서 구현함.
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+	// 게임 시작후 최초 빙의했을때 자동 호출하는 함수
+	virtual void PossessedBy(AController* NewController) override;
+
 
 	// 무기 장착여부 조사
 	bool CanSetWeapon();

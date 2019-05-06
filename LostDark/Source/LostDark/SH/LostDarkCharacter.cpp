@@ -11,6 +11,8 @@
 #include "Components/WidgetComponent.h"
 // 우리가 만든 위젯의 로직이 들어간 클래스
 #include "GSCharacterWidget.h"
+// AI 컨트롤러를 위한
+#include "LDAIController.h"
 
 
 /// 생성자 Sets Default values
@@ -112,7 +114,7 @@ ALostDarkCharacter::ALostDarkCharacter()
 	
 	/* HPBarWidget에 대한 내용 */
 	// 위젯 위치 Z축으로 180cm
-	HPBarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 180.0f));
+	HPBarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 202.0f));
 	// UI 위젯은 항상 플레이어를 향해 보도록 Screen 모드로 지정.
 	HPBarWidget->SetWidgetSpace(EWidgetSpace::Screen);
 	// 외부 애셋 정보 가져옴. 위젯은 Class단위이므로 반드시 _C를 붙여준다. (★실수주의)
@@ -124,6 +126,11 @@ ALostDarkCharacter::ALostDarkCharacter()
 		// 위젯의 크기를 조절해주는 함수. (가로=150cm , 세로=50cm)
 		HPBarWidget->SetDrawSize(FVector2D(150.0f, 50.0f));
 	}
+
+	// Pawn.h에 미리 제공되는 멤버변수. AI 클래스 속성을 등록하는 변수인데, 우리가 만든 AIController를 등록함.
+	AIControllerClass = ALDAIController::StaticClass();
+	// 자동 AI 지배를 받는다. 조건은 레벨에 설치하거나 스폰할때. 이것에 해당하는 모든 캐릭터(LostDarkCharacter로 만든 캐릭터)
+	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 }
 
 
@@ -276,6 +283,28 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 	return FinalDamage;
 }
 
+void ALostDarkCharacter::PossessedBy(AController * NewController)
+{
+	Super::PossessedBy(NewController);
+	// 플레이어 컨트롤러가 있다면
+	if (IsPlayerControlled())
+	{
+		// 백뷰 (플레이어 시작)
+		SetControlMode(EControlMode::BackView);
+		// 걷는 속도 조절
+		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	}
+	// 플레이어가 아닌 AI라면
+	else
+	{
+		// NPC 설정으로 변경
+		SetControlMode(EControlMode::NPC);
+		// 최대 이동속도 조절
+		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
+	}
+
+}
+
 // 현재 무기를 장착하고 있는지 확인하는 함수
 bool ALostDarkCharacter::CanSetWeapon()
 {
@@ -394,6 +423,9 @@ void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInter
 	AttackEndComboState();
 	// 몽타주 끝난거 Log 찍어주기
 	UE_LOG(LogTemp, Warning, TEXT("MontageEnded"));
+
+	// AI의 경우 FinishLatentTask 함수를 호출하기 위해 만듦.
+	OnAttackEnd.Broadcast();
 }
 
 // 공격이 시작할때 관련 속성 지정하는 함수. Combo 카운트를 증가시킴
@@ -537,6 +569,9 @@ void ALostDarkCharacter::SetControlMode(EControlMode NewControlMode)
 
 		// Boom 길이 초기화
 		BoomLengthTo = 450.0f;
+		/// 없던거 추가함
+		BoomRotationTo = FRotator::ZeroRotator;
+
 		// SpringArm의 회전값으로 플레이어 컨트롤러 회전값을 사용함. (= 마우스가 회전하면 카메라도 같은 값으로 회전함)
 		CameraBoom->bUsePawnControlRotation = true;
 		// 부모 컴포넌트(플레이어)에서 회전값을(피치,롤,요) 상속받을지
@@ -554,6 +589,7 @@ void ALostDarkCharacter::SetControlMode(EControlMode NewControlMode)
 		// 회전 속도 조절. (Y 회전 속도, Z 회전 속도, x 회전속도) 이유는 모르겟음. => 함수 구현을 다른것과 다르게 해서 헷갈림. 주의!
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f); // 왜 Y값이 Yaw인지 모르겠음. FRotator 함수 구현에서 순서가 다름.
 		break;
+
 	case ALostDarkCharacter::EControlMode::QuaterView:
 		// 길이 800
 		//CameraBoom->TargetArmLength = 800.0f;
@@ -580,6 +616,13 @@ void ALostDarkCharacter::SetControlMode(EControlMode NewControlMode)
 		GetCharacterMovement()->bUseControllerDesiredRotation = true;
 		// 회전 속도 조절
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
+		break;
+
+	case EControlMode::NPC:
+		bUseControllerRotationYaw = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 480.0f, 0.0f);
 		break;
 	default:
 		break;

@@ -14,7 +14,7 @@ class UAnimMontage;
 #endif
 #define LOSTDARK_LostDarkCharacter_generated_h
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_RPC_WRAPPERS \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
@@ -27,7 +27,7 @@ class UAnimMontage;
 	}
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
@@ -40,7 +40,7 @@ class UAnimMontage;
 	}
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_INCLASS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALostDarkCharacter(); \
 	friend struct Z_Construct_UClass_ALostDarkCharacter_Statics; \
@@ -49,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(ALostDarkCharacter)
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_INCLASS \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesALostDarkCharacter(); \
 	friend struct Z_Construct_UClass_ALostDarkCharacter_Statics; \
@@ -58,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(ALostDarkCharacter)
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_STANDARD_CONSTRUCTORS \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ALostDarkCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ALostDarkCharacter) \
@@ -71,7 +71,7 @@ private: \
 public:
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_ENHANCED_CONSTRUCTORS \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ALostDarkCharacter(ALostDarkCharacter&&); \
@@ -82,7 +82,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALostDarkCharacter)
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__IsAttacking() { return STRUCT_OFFSET(ALostDarkCharacter, IsAttacking); } \
 	FORCEINLINE static uint32 __PPO__CanNextCombo() { return STRUCT_OFFSET(ALostDarkCharacter, CanNextCombo); } \
 	FORCEINLINE static uint32 __PPO__IsComboInputOn() { return STRUCT_OFFSET(ALostDarkCharacter, IsComboInputOn); } \
@@ -93,25 +93,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkCharacter); \
 	FORCEINLINE static uint32 __PPO__AttackRadius() { return STRUCT_OFFSET(ALostDarkCharacter, AttackRadius); }
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_15_PROLOG
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_GENERATED_BODY_LEGACY \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_PROLOG
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_RPC_WRAPPERS \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_INCLASS \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_STANDARD_CONSTRUCTORS \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_RPC_WRAPPERS \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_INCLASS \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_GENERATED_BODY \
+#define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_INCLASS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_SH_LostDarkCharacter_h_18_ENHANCED_CONSTRUCTORS \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_INCLASS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

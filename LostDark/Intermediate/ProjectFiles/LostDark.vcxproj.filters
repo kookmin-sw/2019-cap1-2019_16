@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B2250B1A-A029-4B07-88AE-05AEB66BBAF0}</UniqueIdentifier>
+      <UniqueIdentifier>{1EF5D8DB-D5D1-48C1-8A94-31B0C0B2E87D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B39A902D-67DA-43CB-BB18-8822C963ED26}</UniqueIdentifier>
+      <UniqueIdentifier>{3F6BAEFA-2D3D-45C8-8EE0-202D4FDDEB94}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{3DDCD0A9-8335-4697-9417-C33DDC586F4E}</UniqueIdentifier>
+      <UniqueIdentifier>{DADF44EF-B992-4E8A-822A-235389A56F85}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\BackupCharacter.cpp">
       <Filter>Source\LostDark</Filter>
@@ -48,8 +48,14 @@
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\SH">
-      <UniqueIdentifier>{40229600-5591-4E46-8DBD-89CF9C65D723}</UniqueIdentifier>
+      <UniqueIdentifier>{EE051DFC-EDDC-4E65-9514-487CD8CBF351}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\LostDark\SH\BTTask_FindPatrolPos.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\BTTask_FindPatrolPos.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\LostDark\SH\GSAnimInstance.cpp">
       <Filter>Source\LostDark\SH</Filter>
     </ClCompile>
@@ -72,6 +78,12 @@
       <Filter>Source\LostDark\SH</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\LostDark\SH\GSWeapon.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\LostDark\SH\LDAIController.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\LostDark\SH\LDAIController.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\LostDark\SH\LDGameInstance.cpp">
@@ -110,5 +122,33 @@
     <ClInclude Include="..\..\Source\LostDark\SH\SH_ItemBox.h">
       <Filter>Source\LostDark\SH</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LostDark\SH\BTService_Detect.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\SH\BTDecorator_IsInAttackRanget.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\SH\BTTask_Attack.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\SH\BTTask_TurnToTarget.h">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LostDark\SH\BTService_Detect.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\SH\BTDecorator_IsInAttackRanget.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\SH\BTTask_Attack.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\SH\BTTask_TurnToTarget.cpp">
+      <Filter>Source\LostDark\SH</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
