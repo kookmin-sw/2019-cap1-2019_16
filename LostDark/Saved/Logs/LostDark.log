@@ -670,3 +670,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.06-16.12.40:804][336]LogSlate: Window '콘텐츠 저장' being destroyed
 [2019.05.06-16.12.40:819][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/FirstPersonHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/FirstPersonHUD.uasset" SILENT=true
 [2019.05.06-16.12.40:853][336]LogSavePackage: Moving 'E:/LD/LostDark/Saved/FirstPersonHUD7882C770469C84C742FEF189180FB936.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/FirstPersonHUD.uasset'
+[2019.05.06-16.13.05:156][249]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/JK/Inventory/FirstPersonHUD.FirstPersonHUD
+[2019.05.06-16.13.16:604][274]BlueprintLog: New page: FirstPersonHUD 컴파일
+[2019.05.06-16.13.17:911][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/FirstPersonHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/FirstPersonHUD.uasset" SILENT=true
+[2019.05.06-16.13.17:943][366]LogSavePackage: Moving 'E:/LD/LostDark/Saved/FirstPersonHUD2F67CD7441631A8F7FAEAA93EAB620D3.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/FirstPersonHUD.uasset'
