@@ -674,3 +674,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.06-16.13.16:604][274]BlueprintLog: New page: FirstPersonHUD 컴파일
 [2019.05.06-16.13.17:911][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/FirstPersonHUD" FILE="E:/LD/LostDark/Content/JK/Inventory/FirstPersonHUD.uasset" SILENT=true
 [2019.05.06-16.13.17:943][366]LogSavePackage: Moving 'E:/LD/LostDark/Saved/FirstPersonHUD2F67CD7441631A8F7FAEAA93EAB620D3.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/FirstPersonHUD.uasset'
+[2019.05.06-16.14.30:903][328]LogSlate: Window 'FirstPersonHUD' being destroyed
+[2019.05.06-16.14.30:916][328]LogSlate: Window 'FirstPersonHUD' being destroyed
+[2019.05.06-16.14.58:186][176]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/JK/Inventory/ActionInterface.ActionInterface
+[2019.05.06-16.15.42:042][237]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.05.06-16.15.53:085][160]BlueprintLog: New page: ActionInterface 컴파일
+[2019.05.06-16.16.49:685][225]BlueprintLog: New page: ActionInterface 컴파일
+[2019.05.06-16.17.03:296][615]LogSlate: Window 'ActionInterface*' being destroyed
+[2019.05.06-16.17.06:725][814]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-16.17.06:740][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/ActionInterface" FILE="E:/LD/LostDark/Content/JK/Inventory/ActionInterface.uasset" SILENT=true
+[2019.05.06-16.17.06:751][814]LogSavePackage: Moving 'E:/LD/LostDark/Saved/ActionInterface7EBFFBE24A79CFCF828137BD482C1A18.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/ActionInterface.uasset'
+[2019.05.06-16.17.31:312][233]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-16.17.31:329][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/InventoryStruct" FILE="E:/LD/LostDark/Content/JK/Inventory/InventoryStruct.uasset" SILENT=true
+[2019.05.06-16.17.31:338][233]LogSavePackage: Moving 'E:/LD/LostDark/Saved/InventoryStructD5211AB648769C09E4DB9FA88FEDD4E9.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/InventoryStruct.uasset'
+[2019.05.06-16.18.17:459][144]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/JK/Inventory/InventoryStruct.InventoryStruct
+[2019.05.06-16.19.20:366][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/InventoryStruct" FILE="E:/LD/LostDark/Content/JK/Inventory/InventoryStruct.uasset" SILENT=true
+[2019.05.06-16.19.20:379][863]LogSavePackage: Moving 'E:/LD/LostDark/Saved/InventoryStructC0A8183C4958815E9786B4B66403B9D8.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/InventoryStruct.uasset'
+[2019.05.06-16.19.24:053][204]LogSlate: Window 'InventoryStruct' being destroyed
