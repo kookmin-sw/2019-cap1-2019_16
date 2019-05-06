@@ -1497,3 +1497,92 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.06-17.48.28:564][260]LogSlate: Window '콘텐츠 저장' being destroyed
 [2019.05.06-17.48.28:581][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/PickupText" FILE="E:/LD/LostDark/Content/JK/Inventory/PickupText.uasset" SILENT=true
 [2019.05.06-17.48.28:623][260]LogSavePackage: Moving 'E:/LD/LostDark/Saved/PickupText09F26C3742765EDFF8FE4FAAE4D04F00.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/PickupText.uasset'
+[2019.05.06-17.50.54:453][748]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint
+[2019.05.06-17.51.12:890][737]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.06-17.51.13:036][739]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
+[2019.05.06-17.51.13:036][739]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.06-17.51.13:036][739]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.06-17.51.13:036][739]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.06-17.51.13:042][739]LogTemp: BranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.06-17.51.13:061][739]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Gyun\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.06-17.52.01:167][379]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.06-17.52.01:178][379]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.06-17.55.06:734][276]LogSlate: Window '변수 유형 변경' being destroyed
+[2019.05.06-18.00.20:185][894]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-18.03.33:146][903]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DefaultLevel/DefaultLevel' took 0.043
+[2019.05.06-18.03.33:148][903]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/JK/RollsAndDodges/DodgeBLprint] ([1] browsable assets)...
+[2019.05.06-18.03.33:168][903]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/JK/RollsAndDodges/DodgeBLprint.DodgeBLprint]
+[2019.05.06-18.03.33:168][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/JK/RollsAndDodges/DodgeBLprint]
+[2019.05.06-18.03.33:168][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="E:/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.05.06-18.03.33:290][903]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DodgeBLprint_Auto544823CFA4EF22C4C81DC29B148365B77.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/JK/RollsAndDodges/DodgeBLprint_Auto5.uasset'
+[2019.05.06-18.03.33:291][903]LogFileHelpers: Auto-saving content packages took 0.144
+[2019.05.06-18.03.40:697][305]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.06-18.03.56:009][108]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-18.03.56:919][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
+[2019.05.06-18.03.57:104][130]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DodgeBLprint8FFF5977434A783F614D5CBB1D6081CB.tmp' to 'E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
+[2019.05.06-18.05.21:416][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.05.21:499][806]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-18.06.31:829][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.08.02:565][448]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-18.08.03:178][457]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-18.13.31:101][755]BlueprintLog: New page: TemplatePickup 컴파일
+[2019.05.06-18.13.31:791][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/Inventory/TemplatePickup" FILE="E:/LD/LostDark/Content/JK/Inventory/TemplatePickup.uasset" SILENT=true
+[2019.05.06-18.13.31:877][775]LogSavePackage: Moving 'E:/LD/LostDark/Saved/TemplatePickup3E062A024F66AC76EF54E5B51176163D.tmp' to 'E:/LD/LostDark/Content/JK/Inventory/TemplatePickup.uasset'
+[2019.05.06-18.13.43:308][643]BlueprintLog: New page: DodgeBLprint 컴파일
+[2019.05.06-18.13.44:099][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JK/RollsAndDodges/DodgeBLprint" FILE="E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset" SILENT=true
+[2019.05.06-18.13.44:225][665]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DodgeBLprint655317FB4B90F2512FF2DC8D42845958.tmp' to 'E:/LD/LostDark/Content/JK/RollsAndDodges/DodgeBLprint.uasset'
+[2019.05.06-18.13.44:633][696]LogSlate: Window 'DodgeBLprint' being destroyed
+[2019.05.06-18.13.44:640][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.06-18.13.52:894][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.13.52:984][435]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.06-18.13.53:006][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.13.53:006][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.06-18.13.53:006][435]PIE: New page: PIE 세션: DefaultLevel (2019. 5. 7. 오후 12:13:53)
+[2019.05.06-18.13.53:007][435]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.05.06-18.13.53:012][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005783s)
+[2019.05.06-18.13.53:013][435]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.06-18.13.53:014][435]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2019.05.06-18.13.53:014][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.007087s)
+[2019.05.06-18.13.53:140][435]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.06-18.13.53:190][435]LogInit: FAudioDevice initialized.
+[2019.05.06-18.13.53:228][435]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.06-18.13.53:230][435]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.05.07-03.13.53
+[2019.05.06-18.13.53:231][435]LogWorld: Bringing up level for play took: 0.001890
+[2019.05.06-18.13.53:252][435]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 1.215
+[2019.05.06-18.13.53:252][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.10:850][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.14.28:263][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.28:263][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-18.14.28:306][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.06-18.14.28:306][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.28:345][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-18.14.28:373][190]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.05.06-18.14.29:380][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.14.29:460][295]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.06-18.14.29:479][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.29:479][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.06-18.14.29:479][295]PIE: New page: PIE 세션: DefaultLevel (2019. 5. 7. 오후 12:14:29)
+[2019.05.06-18.14.29:479][295]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.05.06-18.14.29:482][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003032s)
+[2019.05.06-18.14.29:483][295]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.06-18.14.29:483][295]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2019.05.06-18.14.29:483][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.004084s)
+[2019.05.06-18.14.29:588][295]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.06-18.14.29:631][295]LogInit: FAudioDevice initialized.
+[2019.05.06-18.14.29:664][295]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.06-18.14.29:665][295]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.05.07-03.14.29
+[2019.05.06-18.14.29:666][295]LogWorld: Bringing up level for play took: 0.000898
+[2019.05.06-18.14.29:685][295]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.352
+[2019.05.06-18.14.29:685][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.33:261][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.14.58:831][508]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.58:831][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-18.14.58:868][508]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.06-18.14.58:869][508]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.06-18.14.58:904][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.06-18.14.58:936][509]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.05.06-18.15.02:064][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.06-18.15.04:260][653]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.06-18.15.04:280][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultLevel/DefaultLevel" FILE="E:/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.06-18.15.04:555][653]LogSavePackage: Moving 'E:/LD/LostDark/Saved/DefaultLevelCC5D00164B47C661B746CC8CF1739993.tmp' to 'E:/LD/LostDark/Content/DefaultLevel/DefaultLevel.umap'
+[2019.05.06-18.15.04:740][653]LogFileHelpers: Saving map 'DefaultLevel' took 0.460
