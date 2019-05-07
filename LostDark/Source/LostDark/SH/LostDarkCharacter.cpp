@@ -472,7 +472,7 @@ void ALostDarkCharacter::AttackCheck()
 		// 탐색할 도형의 회전값 기본으로
 		FQuat::Identity,
 		// 물리 충돌 감지에 사용할 트레이스 채널 정보
-		ECollisionChannel::ECC_GameTraceChannel2,
+		ECollisionChannel::ECC_GameTraceChannel4,
 		// 탐색할 도형의 종류와 반지름 길이
 		FCollisionShape::MakeSphere(AttackRadius),
 		// 탐색 방법에 대한 설정값을 모아둔 구조체
