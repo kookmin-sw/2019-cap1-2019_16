@@ -14,85 +14,43 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define LOSTDARK_YJCharacter_generated_h
 
 #define LostDark_Source_LostDark_YJ_YJCharacter_h_12_RPC_WRAPPERS \
-	virtual void AddMP_Implementation(); \
-	virtual void ReduceMP_Implementation(); \
-	virtual void AddHP_Implementation(); \
-	virtual void ReduceHP_Implementation(); \
  \
-	DECLARE_FUNCTION(execAddMP) \
+	DECLARE_FUNCTION(execGetMP) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddMP_Implementation(); \
+		*(int32*)Z_Param__Result=P_THIS->GetMP(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execReduceMP) \
+	DECLARE_FUNCTION(execGetHP) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->ReduceMP_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAddHP) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->AddHP_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execReduceHP) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ReduceHP_Implementation(); \
+		*(int32*)Z_Param__Result=P_THIS->GetHP(); \
 		P_NATIVE_END; \
 	}
 
 
 #define LostDark_Source_LostDark_YJ_YJCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	virtual void AddMP_Implementation(); \
-	virtual void ReduceMP_Implementation(); \
-	virtual void AddHP_Implementation(); \
-	virtual void ReduceHP_Implementation(); \
  \
-	DECLARE_FUNCTION(execAddMP) \
+	DECLARE_FUNCTION(execGetMP) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->AddMP_Implementation(); \
+		*(int32*)Z_Param__Result=P_THIS->GetMP(); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execReduceMP) \
+	DECLARE_FUNCTION(execGetHP) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->ReduceMP_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execAddHP) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->AddHP_Implementation(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execReduceHP) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ReduceHP_Implementation(); \
+		*(int32*)Z_Param__Result=P_THIS->GetHP(); \
 		P_NATIVE_END; \
 	}
 
 
-#define LostDark_Source_LostDark_YJ_YJCharacter_h_12_EVENT_PARMS
-#define LostDark_Source_LostDark_YJ_YJCharacter_h_12_CALLBACK_WRAPPERS
 #define LostDark_Source_LostDark_YJ_YJCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAYJCharacter(); \
@@ -135,17 +93,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AYJCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AYJCharacter)
 
 
-#define LostDark_Source_LostDark_YJ_YJCharacter_h_12_PRIVATE_PROPERTY_OFFSET
-#define LostDark_Source_LostDark_YJ_YJCharacter_h_9_PROLOG \
-	LostDark_Source_LostDark_YJ_YJCharacter_h_12_EVENT_PARMS
+#define LostDark_Source_LostDark_YJ_YJCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HealthPoint() { return STRUCT_OFFSET(AYJCharacter, HealthPoint); } \
+	FORCEINLINE static uint32 __PPO__MentalPoint() { return STRUCT_OFFSET(AYJCharacter, MentalPoint); }
 
 
+#define LostDark_Source_LostDark_YJ_YJCharacter_h_9_PROLOG
 #define LostDark_Source_LostDark_YJ_YJCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_RPC_WRAPPERS \
-	LostDark_Source_LostDark_YJ_YJCharacter_h_12_CALLBACK_WRAPPERS \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_INCLASS \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -157,7 +115,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_YJ_YJCharacter_h_12_CALLBACK_WRAPPERS \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_INCLASS_NO_PURE_DECLS \
 	LostDark_Source_LostDark_YJ_YJCharacter_h_12_ENHANCED_CONSTRUCTORS \
 private: \

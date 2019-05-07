@@ -31,19 +31,10 @@ void AYJCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-//incompletion
-void ReduceHP() {
-
+int32 AYJCharacter::GetHP() const {
+	return HealthPoint;
 }
 
-void AddHP() {
-
-}
-
-void ReduceMP() {
-
-}
-
-void AddMP() {
-
+int32 AYJCharacter::GetMP() const {
+	return HealthPoint;
 }

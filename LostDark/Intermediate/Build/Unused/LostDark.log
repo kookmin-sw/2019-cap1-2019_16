@@ -4,7 +4,14 @@
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for LostDarkEditor
     Running UnrealHeaderTool "E:\Workspace\SourceTree\Capstone\LostDark\LostDark.uproject" "E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  E:/Workspace/SourceTree/Capstone/LostDark/Source/LostDark/YJ/YJCharacter.h(27) : LogCompile: Error: Type 'int16' is not supported by blueprint. YJCharacter.HealthPoint
-  E:/Workspace/SourceTree/Capstone/LostDark/Source/LostDark/YJ/YJCharacter.h(30) : LogCompile: Error: Type 'int16' is not supported by blueprint. YJCharacter.MentalPoint
-EXEC : error : UnrealHeaderTool failed for target 'LostDarkEditor' (platform: Win64, module info: E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: ""E:\Program Files\Epic Games\UE_4.21\Engine\Build\BatchFiles\Build.bat" LostDarkEditor Win64 Development "E:\Workspace\SourceTree\Capstone\LostDark\LostDark.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 5). 이 명령을 실행할 권한이 있는지 확인하세요.
+  Reflection code generated for LostDarkEditor in 14.5989494 seconds
+  Building 5 actions with 8 processes...
+    [1/5] LostDark.init.gen.cpp
+    [2/5] YJCharacter.cpp
+    [3/5] YJCharacter.gen.cpp
+    [4/5] UE4Editor-LostDark-2360.lib
+       E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2360.lib 라이브러리 및 E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2360.exp 개체를 생성하고 있습니다.
+    [5/5] UE4Editor-LostDark-2360.dll
+       E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2360.suppressed.lib 라이브러리 및 E:\Workspace\SourceTree\Capstone\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2360.suppressed.exp 개체를 생성하고 있습니다.
+  Deploying LostDarkEditor Win64 Development...
+  Total build time: 23.21 seconds (Parallel executor: 2.57 seconds)
