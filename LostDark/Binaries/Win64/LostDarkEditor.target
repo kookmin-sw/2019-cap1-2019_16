@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LostDark-2360.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LostDark-331.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LostDark-2360.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LostDark-331.pdb",
 			"Type": "SymbolFile"
 		},
 		{

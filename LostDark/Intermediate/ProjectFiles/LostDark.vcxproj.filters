@@ -84,4 +84,14 @@
       <Filter>Source\LostDark\YJ</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\LostDark\YJ\YJGameMode.h">
+      <Filter>Source\LostDark\YJ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\LostDark\YJ\YJGameMode.cpp">
+      <Filter>Source\LostDark\YJ</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
