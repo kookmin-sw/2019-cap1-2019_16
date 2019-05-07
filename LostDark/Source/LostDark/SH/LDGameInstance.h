@@ -49,11 +49,11 @@ public:
 	ULDGameInstance();
 
 	virtual void Init() override;
-	// 캐릭터 데이터 테이블의 정보중 레벨만 가져옴.
+	// 캐릭터 데이터 테이블에서 정보를 가져오는 함수. 해당 테이블 행의 정보를 가져옴. Level에 따른 모든 정보 접근 가능
 	FGSCharacterData* GetGSCharacterData(int32 Level);
 
 private:
-	// 위에 선언된 캐릭터 데이터중 Level 부분을 따로 전방선언함.
+	// 데이터 테이블 등록하기 위한 변수. 실제 관리는 이 변수로 함.
 	UPROPERTY()
 		class UDataTable* GSCharacterTable;
 

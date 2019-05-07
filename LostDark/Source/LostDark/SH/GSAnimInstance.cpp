@@ -26,7 +26,7 @@ UGSAnimInstance::UGSAnimInstance()
 	IsInputCombo = false;
 }
 
-// 일반 Tick과 완전히 일치. 실시간으로 애니메이션 시스템의 틱에서 폰에 접근해 폰의 속력 값을 얻어옴
+// 일반 Tick과 완전히 일치. 실시간으로 애니메이션 시스템의 틱에서 폰에 접근해 폰의 속력 값을 얻어옴 (아마도 사용 안하는중인듯)
 void UGSAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 {
 	// AnimInstance에 있는 NativeUpdateAnimation에 정보를 넘겨줌.

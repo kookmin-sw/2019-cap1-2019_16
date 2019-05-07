@@ -133,7 +133,6 @@ ALostDarkCharacter::ALostDarkCharacter()
 	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 }
 
-
 void ALostDarkCharacter::BeginPlay()
 {
 	Super::BeginPlay();
@@ -148,8 +147,6 @@ void ALostDarkCharacter::BeginPlay()
 	//	/// 실제 부착하는 내용이라고 볼 수 있음.
 	//	CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
 	//}
-
-
 
 	/* ★★★ Changed in 4.21. copied from PostInitializeComponents() ㅠㅠ  */
 
@@ -207,7 +204,7 @@ void ALostDarkCharacter::PostInitializeComponents()
 {
 	// 부모것 호출
 	Super::PostInitializeComponents();
-	/*UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents Start !!! to LostDarkCharacter.cpp"));*/
+	/* UE_LOG(LogTemp, Warning, TEXT("PostInitializeComponents Start !!! to LostDarkCharacter.cpp")); */
 	// GS 애님인스턴스 정보 가져오기
 	GSAnim = Cast<UGSAnimInstance>(GetMesh()->GetAnimInstance());
 	// GS 애님인스턴스를 가져오지 못했다면 예외처리후 함수반환
@@ -244,7 +241,7 @@ void ALostDarkCharacter::PostInitializeComponents()
 		SetActorEnableCollision(false);
 	});
 
-	//// 위젯에 설정된 부모 UserWidget 정보를 넘겨줌. /// 여기서 자꾸 null처리됨.
+	//// 위젯에 설정된 부모 UserWidget 정보를 넘겨줌. /// 여기서 자꾸 null처리됨. => 4.20 버전부터 바뀌어서 위젯은 Beginplay에서 호출해야만함.
 	//auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
 	///// 내가 임시로 추가한것. 여기서 에러뜸. (이걸 제대로 받아오지 못하고 있음)
 	//ABCHECK(nullptr != CharacterWidget);
@@ -283,6 +280,7 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 	return FinalDamage;
 }
 
+// 폰에 빙의하는 순간 호출되는 함수. 가장 마지막에 호출될듯?
 void ALostDarkCharacter::PossessedBy(AController * NewController)
 {
 	Super::PossessedBy(NewController);
@@ -456,13 +454,14 @@ void ALostDarkCharacter::AttackEndComboState()
 	CurrentCombo = 0;
 }
 
+// 공격 클릭시 충돌처리가 되었는지 확인 // 9장 충돌이야기
 void ALostDarkCharacter::AttackCheck()
 {
 	// 충돌된 물체의 정보를 담는 구조체변수
 	FHitResult HitResult;
 	// 탐색 방법은 자기자신은 탐지되지 않도록 this를 넣어줌. 구조체임.
 	FCollisionQueryParams Params(NAME_None, false, this);
-	// Sweep 실행. (일종의 Ray발사)
+	// Sweep 실행후 결과 받음. (일종의 Ray발사)
 	bool bResult = GetWorld()->SweepSingleByChannel(
 		// 충돌된 물체를 담는 변수
 		HitResult,
@@ -515,7 +514,6 @@ void ALostDarkCharacter::AttackCheck()
 		DebugLifeTime);
 
 #endif
-
 	// 만약 충돌된 물체가 있다면,
 	if (bResult)
 	{

@@ -142,6 +142,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	// 몽타주 재생을 위한 델리게이트 함수 선언 (모든 컴포넌트가 초기화 됐을때 불리어짐). OnMontageEnded 델리게이트에 바인딩한다.
 	virtual void PostInitializeComponents() override;
+	
+	
 	// AActor에 있는 TakeDamage함수를 추가 구현한다. 가상함수. 받는부분에 대한 로직을 여기서 구현함.
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 	// 게임 시작후 최초 빙의했을때 자동 호출하는 함수

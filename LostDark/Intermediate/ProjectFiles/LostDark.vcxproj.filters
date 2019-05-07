@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{60F350B8-9442-4A2B-A7B7-7E9E81DA5E6D}</UniqueIdentifier>
+      <UniqueIdentifier>{43284813-875A-4BC6-B2BD-FD721DD3D387}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{12FD5C57-FDF4-452B-9C9E-2F59C8B582BD}</UniqueIdentifier>
+      <UniqueIdentifier>{8291562A-BB3C-4A67-B9D9-8F281D07F2B0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{61CF6C6B-5257-4AE1-BB4C-6D8E4966EDD7}</UniqueIdentifier>
+      <UniqueIdentifier>{7FCCA60E-16E0-4D87-9E30-314651F8D814}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\BackupCharacter.cpp">
       <Filter>Source\LostDark</Filter>
@@ -48,7 +48,7 @@
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\SH">
-      <UniqueIdentifier>{7DCDC860-4795-4BE8-A8EA-29F058C9C052}</UniqueIdentifier>
+      <UniqueIdentifier>{DF109BD1-A72B-44DA-9A1C-684DA1AB87B9}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\SH\BTDecorator_IsInAttackRanget.cpp">
       <Filter>Source\LostDark\SH</Filter>

@@ -187,7 +187,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULDGameInstance_Statics::NewProp_GSCharacterTable_MetaData[] = {
 		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
-		{ "ToolTip", "???? ?????? \xc4\xb3???? ???????? Level ?\xce\xba??? ???? ???\xe6\xbc\xb1????." },
+		{ "ToolTip", "?????? ???\xcc\xba? ?????\xcf\xb1? ???? ????. ???? ?????? ?? ?????? ??." },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ULDGameInstance_Statics::NewProp_GSCharacterTable = { UE4CodeGen_Private::EPropertyClass::Object, "GSCharacterTable", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(ULDGameInstance, GSCharacterTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ULDGameInstance_Statics::NewProp_GSCharacterTable_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULDGameInstance_Statics::NewProp_GSCharacterTable_MetaData)) };
@@ -217,7 +217,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULDGameInstance, 3366605351);
+	IMPLEMENT_CLASS(ULDGameInstance, 3246900238);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ULDGameInstance(Z_Construct_UClass_ULDGameInstance, &ULDGameInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("ULDGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ULDGameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

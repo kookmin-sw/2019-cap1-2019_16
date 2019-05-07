@@ -45,7 +45,7 @@ public:
 	FOnHPChangeDelegate OnHPChanged;
 
 private:
-	// 캐릭터 데이터 테이블 구조체 참조 변수
+	// 캐릭터 데이터 테이블 구조체 참조 변수. 정확히 말하자면, 하나의 행(Row) 구조체 정보를 가져오는 변수. ex) Level 4의 데이터 정보들
 	struct FGSCharacterData* CurrentStatData = nullptr;
 
 	// 레벨 변수
@@ -54,6 +54,4 @@ private:
 	// 현재 HP / Transient는 UPROPERTY 속성을 저장하지 않는다는걸 의미한다. 수시로 변할수 있는 데이터이기에 보관하는것이 의미 없음.
 	UPROPERTY(Transient, VisibleInstanceOnly, Category = Stat, Meta = (AllowPrivateAccess = true))
 		float CurrentHP;
-
-		
 };
