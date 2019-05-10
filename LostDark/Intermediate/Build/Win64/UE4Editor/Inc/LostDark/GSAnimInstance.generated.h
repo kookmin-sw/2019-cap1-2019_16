@@ -111,9 +111,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGSAnimInstance); \
 
 #define LostDark_Source_LostDark_SH_GSAnimInstance_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentPawnSpeed() { return STRUCT_OFFSET(UGSAnimInstance, CurrentPawnSpeed); } \
-	FORCEINLINE static uint32 __PPO__IsInAir2() { return STRUCT_OFFSET(UGSAnimInstance, IsInAir2); } \
+	FORCEINLINE static uint32 __PPO__IsInAir() { return STRUCT_OFFSET(UGSAnimInstance, IsInAir); } \
 	FORCEINLINE static uint32 __PPO__IsDead() { return STRUCT_OFFSET(UGSAnimInstance, IsDead); } \
-	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UGSAnimInstance, AttackMontage); }
+	FORCEINLINE static uint32 __PPO__AttackMontage() { return STRUCT_OFFSET(UGSAnimInstance, AttackMontage); } \
+	FORCEINLINE static uint32 __PPO__DodgeMontage() { return STRUCT_OFFSET(UGSAnimInstance, DodgeMontage); }
 
 
 #define LostDark_Source_LostDark_SH_GSAnimInstance_h_16_PROLOG

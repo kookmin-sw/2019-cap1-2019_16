@@ -212,6 +212,8 @@ void ALostDarkCharacter::PostInitializeComponents()
 	// 몽타주 재생이 끝나면, 자동으로 OnAttackMontageEnded 라는 함수를 호출하는것임. AnimInstance->OnMontageEnded는 이미 제공함.
 	GSAnim->OnMontageEnded.AddDynamic(this, &ALostDarkCharacter::OnAttackMontageEnded);
 
+	GSAnim->OnMontageEnded.AddDynamic(this, &ALostDarkCharacter::OnDodgeMontageEnded);
+
 	// 노티파이 신호가 들어오면 일로 들어옴. void를 반환
 	GSAnim->OnNextAttackCheck.AddLambda([this]() -> void {
 		// OnNextAttackCheck 브로드캐스트가 발동됨을 Log로 찍음.
@@ -343,6 +345,9 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	// Attack, Mouse X 바인딩하기.
 	PlayerInputComponent->BindAction(TEXT("Attack"), EInputEvent::IE_Pressed, this, &ALostDarkCharacter::Attack);
 
+	// Dodge, 왼쪽 Shift.
+	PlayerInputComponent->BindAction(TEXT("Dodge"), EInputEvent::IE_Pressed, this, &ALostDarkCharacter::Dodge);
+
 	/*
 		BindAxis(1, 2, 3)
 		1 : 프로젝트 세팅 Input에 있는 BindAxis 변수 이름을 TEXT 형태로 넣어준다.
@@ -408,6 +413,20 @@ void ALostDarkCharacter::Attack()
 	//IsAttacking = true;
 }
 
+// Dodge
+void ALostDarkCharacter::Dodge()
+{
+	// 공격중, 점프 중이면 재생안함
+	if (!IsAttacking&& !GSAnim->IsJump())
+	{
+		// 캐릭터 점프 막음.
+		GetCharacterMovement()->SetJumpAllowed(false);
+		GSAnim->PlayDodgeMontage();
+		// 이동
+		//DirectionToMove.X = 50.0f;
+	}
+}
+
 // 델리게이트로 지정된 함수. 몽타주가 완전히 끝나면, 자동으로 불리어짐.
 void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInterruped)
 {
@@ -424,6 +443,13 @@ void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInter
 
 	// AI의 경우 FinishLatentTask 함수를 호출하기 위해 만듦.
 	OnAttackEnd.Broadcast(); // BTTask_Attack.cpp 에 델리게이트 등록한 함수 있음.
+}
+
+
+// 닷지 몽타주가 끝나면 점프를 가능하게. 
+void ALostDarkCharacter::OnDodgeMontageEnded(UAnimMontage * Montage, bool bInterrupted)
+{
+	GetCharacterMovement()->SetJumpAllowed(true);
 }
 
 // 공격이 시작할때 관련 속성 지정하는 함수. Combo 카운트를 증가시킴

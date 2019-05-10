@@ -43,6 +43,10 @@ public:
 
 	// Attack 기능을 담당하는 함수. AI컨트롤러에게 명령을 내릴수 있도록 public으로 변경함
 	void Attack();
+
+	// Dodge 몽타주 기능 재생.
+	void Dodge();
+
 	// 델리게이트 변수 선언
 	FOnAttackEndDelegate OnAttackEnd;
 
@@ -98,6 +102,9 @@ private:
 	UFUNCTION()
 		// 몽타주 관련 델리게이트 함수. UAnimMontage을 적어야함!
 		void OnAttackMontageEnded(UAnimMontage* Montage, bool bInterrupted);
+
+	UFUNCTION()
+		void OnDodgeMontageEnded(UAnimMontage* Montage, bool bInterrupted);
 
 	// 공격이 시작할때 관련 속성 지정하는 함수
 	void AttackStartComboState();

@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_LostDark();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded();
 	LOSTDARK_API UClass* Z_Construct_UClass_UGSCharacterStatComponent_NoRegister();
 	LOSTDARK_API UClass* Z_Construct_UClass_AGSWeapon_NoRegister();
 	LOSTDARK_API UClass* Z_Construct_UClass_UGSAnimInstance_NoRegister();
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		UClass* Class = ALostDarkCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnAttackMontageEnded", &ALostDarkCharacter::execOnAttackMontageEnded },
+			{ "OnDodgeMontageEnded", &ALostDarkCharacter::execOnDodgeMontageEnded },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -74,6 +76,47 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics
+	{
+		struct LostDarkCharacter_eventOnDodgeMontageEnded_Parms
+		{
+			UAnimMontage* Montage;
+			bool bInterrupted;
+		};
+		static void NewProp_bInterrupted_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bInterrupted;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Montage;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::NewProp_bInterrupted_SetBit(void* Obj)
+	{
+		((LostDarkCharacter_eventOnDodgeMontageEnded_Parms*)Obj)->bInterrupted = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::NewProp_bInterrupted = { UE4CodeGen_Private::EPropertyClass::Bool, "bInterrupted", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(LostDarkCharacter_eventOnDodgeMontageEnded_Parms), &Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::NewProp_bInterrupted_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::NewProp_Montage = { UE4CodeGen_Private::EPropertyClass::Object, "Montage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(LostDarkCharacter_eventOnDodgeMontageEnded_Parms, Montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::NewProp_bInterrupted,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::NewProp_Montage,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SH/LostDarkCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALostDarkCharacter, "OnDodgeMontageEnded", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(LostDarkCharacter_eventOnDodgeMontageEnded_Parms), Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -157,6 +200,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ALostDarkCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded, "OnAttackMontageEnded" }, // 3364632732
+		{ &Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded, "OnDodgeMontageEnded" }, // 2778691889
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::Class_MetaDataParams[] = {
@@ -341,7 +385,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 2741818974);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 1577363829);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

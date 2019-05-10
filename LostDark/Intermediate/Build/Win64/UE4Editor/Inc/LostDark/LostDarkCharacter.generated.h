@@ -16,6 +16,16 @@ class UAnimMontage;
 
 #define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnDodgeMontageEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDodgeMontageEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \
 		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
@@ -28,6 +38,16 @@ class UAnimMontage;
 
 
 #define LostDark_Source_LostDark_SH_LostDarkCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnDodgeMontageEnded) \
+	{ \
+		P_GET_OBJECT(UAnimMontage,Z_Param_Montage); \
+		P_GET_UBOOL(Z_Param_bInterrupted); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnDodgeMontageEnded(Z_Param_Montage,Z_Param_bInterrupted); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnAttackMontageEnded) \
 	{ \

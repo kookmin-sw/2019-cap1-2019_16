@@ -8,22 +8,30 @@ UGSAnimInstance::UGSAnimInstance()
 	// 현재 캐릭터의 속도 초기화
 	CurrentPawnSpeed = 0.0f;
 	// 최초 점프 상태는 false
-	IsInAir2 = false;
+	IsInAir = false;
 	// 최초 사망상태는 false
 	IsDead = false;
 
 	// 몽타주 애셋 정보 등록. 몽타주는 Object 단위다.
-	static ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_Montage1(TEXT(
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> Attack_Montage(TEXT(
 		"/Game/SH/Animations/Greystone_Skeleton_Montage1.Greystone_Skeleton_Montage1"));
 	// 몽타주 에셋을 무사히 찾았으면
-	if (Attack_Montage1.Succeeded())
+	if (Attack_Montage.Succeeded())
 	{
 		// 몽타주 애셋 정보 등록
-		AttackMontage = Attack_Montage1.Object;
+		AttackMontage = Attack_Montage.Object;
 		UE_LOG(LogTemp, Warning, TEXT("Enroll Attack Montage"));
 	}
 	// 최초 콤보 입력이 들어오지 않았음.
 	IsInputCombo = false;
+
+	static ConstructorHelpers::FObjectFinder<UAnimMontage> Dodge_Montage(TEXT(
+		"/Game/JG/RollsAndDodges/GreyRetargetDodge_Montage.GreyRetargetDodge_Montage"));
+	if (Dodge_Montage.Succeeded())
+	{
+		DodgeMontage = Dodge_Montage.Object;
+	}
+
 }
 
 // 일반 Tick과 완전히 일치. 실시간으로 애니메이션 시스템의 틱에서 폰에 접근해 폰의 속력 값을 얻어옴 (아마도 사용 안하는중인듯)
@@ -48,9 +56,21 @@ void UGSAnimInstance::NativeUpdateAnimation(float DeltaSeconds)
 		if (Character)
 		{
 			// IsFalling 상태인지 확인한다.
-			IsInAir2 = Character->GetMovementComponent()->IsFalling();
+			IsInAir = Character->GetMovementComponent()->IsFalling();
 		}
 	}
+}
+
+// 현재 점프 상태 반환
+bool UGSAnimInstance::IsJump()
+{
+	return IsInAir;
+}
+
+// Dodge 몽타주 재생
+void UGSAnimInstance::PlayDodgeMontage()
+{
+	Montage_Play(DodgeMontage, 1.0f);
 }
 
 // 공격 몽타주 재생 함수

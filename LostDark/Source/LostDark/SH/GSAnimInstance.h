@@ -28,8 +28,13 @@ public:
 	// 공격 몽타주 플레이 함수
 	void PlayAttackMontage();
 
+	void PlayDodgeMontage();
+
 	// 몽타주에서 다음 공격 섹션으로 넘어가는 함수
 	void JumpToAttackMontageSection(int32 NewSection);
+
+	// 점프 확인
+	bool IsJump();
 
 public:
 	// 멀티캐스트 델리게이트 선언. 반환값과 인자 값이 없는 함수 유형. 여러개 의 함수가 등록될수 있음.
@@ -53,6 +58,7 @@ private:
 	// 현재 몽타주 섹션의 이름을 출력하기 위한 함수
 	FName GetAttackMontageSectionName(int32 Section);
 
+
 private:
 	// 현재 캐릭터 속도 프로퍼티(멤버변수) (사용안하는중)
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
@@ -60,7 +66,7 @@ private:
 
 	// 현재 공중에 떠있는지 확인하는 불값 변수 (사용 안하는중)
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
-		bool IsInAir2;
+		bool IsInAir;
 
 	// 자신이 사망상태인지 확인하는 변수
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Pawn, Meta = (AllowPrivateAccess = true))
@@ -69,7 +75,9 @@ private:
 	// 몽타주 애셋 정보
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* AttackMontage;
-
+	// 몽타주 애셋 정보
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
+		UAnimMontage* DodgeMontage;
 
 public:
 	// 콤보 입력 들어왔는지 확인함
