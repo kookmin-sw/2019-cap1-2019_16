@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/Public/LostDarkPlayerController.h"
+#include "LostDark/Public/LostDarkPlayerController.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkPlayerController() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkPlayerController_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "SH/Public/LostDarkPlayerController.h" },
-		{ "ModuleRelativePath", "SH/Public/LostDarkPlayerController.h" },
+		{ "IncludePath", "LostDarkPlayerController.h" },
+		{ "ModuleRelativePath", "Public/LostDarkPlayerController.h" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALostDarkPlayerController_Statics::StaticCppClassTypeInfo = {
@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkPlayerController, 218055961);
+	IMPLEMENT_CLASS(ALostDarkPlayerController, 2990746177);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkPlayerController(Z_Construct_UClass_ALostDarkPlayerController, &ALostDarkPlayerController::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkPlayerController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkPlayerController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

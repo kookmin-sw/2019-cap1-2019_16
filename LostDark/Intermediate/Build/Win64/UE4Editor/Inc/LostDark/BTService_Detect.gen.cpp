@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/Public/BTService_Detect.h"
+#include "LostDark/Public/BTService_Detect.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -40,8 +40,8 @@ void EmptyLinkFunctionForGeneratedCodeBTService_Detect() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBTService_Detect_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "SH/Public/BTService_Detect.h" },
-		{ "ModuleRelativePath", "SH/Public/BTService_Detect.h" },
+		{ "IncludePath", "BTService_Detect.h" },
+		{ "ModuleRelativePath", "Public/BTService_Detect.h" },
 		{ "ToolTip", "???? ?? ?\xc3\xb7??\xcc\xbe\xee\xb0\xa1 ???? ?\xdd\xb0? ???? ?????? ?????? ?\xdf\xb0??\xcf\xb4? ?????? ?\xcf\xb4? ???\xf1\xbd\xba\xb3???." },
 	};
 #endif
@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeBTService_Detect() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTService_Detect, 1490003510);
+	IMPLEMENT_CLASS(UBTService_Detect, 3918404369);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTService_Detect(Z_Construct_UClass_UBTService_Detect, &UBTService_Detect::StaticClass, TEXT("/Script/LostDark"), TEXT("UBTService_Detect"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTService_Detect);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

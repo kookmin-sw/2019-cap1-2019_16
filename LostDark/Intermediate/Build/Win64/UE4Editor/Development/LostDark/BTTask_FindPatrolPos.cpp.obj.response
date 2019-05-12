@@ -24,6 +24,7 @@
 /wd4838
 /we4668
 /I .
+/I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private
 /I B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDarkSetting
 /I B:\Develope\Sourcetree\LostDark\LostDark\Source
 /I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkSetting\Public
@@ -417,6 +418,7 @@
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
 /I B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDark
+/I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public
 /I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
@@ -427,7 +429,7 @@
 /FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\SH\Private\BTTask_FindPatrolPos.cpp"
+"B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\BTTask_FindPatrolPos.cpp"
 /FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\Definitions.LostDark.h"
 /Fo"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\BTTask_FindPatrolPos.cpp.obj"
 /TP
