@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/GSWeapon.h"
+#include "LostDark/SH/Public/GSWeapon.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -46,15 +46,15 @@ void EmptyLinkFunctionForGeneratedCodeGSWeapon() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGSWeapon_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "SH/GSWeapon.h" },
-		{ "ModuleRelativePath", "SH/GSWeapon.h" },
+		{ "IncludePath", "SH/Public/GSWeapon.h" },
+		{ "ModuleRelativePath", "SH/Public/GSWeapon.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGSWeapon_Statics::NewProp_Weapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "SH/GSWeapon.h" },
+		{ "ModuleRelativePath", "SH/Public/GSWeapon.h" },
 		{ "ToolTip", "???? ?\xd6\xbc? ???\xcc\xb7?\xc5\xbb ????" },
 	};
 #endif
@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeGSWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGSWeapon, 713008276);
+	IMPLEMENT_CLASS(AGSWeapon, 1500844868);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGSWeapon(Z_Construct_UClass_AGSWeapon, &AGSWeapon::StaticClass, TEXT("/Script/LostDark"), TEXT("AGSWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGSWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/LDGameInstance.h"
+#include "LostDark/SH/Public/LDGameInstance.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -71,7 +71,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCharacterData_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 		{ "ToolTip", "????\xc3\xbc ???????\xd8\xb4?.\nFTableRowBase ????\xc3\xbc?? ???\xd3\xb9\xde\xbe\xc6\xbe??\xd1\xb4?." },
 	};
 #endif
@@ -82,7 +82,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_NextExp_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 		{ "ToolTip", "???? ????\xc4\xa1" },
 	};
 #endif
@@ -90,7 +90,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_DropExp_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 		{ "ToolTip", "???????? ????\xc4\xa1" },
 	};
 #endif
@@ -98,7 +98,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_Attack_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 		{ "ToolTip", "???\xdd\xb7?" },
 	};
 #endif
@@ -106,7 +106,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_MaxHP_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 		{ "ToolTip", "?\xd6\xb4? ??????" },
 	};
 #endif
@@ -114,7 +114,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_Level_MetaData[] = {
 		{ "Category", "Data" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FGSCharacterData, Level), METADATA_PARAMS(Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FGSCharacterData_Statics::NewProp_Level_MetaData)) };
@@ -152,7 +152,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FGSCharacterData_CRC() { return 1080018196U; }
+	uint32 Get_Z_Construct_UScriptStruct_FGSCharacterData_CRC() { return 3140597635U; }
 	void ULDGameInstance::StaticRegisterNativesULDGameInstance()
 	{
 	}
@@ -180,13 +180,13 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULDGameInstance_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "SH/LDGameInstance.h" },
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "IncludePath", "SH/Public/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULDGameInstance_Statics::NewProp_GSCharacterTable_MetaData[] = {
-		{ "ModuleRelativePath", "SH/LDGameInstance.h" },
+		{ "ModuleRelativePath", "SH/Public/LDGameInstance.h" },
 		{ "ToolTip", "?????? ???\xcc\xba? ?????\xcf\xb1? ???? ????. ???? ?????? ?? ?????? ??." },
 	};
 #endif
@@ -217,7 +217,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULDGameInstance, 3246900238);
+	IMPLEMENT_CLASS(ULDGameInstance, 4269155188);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ULDGameInstance(Z_Construct_UClass_ULDGameInstance, &ULDGameInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("ULDGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ULDGameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

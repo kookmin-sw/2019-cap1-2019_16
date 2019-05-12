@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/GSCharacterStatComponent.h"
+#include "LostDark/SH/Public/GSCharacterStatComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -51,8 +51,8 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCharacterStatComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
-		{ "IncludePath", "SH/GSCharacterStatComponent.h" },
-		{ "ModuleRelativePath", "SH/GSCharacterStatComponent.h" },
+		{ "IncludePath", "SH/Public/GSCharacterStatComponent.h" },
+		{ "ModuleRelativePath", "SH/Public/GSCharacterStatComponent.h" },
 		{ "ToolTip", "UI ?????? ???? ????????\xc6\xae(->GSCharacterWidget)" },
 	};
 #endif
@@ -60,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Stat" },
-		{ "ModuleRelativePath", "SH/GSCharacterStatComponent.h" },
+		{ "ModuleRelativePath", "SH/Public/GSCharacterStatComponent.h" },
 		{ "ToolTip", "???? HP / Transient?? UPROPERTY ?\xd3\xbc??? ???????? ?\xca\xb4\xc2\xb4\xd9\xb4\xc2\xb0? ?\xc7\xb9??\xd1\xb4?. ???\xc3\xb7? ???\xd2\xbc? ?\xd6\xb4? ???????\xcc\xb1\xe2\xbf\xa1 ?????\xcf\xb4\xc2\xb0??? ?\xc7\xb9? ????." },
 	};
 #endif
@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Stat" },
-		{ "ModuleRelativePath", "SH/GSCharacterStatComponent.h" },
+		{ "ModuleRelativePath", "SH/Public/GSCharacterStatComponent.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000801, 1, nullptr, STRUCT_OFFSET(UGSCharacterStatComponent, Level), METADATA_PARAMS(Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level_MetaData)) };
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSCharacterStatComponent, 4145942583);
+	IMPLEMENT_CLASS(UGSCharacterStatComponent, 774241933);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSCharacterStatComponent(Z_Construct_UClass_UGSCharacterStatComponent, &UGSCharacterStatComponent::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSCharacterStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCharacterStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

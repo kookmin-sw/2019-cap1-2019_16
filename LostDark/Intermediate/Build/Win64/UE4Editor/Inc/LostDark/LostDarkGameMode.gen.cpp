@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/LostDarkGameMode.h"
+#include "LostDark/SH/Public/LostDarkGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,8 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkGameMode() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "SH/LostDarkGameMode.h" },
-		{ "ModuleRelativePath", "SH/LostDarkGameMode.h" },
+		{ "IncludePath", "SH/Public/LostDarkGameMode.h" },
+		{ "ModuleRelativePath", "SH/Public/LostDarkGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 		{ "ToolTip", "minimalapi = \xc5\xac???? ??????.\n????, ?????? ???? ???????? ?\xee\xb6\xbb?? ?\xdb\xb5??\xcf\xb4??? ???\xee\xb0\xa1??.\n\xc5\xac?????? ?? ?????? ?\xd9\xb8? ?????? ?????? ?? ?\xd6\xb5??? ????.\n?? \xc5\xac?????? ????\xc8\xaf?? ??????????, ?? ?\xd4\xbc??? \xc8\xa3???? ?? ????.\n?????? ?\xc3\xb0??? ??????.\nhttp://api.unrealengine.com/KOR/Programming/UnrealArchitecture/Reference/Classes/" },
 	};
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkGameMode, 2592689761);
+	IMPLEMENT_CLASS(ALostDarkGameMode, 261848034);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkGameMode(Z_Construct_UClass_ALostDarkGameMode, &ALostDarkGameMode::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
