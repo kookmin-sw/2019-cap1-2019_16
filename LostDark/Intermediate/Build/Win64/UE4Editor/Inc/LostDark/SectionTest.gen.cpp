@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeSectionTest() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	LOSTDARK_API UFunction* Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_ASectionTest_OnTriggerBeginOverlap();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -30,6 +31,7 @@ void EmptyLinkFunctionForGeneratedCodeSectionTest() {}
 		UClass* Class = ASectionTest::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "OnGateTriggerBeginOverlap", &ASectionTest::execOnGateTriggerBeginOverlap },
+			{ "OnKeyAIDestroyed", &ASectionTest::execOnKeyAIDestroyed },
 			{ "OnTriggerBeginOverlap", &ASectionTest::execOnTriggerBeginOverlap },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -113,6 +115,39 @@ void EmptyLinkFunctionForGeneratedCodeSectionTest() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASectionTest_OnGateTriggerBeginOverlap_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics
+	{
+		struct SectionTest_eventOnKeyAIDestroyed_Parms
+		{
+			AActor* DestroyedActor;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DestroyedActor;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::NewProp_DestroyedActor = { UE4CodeGen_Private::EPropertyClass::Object, "DestroyedActor", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SectionTest_eventOnKeyAIDestroyed_Parms, DestroyedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::NewProp_DestroyedActor,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/SectionTest.h" },
+		{ "ToolTip", "???????? ???? ???\xcd\xb0? ????????" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASectionTest, "OnKeyAIDestroyed", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, sizeof(SectionTest_eventOnKeyAIDestroyed_Parms), Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -250,6 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeSectionTest() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASectionTest_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ASectionTest_OnGateTriggerBeginOverlap, "OnGateTriggerBeginOverlap" }, // 153439944
+		{ &Z_Construct_UFunction_ASectionTest_OnKeyAIDestroyed, "OnKeyAIDestroyed" }, // 2074220018
 		{ &Z_Construct_UFunction_ASectionTest_OnTriggerBeginOverlap, "OnTriggerBeginOverlap" }, // 805542572
 	};
 #if WITH_METADATA
@@ -365,7 +401,7 @@ void EmptyLinkFunctionForGeneratedCodeSectionTest() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASectionTest, 1262328371);
+	IMPLEMENT_CLASS(ASectionTest, 615638833);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASectionTest(Z_Construct_UClass_ASectionTest, &ASectionTest::StaticClass, TEXT("/Script/LostDark"), TEXT("ASectionTest"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASectionTest);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

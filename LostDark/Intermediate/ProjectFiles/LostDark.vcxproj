@@ -524,6 +524,9 @@
     <ClCompile Include="..\..\Source\LostDark\Private\GSWeapon.cpp" />
     <ClCompile Include="..\..\Source\LostDark\Private\LDAIController.cpp" />
     <ClCompile Include="..\..\Source\LostDark\Private\LDGameInstance.cpp" />
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGameState.cpp" />
+    <ClCompile Include="..\..\Source\LostDark\Private\LDHUDWidget.cpp" />
+    <ClCompile Include="..\..\Source\LostDark\Private\LDPlayerState.cpp" />
     <ClCompile Include="..\..\Source\LostDark\Private\LostDark.cpp" />
     <ClCompile Include="..\..\Source\LostDark\Private\LostDarkCharacter.cpp" />
     <ClCompile Include="..\..\Source\LostDark\Private\LostDarkGameMode.cpp" />
@@ -541,6 +544,9 @@
     <ClInclude Include="..\..\Source\LostDark\Public\GSWeapon.h" />
     <ClInclude Include="..\..\Source\LostDark\Public\LDAIController.h" />
     <ClInclude Include="..\..\Source\LostDark\Public\LDGameInstance.h" />
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGameState.h" />
+    <ClInclude Include="..\..\Source\LostDark\Public\LDHUDWidget.h" />
+    <ClInclude Include="..\..\Source\LostDark\Public\LDPlayerState.h" />
     <ClInclude Include="..\..\Source\LostDark\Public\LostDark.h" />
     <ClInclude Include="..\..\Source\LostDark\Public\LostDarkCharacter.h" />
     <ClInclude Include="..\..\Source\LostDark\Public\LostDarkGameMode.h" />

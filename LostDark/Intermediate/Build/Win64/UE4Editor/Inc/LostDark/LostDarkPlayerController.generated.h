@@ -57,7 +57,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkPlayerController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALostDarkPlayerController)
 
 
-#define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_PRIVATE_PROPERTY_OFFSET
+#define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(ALostDarkPlayerController, HUDWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__HUDWidget() { return STRUCT_OFFSET(ALostDarkPlayerController, HUDWidget); } \
+	FORCEINLINE static uint32 __PPO__LDPlayerState() { return STRUCT_OFFSET(ALostDarkPlayerController, LDPlayerState); }
+
+
 #define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_12_PROLOG
 #define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

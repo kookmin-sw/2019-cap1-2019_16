@@ -57,7 +57,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ALostDarkGameMode)
 
 
-#define LostDark_Source_LostDark_Public_LostDarkGameMode_h_20_PRIVATE_PROPERTY_OFFSET
+#define LostDark_Source_LostDark_Public_LostDarkGameMode_h_20_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__LDGameState() { return STRUCT_OFFSET(ALostDarkGameMode, LDGameState); }
+
+
 #define LostDark_Source_LostDark_Public_LostDarkGameMode_h_17_PROLOG
 #define LostDark_Source_LostDark_Public_LostDarkGameMode_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

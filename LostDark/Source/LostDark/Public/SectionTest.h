@@ -48,6 +48,10 @@ private:
 	// NPC 스폰함수
 	void OnNPCSpawn();
 
+	// 마지막에 죽인 액터가 누구인지
+	UFUNCTION()
+		void OnKeyAIDestroyed(AActor* DestroyedActor);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

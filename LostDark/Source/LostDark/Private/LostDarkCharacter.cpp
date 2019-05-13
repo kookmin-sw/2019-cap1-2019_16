@@ -17,6 +17,11 @@
 #include "LDCharacterSetting.h"
 // 게임 인스턴스 사용
 #include "LDGameInstance.h"
+// 캐릭터 컨트롤러 사용
+#include "LostDarkPlayerController.h"
+// 캐릭터 스테이트 정보
+#include "LDPlayerState.h"
+#include "LDHUDWidget.h"
 
 /// 생성자 Sets Default values
 ALostDarkCharacter::ALostDarkCharacter()
@@ -114,7 +119,7 @@ ALostDarkCharacter::ALostDarkCharacter()
 	//	// 새로만든 컴포넌트를 자신의 메시에 적절한 위치에 상속시킴. 소켓 위치를 기준으로 트랜스폼이 자동으로 설정됨. (위치조절)
 	//	Weapon->SetupAttachment(GetMesh(), WeaponSocket);
 	//}
-	
+
 	/* HPBarWidget에 대한 내용 */
 	// 위젯 위치 Z축으로 180cm
 	HPBarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 202.0f));
@@ -149,6 +154,18 @@ ALostDarkCharacter::ALostDarkCharacter()
 	//		ABLOG(Warning, TEXT("Character Asset : %s"), *CharacterAsset.ToString());
 	//	}
 	//}
+
+	//
+	AssetIndex = 4;
+	// 액터 숨김
+	SetActorHiddenInGame(true);
+	// 숨김
+	HPBarWidget->SetHiddenInGame(true);
+	// 데미지 안받음 Actor에 이미 만들어져있음.
+	bCanBeDamaged = false;
+	
+	// DeadTimer
+	DeadTimer = 5.0f;
 }
 
 void ALostDarkCharacter::BeginPlay()
@@ -166,42 +183,48 @@ void ALostDarkCharacter::BeginPlay()
 	//	CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
 	//}
 
-	/* ★★★ Changed in 4.21. copied from PostInitializeComponents() ㅠㅠ  */
+	// 플레이어 컨트롤러라면 true
+	bIsPlayer = IsPlayerControlled();
 
-	// 플레이어 컨트롤러가 아니라면 => AI 라면
-	if (!IsPlayerControlled())
+	if (bIsPlayer)
 	{
-		// Config 파일에 있는 내용중 LDCharacterSetting 내용을 가져온다.
-		auto DefaultSetting = GetDefault<ULDCharacterSetting>();
-		
-		//if (DefaultSetting->CharacterAssets.Num() > 0)
-		//{
-		//	// 하나씩 읽어들인다.
-		//	for (auto CharacterAsset : DefaultSetting->CharacterAssets)
-		//	{
-		//		// 이거는 최초 엔진 구동했을때 로고에 뜨는것임. 그 이후에 인 게임에서는 더이상 나오지 않음.
-		//		ABLOG(Warning, TEXT("Character Asset : %s"), *CharacterAsset.ToString());
-		//	}
-		//}
-		// 랜덤변수. 최소는 0, 최대는 숫자-1 주의
-		int32 RandIndex = FMath::RandRange(0, DefaultSetting->CharacterAssets.Num() - 1);
-		// 랜덤한 애셋 정보를 등록.
-		CharacterAssetToLoad = DefaultSetting->CharacterAssets[RandIndex];
-
-		ABLOG(Warning, TEXT("@@@ Character Asset : %s"), *CharacterAssetToLoad.ToString());
-
-		// ★GetGameInstance : 현재 등록된 게임인스턴스 정보를 가져옴.
-		auto LDGameInstance = Cast<ULDGameInstance>(GetGameInstance());
-
-		if (nullptr != LDGameInstance)
-		{
-			// 게임 인스턴스에 있는 StreamableManager를 이용해서 비동기요청 함수를 요청.
-			AssetStreamingHandle = LDGameInstance->StreamableManager.RequestAsyncLoad(
-				CharacterAssetToLoad, FStreamableDelegate::CreateUObject(this, &ALostDarkCharacter::OnAssetLoadCompleted));
-			/// CreateUObject : 즉석에서 델리게이트를 생성해서 연동시킴.
-		}
+		LDPlayerController = Cast<ALostDarkPlayerController>(GetController());
+		ABCHECK(nullptr != LDPlayerController);
 	}
-	// 위젯에 설정된 부모 UserWidget 정보를 넘겨줌. /// 여기서 자꾸 null처리됨.
+	else
+	{
+		LDAIController = Cast<ALDAIController>(GetController());
+		ABCHECK(nullptr != LDAIController);
+	}
+
+	// Config 파일에 있는 내용중 LDCharacterSetting 내용을 가져온다.
+	auto DefaultSetting = GetDefault<ULDCharacterSetting>();
+
+	// 플레이어 컨트롤러라면
+	if (bIsPlayer)
+	{
+		AssetIndex = 4;
+	}
+	else
+	{
+		// 캐릭터 애셋 정보를 가져와서, 랜덤변수. 최소는 0, 최대는 숫자-1 주의
+		AssetIndex = FMath::RandRange(0, DefaultSetting->CharacterAssets.Num() - 2);
+	}
+	// 랜덤한 애셋 정보를 등록.
+	CharacterAssetToLoad = DefaultSetting->CharacterAssets[AssetIndex];
+	// ★GetGameInstance : 현재 등록된 게임인스턴스 정보를 가져옴.
+	auto LDGameInstance = Cast<ULDGameInstance>(GetGameInstance());
+	ABCHECK(nullptr != LDGameInstance);
+	// 게임 인스턴스에 있는 StreamableManager를 이용해서 비동기요청 함수를 요청.
+	AssetStreamingHandle = LDGameInstance->StreamableManager.RequestAsyncLoad(
+		CharacterAssetToLoad, FStreamableDelegate::CreateUObject(this, &ALostDarkCharacter::OnAssetLoadCompleted));
+	/// CreateUObject : 즉석에서 델리게이트를 생성해서 연동시킴.
+	// 로딩으로 스테이트 변경
+	SetCharacterState(ECharacterState::LOADING);
+
+
+	/* ★★★ Changed in 4.21. copied from PostInitializeComponents() ㅠㅠ  */
+	// 위젯에 설정된 부모 UserWidget 정보를 넘겨줌. 
 	auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
 	/// 내가 임시로 추가한것. 여기서 에러뜸. (이걸 제대로 받아오지 못하고 있음)
 	ABCHECK(nullptr != CharacterWidget);
@@ -279,7 +302,7 @@ void ALostDarkCharacter::PostInitializeComponents()
 			AttackStartComboState();
 			// 다음 섹션 콤보를 불러옴
 			GSAnim->JumpToAttackMontageSection(CurrentCombo);
-			UE_LOG(LogTemp, Warning, TEXT("Called JumpTo Function, Combo : %d"),CurrentCombo);
+			UE_LOG(LogTemp, Warning, TEXT("Called JumpTo Function, Combo : %d"), CurrentCombo);
 		}
 	});
 	// OnAttackHitCheck 노티파이에서 브로드캐스트가 들어오면, 2번째 인자에 해당하는 함수를 호출함(=AttackCheck)
@@ -325,10 +348,23 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 		SetActorEnableCollision(false);
 	}
 	*/
-	
+
 	// 캐릭터스텟 (액터 컴포넌트)에 있는 SetDamage를 호출함. 데미지 받은 데이터를 그쪽으로 넘겨줌. 참고로 거기서 상호작용 끝내고 반대로 반환함.
 	CharacterStat->SetDamage(FinalDamage);
 
+	// 현재 상태가 DEAD라면
+	if (CurrentState == ECharacterState::DEAD)
+	{
+		// 가해자가 플레이어라면
+		if (EventInstigator->IsPlayerController())
+		{
+			// 플레이어 정보를 가져오고
+			auto LDPlayerController = Cast<ALostDarkPlayerController>(EventInstigator);
+			ABCHECK(nullptr != LDPlayerController, 0.0f);
+			// Kill 함수 호출
+			LDPlayerController->AIKill(this);
+		}
+	}
 	// 최종적으로 받은 데미지를 반환한다
 	return FinalDamage;
 }
@@ -360,7 +396,7 @@ void ALostDarkCharacter::PossessedBy(AController * NewController)
 bool ALostDarkCharacter::CanSetWeapon()
 {
 	// 없으면 true, 무기가 있다면 false
-	return (nullptr==CurrentWeapon);
+	return (nullptr == CurrentWeapon);
 }
 
 // 무기 장착함수
@@ -419,6 +455,128 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 }
 
+// 캐릭터 상태 변수 설정
+void ALostDarkCharacter::SetCharacterState(ECharacterState NewState)
+{
+	// 만약 같은 스테이트의 변경이라면 예외처리
+	ABCHECK(CurrentState != NewState);
+	CurrentState = NewState;
+	switch (CurrentState)
+	{
+	/*case ECharacterState::PREINIT:
+		break;*/
+	case ECharacterState::LOADING:
+	{
+		// 플레이어 컨트롤러라면
+		if (bIsPlayer)
+		{
+			// 키입력을 못받도록함.
+			DisableInput(LDPlayerController);
+			
+			// 플레이어 컨트롤러에서 위젯을 얻고 캐릭터 스탯을 바인딩시킴.
+			LDPlayerController->GetHUDWidget()->BindCharacterStat(CharacterStat);
+
+			// 플레이어 스테이트 정보를 가져옴
+			auto LDPlayerState = Cast<ALDPlayerState>(GetPlayerState());
+			ABCHECK(nullptr != LDPlayerState);
+			// 캐릭터 스텟 정보를 현재 캐릭터 레벨 정보로 재설정
+			CharacterStat->SetNewLevel(LDPlayerState->GetCharacterLevel());
+		}
+		SetActorHiddenInGame(true);
+		HPBarWidget->SetHiddenInGame(true);
+		bCanBeDamaged = false;
+		break;
+	}
+	case ECharacterState::READY:
+	{
+		SetActorHiddenInGame(false);
+		HPBarWidget->SetHiddenInGame(false);
+		bCanBeDamaged = true;
+		// HP가 0이하로 떨어지면 스테이트 변경
+		CharacterStat->OnHPIsZero.AddLambda([this]()->void {
+			SetCharacterState(ECharacterState::DEAD);
+		});
+		// 위젯 캐릭터와 연동
+		auto CharacterWidget = Cast<UGSCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+		ABCHECK(nullptr != CharacterWidget);
+		CharacterWidget->BindCharacterStat(CharacterStat);
+
+		// 플레이어라면
+		if (bIsPlayer)
+		{
+			SetControlMode(EControlMode::BackView);
+			GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+			// 키입력 받도록 함.
+			EnableInput(LDPlayerController);
+		}
+		// AI라면
+		else
+		{
+			SetControlMode(EControlMode::NPC);
+			GetCharacterMovement()->MaxWalkSpeed = 300.0f;
+			LDAIController->RunAI();
+		}
+		break;
+	}
+
+	case ECharacterState::DEAD:
+	{
+		// 콜리전 없앰
+		SetActorEnableCollision(false);
+		// 안보이게함
+		GetMesh()->SetHiddenInGame(false);
+		// UI위젯 안보임
+		HPBarWidget->SetHiddenInGame(true);
+		// 죽는 애니메이션
+		GSAnim->SetDeadAnim();
+		bCanBeDamaged = false;
+
+		if (bIsPlayer)
+		{
+			// 키입력 없앰.
+			DisableInput(LDPlayerController);
+		}
+		else
+		{
+			// AI 중단
+			LDAIController->StopAI();
+		}
+
+		GetWorld()->GetTimerManager().SetTimer(DeadTimerHandle, FTimerDelegate::CreateLambda([this]()->void {
+			// 플레이어라면
+			if (bIsPlayer)
+			{
+				// 다시 시작함
+				LDPlayerController->RestartLevel();
+			}
+			else
+			{
+				// AI는 파괴
+				Destroy();
+			}
+		}), DeadTimer, false);
+
+		break;
+	}
+	default:
+	{
+		break;
+	}
+	}
+}
+
+// 캐릭터 상태 변수 반환
+ECharacterState ALostDarkCharacter::GetCharacterState() const
+{
+	// 현재 상태 반환
+	return CurrentState;
+}
+
+int32 ALostDarkCharacter::GetExp() const
+{
+	return CharacterStat->GetDropExp();
+}
+
 // 마우스 좌클릭시, Attack 구현. 몽타주를 사용해 공격 애니메이션을 재생함. 실제 공격 로직의 최초 시작임. 이거 사용하면 공격됨
 void ALostDarkCharacter::Attack()
 {
@@ -468,7 +626,7 @@ void ALostDarkCharacter::Attack()
 void ALostDarkCharacter::Dodge()
 {
 	// 공격중, 점프 중이면 재생안함
-	if (!IsAttacking&& !GSAnim->IsJump())
+	if (!IsAttacking && !GSAnim->IsJump())
 	{
 		// 캐릭터 점프 막음.
 		GetCharacterMovement()->SetJumpAllowed(false);
@@ -615,11 +773,12 @@ void ALostDarkCharacter::OnAssetLoadCompleted()
 	AssetStreamingHandle->ReleaseHandle();
 	// 약한 포인터, 캐릭터 에셋 경로등록
 	TSoftObjectPtr<USkeletalMesh> LoadedAssetPath(CharacterAssetToLoad);
-	if (LoadedAssetPath.IsValid())
-	{
-		// 스켈레탈 적용
-		GetMesh()->SetSkeletalMesh(LoadedAssetPath.Get());
-	}
+	ABCHECK(LoadedAssetPath.IsValid());
+	
+	// 스켈레탈 적용
+	GetMesh()->SetSkeletalMesh(LoadedAssetPath.Get());
+	// 스테이트 READY로 변경
+	SetCharacterState(ECharacterState::READY);
 }
 
 // 시점 변수 변경

@@ -1,0 +1,1403 @@
+﻿Log file open, 05/13/19 13:19:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LostDark
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.022677
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.239s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:276][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.13-04.19.59:276][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:276][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:284][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.13-04.19.59:284][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.13-04.19.59:285][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.13-04.19.59:285][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.13-04.19.59:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.13-04.19.59:316][  0]LogHAL: Display: Platform has ~ 16 GB [17103896576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.13-04.19.59:316][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.13-04.19.59:316][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.13-04.19.59:316][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.13-04.19.59:317][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.13-04.19.59:320][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.13-04.19.59:320][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.13-04.19.59:321][  0]LogInit: Computer: DESKTOP-7NEMS3A
+[2019.05.13-04.19.59:321][  0]LogInit: User: SungHoon
+[2019.05.13-04.19.59:321][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.05.13-04.19.59:321][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.13-04.19.59:321][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.13-04.19.59:321][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.13-04.19.59:321][  0]LogMemory: Process Physical Memory: 103.92 MB used, 103.92 MB peak
+[2019.05.13-04.19.59:321][  0]LogMemory: Process Virtual Memory: 93.07 MB used, 93.07 MB peak
+[2019.05.13-04.19.59:321][  0]LogMemory: Physical Memory: 3758.02 MB used,  12553.53 MB free, 16311.55 MB total
+[2019.05.13-04.19.59:321][  0]LogMemory: Virtual Memory: 4647.90 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.05.13-04.19.59:492][  0]LogInit: Overriding language with editor language configuration option (ko).
+[2019.05.13-04.19.59:492][  0]LogInit: Overriding locale with editor locale configuration option (ko).
+[2019.05.13-04.20.00:018][  0]LogStreaming: Display: Took  0.526s to InitEngineTextLocalization.
+[2019.05.13-04.20.00:019][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.13-04.20.00:097][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.13-04.20.00:097][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.13-04.20.01:779][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.13-04.20.01:779][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.13-04.20.01:859][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.13-04.20.01:859][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.13-04.20.01:861][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.13-04.20.01:861][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.13-04.20.01:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.13-04.20.01:868][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.13-04.20.01:868][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.13-04.20.01:868][  0]LogWindows: EnumDisplayDevices:
+[2019.05.13-04.20.01:868][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.13-04.20.01:869][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.05.13-04.20.01:869][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.13-04.20.01:870][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.13-04.20.01:870][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.13-04.20.01:871][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.13-04.20.01:871][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.05.13-04.20.01:871][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.05.13-04.20.01:871][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.13-04.20.01:904][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.13-04.20.01:929][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.13-04.20.02:373][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.13-04.20.02:386][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.13-04.20.02:399][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.13-04.20.02:412][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.13-04.20.02:428][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.13-04.20.02:441][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.13-04.20.02:455][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.13-04.20.02:469][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.13-04.20.02:475][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:547][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.13-04.20.02:549][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.13-04.20.02:617][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.13-04.20.02:617][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.13-04.20.02:637][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.13-04.20.02:637][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.13-04.20.02:650][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.13-04.20.02:662][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.13-04.20.02:674][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.13-04.20.02:691][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.13-04.20.02:733][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.13-04.20.02:733][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.13-04.20.02:733][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.13-04.20.02:859][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (B:/Develope/Sourcetree/LostDark/LostDark/Intermediate/Shaders/WorkingDirectory/2704/).
+[2019.05.13-04.20.02:859][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SungHoon/AppData/Local/Temp/UnrealShaderWorkingDir/261A0D5B4902B5AEA367C08D9B05AA76/'.
+[2019.05.13-04.20.02:862][  0]LogXGEController: Cleaning working directory: C:/Users/SungHoon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.13-04.20.02:863][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.13-04.20.02:863][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.13-04.20.02:863][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.13-04.20.04:289][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.13-04.20.04:435][  0]LogDerivedDataCache: Loaded boot cache 0.15s 112MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.13-04.20.04:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.13-04.20.04:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.13-04.20.04:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.13-04.20.04:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.13-04.20.04:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.13-04.20.04:458][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.13-04.20.04:458][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.13-04.20.04:458][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.13-04.20.04:470][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SungHoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.13-04.20.04:470][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.13-04.20.04:470][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.13-04.20.04:492][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.13-04.20.04:498][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.13-04.20.04:506][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.13-04.20.04:804][  0]LogAssetRegistry: FAssetRegistry took 0.0365 seconds to start up
+[2019.05.13-04.20.05:128][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.13-04.20.05:307][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.13-04.20.05:324][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.13-04.20.05:324][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.13-04.20.05:325][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.13-04.20.05:325][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.13-04.20.05:446][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.05.13-04.20.06:527][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.140053 seconds
+[2019.05.13-04.20.06:540][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.13-04.20.06:540][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.13-04.20.06:540][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.13-04.20.09:527][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.13-04.20.09:543][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.13-04.20.11:282][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.20.17:142][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.20.17:154][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.20.17:178][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.20.17:697][  0]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.20.17:697][  0]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.20.17:697][  0]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.20.17:697][  0]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.20.18:239][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.13-04.20.18:239][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.13-04.20.18:248][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.13-04.20.18:252][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.13-04.20.18:575][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.13-04.20.18:700][  0]LogOcInput: OculusInput pre-init called
+[2019.05.13-04.20.18:995][  0]LogEngine: Initializing Engine...
+[2019.05.13-04.20.18:998][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.13-04.20.19:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.13-04.20.19:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.13-04.20.19:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.13-04.20.19:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.13-04.20.19:383][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.13-04.20.19:427][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.13-04.20.19:459][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.13-04.20.19:494][  0]LogInit: FAudioDevice initialized.
+[2019.05.13-04.20.19:494][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.13-04.20.19:570][  0]LogDerivedDataCache: Saved boot cache 0.08s 121MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.13-04.20.19:584][  0]LogInit: Texture streaming: Enabled
+[2019.05.13-04.20.19:608][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.13-04.20.19:792][  0]LogInit: Transaction tracking system initialized
+[2019.05.13-04.20.19:860][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.13-04.20.20:122][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.13-04.20.22:436][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.13-04.20.22:436][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.13-04.20.22:436][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.13-04.20.22:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.13-04.20.22:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.13-04.20.22:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.13-04.20.22:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.13-04.20.22:734][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 0.07s
+[2019.05.13-04.20.22:734][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.13-04.20.22:735][  0]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.13-04.20.22:764][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.13-04.20.22:772][  0]MapCheck: New page: 맵 체크
+[2019.05.13-04.20.22:772][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.13-04.20.22:934][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.13-04.20.22:953][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.13-04.20.22:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.13-04.20.22:979][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.069ms.
+[2019.05.13-04.20.22:979][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.245
+[2019.05.13-04.20.23:191][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.20.23:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.20.23:206][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.20.23:213][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.20.23:231][  0]LogCollectionManager: Loaded 0 collections in 0.001887 seconds
+[2019.05.13-04.20.23:272][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/Collections/' took 0.01s
+[2019.05.13-04.20.23:272][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Developers/SungHoon/Collections/' took 0.01s
+[2019.05.13-04.20.23:272][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Collections/' took 0.00s
+[2019.05.13-04.20.23:272][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.13-04.20.23:283][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2670 classes and 625 folders.
+[2019.05.13-04.20.23:294][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.13-04.20.23:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:309][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:333][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:337][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:345][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:353][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:357][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:361][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:365][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:369][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:373][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:393][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:397][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:428][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:432][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:437][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:441][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:445][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.13-04.20.23:554][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.13-04.20.23:569][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.13-04.20.23:696][  0]LogSlate: Took 0.004405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.13-04.20.23:706][  0]LogSlate: Took 0.008654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.13-04.20.23:715][  0]LogSlate: Took 0.007679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.13-04.20.23:719][  0]LogSlate: Took 0.003724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.13-04.20.23:726][  0]LogSlate: Took 0.003595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.13-04.20.23:879][  0]LogRenderer: Reallocating scene render targets to support 1140x572 Format 10 NumSamples 1 (Frame:1).
+[2019.05.13-04.20.23:991][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.13-04.20.23:992][  0]LogLoad: (Engine Initialization) Total time: 30.05 seconds
+[2019.05.13-04.20.23:992][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.13-04.20.24:077][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.13-04.20.24:107][  0]LogSlate: Took 0.004020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.13-04.20.24:296][  3]LogAssetRegistry: Asset discovery search completed in 19.5165 seconds
+[2019.05.13-04.20.24:298][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.13-04.20.24:298][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.05.13-04.20.29:318][ 18]LogFileCache: Retrieving MD5 hashes for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 5.30s
+[2019.05.13-04.21.54:256][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-04.46.37:716][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2019.05.13-04.46.39:374][401]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-04.46.45:314][ 98]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.13-04.46.45:618][ 98]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.46.45:618][ 98]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.46.45:618][ 98]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.46.45:618][ 98]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.46.45:769][ 98]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.13-04.46.45:771][ 98]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.46.45:771][ 98]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.45:781][ 98]LogAssetEditorManager: Opening Asset editor for World /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel
+[2019.05.13-04.46.45:805][ 98]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/SH/Maps/SH_DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.13-04.46.45:805][ 98]LightingResults: New page: 라이팅 빌드
+[2019.05.13-04.46.45:805][ 98]LoadErrors: New page: 맵 로드중: SH_DefaultLevel.umap
+[2019.05.13-04.46.45:806][ 98]MapCheck: New page: 맵 체크
+[2019.05.13-04.46.45:807][ 98]LightingResults: New page: 라이팅 빌드
+[2019.05.13-04.46.45:832][ 98]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.45:930][ 98]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.13-04.46.45:979][ 98]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.13-04.46.45:981][ 98]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 1.008ms.
+[2019.05.13-04.46.45:981][ 98]LogFileHelpers: Loading map 'SH_DefaultLevel' took 0.176
+[2019.05.13-04.46.47:596][278]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.13-04.46.47:610][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.46.47:610][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.13-04.46.47:611][278]PIE: New page: PIE 세션: SH_DefaultLevel (2019. 5. 13. 오후 10:46:47)
+[2019.05.13-04.46.47:623][278]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.13-04.46.47:624][278]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.46.47:624][278]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.46.47:624][278]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.46.47:624][278]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.46.47:627][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003827s)
+[2019.05.13-04.46.47:628][278]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.13-04.46.47:628][278]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2019.05.13-04.46.47:628][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.004655s)
+[2019.05.13-04.46.47:673][278]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.13-04.46.47:696][278]LogInit: FAudioDevice initialized.
+[2019.05.13-04.46.47:704][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.46.47:749][278]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.13-04.46.47:751][278]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.46.47:751][278]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.47:752][278]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.13-13.46.47
+[2019.05.13-04.46.47:753][278]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.46.47:756][278]LogWorld: Bringing up level for play took: 0.005711
+[2019.05.13-04.46.47:778][278]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.05.13-04.46.47:778][278]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.46.47:778][278]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.47:779][278]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.46.47:781][278]LostDark: Warning: ALostDarkCharacter::BeginPlay(191) @@@ Character Asset : /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/WhiteTiger/Meshes/Greystone_WhiteTiger.Greystone_WhiteTiger
+[2019.05.13-04.46.47:785][278]PIE: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.208
+[2019.05.13-04.46.47:786][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.46.47:822][278]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.05.13-04.46.48:923][299]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.50:090][439]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.13-04.46.50:545][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.46.50:545][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.46.50:563][493]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.13-04.46.50:599][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.13-04.46.50:600][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.46.50:661][495]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.05.13-04.46.51:244][565]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.13-04.46.51:258][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.46.51:258][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.13-04.46.51:258][565]PIE: New page: PIE 세션: SH_DefaultLevel (2019. 5. 13. 오후 10:46:51)
+[2019.05.13-04.46.51:258][565]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.13-04.46.51:259][565]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.46.51:259][565]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.46.51:259][565]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.46.51:259][565]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.46.51:262][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003448s)
+[2019.05.13-04.46.51:262][565]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.13-04.46.51:263][565]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2019.05.13-04.46.51:263][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.004571s)
+[2019.05.13-04.46.51:303][565]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.13-04.46.51:322][565]LogInit: FAudioDevice initialized.
+[2019.05.13-04.46.51:327][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.46.51:358][565]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.13-04.46.51:359][565]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.46.51:359][565]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.51:360][565]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.13-13.46.51
+[2019.05.13-04.46.51:360][565]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.46.51:361][565]LogWorld: Bringing up level for play took: 0.002484
+[2019.05.13-04.46.51:373][565]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.46.51:373][565]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.51:374][565]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.46.51:375][565]LostDark: Warning: ALostDarkCharacter::BeginPlay(191) @@@ Character Asset : /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/Novaborn/Meshes/Greystone_Novaborn.Greystone_Novaborn
+[2019.05.13-04.46.51:377][565]PIE: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.615
+[2019.05.13-04.46.51:378][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.46.53:323][608]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.46.54:310][726]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.13-04.46.56:830][ 28]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(182) Success GateMeshs :-X
+[2019.05.13-04.46.56:830][ 28]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.46.56:830][ 28]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.46.56:830][ 28]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.46.56:830][ 28]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.46.56:955][ 43]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(485) ASSERTION : 'IsAttacking'
+[2019.05.13-04.47.00:803][504]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(182) Success GateMeshs :-X
+[2019.05.13-04.47.00:811][504]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(213) New section area is not empty.
+[2019.05.13-04.47.02:228][674]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(182) Success GateMeshs :-X
+[2019.05.13-04.47.02:229][674]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(213) New section area is not empty.
+[2019.05.13-04.47.02:619][720]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.02:619][720]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.02:974][763]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.03:241][795]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.03:441][819]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.03:441][819]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.03:799][862]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.04:066][894]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.04:266][918]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.04:266][918]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.04:624][961]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.04:891][993]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.05:699][ 90]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.05:699][ 90]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.06:058][133]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.06:325][165]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.06:524][189]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.06:883][232]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.07:149][264]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.07:491][305]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.07:849][348]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.08:116][380]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.08:375][411]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.47.08:375][411]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.47.08:376][411]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.47.08:377][411]LostDark: Warning: ALostDarkCharacter::BeginPlay(191) @@@ Character Asset : /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/Tough/Meshes/Greystone_Tough.Greystone_Tough
+[2019.05.13-04.47.11:280][466]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.47.12:364][594]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.12:723][637]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.12:990][669]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.16:148][ 47]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.16:198][ 53]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.16:507][ 90]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.16:507][ 90]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.47.16:558][ 96]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.16:666][109]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.16:824][128]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.17:008][150]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.17:008][150]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.13-04.47.17:024][152]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.17:191][172]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.17:383][195]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.17:649][227]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.17:808][246]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.17:850][251]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.18:199][293]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.18:208][294]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.18:475][326]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.18:558][336]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.18:675][350]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.18:825][368]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.19:008][390]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.19:033][393]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.19:300][425]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.19:366][433]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.19:499][449]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.19:500][449]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.19:633][465]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.19:858][492]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.19:900][497]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.20:125][524]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.20:258][540]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.20:258][540]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.47.20:325][548]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.20:416][559]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.20:683][591]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.20:766][601]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.20:950][623]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.21:058][636]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.21:150][647]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.21:442][682]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.21:508][690]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.21:775][722]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.21:800][725]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.21:975][746]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.21:975][746]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.22:067][757]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.22:341][789]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.22:608][821]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.24:923][ 98]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_0
+[2019.05.13-04.47.25:281][141]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.25:548][173]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.26:324][266]LostDark: Warning: ASH_ItemBox::OnCharacterOverlap(82)
+[2019.05.13-04.47.29:556][653]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(485) ASSERTION : 'IsAttacking'
+[2019.05.13-04.47.29:780][680]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.47.29:780][680]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.47.29:989][705]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.29:989][705]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.30:139][723]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.30:347][748]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.30:405][755]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.30:614][780]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.31:131][842]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.31:131][842]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.31:155][845]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.31:423][877]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.31:489][885]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.31:756][917]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.31:789][921]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.47.31:789][921]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.47.31:956][941]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.31:956][941]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.32:147][964]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.32:314][984]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.32:415][996]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.32:581][ 16]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.32:731][ 34]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.47.32:731][ 34]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.47.32:781][ 40]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.47.32:781][ 40]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.47.32:781][ 40]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_6ee57a2ffdc598b13359e20e603dfc8a>::operator ()(290) @@ HP Is Zero
+[2019.05.13-04.47.33:089][ 77]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.33:139][ 83]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.33:267][ 98]LogSlate: Took 0.001689 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.13-04.47.33:361][109]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.33:411][115]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.33:969][182]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.47.34:237][213]LogTemp: Warning: MontageEnded
+[2019.05.13-04.47.52:378][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.47.52:378][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.47.52:395][386]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.13-04.47.52:429][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.13-04.47.52:430][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.47.52:487][388]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.05.13-04.47.53:871][554]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.13-04.47.53:885][554]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.47.53:885][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.13-04.47.53:885][554]PIE: New page: PIE 세션: SH_DefaultLevel (2019. 5. 13. 오후 10:47:53)
+[2019.05.13-04.47.53:885][554]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.13-04.47.53:886][554]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.47.53:886][554]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.47.53:886][554]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.47.53:886][554]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.47.53:889][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003304s)
+[2019.05.13-04.47.53:889][554]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.13-04.47.53:890][554]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2019.05.13-04.47.53:890][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.004131s)
+[2019.05.13-04.47.53:931][554]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.13-04.47.53:950][554]LogInit: FAudioDevice initialized.
+[2019.05.13-04.47.53:956][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.47.53:986][554]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.13-04.47.53:987][554]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.47.53:988][554]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.47.53:988][554]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.13-13.47.53
+[2019.05.13-04.47.53:988][554]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.47.53:989][554]LogWorld: Bringing up level for play took: 0.002374
+[2019.05.13-04.47.54:002][554]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.47.54:002][554]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.47.54:003][554]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.47.54:003][554]LostDark: Warning: ALostDarkCharacter::BeginPlay(191) @@@ Character Asset : /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/Dragonlord/Meshes/Greystone_Dragonlord.Greystone_Dragonlord
+[2019.05.13-04.47.54:006][554]PIE: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.013
+[2019.05.13-04.47.54:006][554]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.47.55:068][581]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.47.56:380][737]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.13-04.47.59:025][ 54]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(485) ASSERTION : 'IsAttacking'
+[2019.05.13-04.47.59:375][ 96]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(182) Success GateMeshs :-X
+[2019.05.13-04.47.59:375][ 96]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.47.59:376][ 96]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.47.59:376][ 96]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.47.59:376][ 96]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.48.01:817][389]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(182) Success GateMeshs :-Y
+[2019.05.13-04.48.01:817][389]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.48.01:817][389]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.48.01:817][389]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.48.01:817][389]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.48.02:217][437]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(485) ASSERTION : 'IsAttacking'
+[2019.05.13-04.48.05:568][839]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.48.05:568][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.48.05:569][839]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-04.48.05:569][839]LostDark: Warning: ALostDarkCharacter::BeginPlay(191) @@@ Character Asset : /Game/ParagonGreystone/Characters/Heroes/Greystone/Skins/Novaborn/Meshes/Greystone_Novaborn.Greystone_Novaborn
+[2019.05.13-04.48.05:570][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.48.07:753][101]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.07:753][101]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.07:945][124]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.07:945][124]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.08:111][144]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.08:111][144]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.48.08:303][167]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.08:570][199]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.08:620][205]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.08:912][240]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.09:469][307]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.09:470][307]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.48.09:478][308]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.09:478][308]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.09:628][326]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.09:628][326]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.09:836][351]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.09:978][368]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.09:978][368]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.13-04.48.10:104][383]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.10:154][389]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.10:154][389]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.10:296][406]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.10:296][406]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.10:654][449]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.10:771][463]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.10:921][481]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.11:047][496]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.11:047][496]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.11:121][505]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.11:121][505]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.11:404][539]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.11:404][539]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.48.11:479][548]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.11:562][558]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.11:562][558]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.11:749][580]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.11:907][599]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.11:907][599]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.13-04.48.11:948][604]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.11:948][604]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.12:082][620]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.12:082][620]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.12:307][647]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.12:575][679]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.12:708][695]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.12:774][703]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.12:775][703]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.12:974][727]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.12:974][727]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.13:133][746]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.13:333][770]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.13:333][770]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.48.13:400][778]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.13:491][789]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.13:491][789]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.13:591][801]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.13:591][801]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.13:841][831]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.13:841][831]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.13-04.48.13:951][844]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.14:016][852]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.14:016][852]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.14:216][876]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.14:416][900]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_0
+[2019.05.13-04.48.14:416][900]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.13-04.48.14:641][927]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.14:774][943]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.14:958][965]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : LostDarkCharacter_1
+[2019.05.13-04.48.14:958][965]LostDark: Warning: ALostDarkCharacter::TakeDamage(316) Actor : LostDarkCharacter_1 took Damage : 10.000000
+[2019.05.13-04.48.14:958][965]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_6ee57a2ffdc598b13359e20e603dfc8a>::operator ()(290) @@ HP Is Zero
+[2019.05.13-04.48.15:044][975]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.15:069][978]LostDark: Error: UGSAnimInstance::PlayAttackMontage(88) ASSERTION : '!IsDead'
+[2019.05.13-04.48.15:069][978]LostDark: Error: UGSAnimInstance::JumpToAttackMontageSection(97) ASSERTION : '!IsDead'
+[2019.05.13-04.48.15:319][  8]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.15:319][  8]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.13-04.48.15:819][ 68]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.16:119][104]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.16:536][154]LostDark: Warning: ASH_ItemBox::OnCharacterOverlap(82)
+[2019.05.13-04.48.18:844][430]LostDark: Warning: ALostDarkCharacter::AttackCheck(601) Hit Actor Name : SectionTest_2
+[2019.05.13-04.48.19:203][473]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.19:470][505]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.22:228][836]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.22:495][868]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.24:028][ 52]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_169964dbcb303d36e4bd904078ea422a>::operator ()(272) OnNextAttackCheck
+[2019.05.13-04.48.24:295][ 84]LogTemp: Warning: MontageEnded
+[2019.05.13-04.48.30:471][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.48.30:471][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-04.48.30:488][825]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.13-04.48.30:523][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.13-04.48.30:524][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-04.48.30:589][827]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.13-04.49.23:865][194]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-04.49.23:865][194]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-04.49.23:865][194]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-04.49.23:865][194]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-04.49.23:876][195]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-04.49.23:876][195]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-04.49.23:876][195]LostDark: Error: UGSCharacterStatComponent::SetNewLevel(54) ASSERTION : 'nullptr != LDGameInstance'
+[2019.05.13-04.49.28:485][731]LogAssetEditorManager: Opening Asset editor for Class /Script/LostDark.SectionTest
+[2019.05.13-04.58.26:354][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SH/Maps/SH_DefaultLevel' took 0.034
+[2019.05.13-07.10.44:133][414]Candidate modules for hot reload:
+[2019.05.13-07.10.44:133][414]  LostDark
+[2019.05.13-07.10.44:134][414]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,342 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.10.44:136][414]Warning: Starting HotReload took  0.2s.
+[2019.05.13-07.11.08:009][246]LogEditorViewport: Clicking on Actor (LMB): SectionTest (SectionTest1)
+[2019.05.13-07.11.09:859][452]LogSlate: Took 0.004013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.13-07.11.10:305][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-07.11.14:748][ 28]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MESH)
+[2019.05.13-07.11.15:068][ 60]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MESH)
+[2019.05.13-07.11.15:551][115]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MESH)
+[2019.05.13-07.11.15:855][147]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (MESH)
+[2019.05.13-07.11.21:346][756]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.13-07.11.53:257][568]Cmd: TRANSACTION UNDO
+[2019.05.13-07.11.53:257][568]LogEditorTransaction: Undo 컴포넌트에 클릭 (트리 뷰)
+[2019.05.13-07.11.54:677][732]Cmd: TRANSACTION UNDO
+[2019.05.13-07.11.54:677][732]LogEditorTransaction: Undo 컴포넌트에 클릭
+[2019.05.13-07.12.04:458][886]LogEditorViewport: Clicking on Actor (LMB): SectionTest (SectionTest1)
+[2019.05.13-07.12.06:355][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-07.12.57:980][246]LogSlate: Window 'SectionTest_1 - 프로퍼티 에디터' being destroyed
+[2019.05.13-07.13.23:501][ 20]LogSlate: Window '디테일' being destroyed
+[2019.05.13-07.13.29:059][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-07.14.28:162][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-07.14.28:330][288]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2019.05.13-07.14.28:352][288]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.05.13-07.14.28:352][288]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2019.05.13-07.14.28:379][288]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.05.13-07.14.28:379][288]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.05.13-07.14.28:394][288]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.05.13-07.14.28:412][288]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.05.13-07.14.28:421][288]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2019.05.13-07.14.28:445][288]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.05.13-07.14.28:453][288]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.05.13-07.14.28:461][288]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.05.13-07.14.28:518][288]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2019.05.13-07.14.28:526][288]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2019.05.13-07.14.28:555][288]LogMaterial: Display: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2019.05.13-07.14.28:574][288]LogMaterial: Display: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2019.05.13-07.14.28:596][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:604][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:613][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:629][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:645][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:653][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:670][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:678][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:701][288]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2019.05.13-07.14.28:710][288]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2019.05.13-07.14.28:727][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:736][288]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2019.05.13-07.14.28:754][288]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.05.13-07.14.28:763][288]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2019.05.13-07.14.28:792][288]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
+[2019.05.13-07.14.29:481][357]LogShaderCompilers: Display: Shaders left to compile 360
+[2019.05.13-07.14.29:983][414]LogShaderCompilers: Display: Shaders left to compile 350
+[2019.05.13-07.14.31:275][565]LogShaderCompilers: Display: Shaders left to compile 340
+[2019.05.13-07.14.31:701][616]LogShaderCompilers: Display: Shaders left to compile 330
+[2019.05.13-07.14.33:107][784]LogShaderCompilers: Display: Shaders left to compile 320
+[2019.05.13-07.14.33:381][817]LogShaderCompilers: Display: Shaders left to compile 310
+[2019.05.13-07.14.34:578][949]LogShaderCompilers: Display: Shaders left to compile 300
+[2019.05.13-07.14.35:247][ 21]LogShaderCompilers: Display: Shaders left to compile 290
+[2019.05.13-07.14.35:247][ 21]LogMaterial: Display: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2019.05.13-07.14.36:326][147]LogShaderCompilers: Display: Shaders left to compile 293
+[2019.05.13-07.14.36:780][201]LogShaderCompilers: Display: Shaders left to compile 283
+[2019.05.13-07.14.37:438][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.05.13-07.14.37:897][333]LogShaderCompilers: Display: Shaders left to compile 273
+[2019.05.13-07.14.38:482][403]LogShaderCompilers: Display: Shaders left to compile 263
+[2019.05.13-07.14.39:855][566]LogShaderCompilers: Display: Shaders left to compile 253
+[2019.05.13-07.14.40:069][592]LogShaderCompilers: Display: Shaders left to compile 243
+[2019.05.13-07.14.41:277][735]LogShaderCompilers: Display: Shaders left to compile 233
+[2019.05.13-07.14.41:486][760]LogShaderCompilers: Display: Shaders left to compile 223
+[2019.05.13-07.14.42:842][919]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.05.13-07.14.43:033][941]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.05.13-07.14.44:571][115]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.05.13-07.14.44:909][148]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.05.13-07.14.46:377][321]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.05.13-07.14.46:748][365]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.05.13-07.14.47:776][484]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2019.05.13-07.14.48:109][523]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.05.13-07.14.48:533][574]LogShaderCompilers: Display: Shaders left to compile 143
+[2019.05.13-07.14.50:044][755]LogShaderCompilers: Display: Shaders left to compile 133
+[2019.05.13-07.14.50:445][803]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.05.13-07.14.51:795][964]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.05.13-07.14.52:386][ 34]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.05.13-07.14.53:656][185]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.05.13-07.14.54:071][235]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.05.13-07.14.55:574][407]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.05.13-07.14.56:008][459]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.05.13-07.14.57:306][614]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.05.13-07.14.58:073][705]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.05.13-07.14.59:255][846]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.05.13-07.14.59:727][903]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.05.13-07.15.01:201][ 33]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.05.13-07.15.01:643][ 64]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.13-07.15.20:148][180]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/SH_DefaultLevel_Auto1DCB8C1D74EFA5195403F5C83B33BB6B9.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/Autosaves/Game/SH/Maps/SH_DefaultLevel_Auto1.umap'
+[2019.05.13-07.15.20:154][180]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SH/Maps/SH_DefaultLevel' took 0.524
+[2019.05.13-07.15.20:154][180]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.524
+[2019.05.13-07.18.28:085][ 77]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:18:28
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Parsing headers for LostDarkEditor
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog:   Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Reflection code generated for LostDarkEditor in 9.6810783 seconds
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog: Building 37 actions with 6 processes...
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog:   [1/37] GSAnimInstance.gen.cpp
+[2019.05.13-07.18.28:093][ 77]CompilerResultsLog:   [2/37] BTTask_FindPatrolPos.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [3/37] GSCharacterStatComponent.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [4/37] BTTask_TurnToTarget.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [5/37] BTTask_Attack.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [6/37] BTService_Detect.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [7/37] LostDark.init.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [8/37] GSWeapon.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [9/37] LostDarkCharacter.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [10/37] LDGameInstance.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [11/37] LostDarkGameMode.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [12/37] LDAIController.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [13/37] LostDarkPlayerController.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [14/37] SectionTest.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [15/37] LostDark.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [16/37] SH_ItemBox.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [17/37] BTDecorator_IsInAttackRanget.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [18/37] GSCharacterWidget.gen.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [19/37] GSCharacterStatComponent.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [20/37] BTDecorator_IsInAttackRanget.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [21/37] GSAnimInstance.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [22/37] BTTask_Attack.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [23/37] BTService_Detect.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [24/37] BTTask_TurnToTarget.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [25/37] BTTask_FindPatrolPos.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [26/37] GSWeapon.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [27/37] SH_ItemBox.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [28/37] LDGameInstance.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [29/37] GSCharacterWidget.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [30/37] LostDarkGameMode.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [31/37] LostDarkPlayerController.cpp
+[2019.05.13-07.18.28:094][ 77]CompilerResultsLog:   [32/37] LostDark.cpp
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:   [33/37] LDAIController.cpp
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:   [34/37] LostDarkCharacter.cpp
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(493) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(530) : error C2361: 'CharacterWidget' ?ʱ?ȭ?? 'default' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:   [35/37] SectionTest.cpp
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-342.dll
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.18.28:095][ 77]CompilerResultsLog: Total build time: 463.37 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.18.28:095][ 77]LogMainFrame: MainFrame: Module compiling took 463.974 seconds
+[2019.05.13-07.18.28:095][ 77]Warning: HotReload failed, recompile failed
+[2019.05.13-07.18.30:447][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.13-07.18.35:713][660]LogSlate: Took 0.009065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.05.13-07.18.35:725][660]LogSlate: Took 0.010085 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.05.13-07.19.06:174][261]Candidate modules for hot reload:
+[2019.05.13-07.19.06:174][261]  LostDark
+[2019.05.13-07.19.06:174][261]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,2797 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.19.06:183][261]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:19:15
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.19.15:270][598]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.19.15:270][598]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(493) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.19.15:270][598]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.19.15:270][598]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2797.dll
+[2019.05.13-07.19.15:270][598]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.19.15:271][598]CompilerResultsLog: Total build time: 8.68 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.19.15:271][598]LogMainFrame: MainFrame: Module compiling took 9.099 seconds
+[2019.05.13-07.19.15:271][598]Warning: HotReload failed, recompile failed
+[2019.05.13-07.19.19:495][931]LogSlate: Took 0.011311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.05.13-07.19.19:540][931]LogSlate: Took 0.008749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2019.05.13-07.19.24:747][544]Candidate modules for hot reload:
+[2019.05.13-07.19.24:747][544]  LostDark
+[2019.05.13-07.19.24:747][544]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,7988 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.19.24:757][544]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.19.31:404][ 50]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:19:31
+[2019.05.13-07.19.31:404][ 50]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.19.31:404][ 50]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.19.31:404][ 50]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.19.31:404][ 50]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.19.31:405][ 50]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(493) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.19.31:405][ 50]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.19.31:405][ 50]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-7988.dll
+[2019.05.13-07.19.31:405][ 50]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.19.31:406][ 50]CompilerResultsLog: Total build time: 6.32 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.19.31:406][ 50]LogMainFrame: MainFrame: Module compiling took 6.662 seconds
+[2019.05.13-07.19.31:406][ 50]Warning: HotReload failed, recompile failed
+[2019.05.13-07.20.35:689][403]Candidate modules for hot reload:
+[2019.05.13-07.20.35:690][403]  LostDark
+[2019.05.13-07.20.35:690][403]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,6653 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.20.35:699][403]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.20.50:526][863]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:20:50
+[2019.05.13-07.20.50:527][863]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.20.50:527][863]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.20.50:527][863]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.20.50:527][863]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.20.50:527][863]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.20.50:527][863]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.20.50:527][863]CompilerResultsLog:   [2/3] UE4Editor-LostDark-6653.lib
+[2019.05.13-07.20.50:527][863]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-6653.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-6653.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.13-07.20.50:527][863]CompilerResultsLog:   [3/3] UE4Editor-LostDark-6653.dll
+[2019.05.13-07.20.50:527][863]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-6653.suppressed.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-6653.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.13-07.20.50:527][863]CompilerResultsLog: Total build time: 14.25 seconds (Parallel executor: 9.72 seconds)
+[2019.05.13-07.20.50:528][863]LogMainFrame: MainFrame: Module compiling took 14.841 seconds
+[2019.05.13-07.20.50:619][863]LogClass: Could not find existing class LostDarkCharacter in package /Script/LostDark for HotReload, assuming new class
+[2019.05.13-07.20.50:619][863]LogClass: Function OnAttackMontageEnded is new.
+[2019.05.13-07.20.50:619][863]LogClass: Function OnDodgeMontageEnded is new.
+[2019.05.13-07.20.50:624][863]LogClass: Could not find existing type ECharacterState for HotReload. Assuming new
+[2019.05.13-07.20.50:624][863]LogClass: GSCharacterData HotReload.
+[2019.05.13-07.20.50:630][863]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.20.50:637][863]LogHotReload: Re-instancing LostDarkCharacter after hot-reload.
+[2019.05.13-07.20.50:639][863]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.20.50:639][863]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-07.20.50:642][863]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.20.50:642][863]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-07.20.50:643][863]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.20.50:643][863]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-07.20.50:645][863]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.20.50:645][863]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-07.20.50:797][863]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-07.20.50:797][863]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-07.20.50:797][863]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-07.20.50:797][863]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-07.20.50:800][863]LogContentBrowser: Native class hierarchy updated for 'LostDark' in 0.0004 seconds. Added 18 classes and 2 folders.
+[2019.05.13-07.20.50:802][863]Display: HotReload successful (7 functions remapped  1 scriptstructs remapped)
+[2019.05.13-07.20.50:939][863]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2671 classes and 627 folders.
+[2019.05.13-07.20.50:947][863]Display: HotReload took 15.3s.
+[2019.05.13-07.21.23:080][169]Candidate modules for hot reload:
+[2019.05.13-07.21.23:080][169]  LostDark
+[2019.05.13-07.21.23:080][169]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,8613 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.21.23:090][169]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.21.32:108][270]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:21:32
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.21.32:109][270]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.21.32:109][270]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(493) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.21.32:109][270]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8613.dll
+[2019.05.13-07.21.32:109][270]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.21.32:109][270]CompilerResultsLog: Total build time: 8.48 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.21.32:109][270]LogMainFrame: MainFrame: Module compiling took 9.031 seconds
+[2019.05.13-07.21.32:109][270]Warning: HotReload failed, recompile failed
+[2019.05.13-07.22.42:973][812]Candidate modules for hot reload:
+[2019.05.13-07.22.42:973][812]  LostDark
+[2019.05.13-07.22.42:973][812]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,1538 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.22.42:982][812]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:22:52
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.22.52:875][996]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.22.52:875][996]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(493) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.22.52:875][996]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1538.dll
+[2019.05.13-07.22.52:875][996]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.22.52:875][996]CompilerResultsLog: Total build time: 9.57 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.22.52:875][996]LogMainFrame: MainFrame: Module compiling took 9.905 seconds
+[2019.05.13-07.22.52:875][996]Warning: HotReload failed, recompile failed
+[2019.05.13-07.23.03:404][459]Candidate modules for hot reload:
+[2019.05.13-07.23.03:404][459]  LostDark
+[2019.05.13-07.23.03:404][459]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,1328 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.23.03:406][459]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.23.12:155][529]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:23:12
+[2019.05.13-07.23.12:155][529]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.23.12:155][529]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.23.12:155][529]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.23.12:155][529]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.23.12:156][529]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.23.12:156][529]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.23.12:156][529]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(493) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.23.12:156][529]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(472): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.23.12:156][529]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1328.dll
+[2019.05.13-07.23.12:156][529]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.23.12:156][529]CompilerResultsLog: Total build time: 8.37 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.23.12:156][529]LogMainFrame: MainFrame: Module compiling took 8.755 seconds
+[2019.05.13-07.23.12:156][529]Warning: HotReload failed, recompile failed
+[2019.05.13-07.23.32:682][708]Candidate modules for hot reload:
+[2019.05.13-07.23.32:682][708]  LostDark
+[2019.05.13-07.23.32:683][708]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,8346 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.13-07.23.32:691][708]Warning: Starting HotReload took  0.0s.
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: New page: 컴파일 - 2019. 5. 14. 오전 1:23:41
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.13-07.23.41:448][855]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.13-07.23.41:448][855]CompilerResultsLog:    B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(494) : error C2360: 'CharacterWidget' ?ʱ?ȭ?? 'case' ???̺??? ???? ?????Ǿ????ϴ?.
+[2019.05.13-07.23.41:448][855]CompilerResultsLog:   B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Private\LostDarkCharacter.cpp(473): note: 'CharacterWidget' ?????? ?????Ͻʽÿ?.
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8346.dll
+[2019.05.13-07.23.41:448][855]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.13-07.23.41:448][855]CompilerResultsLog: Total build time: 8.41 seconds (Parallel executor: 0.00 seconds)
+[2019.05.13-07.23.41:448][855]LogMainFrame: MainFrame: Module compiling took 8.768 seconds
+[2019.05.13-07.23.41:448][855]Warning: HotReload failed, recompile failed
+[2019.05.13-07.24.10:278][152]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.13-07.24.10:296][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.13-07.24.10:296][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.13-07.24.10:296][152]PIE: New page: PIE 세션: SH_DefaultLevel (2019. 5. 14. 오전 1:24:10)
+[2019.05.13-07.24.10:296][152]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.13-07.24.10:297][152]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+XGate
+[2019.05.13-07.24.10:297][152]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-XGate
+[2019.05.13-07.24.10:297][152]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :+YGate
+[2019.05.13-07.24.10:297][152]LostDark: Error: ASectionTest::ASectionTest(56) Success GateMeshs :-YGate
+[2019.05.13-07.24.10:300][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004315s)
+[2019.05.13-07.24.10:301][152]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.13-07.24.10:302][152]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2019.05.13-07.24.10:302][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.005734s)
+[2019.05.13-07.24.10:345][152]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.13-07.24.10:365][152]LogInit: FAudioDevice initialized.
+[2019.05.13-07.24.10:372][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.13-07.24.10:408][152]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.13-07.24.10:410][152]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.24.10:410][152]LogScript: Warning: Script Msg: Divide by zero detected: 179.999802 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-07.24.10:411][152]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.13-16.24.10
+[2019.05.13-07.24.10:411][152]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-07.24.10:412][152]LogWorld: Bringing up level for play took: 0.002507
+[2019.05.13-07.24.10:424][152]LogTemp: Warning: Enroll Attack Montage
+[2019.05.13-07.24.10:424][152]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.13-07.24.10:425][152]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.13-07.24.10:426][152]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.05.13-07.24.10:426][152]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2019.05.13-07.24.23:892][152]LogWindows: Error: === Critical error: ===
+[2019.05.13-07.24.23:892][152]LogWindows: Error: 
+[2019.05.13-07.24.23:892][152]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 611] 
+[2019.05.13-07.24.23:892][152]LogWindows: Error: Array index out of bounds: 4 from an array of size 4
+[2019.05.13-07.24.23:892][152]LogWindows: Error: 
+[2019.05.13-07.24.23:892][152]LogWindows: Error: 
+[2019.05.13-07.24.23:892][152]LogWindows: Error: [Callstack] 0x00007ffa6f1c9129 KERNELBASE.dll!UnknownFunction []
+[2019.05.13-07.24.23:892][152]LogWindows: Error: [Callstack] 0x00007ffa2998cd1a UE4Editor-Core.dll!FWindowsErrorOutputDevice::Serialize() [d:\build\++ue4\sync\engine\source\runtime\core\private\windows\windowserroroutputdevice.cpp:63]
+[2019.05.13-07.24.23:892][152]LogWindows: Error: [Callstack] 0x00007ffa2976a967 UE4Editor-Core.dll!FOutputDevice::LogfImpl() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:71]
+[2019.05.13-07.24.23:892][152]LogWindows: Error: [Callstack] 0x00007ffa296a0df7 UE4Editor-Core.dll!FDebug::AssertFailed() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:417]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa5b2a559f UE4Editor-LostDark-6653.dll!ALostDarkCharacter::BeginPlay() [b:\develope\sourcetree\lostdark\lostdark\source\lostdark\private\lostdarkcharacter.cpp:211]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa26883c95 UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3230]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa27cd060c UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\worldsettings.cpp:251]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa2708eb41 UE4Editor-Engine.dll!AGameStateBase::HandleBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gamestatebase.cpp:177]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa27c7865e UE4Editor-Engine.dll!UWorld::BeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\world.cpp:3737]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa2702c1f1 UE4Editor-Engine.dll!UGameInstance::StartPlayInEditorGameInstance() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gameinstance.cpp:408]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa2593ac89 UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:3324]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa2595b350 UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:2451]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa259792e6 UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:1270]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa25371891 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1640]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa25c92346 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ff78ac86225 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3699]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ff78ac9596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ff78ac959ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ff78aca48da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ff78aca659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa6f947974 KERNEL32.DLL!UnknownFunction []
+[2019.05.13-07.24.23:893][152]LogWindows: Error: [Callstack] 0x00007ffa7250a271 ntdll.dll!UnknownFunction []
+[2019.05.13-07.24.23:893][152]LogWindows: Error: 
+[2019.05.13-07.24.23:904][152]LogExit: Executing StaticShutdownAfterError
+[2019.05.13-07.24.23:922][152]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.05.13-07.24.23:929][152]Log file closed, 05/13/19 16:24:23

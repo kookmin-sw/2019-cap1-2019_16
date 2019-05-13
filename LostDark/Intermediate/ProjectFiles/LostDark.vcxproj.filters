@@ -181,9 +181,27 @@
     <ClInclude Include="..\..\Source\LostDark\Public\SectionTest.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDPlayerState.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDHUDWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGameState.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\LostDark\Private\SectionTest.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDPlayerState.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDHUDWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGameState.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
   </ItemGroup>

@@ -40,18 +40,45 @@ void ALDAIController::Possess(APawn * InPawn)
 	//// AI컨트롤러가 빙의되면 월드에서 타이머 시작해서 TimerHandler에 등록하고, OnRepeaTimer 함수를 호출함. 3초 간격으로
 	//GetWorld()->GetTimerManager().SetTimer(RepeatTimerHandle, this, &ALDAIController::OnRepeatTimer, RepeatInterval, true);
 
+	//// UseBlackborad() : 블랙보드를 연동(binding)시키는 함수. 성공여부를 bool값으로 반환
+	//if (UseBlackboard(BBAsset, Blackboard)) 
+	//{
+	//	/// Blackboard 컴포넌트 기능 사용하려면 헤더파일 추가해야함.
+	//	// 블랙보드에 있는 HomePosKey에 현재 폰의 위치를 초기화 해줌. (HomePosKey = InPawn->GetActorLocation() 이라고 볼수 있음)
+	//	Blackboard->SetValueAsVector(HomePosKey, InPawn->GetActorLocation()); // HomePosKey에 해당하는 이름의 블랙보드 변수에 폰의 위치값을 넣어줌.
+	//	// RunBehaviorTree(비헤이비어 트리 정보) : 비헤이비어 트리 연동(binding)시키는 함수. 성공여부를 bool값으로 반환
+	//	if (!RunBehaviorTree(BTAsset))
+	//	{
+	//		// 로그 띄움
+	//		ABLOG(Error, TEXT("AIController couldn't run behavior tree!"));
+	//	}
+	//}
+}
+
+void ALDAIController::RunAI()
+{
 	// UseBlackborad() : 블랙보드를 연동(binding)시키는 함수. 성공여부를 bool값으로 반환
-	if (UseBlackboard(BBAsset, Blackboard)) 
+	if (UseBlackboard(BBAsset, Blackboard))
 	{
 		/// Blackboard 컴포넌트 기능 사용하려면 헤더파일 추가해야함.
 		// 블랙보드에 있는 HomePosKey에 현재 폰의 위치를 초기화 해줌. (HomePosKey = InPawn->GetActorLocation() 이라고 볼수 있음)
-		Blackboard->SetValueAsVector(HomePosKey, InPawn->GetActorLocation()); // HomePosKey에 해당하는 이름의 블랙보드 변수에 폰의 위치값을 넣어줌.
+		Blackboard->SetValueAsVector(HomePosKey, GetPawn()->GetActorLocation()); // HomePosKey에 해당하는 이름의 블랙보드 변수에 폰의 위치값을 넣어줌.
 		// RunBehaviorTree(비헤이비어 트리 정보) : 비헤이비어 트리 연동(binding)시키는 함수. 성공여부를 bool값으로 반환
 		if (!RunBehaviorTree(BTAsset))
 		{
 			// 로그 띄움
 			ABLOG(Error, TEXT("AIController couldn't run behavior tree!"));
 		}
+	}
+}
+
+void ALDAIController::StopAI()
+{
+	// 비헤이비어 트리 중단하는 함수
+	auto BehaviorTreeComponent = Cast<UBehaviorTreeComponent>(BrainComponent);
+	if (nullptr != BehaviorTreeComponent)
+	{
+		BehaviorTreeComponent->StopTree(EBTStopMode::Safe);
 	}
 }
 

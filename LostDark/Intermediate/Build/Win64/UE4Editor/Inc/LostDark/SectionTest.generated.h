@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
 class AActor;
+class UPrimitiveComponent;
 struct FHitResult;
 #ifdef LOSTDARK_SectionTest_generated_h
 #error "SectionTest.generated.h already included, missing '#pragma once' in SectionTest.h"
@@ -17,6 +17,15 @@ struct FHitResult;
 #define LOSTDARK_SectionTest_generated_h
 
 #define LostDark_Source_LostDark_Public_SectionTest_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnKeyAIDestroyed) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_DestroyedActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnKeyAIDestroyed(Z_Param_DestroyedActor); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnGateTriggerBeginOverlap) \
 	{ \
@@ -48,6 +57,15 @@ struct FHitResult;
 
 
 #define LostDark_Source_LostDark_Public_SectionTest_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnKeyAIDestroyed) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_DestroyedActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnKeyAIDestroyed(Z_Param_DestroyedActor); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnGateTriggerBeginOverlap) \
 	{ \

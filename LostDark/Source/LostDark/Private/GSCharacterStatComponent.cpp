@@ -124,3 +124,9 @@ float UGSCharacterStatComponent::GetHPRatio()
 	// 0에 가까운 숫자면 0을 반환하고, 그게 아니면 현재 HP를 전체 HP
 	return ((CurrentStatData->MaxHP < KINDA_SMALL_NUMBER) ? 0.0f : (CurrentHP / CurrentStatData->MaxHP));
 }
+
+// 드랍 경험치
+int32 UGSCharacterStatComponent::GetDropExp() const
+{
+	return CurrentStatData->DropExp;
+}

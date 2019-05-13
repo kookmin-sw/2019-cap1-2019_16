@@ -39,6 +39,8 @@ public:
 	float GetAttack();
 	// 현재 HP 비율 반환
 	float GetHPRatio();
+	// 경험치 드랍
+	int32 GetDropExp() const;
 
 	// 델리게이트 변수
 	FOnHPIsZeroDelegate OnHPIsZero;

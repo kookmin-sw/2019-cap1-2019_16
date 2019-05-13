@@ -5,6 +5,8 @@
 #include "LostDarkCharacter.h"
 // 아이템 생성을 위해 필요
 #include "SH_ItemBox.h"
+#include "LostDarkPlayerController.h"
+#include "LostDarkGameMode.h"
 
 // Sets default values
 ASectionTest::ASectionTest()
@@ -216,8 +218,35 @@ void ASectionTest::OnGateTriggerBeginOverlap(UPrimitiveComponent * OverlappedCom
 
 void ASectionTest::OnNPCSpawn()
 {
+	GetWorld()->GetTimerManager().ClearTimer(SpawnNPCTimerHandle);
 	// 맵 중앙 + 높이 88에 생성. 캐릭터 높이가 176를 감안한듯?
-	GetWorld()->SpawnActor<ALostDarkCharacter>(GetActorLocation() + FVector::UpVector*88.0f, FRotator::ZeroRotator);
+	auto KeyNPC = GetWorld()->SpawnActor<ALostDarkCharacter>(GetActorLocation() + FVector::UpVector*88.0f, FRotator::ZeroRotator);
+	
+	if (nullptr != KeyNPC)
+	{
+		// NPC가 파괴될때 아래 함수를 호출
+		KeyNPC->OnDestroyed.AddDynamic(this, &ASectionTest::OnKeyAIDestroyed);
+	}
+}
+
+void ASectionTest::OnKeyAIDestroyed(AActor * DestroyedActor)
+{
+	// 파괴된 AI의 정보를 가져옴
+	auto LDCharacter = Cast<ALostDarkCharacter>(DestroyedActor);
+	ABCHECK(nullptr != LDCharacter);
+
+	// 마지막에 때린 컨트롤러를 받아옴 (플레이어겠지?)
+	auto LDPlayerController = Cast<ALostDarkPlayerController>(LDCharacter->LastHitBy);
+	ABCHECK(nullptr != LDPlayerController);
+
+	// 현재 게임 모드를 가져옴
+	auto LDGameMode = Cast<ALostDarkGameMode>(GetWorld()->GetAuthGameMode());
+	ABCHECK(nullptr != LDGameMode);
+	// 점수를 획득한 플레이어 컨트롤러 정보를 넘겨줌.
+	LDGameMode->AddScore(LDPlayerController);
+
+	// 섹션상태를 Complete로 바꿈
+	SetState(ESectionState::COMPLETE);
 }
 
 // Called every frame

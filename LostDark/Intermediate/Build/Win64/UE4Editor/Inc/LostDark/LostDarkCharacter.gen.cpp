@@ -22,6 +22,9 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded();
 	LOSTDARK_API UClass* Z_Construct_UClass_UGSCharacterStatComponent_NoRegister();
 	LOSTDARK_API UClass* Z_Construct_UClass_AGSWeapon_NoRegister();
+	LOSTDARK_API UClass* Z_Construct_UClass_ALostDarkPlayerController_NoRegister();
+	LOSTDARK_API UClass* Z_Construct_UClass_ALDAIController_NoRegister();
+	LOSTDARK_API UEnum* Z_Construct_UEnum_LostDark_ECharacterState();
 	LOSTDARK_API UClass* Z_Construct_UClass_UGSAnimInstance_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
@@ -140,6 +143,28 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeadTimer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DeadTimer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LDPlayerController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LDPlayerController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LDAIController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LDAIController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsPlayer_MetaData[];
+#endif
+		static void NewProp_bIsPlayer_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsPlayer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentState_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_CurrentState;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_CurrentState_Underlying;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRadius_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AttackRadius;
@@ -227,6 +252,51 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentWeapon", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, CurrentWeapon), Z_Construct_UClass_AGSWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+		{ "ToolTip", "???? ???? ?\xc3\xb0?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer = { UE4CodeGen_Private::EPropertyClass::Float, "DeadTimer", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000005, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, DeadTimer), METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDPlayerController_MetaData[] = {
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+		{ "ToolTip", "?\xc3\xb7??\xcc\xbe? ??\xc6\xae?\xd1\xb7?" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDPlayerController = { UE4CodeGen_Private::EPropertyClass::Object, "LDPlayerController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, LDPlayerController), Z_Construct_UClass_ALostDarkPlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDPlayerController_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDPlayerController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDAIController_MetaData[] = {
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+		{ "ToolTip", "AI ??\xc6\xae?\xd1\xb7?" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDAIController = { UE4CodeGen_Private::EPropertyClass::Object, "LDAIController", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, LDAIController), Z_Construct_UClass_ALDAIController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDAIController_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDAIController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+		{ "ToolTip", "?\xc3\xb7??\xcc\xbe????? AI????" },
+	};
+#endif
+	void Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer_SetBit(void* Obj)
+	{
+		((ALostDarkCharacter*)Obj)->bIsPlayer = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsPlayer", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000022815, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ALostDarkCharacter), &Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer_SetBit, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState = { UE4CodeGen_Private::EPropertyClass::Enum, "CurrentState", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000022815, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, CurrentState), Z_Construct_UEnum_LostDark_ECharacterState, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -349,6 +419,12 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALostDarkCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDPlayerController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDAIController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_bIsPlayer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentState_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_GSAnim,
@@ -385,7 +461,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 377241695);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 227301802);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

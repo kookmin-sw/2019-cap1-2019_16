@@ -20,5 +20,18 @@ class ALostDarkGameMode : public AGameModeBase
 	GENERATED_BODY()
 
 public:
+	//Constructor
 	ALostDarkGameMode();
+
+	//
+	virtual void PostInitializeComponents() override;
+	// 플레이어 컨트롤러가 완료되면 게임 모드에서 자동 호출
+	virtual void PostLogin(APlayerController* NewPlayer) override;
+	// 점수 획득한 플레이어의 점수를 올려주는 함수
+	void AddScore(class ALostDarkPlayerController* ScoredPlayer);
+
+private:
+	// 전체 게임 스테이트 (전체 게임 스코어를 위한)
+	UPROPERTY()
+		class ALDGameState* LDGameState;
 };

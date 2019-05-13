@@ -23,6 +23,13 @@ class ALostDarkCharacter : public ACharacter
 
 public:
 	ALostDarkCharacter();
+	// 캐릭터 스테이트 설정
+	void SetCharacterState(ECharacterState NewState);
+	// 캐릭터 스테이트 반환
+	ECharacterState GetCharacterState() const;
+
+	// 경험치 획득 함수
+	int32 GetExp() const;
 
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -146,10 +153,33 @@ private:
 		// 공격 반경 (반지름)
 		float AttackRadius;
 
-	// 약한 포인터, 캐릭터 에셋 경로
+	//
+	int32 AssetIndex = 0;
+
+	// 캐릭터 에셋 경로 
 	FSoftObjectPath CharacterAssetToLoad = FSoftObjectPath(nullptr);
 	// 비동기 방식 요청할때 쓰는 구조체 변수 
 	TSharedPtr<struct FStreamableHandle> AssetStreamingHandle;
+
+	// 현재 상태 변수
+	UPROPERTY(Transient, VisibleInstanceOnly, BlueprintReadOnly, Category = State, Meta = (AllowPrivateAccess = true))
+		ECharacterState CurrentState;
+	// 플레이어인지 AI인지
+	UPROPERTY(Transient, VisibleInstanceOnly, BlueprintReadOnly, Category = State, Meta = (AllowPrivateAccess = true))
+		bool bIsPlayer;
+	// AI 컨트롤러
+	UPROPERTY()
+		class ALDAIController* LDAIController;
+	// 플레이어 컨트롤러
+	UPROPERTY()
+		class ALostDarkPlayerController* LDPlayerController;
+
+	// 죽은 이후 시간
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowPrivateAccess = true))
+		float DeadTimer;
+	// 죽은 시간
+	FTimerHandle DeadTimerHandle = {};
+
 
 // 마네킹에 있는거 놔둔 함수. 쓸모있을지도?
 public:
