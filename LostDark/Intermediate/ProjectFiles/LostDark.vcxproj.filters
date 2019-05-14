@@ -190,6 +190,9 @@
     <ClInclude Include="..\..\Source\LostDark\Public\LDGameState.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDSaveGame.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\LostDark\Private\SectionTest.cpp">
@@ -202,6 +205,9 @@
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\LostDark\Private\LDGameState.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDSaveGame.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
   </ItemGroup>

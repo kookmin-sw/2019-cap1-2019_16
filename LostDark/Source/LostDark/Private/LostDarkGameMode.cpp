@@ -68,3 +68,8 @@ void ALostDarkGameMode::AddScore(ALostDarkPlayerController * ScoredPlayer)
 	// 전체 게임 스테이트도 올려줌
 	LDGameState->AddGameScore();
 }
+
+int32 ALostDarkGameMode::GetScore() const
+{
+	return LDGameState->GetTotalGameScore();
+}

@@ -22,6 +22,9 @@ public:
 	ALDPlayerState();
 	
 	int32 GetGameScore() const;
+	int32 GetGameHighScore() const;
+	FString SaveSlotName;
+
 	int32 GetCharacterLevel() const;
 	
 	float GetExpRatio() const;
@@ -30,6 +33,8 @@ public:
 	void AddGameScore();
 
 	void InitPlayerData();
+	// 저장
+	void SavePlayerData();
 
 	// 델리게이트 변수 선언
 	FOnPlayerStateChangedDelegate OnPlayerStateChanged;
@@ -37,6 +42,8 @@ public:
 protected:
 	UPROPERTY(Transient)
 		int32 GameScore;
+	UPROPERTY(Transient)
+		int32 GameHighScore;
 	UPROPERTY(Transient)
 		int32 CharacterLevel;
 

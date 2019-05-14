@@ -40,6 +40,10 @@ void EmptyLinkFunctionForGeneratedCodeLDPlayerState() {}
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CharacterLevel;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameHighScore_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_GameHighScore;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameScore_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_GameScore;
@@ -72,6 +76,12 @@ void EmptyLinkFunctionForGeneratedCodeLDPlayerState() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ALDPlayerState_Statics::NewProp_CharacterLevel = { UE4CodeGen_Private::EPropertyClass::Int, "CharacterLevel", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000002000, 1, nullptr, STRUCT_OFFSET(ALDPlayerState, CharacterLevel), METADATA_PARAMS(Z_Construct_UClass_ALDPlayerState_Statics::NewProp_CharacterLevel_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALDPlayerState_Statics::NewProp_CharacterLevel_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameHighScore_MetaData[] = {
+		{ "ModuleRelativePath", "Public/LDPlayerState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameHighScore = { UE4CodeGen_Private::EPropertyClass::Int, "GameHighScore", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000002000, 1, nullptr, STRUCT_OFFSET(ALDPlayerState, GameHighScore), METADATA_PARAMS(Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameHighScore_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameHighScore_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameScore_MetaData[] = {
 		{ "ModuleRelativePath", "Public/LDPlayerState.h" },
 	};
@@ -80,6 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeLDPlayerState() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALDPlayerState_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALDPlayerState_Statics::NewProp_Exp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALDPlayerState_Statics::NewProp_CharacterLevel,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameHighScore,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALDPlayerState_Statics::NewProp_GameScore,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALDPlayerState_Statics::StaticCppClassTypeInfo = {
@@ -105,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeLDPlayerState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALDPlayerState, 3043484136);
+	IMPLEMENT_CLASS(ALDPlayerState, 1403620570);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALDPlayerState(Z_Construct_UClass_ALDPlayerState, &ALDPlayerState::StaticClass, TEXT("/Script/LostDark"), TEXT("ALDPlayerState"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALDPlayerState);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -19,7 +19,7 @@ bool UBTDecorator_IsInAttackRanget::CalculateRawConditionValue(UBehaviorTreeComp
 	bool bResult = Super::CalculateRawConditionValue(OwnerComp, NodeMemory);
 
 	// AI가 조종중인 폰의 정보를 가져옴
-	auto ControllingPawn = OwnerComp.GetAIOwner()->GetPawn();
+	auto ControllingPawn = Cast<ALostDarkCharacter>(OwnerComp.GetAIOwner()->GetPawn());
 	if (ControllingPawn == nullptr) return false;
 	
 	// 현재 블랙보드에 들어가 있는 Target 값을 가져옴
@@ -27,7 +27,7 @@ bool UBTDecorator_IsInAttackRanget::CalculateRawConditionValue(UBehaviorTreeComp
 	if (Target == nullptr) return false;
 	
 	// AI에서 타깃까지 거리가 200cm 이내라면 true를 넘겨준다.
-	bResult = (Target->GetDistanceTo(ControllingPawn) <= 200.0f);
+	bResult = (Target->GetDistanceTo(ControllingPawn) <= ControllingPawn->GetFinalAttackRange());
 
 	return bResult;
 }

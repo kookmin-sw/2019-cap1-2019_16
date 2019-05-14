@@ -29,6 +29,8 @@ public:
 	virtual void PostLogin(APlayerController* NewPlayer) override;
 	// 점수 획득한 플레이어의 점수를 올려주는 함수
 	void AddScore(class ALostDarkPlayerController* ScoredPlayer);
+	// 현재 게임 스코어
+	int32 GetScore() const;
 
 private:
 	// 전체 게임 스테이트 (전체 게임 스코어를 위한)

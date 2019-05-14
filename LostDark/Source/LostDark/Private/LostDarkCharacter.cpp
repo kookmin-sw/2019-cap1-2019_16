@@ -22,6 +22,8 @@
 // 캐릭터 스테이트 정보
 #include "LDPlayerState.h"
 #include "LDHUDWidget.h"
+#include "LDGameState.h"
+#include "LostDarkGameMode.h"
 
 /// 생성자 Sets Default values
 ALostDarkCharacter::ALostDarkCharacter()
@@ -99,6 +101,9 @@ ALostDarkCharacter::ALostDarkCharacter()
 	AttackRange = 200.0f;
 	// 디버깅 캡슐 반지름 50cm
 	AttackRadius = 50.0f;
+
+	// 기본 공격범위
+	AttackRange = 80.0f;
 
 	///* 부착할 무기 애셋 캐릭터 메시에 부착  */
 	//FName WeaponSocket(TEXT("sword_bottom")); //이름은 실제 bone의 이름과 일치해야함.
@@ -396,15 +401,46 @@ void ALostDarkCharacter::PossessedBy(AController * NewController)
 bool ALostDarkCharacter::CanSetWeapon()
 {
 	// 없으면 true, 무기가 있다면 false
-	return (nullptr == CurrentWeapon);
+	//return (nullptr == CurrentWeapon);
+	
+	//항상 교체할수 있음
+	return true;
 }
 
 // 무기 장착함수
 void ALostDarkCharacter::SetWeapon(AGSWeapon * NewWeapon)
 {
+	/*
 	// (무기 정보가 있고, 동시에 현재 무기가 없다면) 통과. 아니면 경고 로그로 찍고 return.
 	ABCHECK(nullptr != NewWeapon && nullptr == CurrentWeapon);
 	// 스켈레탈 메시의 Bone의 이름을 변수화시킴. 이름은 실제 bone의 이름과 일치해야함.
+	FName WeaponSocket(TEXT("sword_bottom"));
+	// 무기 클래스가 없지 않다면,
+	if (nullptr != NewWeapon)
+	{
+		// NewWeapon 무기에 해당하는걸 자신의 메시(GetMesh)에 FAttachmentTransformRules::SnapToTargetNotIncludingScale??? 로 하게, WeaponSocket에 위치한 bone에 부착한다.
+		NewWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponSocket);
+		// 무기의 소유자를 변경
+		NewWeapon->SetOwner(this);
+		// 현재 장착 무기를 등록
+		CurrentWeapon = NewWeapon;
+	}
+	*/
+
+	// 무기 정보 없이 호출됐을때 예외처리
+	ABCHECK(nullptr != NewWeapon);
+	// 이미 무기가 있다면
+	if (nullptr != CurrentWeapon)
+	{
+		// ??
+		CurrentWeapon->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		// 현재 무기 파괴
+		CurrentWeapon->Destroy();
+		// 현재 무기 널포인트
+		CurrentWeapon = nullptr;
+	}
+
+	// GreySton의 소켓이름을 확인하고 적은 내용임.
 	FName WeaponSocket(TEXT("sword_bottom"));
 	// 무기 클래스가 없지 않다면,
 	if (nullptr != NewWeapon)
@@ -481,6 +517,20 @@ void ALostDarkCharacter::SetCharacterState(ECharacterState NewState)
 			ABCHECK(nullptr != LDPlayerState);
 			// 캐릭터 스텟 정보를 현재 캐릭터 레벨 정보로 재설정
 			CharacterStat->SetNewLevel(LDPlayerState->GetCharacterLevel());
+		}
+		// AI라면
+		else
+		{
+			// 현재 월드의 게임 모드를 가져옴
+			auto LDGameMode = Cast<ALostDarkGameMode>(GetWorld()->GetAuthGameMode());
+			ABCHECK(LDGameMode != nullptr);
+			// 내림을 이용해서 타깃 레벨을 결정. 현재 스코어 * 0.8 내림
+			int32 TargetLevel = FMath::CeilToInt(((float)LDGameMode->GetScore()*0.8f));
+			// 1에서 20까지 게임데이터에 현재 1에서 20까지 데이터가 들어가 있음
+			int32 FinalLevel = FMath::Clamp<int32>(TargetLevel, 1, 20);
+			ABLOG(Warning, TEXT("New AI Level : %d"), FinalLevel);
+			// 캐릭터 스텟에서 AI의 레벨설정을 다시 재지정
+			CharacterStat->SetNewLevel(FinalLevel);
 		}
 		SetActorHiddenInGame(true);
 		HPBarWidget->SetHiddenInGame(true);
@@ -575,6 +625,22 @@ ECharacterState ALostDarkCharacter::GetCharacterState() const
 int32 ALostDarkCharacter::GetExp() const
 {
 	return CharacterStat->GetDropExp();
+}
+
+float ALostDarkCharacter::GetFinalAttackRange() const
+{
+	// 무기가 있다면 무기 범위를 가져오고, 아니면 기본 범위를 사용
+	return (nullptr != CurrentWeapon) ? CurrentWeapon->GetAttackRange() : AttackRange;
+}
+
+float ALostDarkCharacter::GetFinalAttackDamage() const
+{
+	// 현재 공격력은, 무기가 있다면, 그리고 없다면
+	float AttackDamage = (nullptr != CurrentWeapon) ? (CharacterStat->GetAttack() + CurrentWeapon->GetAttackDamage()) : CharacterStat->GetAttack();
+	// 현재 무기가 있다면, 보정치 값. 없으면 1
+	float AttackModifier = (nullptr != CurrentWeapon) ? (CurrentWeapon->GetAttackModifier()) : 1.0f;
+	// 최종결과
+	return AttackDamage * AttackModifier;
 }
 
 // 마우스 좌클릭시, Attack 구현. 몽타주를 사용해 공격 애니메이션을 재생함. 실제 공격 로직의 최초 시작임. 이거 사용하면 공격됨
@@ -692,6 +758,8 @@ void ALostDarkCharacter::AttackEndComboState()
 // 공격 클릭시 충돌처리가 되었는지 확인 // 9장 충돌이야기
 void ALostDarkCharacter::AttackCheck()
 {
+	float FinalAttackRange = GetFinalAttackRange();
+
 	// 충돌된 물체의 정보를 담는 구조체변수
 	FHitResult HitResult;
 	// 탐색 방법은 자기자신은 탐지되지 않도록 this를 넣어줌. 구조체임.
@@ -703,7 +771,7 @@ void ALostDarkCharacter::AttackCheck()
 		// 시작 위치로 현재 액터의 위치를 넣어줌. Vector값
 		GetActorLocation(),
 		// 끝낼 위치로 현재 액터 앞방향으로 2m 떨어진곳. Vector값
-		GetActorLocation() + GetActorForwardVector()*AttackRange,
+		GetActorLocation() + GetActorForwardVector() * FinalAttackRange,
 		// 탐색할 도형의 회전값 기본으로
 		FQuat::Identity,
 		// 물리 충돌 감지에 사용할 트레이스 채널 정보
@@ -717,11 +785,11 @@ void ALostDarkCharacter::AttackCheck()
 #if ENABLE_DRAW_DEBUG
 
 	// 공격 길이를 벡터로 변수화
-	FVector TraceVec = GetActorForwardVector()*AttackRange;
+	FVector TraceVec = GetActorForwardVector() * FinalAttackRange;
 	// 중앙값은 현재위치값 + 앞방향의 중간
 	FVector Center = GetActorLocation() + TraceVec * 0.5f;
 	// 절반높이 = 절반값 + 반지름값. 캡슐형이기 때문에 실제 절반 높이는 반지름값을 더해줘야함.
-	float HalfHeight = AttackRange * 0.5f + AttackRadius;
+	float HalfHeight = FinalAttackRange * 0.5f + AttackRadius;
 	// 서있는 캡슐을 눕히는 회전행렬
 	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
 	// 디버깅 캡슐의 색깔. 충돌하면 초록색, 아니면 빨간색
@@ -760,7 +828,7 @@ void ALostDarkCharacter::AttackCheck()
 			// 언리얼에서 제공하는 데미지 프레임워크 구조체 변수 선언. (데미지 종류중 기본값인듯)
 			FDamageEvent DamageEvent;
 			// 충돌한 물체에 데미지 프레임워크를 발동함. (전달할 데미지 세기, 데미지 종류, 공격명령을 내린 가해자(컨트롤러), 제미지 전달을 위해 사용한 도구(폰))
-			HitResult.Actor->TakeDamage(CharacterStat->GetAttack(), DamageEvent, GetController(), this);
+			HitResult.Actor->TakeDamage(GetFinalAttackDamage(), DamageEvent, GetController(), this);
 			/// 캐릭터 스텟 테이블에 있는 변수를 참조해서 공격력을 넘김GetAttack()
 		}
 	}

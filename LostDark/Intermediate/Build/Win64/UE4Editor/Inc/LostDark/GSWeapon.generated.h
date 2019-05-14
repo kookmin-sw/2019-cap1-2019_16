@@ -57,7 +57,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGSWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGSWeapon)
 
 
-#define LostDark_Source_LostDark_Public_GSWeapon_h_12_PRIVATE_PROPERTY_OFFSET
+#define LostDark_Source_LostDark_Public_GSWeapon_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__AttackRange() { return STRUCT_OFFSET(AGSWeapon, AttackRange); } \
+	FORCEINLINE static uint32 __PPO__AttackDamageMin() { return STRUCT_OFFSET(AGSWeapon, AttackDamageMin); } \
+	FORCEINLINE static uint32 __PPO__AttackDamageMax() { return STRUCT_OFFSET(AGSWeapon, AttackDamageMax); } \
+	FORCEINLINE static uint32 __PPO__AttackModifierMin() { return STRUCT_OFFSET(AGSWeapon, AttackModifierMin); } \
+	FORCEINLINE static uint32 __PPO__AttackModifierMax() { return STRUCT_OFFSET(AGSWeapon, AttackModifierMax); } \
+	FORCEINLINE static uint32 __PPO__AttackDamage() { return STRUCT_OFFSET(AGSWeapon, AttackDamage); } \
+	FORCEINLINE static uint32 __PPO__AttackModifier() { return STRUCT_OFFSET(AGSWeapon, AttackModifier); }
+
+
 #define LostDark_Source_LostDark_Public_GSWeapon_h_9_PROLOG
 #define LostDark_Source_LostDark_Public_GSWeapon_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

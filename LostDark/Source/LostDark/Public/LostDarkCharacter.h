@@ -30,6 +30,10 @@ public:
 
 	// 경험치 획득 함수
 	int32 GetExp() const;
+	// 최종 공격범위
+	float GetFinalAttackRange() const;
+	// 최종 무기 공격력
+	float GetFinalAttackDamage() const;
 
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))

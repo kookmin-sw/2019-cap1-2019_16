@@ -3,18 +3,26 @@
 #include "LDPlayerState.h"
 // 추가
 #include "LDGameInstance.h"
+#include "LDSaveGame.h"
 
 // Constructor
 ALDPlayerState::ALDPlayerState()
 {
 	CharacterLevel = 1;
 	GameScore = 0;
+	GameHighScore = 0;
 	Exp = 0;
+	SaveSlotName = TEXT("Player1");
 }
 
 int32 ALDPlayerState::GetGameScore() const
 {
 	return GameScore;
+}
+
+int32 ALDPlayerState::GetGameHighScore() const
+{
+	return GameHighScore;
 }
 
 int32 ALDPlayerState::GetCharacterLevel() const
@@ -24,11 +32,39 @@ int32 ALDPlayerState::GetCharacterLevel() const
 
 void ALDPlayerState::InitPlayerData()
 {
-	// 캐릭터 닉네임 설정.
-	SetPlayerName(TEXT("Destiny"));
-	SetCharacterLevel(5);
+	// 처음 스테이트 시작할때 최초 슬롯에서 가져옴
+	auto LDSaveGame = Cast<ULDSaveGame>(UGameplayStatics::LoadGameFromSlot(SaveSlotName, 0));
+	if (nullptr == LDSaveGame)
+	{
+		LDSaveGame = GetMutableDefault<ULDSaveGame>();
+	}
+
+	// 세이브 파일에서 플레이어 이름가져옴
+	SetPlayerName(LDSaveGame->PlayerName);
+	// 세이브 파일에서 캐릭터 레벨 가져옴
+	SetCharacterLevel(LDSaveGame->Level);
 	GameScore = 0;
-	Exp = 0;
+	GameHighScore = LDSaveGame->HighScore;
+	// 세이브 파일에서 Exp가져옴
+	Exp = LDSaveGame->Exp;
+	// 최초 저장
+	SavePlayerData();
+}
+
+void ALDPlayerState::SavePlayerData()
+{
+	// 세이브 인스턴스 생성
+	ULDSaveGame* NewPlayerData = NewObject<ULDSaveGame>();
+	// 현재 스테이트에 해당하는 정보들 새롭게 저장.
+	NewPlayerData->PlayerName = GetPlayerName();
+	NewPlayerData->Level = CharacterLevel;
+	NewPlayerData->Exp = Exp;
+	NewPlayerData->HighScore = GameHighScore;
+
+	if (!UGameplayStatics::SaveGameToSlot(NewPlayerData, SaveSlotName, 0))
+	{
+		ABLOG(Error, TEXT("SaveGame Error!"));
+	}
 }
 
 float ALDPlayerState::GetExpRatio() const
@@ -63,15 +99,22 @@ bool ALDPlayerState::AddExp(int32 IncomeExp)
 
 	// 스테이트 변경
 	OnPlayerStateChanged.Broadcast();
+	// 경험치를 얻을때마다 데이터 저장
+	SavePlayerData();
 	return DidLevelup;
 }
 
 void ALDPlayerState::AddGameScore()
 {
 	GameScore++;
+	if (GameScore >= GameHighScore)
+	{
+		GameHighScore = GameScore;
+	}
 	OnPlayerStateChanged.Broadcast();
+	// 점수를 얻을때마다 데이터 저장
+	SavePlayerData();
 }
-
 
 void ALDPlayerState::SetCharacterLevel(int32 NewCharacterLevel)
 {
