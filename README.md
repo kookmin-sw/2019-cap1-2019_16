@@ -72,10 +72,12 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 #### 1) 조작
 - 키보드(WASD)를 사용한 플레이어 이동
 - 마우스 좌클릭 시 공격
-- 마우스 우클릭 시 시점 좌우 회전
+- 마우스 우클릭 상태에서 마우스 이동 시 시점 좌우 회전
 - Shift키를 눌러 회피
+- Space bar 키를 눌러 점프
 
 #### 2) 게임 시스템
+- 몬스터는 
 - 몬스터가 플레이어를 발견하면 추적, 공격
 - 몬스터가 공격받고 데미지를 받아 HP 0이 되면 사망
 - NPC에게 접근해 마우스 좌클릭 시 NPC와 대화
