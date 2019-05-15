@@ -32,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeLDSaveGame() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterIndex_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CharacterIndex;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HighScore_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_HighScore;
@@ -62,6 +66,12 @@ void EmptyLinkFunctionForGeneratedCodeLDSaveGame() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULDSaveGame_Statics::NewProp_CharacterIndex_MetaData[] = {
+		{ "ModuleRelativePath", "Public/LDSaveGame.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ULDSaveGame_Statics::NewProp_CharacterIndex = { UE4CodeGen_Private::EPropertyClass::Int, "CharacterIndex", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(ULDSaveGame, CharacterIndex), METADATA_PARAMS(Z_Construct_UClass_ULDSaveGame_Statics::NewProp_CharacterIndex_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULDSaveGame_Statics::NewProp_CharacterIndex_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULDSaveGame_Statics::NewProp_HighScore_MetaData[] = {
 		{ "ModuleRelativePath", "Public/LDSaveGame.h" },
 	};
@@ -86,6 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeLDSaveGame() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ULDSaveGame_Statics::NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000000, 1, nullptr, STRUCT_OFFSET(ULDSaveGame, Level), METADATA_PARAMS(Z_Construct_UClass_ULDSaveGame_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UClass_ULDSaveGame_Statics::NewProp_Level_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ULDSaveGame_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULDSaveGame_Statics::NewProp_CharacterIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULDSaveGame_Statics::NewProp_HighScore,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULDSaveGame_Statics::NewProp_PlayerName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULDSaveGame_Statics::NewProp_Exp,
@@ -114,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeLDSaveGame() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULDSaveGame, 2848614502);
+	IMPLEMENT_CLASS(ULDSaveGame, 2404955795);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ULDSaveGame(Z_Construct_UClass_ULDSaveGame, &ULDSaveGame::StaticClass, TEXT("/Script/LostDark"), TEXT("ULDSaveGame"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ULDSaveGame);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

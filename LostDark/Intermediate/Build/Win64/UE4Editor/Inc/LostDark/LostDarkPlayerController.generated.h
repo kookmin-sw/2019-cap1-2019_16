@@ -59,8 +59,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkPlayerController); \
 
 #define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(ALostDarkPlayerController, HUDWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__MenuWidgetClass() { return STRUCT_OFFSET(ALostDarkPlayerController, MenuWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__ResultWidgetClass() { return STRUCT_OFFSET(ALostDarkPlayerController, ResultWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__HUDWidget() { return STRUCT_OFFSET(ALostDarkPlayerController, HUDWidget); } \
-	FORCEINLINE static uint32 __PPO__LDPlayerState() { return STRUCT_OFFSET(ALostDarkPlayerController, LDPlayerState); }
+	FORCEINLINE static uint32 __PPO__LDPlayerState() { return STRUCT_OFFSET(ALostDarkPlayerController, LDPlayerState); } \
+	FORCEINLINE static uint32 __PPO__MenuWidget() { return STRUCT_OFFSET(ALostDarkPlayerController, MenuWidget); } \
+	FORCEINLINE static uint32 __PPO__ResultWidget() { return STRUCT_OFFSET(ALostDarkPlayerController, ResultWidget); }
 
 
 #define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_12_PROLOG

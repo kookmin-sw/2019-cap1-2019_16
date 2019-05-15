@@ -33,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ScoreToClear_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ScoreToClear;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LDGameState_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LDGameState;
@@ -54,6 +58,13 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkGameMode() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_ScoreToClear_MetaData[] = {
+		{ "ModuleRelativePath", "Public/LostDarkGameMode.h" },
+		{ "ToolTip", "\xc5\xac???? ????" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_ScoreToClear = { UE4CodeGen_Private::EPropertyClass::Int, "ScoreToClear", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(ALostDarkGameMode, ScoreToClear), METADATA_PARAMS(Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_ScoreToClear_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_ScoreToClear_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_LDGameState_MetaData[] = {
 		{ "ModuleRelativePath", "Public/LostDarkGameMode.h" },
 		{ "ToolTip", "??\xc3\xbc ???? ??????\xc6\xae (??\xc3\xbc ???? ???\xda\xbe\xee\xb8\xa6 ????)" },
@@ -61,6 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkGameMode() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_LDGameState = { UE4CodeGen_Private::EPropertyClass::Object, "LDGameState", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(ALostDarkGameMode, LDGameState), Z_Construct_UClass_ALDGameState_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_LDGameState_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_LDGameState_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALostDarkGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_ScoreToClear,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkGameMode_Statics::NewProp_LDGameState,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALostDarkGameMode_Statics::StaticCppClassTypeInfo = {
@@ -86,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkGameMode, 156917324);
+	IMPLEMENT_CLASS(ALostDarkGameMode, 441226707);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkGameMode(Z_Construct_UClass_ALostDarkGameMode, &ALostDarkGameMode::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

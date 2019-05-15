@@ -208,14 +208,18 @@ void ALostDarkCharacter::BeginPlay()
 	// 플레이어 컨트롤러라면
 	if (bIsPlayer)
 	{
-		AssetIndex = 4;
+		// 플레이어 스테이트를 가져옴
+		auto LDPlayerState = Cast<ALDPlayerState>(GetPlayerState());
+		ABCHECK(nullptr != LDPlayerState);
+		AssetIndex = LDPlayerState->GetCharacterIndex();
 	}
 	else
 	{
 		// 캐릭터 애셋 정보를 가져와서, 랜덤변수. 최소는 0, 최대는 숫자-1 주의
 		AssetIndex = FMath::RandRange(0, DefaultSetting->CharacterAssets.Num() - 2);
 	}
-	// 랜덤한 애셋 정보를 등록.
+
+	// 애셋 정보를 가져옴
 	CharacterAssetToLoad = DefaultSetting->CharacterAssets[AssetIndex];
 	// ★GetGameInstance : 현재 등록된 게임인스턴스 정보를 가져옴.
 	auto LDGameInstance = Cast<ULDGameInstance>(GetGameInstance());
@@ -592,12 +596,14 @@ void ALostDarkCharacter::SetCharacterState(ECharacterState NewState)
 			LDAIController->StopAI();
 		}
 
+		// DeadTimer 시간후 자동 호출되는 함수.
 		GetWorld()->GetTimerManager().SetTimer(DeadTimerHandle, FTimerDelegate::CreateLambda([this]()->void {
 			// 플레이어라면
 			if (bIsPlayer)
 			{
-				// 다시 시작함
-				LDPlayerController->RestartLevel();
+				//// 다시 시작함
+				//LDPlayerController->RestartLevel();
+				LDPlayerController->ShowResultUI();
 			}
 			else
 			{

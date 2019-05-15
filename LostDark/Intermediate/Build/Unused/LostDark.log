@@ -1,58 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
-  Creating makefile for LostDarkEditor (no existing makefile)
+  Creating makefile for hot reloading LostDarkEditor (modules to compile have changed)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1089.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1089.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1232.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1232.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1239.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1239.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1393.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1393.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1480.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1480.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1645.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-1645.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2240.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2240.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2312.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2312.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2637.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-2637.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-3246.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-3246.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-4415.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-4415.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5255.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5255.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5347.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5347.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5833.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5833.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5933.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-5933.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-6287.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-6287.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-6653.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-6653.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8006.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8006.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8015.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8015.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8216.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8216.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8450.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8450.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8494.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-8494.pdb".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-9132.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-9750.dll".
-  Deleting old hot reload file: "B:\Develope\Sourcetree\LostDark\LostDark\Binaries\Win64\UE4Editor-LostDark-9750.pdb".
-  Building 3 actions with 6 processes...
-    [1/3] LostDarkPlayerController.cpp
-    [2/3] UE4Editor-LostDark.lib
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
-    [3/3] UE4Editor-LostDark.dll
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
+  Target is up to date
   Deploying LostDarkEditor Win64 Development...
-  Total build time: 10.96 seconds (Parallel executor: 6.21 seconds)
+  Total build time: 4.95 seconds (NoActionsToExecute executor: 0.00 seconds)

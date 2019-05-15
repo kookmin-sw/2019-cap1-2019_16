@@ -32,6 +32,8 @@ ALostDarkGameMode::ALostDarkGameMode()
 	PlayerStateClass = ALDPlayerState::StaticClass();
 	// 게임 스테이트 정보 등록.
 	GameStateClass = ALDGameState::StaticClass();
+	// 최종 목표는 2
+	ScoreToClear = 2;
 }
 
 void ALostDarkGameMode::PostInitializeComponents()
@@ -67,6 +69,28 @@ void ALostDarkGameMode::AddScore(ALostDarkPlayerController * ScoredPlayer)
 	}
 	// 전체 게임 스테이트도 올려줌
 	LDGameState->AddGameScore();
+
+	if (GetScore() >= ScoreToClear)
+	{
+		// 게임 클리어 설정
+		LDGameState->SetGameCleared();
+		// 월드에 있는 모든 폰을 돌면서
+		for (FConstPawnIterator It = GetWorld()->GetPawnIterator(); It; ++It)
+		{
+			// ??
+			(*It)->TurnOff();
+		}
+		// 플레이어 컨트롤러를 찾아라
+		for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+		{
+			const auto LDPlayerController = Cast<ALostDarkPlayerController>(It->Get());
+			if (LDPlayerController != nullptr)
+			{
+				// 발견한다면 해당 플레이어 UI에 있는결과 UI 보여주기.
+				LDPlayerController->ShowResultUI();
+			}
+		}
+	}
 }
 
 int32 ALostDarkGameMode::GetScore() const

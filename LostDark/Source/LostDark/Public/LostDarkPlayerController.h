@@ -25,17 +25,40 @@ public:
 	void AIKill(class ALostDarkCharacter* KiiledAI) const;
 	// 게임 스코어를 올릴때
 	void AddGameScore() const;
+	// Input모드를 변경
+	void ChangeInputMode(bool bGameMode = true);
+	
+	// 결과 UI
+	void ShowResultUI();
 
 protected:
 	virtual void BeginPlay() override;
-	//virtual void SetupInputComponent() override;
+	// 플레이어 컨트롤러에 있는 함수. 
+	virtual void SetupInputComponent() override;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = UI)
 		TSubclassOf<class ULDHUDWidget> HUDWidgetClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = UI)
+		TSubclassOf<class ULDGamePlayWidget> MenuWidgetClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = UI)
+		TSubclassOf<class ULDGamePlayResultWidget> ResultWidgetClass;
 
 private:
+	// 게임중지 함수
+	void OnGamePause();
+
 	UPROPERTY()
 		class ULDHUDWidget* HUDWidget;
 	UPROPERTY()
 		class ALDPlayerState* LDPlayerState;
+
+	UPROPERTY()
+		class ULDGamePlayWidget* MenuWidget;
+	UPROPERTY()
+		class ULDGamePlayResultWidget* ResultWidget;
+
+	// 게임에만 클릭이 전달
+	FInputModeGameOnly GameInputMode;
+	// UI에만 클릭이 전달
+	FInputModeUIOnly UIInputMode;
 };

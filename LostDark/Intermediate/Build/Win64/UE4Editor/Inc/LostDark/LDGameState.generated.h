@@ -58,7 +58,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALDGameState); \
 
 
 #define LostDark_Source_LostDark_Public_LDGameState_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TotalGameScore() { return STRUCT_OFFSET(ALDGameState, TotalGameScore); }
+	FORCEINLINE static uint32 __PPO__TotalGameScore() { return STRUCT_OFFSET(ALDGameState, TotalGameScore); } \
+	FORCEINLINE static uint32 __PPO__bGameCleared() { return STRUCT_OFFSET(ALDGameState, bGameCleared); }
 
 
 #define LostDark_Source_LostDark_Public_LDGameState_h_12_PROLOG

@@ -12,7 +12,9 @@ ALDPlayerState::ALDPlayerState()
 	GameScore = 0;
 	GameHighScore = 0;
 	Exp = 0;
+	// 엔진 초기화시, 슬롯 네임은 Player1로 지정됨
 	SaveSlotName = TEXT("Player1");
+	CharacterIndex = 0;
 }
 
 int32 ALDPlayerState::GetGameScore() const
@@ -30,9 +32,14 @@ int32 ALDPlayerState::GetCharacterLevel() const
 	return CharacterLevel;
 }
 
+int32 ALDPlayerState::GetCharacterIndex() const
+{
+	return CharacterIndex;
+}
+
 void ALDPlayerState::InitPlayerData()
 {
-	// 처음 스테이트 시작할때 최초 슬롯에서 가져옴
+	// 처음 스테이트 시작할때 최초 세이브된 파일 정보, 0번째 슬롯 정보를 가져옴
 	auto LDSaveGame = Cast<ULDSaveGame>(UGameplayStatics::LoadGameFromSlot(SaveSlotName, 0));
 	if (nullptr == LDSaveGame)
 	{
@@ -47,6 +54,7 @@ void ALDPlayerState::InitPlayerData()
 	GameHighScore = LDSaveGame->HighScore;
 	// 세이브 파일에서 Exp가져옴
 	Exp = LDSaveGame->Exp;
+	CharacterIndex = LDSaveGame->CharacterIndex;
 	// 최초 저장
 	SavePlayerData();
 }
@@ -60,6 +68,7 @@ void ALDPlayerState::SavePlayerData()
 	NewPlayerData->Level = CharacterLevel;
 	NewPlayerData->Exp = Exp;
 	NewPlayerData->HighScore = GameHighScore;
+	NewPlayerData->CharacterIndex = CharacterIndex;
 
 	if (!UGameplayStatics::SaveGameToSlot(NewPlayerData, SaveSlotName, 0))
 	{

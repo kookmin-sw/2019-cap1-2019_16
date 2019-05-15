@@ -21,9 +21,17 @@ public:
 public:
 	int32 GetTotalGameScore() const;
 	void AddGameScore();
+	// 게임 클리어 설정
+	void SetGameCleared();
+	// 게임 클리어 여부
+	bool IsGameCleared() const;
 
 private:
 	// 전체 게임 스코어
 	UPROPERTY(Transient)
 		int32 TotalGameScore;
+
+	// 게임 클리어 변수
+	UPROPERTY(Transient)
+		bool bGameCleared;
 };

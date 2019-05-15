@@ -26,6 +26,7 @@ public:
 	FString SaveSlotName;
 
 	int32 GetCharacterLevel() const;
+	int32 GetCharacterIndex() const;
 	
 	float GetExpRatio() const;
 	bool AddExp(int32 IncomeExp);
@@ -49,6 +50,9 @@ protected:
 
 	UPROPERTY(Transient)
 		int32 Exp;
+
+	UPROPERTY(Transient)
+		int32 CharacterIndex;
 
 private:
 	// 캐릭터 레벨 설정

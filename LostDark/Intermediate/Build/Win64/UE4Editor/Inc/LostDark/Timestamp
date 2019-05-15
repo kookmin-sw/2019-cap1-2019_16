@@ -8,11 +8,15 @@ B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\GSCharacterStatC
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\GSCharacterWidget.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\GSWeapon.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDAIController.h
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDCharacterSelectWidget.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDGameInstance.h
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDGamePlayResultWidget.h
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDGamePlayWidget.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDGameState.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDHUDWidget.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDPlayerState.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDSaveGame.h
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LDUIPlayerController.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LostDark.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LostDarkCharacter.h
 B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\Public\LostDarkGameMode.h

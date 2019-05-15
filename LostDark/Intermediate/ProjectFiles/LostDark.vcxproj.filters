@@ -193,6 +193,18 @@
     <ClInclude Include="..\..\Source\LostDark\Public\LDSaveGame.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDUIPlayerController.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDCharacterSelectWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGamePlayWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGamePlayResultWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\LostDark\Private\SectionTest.cpp">
@@ -208,6 +220,18 @@
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\LostDark\Private\LDSaveGame.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDUIPlayerController.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDCharacterSelectWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGamePlayWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGamePlayResultWidget.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
   </ItemGroup>

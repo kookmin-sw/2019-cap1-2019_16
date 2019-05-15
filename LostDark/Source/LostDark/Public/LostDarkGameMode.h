@@ -36,4 +36,7 @@ private:
 	// 전체 게임 스테이트 (전체 게임 스코어를 위한)
 	UPROPERTY()
 		class ALDGameState* LDGameState;
+	// 클리어 점수
+	UPROPERTY()
+		int32 ScoreToClear;
 };
