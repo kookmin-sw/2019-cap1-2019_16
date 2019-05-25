@@ -184,6 +184,12 @@ private:
 	// 죽은 시간
 	FTimerHandle DeadTimerHandle = {};
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowPrivateAccess = true))
+	bool IsDodge = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = State, Meta = (AllowPrivateAccess = true))
+	float DodgeSpeed = 500.0f;
+
 
 // 마네킹에 있는거 놔둔 함수. 쓸모있을지도?
 public:

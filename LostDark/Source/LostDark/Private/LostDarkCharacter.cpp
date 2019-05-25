@@ -168,7 +168,7 @@ ALostDarkCharacter::ALostDarkCharacter()
 	HPBarWidget->SetHiddenInGame(true);
 	// 데미지 안받음 Actor에 이미 만들어져있음.
 	bCanBeDamaged = false;
-	
+
 	// DeadTimer
 	DeadTimer = 5.0f;
 }
@@ -248,6 +248,12 @@ void ALostDarkCharacter::BeginPlay()
 void ALostDarkCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	// 닷지를 쓰면
+	if (IsDodge)
+	{
+		SetActorLocation(FMath::VInterpTo(GetActorLocation(), GetActorForwardVector()*DodgeSpeed, DeltaTime, 2));
+	}
 
 	// 최초 시작할때 카메라가 자리잡는 함수. InterpTo를 이용 (보간법 : Interpolation)
 	CameraBoom->TargetArmLength = FMath::FInterpTo(CameraBoom->TargetArmLength, BoomLengthTo, DeltaTime, BoomLengthSpeed);
@@ -406,7 +412,7 @@ bool ALostDarkCharacter::CanSetWeapon()
 {
 	// 없으면 true, 무기가 있다면 false
 	//return (nullptr == CurrentWeapon);
-	
+
 	//항상 교체할수 있음
 	return true;
 }
@@ -503,8 +509,8 @@ void ALostDarkCharacter::SetCharacterState(ECharacterState NewState)
 	CurrentState = NewState;
 	switch (CurrentState)
 	{
-	/*case ECharacterState::PREINIT:
-		break;*/
+		/*case ECharacterState::PREINIT:
+			break;*/
 	case ECharacterState::LOADING:
 	{
 		// 플레이어 컨트롤러라면
@@ -512,7 +518,7 @@ void ALostDarkCharacter::SetCharacterState(ECharacterState NewState)
 		{
 			// 키입력을 못받도록함.
 			DisableInput(LDPlayerController);
-			
+
 			// 플레이어 컨트롤러에서 위젯을 얻고 캐릭터 스탯을 바인딩시킴.
 			LDPlayerController->GetHUDWidget()->BindCharacterStat(CharacterStat);
 
@@ -611,7 +617,6 @@ void ALostDarkCharacter::SetCharacterState(ECharacterState NewState)
 				Destroy();
 			}
 		}), DeadTimer, false);
-
 		break;
 	}
 	default:
@@ -697,14 +702,45 @@ void ALostDarkCharacter::Attack()
 // Dodge
 void ALostDarkCharacter::Dodge()
 {
-	// 공격중, 점프 중이면 재생안함
-	if (!IsAttacking && !GSAnim->IsJump())
+	// 닷지중이지 않고, 점프중이지 않을때만 가능
+	if (!IsDodge && !GSAnim->IsJump())
 	{
-		// 캐릭터 점프 막음.
-		GetCharacterMovement()->SetJumpAllowed(false);
-		GSAnim->PlayDodgeMontage();
-		// 이동
-		//DirectionToMove.X = 50.0f;
+		// dodge 기능 막음
+		IsDodge = true;
+		// 공격중, 점프 중이면 재생안함
+		if (!IsAttacking && !GSAnim->IsJump())
+		{
+			// 캐릭터 점프 막음.
+			GetCharacterMovement()->SetJumpAllowed(false);
+			if (bIsPlayer)
+			{
+				// 키입력 없앰.
+				DisableInput(LDPlayerController);
+			}
+			GSAnim->PlayDodgeMontage();
+			// 이동
+			// 도착 위치 = 현재위치 + 자신의 앞방향 단위 벡터 * 이동거리
+			// 현재위치 ~ 도착위치까지 증가
+			// GetActorLocation
+			//DirectionToMove.X = 50.0f;
+			//FMath::VInterpTo(GetActorLocation(),GetActorForwardVector()*100.0f,)
+			//CameraBoom->TargetArmLength = FMath::FInterpTo(CameraBoom->TargetArmLength, BoomLengthTo, DeltaTime, BoomLengthSpeed);;
+		}
+	}
+}
+
+// 닷지 몽타주가 끝나면 점프를 가능하게. 
+void ALostDarkCharacter::OnDodgeMontageEnded(UAnimMontage * Montage, bool bInterrupted)
+{
+	// 점프 사용가능.
+	GetCharacterMovement()->SetJumpAllowed(true);
+	// 닷지 사용가능
+	IsDodge = false;
+
+	if (bIsPlayer)
+	{
+		// 키입력 만듬.
+		EnableInput(LDPlayerController);
 	}
 }
 
@@ -724,13 +760,6 @@ void ALostDarkCharacter::OnAttackMontageEnded(UAnimMontage* Montage, bool bInter
 
 	// AI의 경우 FinishLatentTask 함수를 호출하기 위해 만듦.
 	OnAttackEnd.Broadcast(); // BTTask_Attack.cpp 에 델리게이트 등록한 함수 있음.
-}
-
-
-// 닷지 몽타주가 끝나면 점프를 가능하게. 
-void ALostDarkCharacter::OnDodgeMontageEnded(UAnimMontage * Montage, bool bInterrupted)
-{
-	GetCharacterMovement()->SetJumpAllowed(true);
 }
 
 // 공격이 시작할때 관련 속성 지정하는 함수. Combo 카운트를 증가시킴
@@ -848,7 +877,7 @@ void ALostDarkCharacter::OnAssetLoadCompleted()
 	// 약한 포인터, 캐릭터 에셋 경로등록
 	TSoftObjectPtr<USkeletalMesh> LoadedAssetPath(CharacterAssetToLoad);
 	ABCHECK(LoadedAssetPath.IsValid());
-	
+
 	// 스켈레탈 적용
 	GetMesh()->SetSkeletalMesh(LoadedAssetPath.Get());
 	// 스테이트 READY로 변경
@@ -980,7 +1009,7 @@ void ALostDarkCharacter::MoveRight(float Value)
 	switch (CurrentControlMode)
 	{
 	case ALostDarkCharacter::EControlMode::BackView:
-		// 컨트롤 회전 값으로부터 회전행렬을 만들고, 원하는 방향 축을 대입해 캐릭터가 움직이는 방향으로 이동하게 한다.
+		// 컨트롤 회전 값으로부터 회전행렬을 만들어서 방향을 구하곳, 원하는 방향 축을 대입해 캐릭터가 움직이는 방향으로 이동하게 한다.
 		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), Value);
 		break;
 	case ALostDarkCharacter::EControlMode::QuaterView:

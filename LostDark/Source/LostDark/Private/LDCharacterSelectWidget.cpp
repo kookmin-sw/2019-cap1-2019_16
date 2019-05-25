@@ -94,8 +94,8 @@ void ULDCharacterSelectWidget::OnConfirmClicked()
 	ULDSaveGame* NewPlayerData = NewObject<ULDSaveGame>();
 	NewPlayerData->PlayerName = CharacterName;
 	// 최초 정보 기록
-	NewPlayerData->Level = 5;
-	NewPlayerData->Exp = 50;
+	NewPlayerData->Level = 1;
+	NewPlayerData->Exp = 110;
 	NewPlayerData->HighScore = 0;
 	NewPlayerData->CharacterIndex = CurrentIndex;
 

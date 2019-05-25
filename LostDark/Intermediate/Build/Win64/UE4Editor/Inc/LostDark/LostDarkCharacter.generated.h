@@ -115,7 +115,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkCharacter); \
 	FORCEINLINE static uint32 __PPO__bIsPlayer() { return STRUCT_OFFSET(ALostDarkCharacter, bIsPlayer); } \
 	FORCEINLINE static uint32 __PPO__LDAIController() { return STRUCT_OFFSET(ALostDarkCharacter, LDAIController); } \
 	FORCEINLINE static uint32 __PPO__LDPlayerController() { return STRUCT_OFFSET(ALostDarkCharacter, LDPlayerController); } \
-	FORCEINLINE static uint32 __PPO__DeadTimer() { return STRUCT_OFFSET(ALostDarkCharacter, DeadTimer); }
+	FORCEINLINE static uint32 __PPO__DeadTimer() { return STRUCT_OFFSET(ALostDarkCharacter, DeadTimer); } \
+	FORCEINLINE static uint32 __PPO__IsDodge() { return STRUCT_OFFSET(ALostDarkCharacter, IsDodge); } \
+	FORCEINLINE static uint32 __PPO__DodgeSpeed() { return STRUCT_OFFSET(ALostDarkCharacter, DodgeSpeed); }
 
 
 #define LostDark_Source_LostDark_Public_LostDarkCharacter_h_18_PROLOG

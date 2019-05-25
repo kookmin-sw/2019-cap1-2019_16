@@ -143,6 +143,15 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DodgeSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DodgeSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsDodge_MetaData[];
+#endif
+		static void NewProp_IsDodge_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsDodge;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeadTimer_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DeadTimer;
@@ -252,6 +261,26 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentWeapon", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, CurrentWeapon), Z_Construct_UClass_AGSWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DodgeSpeed_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DodgeSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "DodgeSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000005, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, DodgeSpeed), METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DodgeSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DodgeSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "State" },
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge_SetBit(void* Obj)
+	{
+		((ALostDarkCharacter*)Obj)->IsDodge = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge = { UE4CodeGen_Private::EPropertyClass::Bool, "IsDodge", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000020005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ALostDarkCharacter), &Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge_SetBit, METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -419,6 +448,8 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALostDarkCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CharacterStat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_CurrentWeapon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DodgeSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_IsDodge,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_DeadTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDPlayerController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_LDAIController,
@@ -461,7 +492,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 227301802);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 3154916497);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

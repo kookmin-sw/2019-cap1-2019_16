@@ -26,7 +26,7 @@ UGSAnimInstance::UGSAnimInstance()
 	IsInputCombo = false;
 
 	static ConstructorHelpers::FObjectFinder<UAnimMontage> Dodge_Montage(TEXT(
-		"/Game/JG/RollsAndDodges/GreyRetargetDodge_Montage.GreyRetargetDodge_Montage"));
+		"/Game/SH/Animations/GreystonDodge_Montage.GreystonDodge_Montage"));
 	if (Dodge_Montage.Succeeded())
 	{
 		DodgeMontage = Dodge_Montage.Object;
