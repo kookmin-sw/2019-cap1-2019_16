@@ -1439,3 +1439,635 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.25-16.23.11:477][139]LogPlayLevel: Display: Destroying online subsystem :Context_40
 [2019.05.25-16.23.20:571][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
 [2019.05.25-16.23.20:628][593]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc2BC2726684B37D92F42762BA29AA432C6.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.26.43:355][671]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.26.44:068][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.26.44:107][691]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc25C55F9B0481CE7897FE327BEEE0C39EB.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.26.44:673][722]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.26.44:736][722]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.26.44:736][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.26.44:737][722]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:26:44)
+[2019.05.25-16.26.44:738][722]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.26.44:744][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006296s)
+[2019.05.25-16.26.44:745][722]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.26.44:745][722]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2019.05.25-16.26.44:746][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.007840s)
+[2019.05.25-16.26.44:865][722]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.26.44:948][722]LogInit: FAudioDevice initialized.
+[2019.05.25-16.26.44:966][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.26.45:069][722]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.26.45:079][722]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.26.45
+[2019.05.25-16.26.45:080][722]LogWorld: Bringing up level for play took: 0.008868
+[2019.05.25-16.26.45:128][722]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.299
+[2019.05.25-16.26.45:129][722]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.27.02:656][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.27.19:564][806]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.27.19:579][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.27.19:629][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.27.19:629][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.27.19:872][807]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.05.25-16.28.01:691][ 27]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/YJ_DefaultLevel_Auto3245AA92B4046D7BA670481B1627DD118.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/Autosaves/Game/YJ/Maps/YJ_DefaultLevel_Auto3.umap'
+[2019.05.25-16.28.01:697][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/YJ/Maps/YJ_DefaultLevel' took 0.288
+[2019.05.25-16.28.01:697][ 27]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2019.05.25-16.33.30:197][526]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.33.31:280][568]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.33.31:311][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.33.31:311][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.33.31:311][568]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:33:31)
+[2019.05.25-16.33.31:311][568]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.33.31:315][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002959s)
+[2019.05.25-16.33.31:315][568]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.33.31:315][568]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2019.05.25-16.33.31:315][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.003882s)
+[2019.05.25-16.33.31:363][568]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.33.31:400][568]LogInit: FAudioDevice initialized.
+[2019.05.25-16.33.31:407][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.33.31:477][568]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.33.31:482][568]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.33.31
+[2019.05.25-16.33.31:483][568]LogWorld: Bringing up level for play took: 0.003951
+[2019.05.25-16.33.31:512][568]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.682
+[2019.05.25-16.33.31:512][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.33.33:356][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.33.33:518][641]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.33.33:536][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.33.33:582][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.33.33:583][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.33.33:714][642]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.05.25-16.33.40:637][ 27]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/UI_Kit/Blueprints/PrototypeUI_Controller.PrototypeUI_Controller
+[2019.05.25-16.33.49:994][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.33.59:764][819]BlueprintLog: New page: PrototypeUI_Controller 컴파일
+[2019.05.25-16.33.59:966][819]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] Set Input Mode Game And UI (Deprecated)  : 폐기되었습니다. Use the new version of Set Input Mode Game And UI instead
+[2019.05.25-16.34.00:545][819]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] [3017.78] PrototypeUI_Controller 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 781 ms] (/Game/UI_Kit/Blueprints/PrototypeUI_Controller.PrototypeUI_Controller)
+[2019.05.25-16.34.01:195][829]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/PrototypeUI_ControllerB0866F344385DDBC256A0F83A04E106D.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/UI_Kit/Blueprints/PrototypeUI_Controller.uasset'
+[2019.05.25-16.34.05:783][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TextWindow2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TextWindow2.uasset" SILENT=true
+[2019.05.25-16.34.05:865][  3]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TextWindow26C66375349879FB69B602C80621CC28C.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TextWindow2.uasset'
+[2019.05.25-16.34.07:094][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.34.07:180][ 55]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc2EDD3163943A3B4DDA06F15B31208969D.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.34.12:624][324]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.34.13:680][341]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.34.13:741][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.13:742][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.34.13:742][341]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:34:13)
+[2019.05.25-16.34.13:743][341]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.34.13:748][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005675s)
+[2019.05.25-16.34.13:749][341]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.34.13:750][341]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2019.05.25-16.34.13:750][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.007161s)
+[2019.05.25-16.34.13:860][341]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.34.13:943][341]LogInit: FAudioDevice initialized.
+[2019.05.25-16.34.13:958][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.34.14:043][341]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.34.14:053][341]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.34.14
+[2019.05.25-16.34.14:053][341]LogWorld: Bringing up level for play took: 0.008629
+[2019.05.25-16.34.14:104][341]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 1.274
+[2019.05.25-16.34.14:105][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.17:062][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.34.20:036][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.34.20:217][542]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.34.20:230][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.20:288][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.34.20:289][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.20:518][543]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.05.25-16.34.31:680][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.34.31:765][ 43]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc2C86AC267440E9E9F3D84978CFEF00F54.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.34.46:834][855]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.34.46:869][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.46:870][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.34.46:870][855]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:34:46)
+[2019.05.25-16.34.46:870][855]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.34.46:874][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003401s)
+[2019.05.25-16.34.46:874][855]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.34.46:875][855]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2019.05.25-16.34.46:875][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.004353s)
+[2019.05.25-16.34.46:935][855]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.34.46:983][855]LogInit: FAudioDevice initialized.
+[2019.05.25-16.34.46:992][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.34.47:066][855]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.34.47:072][855]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.34.47
+[2019.05.25-16.34.47:073][855]LogWorld: Bringing up level for play took: 0.006118
+[2019.05.25-16.34.47:108][855]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.278
+[2019.05.25-16.34.47:109][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.48:773][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.34.50:665][959]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.34.50:677][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.50:727][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.34.50:728][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.34.50:957][960]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.05.25-16.35.20:986][656]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.35.21:667][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.35.21:756][666]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc20C3053A5463171A8703E52800746906C.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.35.38:493][605]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.35.39:340][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.35.39:420][626]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc22FE2BC72455B66762C1BDB9A8ECB4F34.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.35.39:993][653]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.35.40:046][653]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.35.40:046][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.35.40:046][653]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:35:40)
+[2019.05.25-16.35.40:047][653]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.35.40:053][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005341s)
+[2019.05.25-16.35.40:054][653]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.35.40:054][653]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2019.05.25-16.35.40:054][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.006889s)
+[2019.05.25-16.35.40:151][653]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.35.40:216][653]LogInit: FAudioDevice initialized.
+[2019.05.25-16.35.40:227][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.35.40:309][653]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.35.40:327][653]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.35.40
+[2019.05.25-16.35.40:329][653]LogWorld: Bringing up level for play took: 0.017393
+[2019.05.25-16.35.40:378][653]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.452
+[2019.05.25-16.35.40:379][653]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.35.43:066][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.35.45:423][809]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.35.45:438][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.35.45:499][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.35.45:500][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.35.45:734][810]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.05.25-16.37.01:472][ 94]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2019.05.25-16.37.15:564][859]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.37.16:301][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.37.16:378][873]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc20BD39D554987D12183B391B8383AA390.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.37.17:185][911]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.37.17:240][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.17:240][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.37.17:241][911]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:37:17)
+[2019.05.25-16.37.17:241][911]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.37.17:247][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005192s)
+[2019.05.25-16.37.17:248][911]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.37.17:248][911]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2019.05.25-16.37.17:248][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.006564s)
+[2019.05.25-16.37.17:348][911]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.37.17:412][911]LogInit: FAudioDevice initialized.
+[2019.05.25-16.37.17:425][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.37.17:515][911]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.37.17:523][911]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.37.17
+[2019.05.25-16.37.17:524][911]LogWorld: Bringing up level for play took: 0.007552
+[2019.05.25-16.37.17:576][911]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.746
+[2019.05.25-16.37.17:577][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.19:670][973]LogScript: Warning: InfoWindow 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	TalkingNpc2_C /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.TalkingNpc_3
+	Function /Game/YJ/TalkingNPC2/TalkingNpc2.TalkingNpc2_C:ExecuteUbergraph_TalkingNpc2:0015
+[2019.05.25-16.37.19:671][973]PIE: Error: 블루프린트 런타임 오류: "InfoWindow 프로퍼티를 읽으려던 중 None 에 접근했습니다.". 블루프린트: TalkingNpc2 함수: Execute Ubergraph Talking Npc 2 그래프: EventGraph 노드: Remove from Parent
+[2019.05.25-16.37.20:197][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.37.21:596][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.37.21:727][ 38]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.37.21:739][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.21:792][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.37.21:793][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.22:098][ 39]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2019.05.25-16.37.26:308][249]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.25-16.37.26:338][249]LogSlate: Window '메시지 로그' being destroyed
+[2019.05.25-16.37.38:121][929]BlueprintLog: New page: TalkingNpc2 컴파일
+[2019.05.25-16.37.39:010][955]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.37.39:050][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.39:050][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.37.39:050][955]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:37:39)
+[2019.05.25-16.37.39:051][955]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.37.39:054][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003707s)
+[2019.05.25-16.37.39:055][955]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.37.39:055][955]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2019.05.25-16.37.39:055][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.004693s)
+[2019.05.25-16.37.39:116][955]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.37.39:165][955]LogInit: FAudioDevice initialized.
+[2019.05.25-16.37.39:178][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.37.39:260][955]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.37.39:267][955]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.37.39
+[2019.05.25-16.37.39:268][955]LogWorld: Bringing up level for play took: 0.006066
+[2019.05.25-16.37.39:303][955]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.472
+[2019.05.25-16.37.39:303][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.41:955][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.37.50:414][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.37.52:467][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.37.56:444][494]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.37.56:460][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.56:514][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.37.56:515][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.37.56:735][495]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2019.05.25-16.37.58:359][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/TalkingNpc2" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset" SILENT=true
+[2019.05.25-16.37.58:448][572]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/TalkingNpc2B4C6E99D43CF97E7696378B6C77C0DD0.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/TalkingNpc2.uasset'
+[2019.05.25-16.38.42:142][926]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/YJ_DefaultLevel_Auto4C5C810494D876EEA34D27995A256AE36.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/Autosaves/Game/YJ/Maps/YJ_DefaultLevel_Auto4.umap'
+[2019.05.25-16.38.42:144][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/YJ/Maps/YJ_DefaultLevel' took 0.261
+[2019.05.25-16.38.42:144][926]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.261
+[2019.05.25-16.39.27:643][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/NPCInfoWindow" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/NPCInfoWindow.uasset" SILENT=true
+[2019.05.25-16.39.27:663][132]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/NPCInfoWindowCEEA9FA54B70B0493522EDA2FB609114.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/NPCInfoWindow.uasset'
+[2019.05.25-16.39.28:119][156]BlueprintLog: New page: NPCInfoWindow 컴파일
+[2019.05.25-16.39.30:224][268]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.39.30:246][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.30:246][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.39.30:246][268]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:39:30)
+[2019.05.25-16.39.30:247][268]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.39.30:250][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002763s)
+[2019.05.25-16.39.30:250][268]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.39.30:250][268]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2019.05.25-16.39.30:250][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.003531s)
+[2019.05.25-16.39.30:295][268]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.39.30:331][268]LogInit: FAudioDevice initialized.
+[2019.05.25-16.39.30:339][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.39.30:413][268]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.39.30:417][268]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.39.30
+[2019.05.25-16.39.30:418][268]LogWorld: Bringing up level for play took: 0.004025
+[2019.05.25-16.39.30:448][268]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.382
+[2019.05.25-16.39.30:448][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.33:808][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.39.38:476][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.39.40:371][617]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.39.40:382][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.40:430][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.39.40:430][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.40:859][618]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2019.05.25-16.39.49:393][999]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.25-16.39.50:305][ 46]BlueprintLog: New page: NPCInfoWindow 컴파일
+[2019.05.25-16.39.50:991][ 76]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.39.51:013][ 76]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.51:013][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.39.51:013][ 76]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:39:51)
+[2019.05.25-16.39.51:013][ 76]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.39.51:016][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002583s)
+[2019.05.25-16.39.51:016][ 76]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.39.51:016][ 76]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2019.05.25-16.39.51:016][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.003374s)
+[2019.05.25-16.39.51:063][ 76]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.39.51:098][ 76]LogInit: FAudioDevice initialized.
+[2019.05.25-16.39.51:106][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.39.51:178][ 76]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.39.51:183][ 76]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.39.51
+[2019.05.25-16.39.51:184][ 76]LogWorld: Bringing up level for play took: 0.005204
+[2019.05.25-16.39.51:215][ 76]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.385
+[2019.05.25-16.39.51:215][ 76]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.57:009][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.39.57:110][264]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.39.57:122][264]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.57:169][264]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.39.57:169][264]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.39.57:362][265]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2019.05.25-16.40.10:375][824]BlueprintLog: New page: NPCInfoWindow 컴파일
+[2019.05.25-16.40.10:891][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YJ/TalkingNPC2/NPCInfoWindow" FILE="../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/NPCInfoWindow.uasset" SILENT=true
+[2019.05.25-16.40.10:906][848]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/NPCInfoWindow746D22E64B92D2D482294EBFBC41B3E4.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/TalkingNPC2/NPCInfoWindow.uasset'
+[2019.05.25-16.40.11:482][880]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.25-16.40.11:511][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.40.11:511][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.25-16.40.11:511][880]PIE: New page: PIE 세션: YJ_DefaultLevel (2019. 5. 26. 오전 10:40:11)
+[2019.05.25-16.40.11:512][880]LogPlayLevel: Creating play world package: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel
+[2019.05.25-16.40.11:514][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002590s)
+[2019.05.25-16.40.11:515][880]LogAIModule: Creating AISystem for world YJ_DefaultLevel
+[2019.05.25-16.40.11:515][880]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2019.05.25-16.40.11:515][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel to /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel (0.003306s)
+[2019.05.25-16.40.11:564][880]LogInit: XAudio2 using '스피커(Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.25-16.40.11:599][880]LogInit: FAudioDevice initialized.
+[2019.05.25-16.40.11:606][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.25-16.40.11:684][880]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.25-16.40.11:694][880]LogWorld: Bringing World /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel.YJ_DefaultLevel up for play (max tick rate 60) at 2019.05.26-01.40.11
+[2019.05.25-16.40.11:694][880]LogWorld: Bringing up level for play took: 0.008535
+[2019.05.25-16.40.11:724][880]PIE: /Game/YJ/Maps/UEDPIE_0_YJ_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.893
+[2019.05.25-16.40.11:724][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.40.16:684][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.25-16.40.18:569][137]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.25-16.40.18:578][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.40.18:624][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.25-16.40.18:624][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel' with GeneratedClass '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel_C' with ClassGeneratedBy '/Game/YJ/Maps/YJ_DefaultLevel.YJ_DefaultLevel:PersistentLevel.YJ_DefaultLevel'
+[2019.05.25-16.40.18:911][138]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2019.05.25-16.41.08:003][130]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/YJ/TalkingNPC2/TextWindow2.TextWindow2
+[2019.05.25-16.41.13:970][458]LogSlate: Window 'YJPersonCharacter' being destroyed
+[2019.05.25-16.41.13:978][458]LogSlate: Window 'YJPersonCharacter' being destroyed
+[2019.05.25-16.41.14:074][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.25-16.41.14:167][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.25-16.41.20:043][731]LogSlate: Window '프로젝트 전환' being destroyed
+[2019.05.25-16.41.20:055][732]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.05.25-16.41.21:390][732]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.25-16.41.21:664][732]LogSavePackage: Moving '../../../../../../Workspace/SourceTree/Capstone/LostDark/Saved/YJ_DefaultLevel5B48FB98462F371FB80FFA93CF74755F.tmp' to '../../../../../../Workspace/SourceTree/Capstone/LostDark/Content/YJ/Maps/YJ_DefaultLevel.umap'
+[2019.05.25-16.41.21:695][732]LogFileHelpers: Saving map 'YJ_DefaultLevel' took 0.289
+[2019.05.25-16.41.21:766][732]LogSlate: Window 'LostDark - 언리얼 에디터' being destroyed
+[2019.05.25-16.41.21:771][732]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.05.25-16.41.22:028][733]Cmd: QUIT_EDITOR
+[2019.05.25-16.41.22:321][733]LogExit: Preparing to exit.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:369][733]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2019.05.25-16.41.23:505][733]LogExit: Editor shut down
+[2019.05.25-16.41.23:506][733]LogExit: Transaction tracking system shut down
+[2019.05.25-16.41.24:079][733]LogExit: Object subsystem successfully closed.
+[2019.05.25-16.41.24:119][733]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.25-16.41.24:134][733]LogD3D11RHI: Shutdown
+[2019.05.25-16.41.24:134][733]LogD3D11RHI: CleanupD3DDevice
+[2019.05.25-16.41.24:206][733]LogD3D11RHI: [IntelMetricsDiscovery] Stopped
+[2019.05.25-16.41.24:206][733]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module SequencerWidgets (632)
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (630)
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module Voice (628)
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module BlueprintGraph (626)
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.05.25-16.41.24:253][733]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.05.25-16.41.24:257][733]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.05.25-16.41.24:257][733]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.05.25-16.41.24:257][733]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.05.25-16.41.24:257][733]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.05.25-16.41.24:258][733]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.05.25-16.41.24:258][733]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.05.25-16.41.24:260][733]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.05.25-16.41.24:261][733]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.05.25-16.41.24:261][733]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.05.25-16.41.24:261][733]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.05.25-16.41.24:261][733]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.05.25-16.41.24:262][733]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.05.25-16.41.24:263][733]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.05.25-16.41.24:263][733]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.05.25-16.41.24:265][733]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.05.25-16.41.24:265][733]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.05.25-16.41.24:265][733]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.05.25-16.41.24:265][733]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.05.25-16.41.24:265][733]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.05.25-16.41.24:266][733]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.05.25-16.41.24:267][733]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.05.25-16.41.24:267][733]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.05.25-16.41.24:268][733]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.05.25-16.41.24:269][733]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.05.25-16.41.24:269][733]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.05.25-16.41.24:270][733]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.05.25-16.41.24:272][733]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.05.25-16.41.24:272][733]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.05.25-16.41.24:272][733]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.05.25-16.41.24:272][733]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.05.25-16.41.24:272][733]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.05.25-16.41.24:272][733]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.05.25-16.41.25:426][733]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.05.25-16.41.25:426][733]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.05.25-16.41.25:426][733]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.05.25-16.41.25:426][733]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.05.25-16.41.25:426][733]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.05.25-16.41.25:426][733]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.05.25-16.41.25:429][733]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.05.25-16.41.25:430][733]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.05.25-16.41.25:431][733]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.05.25-16.41.25:431][733]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.05.25-16.41.25:431][733]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.05.25-16.41.25:432][733]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.05.25-16.41.25:432][733]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.05.25-16.41.25:432][733]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.05.25-16.41.25:433][733]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.05.25-16.41.25:433][733]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.05.25-16.41.25:433][733]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.05.25-16.41.25:434][733]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.05.25-16.41.25:434][733]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.05.25-16.41.25:434][733]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.05.25-16.41.25:435][733]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.05.25-16.41.25:435][733]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.05.25-16.41.25:436][733]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.05.25-16.41.25:491][733]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.05.25-16.41.25:492][733]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.05.25-16.41.25:492][733]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.05.25-16.41.25:494][733]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.05.25-16.41.25:494][733]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.05.25-16.41.25:495][733]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.05.25-16.41.25:495][733]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.05.25-16.41.25:497][733]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.05.25-16.41.25:497][733]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.05.25-16.41.25:497][733]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.05.25-16.41.25:506][733]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.05.25-16.41.25:506][733]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.05.25-16.41.25:507][733]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.05.25-16.41.25:507][733]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.05.25-16.41.25:507][733]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.05.25-16.41.25:507][733]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.05.25-16.41.25:507][733]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.05.25-16.41.25:507][733]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.05.25-16.41.25:508][733]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.05.25-16.41.25:508][733]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.05.25-16.41.25:508][733]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.05.25-16.41.25:508][733]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.05.25-16.41.25:508][733]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.05.25-16.41.25:509][733]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.05.25-16.41.25:512][733]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.05.25-16.41.25:668][733]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.05.25-16.41.25:669][733]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.05.25-16.41.25:669][733]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.05.25-16.41.25:669][733]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.05.25-16.41.25:669][733]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.05.25-16.41.25:669][733]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.05.25-16.41.25:669][733]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.05.25-16.41.25:670][733]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.05.25-16.41.25:671][733]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.05.25-16.41.25:671][733]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.05.25-16.41.25:671][733]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.05.25-16.41.25:676][733]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.05.25-16.41.25:676][733]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.05.25-16.41.25:676][733]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.05.25-16.41.25:676][733]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.05.25-16.41.25:676][733]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.05.25-16.41.25:677][733]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.05.25-16.41.25:679][733]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.05.25-16.41.25:680][733]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.05.25-16.41.25:681][733]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.05.25-16.41.25:682][733]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.05.25-16.41.25:683][733]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.05.25-16.41.25:684][733]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module LostDark (296)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.25-16.41.25:685][733]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.25-16.41.25:785][733]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.25-16.41.25:886][733]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.25-16.41.25:886][733]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.25-16.41.25:886][733]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.25-16.41.25:886][733]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.25-16.41.25:887][733]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.25-16.41.25:887][733]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.25-16.41.25:887][733]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.25-16.41.25:889][733]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.25-16.41.25:890][733]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.25-16.41.25:891][733]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.25-16.41.25:891][733]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.25-16.41.25:893][733]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.25-16.41.25:895][733]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.25-16.41.25:895][733]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.25-16.41.25:895][733]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.25-16.41.25:895][733]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.25-16.41.25:896][733]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.25-16.41.25:896][733]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.05.25-16.41.25:896][733]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.05.25-16.41.25:898][733]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.05.25-16.41.25:904][733]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.05.25-16.41.25:905][733]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.05.25-16.41.25:906][733]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.05.25-16.41.25:906][733]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.05.25-16.41.25:907][733]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.05.25-16.41.25:907][733]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.05.25-16.41.25:909][733]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.05.25-16.41.25:909][733]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.05.25-16.41.25:909][733]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.05.25-16.41.25:909][733]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.05.25-16.41.25:909][733]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.05.25-16.41.25:909][733]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.05.25-16.41.25:911][733]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.05.25-16.41.25:911][733]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.05.25-16.41.25:914][733]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.05.25-16.41.25:915][733]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.05.25-16.41.25:915][733]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.05.25-16.41.25:915][733]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.05.25-16.41.25:917][733]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.05.25-16.41.25:917][733]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.05.25-16.41.25:917][733]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.05.25-16.41.25:917][733]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.05.25-16.41.25:918][733]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.05.25-16.41.25:938][733]LogDerivedDataCache: Shutdown
+[2019.05.25-16.41.25:938][733]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.05.25-16.41.25:938][733]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.05.25-16.41.25:938][733]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.05.25-16.41.25:939][733]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.05.25-16.41.25:939][733]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.05.25-16.41.25:939][733]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.05.25-16.41.25:939][733]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.05.25-16.41.25:940][733]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.05.25-16.41.25:940][733]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.05.25-16.41.25:940][733]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.05.25-16.41.25:940][733]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.05.25-16.41.25:941][733]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.05.25-16.41.25:952][733]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.05.25-16.41.25:952][733]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.05.25-16.41.25:952][733]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.05.25-16.41.25:952][733]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.05.25-16.41.25:952][733]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.05.25-16.41.25:956][733]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.05.25-16.41.25:956][733]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.05.25-16.41.25:959][733]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.05.25-16.41.25:959][733]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.05.25-16.41.25:993][733]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.05.25-16.41.25:993][733]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.05.25-16.41.25:993][733]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.05.25-16.41.25:994][733]LogHMD: Freeing OpenVRDLLHandle.
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.05.25-16.41.25:994][733]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.05.25-16.41.25:996][733]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.05.25-16.41.25:998][733]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.05.25-16.41.26:023][733]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.05.25-16.41.26:023][733]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.25-16.41.26:023][733]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB95D93A5-4F99-1AE1-8508-3D8E291949EC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=37f7fb7c43e85c4efe101bb507abe8da%7Cea4dc103ea3e4a7fad003826efb04fc1%7C084daac5-8a78-4ff5-a39e-ef84008c267c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.25-16.41.26:029][733]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.05.25-16.41.26:031][733]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.05.25-16.41.26:031][733]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.25-16.41.26:032][733]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.05.25-16.41.26:032][733]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.05.25-16.41.26:033][733]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.25-16.41.26:033][733]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.25-16.41.26:033][733]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.25-16.41.26:034][733]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.25-16.41.26:034][733]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.25-16.41.26:034][733]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.25-16.41.26:034][733]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.25-16.41.26:038][733]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.25-16.41.26:039][733]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.25-16.41.26:040][733]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.25-16.41.26:040][733]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.25-16.41.26:040][733]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.25-16.41.26:048][733]LogExit: Exiting.
+[2019.05.25-16.41.26:064][733]Log file closed, 05/26/19 01:41:26
