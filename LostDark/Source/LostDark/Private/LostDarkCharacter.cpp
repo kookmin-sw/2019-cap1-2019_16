@@ -250,10 +250,10 @@ void ALostDarkCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	// 닷지를 쓰면
-	if (IsDodge)
+	/*if (IsDodge)
 	{
 		SetActorLocation(FMath::VInterpTo(GetActorLocation(), GetActorForwardVector()*DodgeSpeed, DeltaTime, 2));
-	}
+	}*/
 
 	// 최초 시작할때 카메라가 자리잡는 함수. InterpTo를 이용 (보간법 : Interpolation)
 	CameraBoom->TargetArmLength = FMath::FInterpTo(CameraBoom->TargetArmLength, BoomLengthTo, DeltaTime, BoomLengthSpeed);

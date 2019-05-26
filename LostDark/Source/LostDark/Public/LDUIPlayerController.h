@@ -18,9 +18,9 @@ class LOSTDARK_API ALDUIPlayerController : public APlayerController
 protected:
 	virtual void BeginPlay() override;
 
-	// 위젯 클래스정보
-	UPROPERTY(EditDefaultsOnly, BlueprintReadwrite, Category = UI)
-		TSubclassOf<class UUserWidget> UIWidgetClass;
+	// 위젯 클래스정보. 블루프린트에서 설정 따로 해줘서 넣어줄 변수임. Cpp에서 넣지는 않음.
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = UI)
+		TSubclassOf<class UUserWidget> UIWidgetClass; // 실제 위젯 블루프린트가 들어감 (UMG)
 
 	// 위젯 인스턴스
 	UPROPERTY()

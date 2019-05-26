@@ -19,9 +19,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	typedef FTableRowBase Super;
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_RPC_WRAPPERS
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_RPC_WRAPPERS_NO_PURE_DECLS
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_INCLASS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_RPC_WRAPPERS
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_RPC_WRAPPERS_NO_PURE_DECLS
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesULDGameInstance(); \
 	friend struct Z_Construct_UClass_ULDGameInstance_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ULDGameInstance)
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_INCLASS \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_INCLASS \
 private: \
 	static void StaticRegisterNativesULDGameInstance(); \
 	friend struct Z_Construct_UClass_ULDGameInstance_Statics; \
@@ -39,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(ULDGameInstance)
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_STANDARD_CONSTRUCTORS \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULDGameInstance(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULDGameInstance) \
@@ -52,7 +52,7 @@ private: \
 public:
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_ENHANCED_CONSTRUCTORS \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ULDGameInstance(ULDGameInstance&&); \
@@ -63,29 +63,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULDGameInstance); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ULDGameInstance)
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_PRIVATE_PROPERTY_OFFSET \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__GSCharacterTable() { return STRUCT_OFFSET(ULDGameInstance, GSCharacterTable); }
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_45_PROLOG
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_GENERATED_BODY_LEGACY \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_46_PROLOG
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_RPC_WRAPPERS \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_INCLASS \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_STANDARD_CONSTRUCTORS \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_RPC_WRAPPERS \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_INCLASS \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LostDark_Source_LostDark_Public_LDGameInstance_h_48_GENERATED_BODY \
+#define LostDark_Source_LostDark_Public_LDGameInstance_h_49_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_INCLASS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_Public_LDGameInstance_h_48_ENHANCED_CONSTRUCTORS \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_INCLASS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_Public_LDGameInstance_h_49_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

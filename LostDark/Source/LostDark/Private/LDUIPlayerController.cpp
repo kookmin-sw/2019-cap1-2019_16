@@ -15,12 +15,12 @@ void ALDUIPlayerController::BeginPlay()
 	UIWidgetInstance = CreateWidget<UUserWidget>(this, UIWidgetClass);
 	ABCHECK(nullptr != UIWidgetInstance);
 
-	UIWidgetInstance->AddToViewport();
+	UIWidgetInstance->AddToViewport(); // 화면에 추가
 
 	// UI에만 입력이 전달되는 변수
 	FInputModeUIOnly Mode;
 	Mode.SetWidgetToFocus(UIWidgetInstance->GetCachedWidget());
-	// 
+	// 화면 UI에만 입력이 들어가도록 설정
 	SetInputMode(Mode);
 	// 마우스 커서 보이기
 	bShowMouseCursor = true;

@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LOSTDARK_LDCharacterSelectWidget_generated_h
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_RPC_WRAPPERS \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnConfirmClicked) \
 	{ \
@@ -49,7 +49,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnConfirmClicked) \
 	{ \
@@ -85,7 +85,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_INCLASS_NO_PURE_DECLS \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesULDCharacterSelectWidget(); \
 	friend struct Z_Construct_UClass_ULDCharacterSelectWidget_Statics; \
@@ -94,7 +94,7 @@ public: \
 	DECLARE_SERIALIZER(ULDCharacterSelectWidget)
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_INCLASS \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesULDCharacterSelectWidget(); \
 	friend struct Z_Construct_UClass_ULDCharacterSelectWidget_Statics; \
@@ -103,7 +103,7 @@ public: \
 	DECLARE_SERIALIZER(ULDCharacterSelectWidget)
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_STANDARD_CONSTRUCTORS \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULDCharacterSelectWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULDCharacterSelectWidget) \
@@ -116,7 +116,7 @@ private: \
 public:
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_ENHANCED_CONSTRUCTORS \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULDCharacterSelectWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -129,7 +129,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULDCharacterSelectWidget); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULDCharacterSelectWidget)
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_PRIVATE_PROPERTY_OFFSET \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentIndex() { return STRUCT_OFFSET(ULDCharacterSelectWidget, CurrentIndex); } \
 	FORCEINLINE static uint32 __PPO__MaxIndex() { return STRUCT_OFFSET(ULDCharacterSelectWidget, MaxIndex); } \
 	FORCEINLINE static uint32 __PPO__PrevButton() { return STRUCT_OFFSET(ULDCharacterSelectWidget, PrevButton); } \
@@ -138,25 +138,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULDCharacterSelectWidget); \
 	FORCEINLINE static uint32 __PPO__ConfirmButton() { return STRUCT_OFFSET(ULDCharacterSelectWidget, ConfirmButton); }
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_14_PROLOG
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_GENERATED_BODY_LEGACY \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_16_PROLOG
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_RPC_WRAPPERS \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_INCLASS \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_STANDARD_CONSTRUCTORS \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_RPC_WRAPPERS \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_INCLASS \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_GENERATED_BODY \
+#define LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_PRIVATE_PROPERTY_OFFSET \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_INCLASS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_17_ENHANCED_CONSTRUCTORS \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_PRIVATE_PROPERTY_OFFSET \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_INCLASS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_Public_LDCharacterSelectWidget_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

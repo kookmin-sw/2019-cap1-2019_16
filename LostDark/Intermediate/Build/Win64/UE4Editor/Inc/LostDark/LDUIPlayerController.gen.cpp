@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeLDUIPlayerController() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALDUIPlayerController_Statics::NewProp_UIWidgetClass_MetaData[] = {
 		{ "Category", "UI" },
 		{ "ModuleRelativePath", "Public/LDUIPlayerController.h" },
-		{ "ToolTip", "???? \xc5\xac????????" },
+		{ "ToolTip", "???? \xc5\xac????????. ????????\xc6\xae???? ???? ???? ???\xe0\xbc\xad ?\xd6\xbe??? ??????. Cpp???? ?????? ????." },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ALDUIPlayerController_Statics::NewProp_UIWidgetClass = { UE4CodeGen_Private::EPropertyClass::Class, "UIWidgetClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0024080000010005, 1, nullptr, STRUCT_OFFSET(ALDUIPlayerController, UIWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ALDUIPlayerController_Statics::NewProp_UIWidgetClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALDUIPlayerController_Statics::NewProp_UIWidgetClass_MetaData)) };
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeLDUIPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALDUIPlayerController, 3115271015);
+	IMPLEMENT_CLASS(ALDUIPlayerController, 1864230147);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALDUIPlayerController(Z_Construct_UClass_ALDUIPlayerController, &ALDUIPlayerController::StaticClass, TEXT("/Script/LostDark"), TEXT("ALDUIPlayerController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALDUIPlayerController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -25,8 +25,10 @@ UGSAnimInstance::UGSAnimInstance()
 	// 최초 콤보 입력이 들어오지 않았음.
 	IsInputCombo = false;
 
+	/*static ConstructorHelpers::FObjectFinder<UAnimMontage> Dodge_Montage(TEXT(
+		"/Game/SH/Animations/GreystonDodge_Montage.GreystonDodge_Montage"));*/
 	static ConstructorHelpers::FObjectFinder<UAnimMontage> Dodge_Montage(TEXT(
-		"/Game/SH/Animations/GreystonDodge_Montage.GreystonDodge_Montage"));
+		"/Game/SH/Animations/RollForward_Root_Montage.RollForward_Root_Montage"));
 	if (Dodge_Montage.Succeeded())
 	{
 		DodgeMontage = Dodge_Montage.Object;

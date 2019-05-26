@@ -182,6 +182,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULDGameInstance_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "LDGameInstance.h" },
 		{ "ModuleRelativePath", "Public/LDGameInstance.h" },
+		{ "ToolTip", "GameInstance = ????\xc6\xbc?? ???\xd3\xb8\xc5\xb4???" },
 	};
 #endif
 #if WITH_METADATA
@@ -217,7 +218,7 @@ static struct FScriptStruct_LostDark_StaticRegisterNativesFGSCharacterData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULDGameInstance, 2843634771);
+	IMPLEMENT_CLASS(ULDGameInstance, 2618550101);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ULDGameInstance(Z_Construct_UClass_ULDGameInstance, &ULDGameInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("ULDGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ULDGameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

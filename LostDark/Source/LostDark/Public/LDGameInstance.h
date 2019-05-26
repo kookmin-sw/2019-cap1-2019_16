@@ -40,7 +40,8 @@ public:
 
 
 /**
- *
+	GameInstance = 유니티의 게임매니저
+	
  */
 UCLASS()
 class LOSTDARK_API ULDGameInstance : public UGameInstance
