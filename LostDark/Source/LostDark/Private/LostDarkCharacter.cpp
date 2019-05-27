@@ -373,7 +373,8 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 		// 가해자가 플레이어라면
 		if (EventInstigator->IsPlayerController())
 		{
-			// 플레이어 정보를 가져오고
+			ABLOG(Warning, TEXT("Actor : %s"), *EventInstigator->GetName());
+			//플레이어 정보를 가져오고
 			auto LDPlayerController = Cast<ALostDarkPlayerController>(EventInstigator);
 			ABCHECK(nullptr != LDPlayerController, 0.0f);
 			// Kill 함수 호출

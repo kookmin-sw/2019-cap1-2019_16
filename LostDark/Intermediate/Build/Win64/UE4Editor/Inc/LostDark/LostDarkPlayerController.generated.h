@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LOSTDARK_LostDarkPlayerController_generated_h
 
-#define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_RPC_WRAPPERS
-#define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddScore) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Score); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddScore(Z_Param_Score); \
+		P_NATIVE_END; \
+	}
+
+
+#define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddScore) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_Score); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AddScore(Z_Param_Score); \
+		P_NATIVE_END; \
+	}
+
+
 #define LostDark_Source_LostDark_Public_LostDarkPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALostDarkPlayerController(); \

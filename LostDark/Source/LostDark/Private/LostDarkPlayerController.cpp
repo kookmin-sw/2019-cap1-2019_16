@@ -94,6 +94,13 @@ ULDHUDWidget * ALostDarkPlayerController::GetHUDWidget() const
 	return HUDWidget;
 }
 
+// 외부 블루프린트 Enemy에서 죽었을때 경험치를 받아오는 함수. UFUNCTION
+void ALostDarkPlayerController::AddScore(int32 Score) const
+{
+	ABLOG(Warning, TEXT("New AI Level : %d"), Score);
+	LDPlayerState->AddExp(Score);
+}
+
 // 경험치 획득
 void ALostDarkPlayerController::AIKill(ALostDarkCharacter * KiiledAI) const
 {

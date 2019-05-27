@@ -20,8 +20,11 @@ public:
 	//virtual void PostInitializeComponents() override;
 	//virtual void Possess(APawn* aPawn) override;
 
-	class ULDHUDWidget* GetHUDWidget() const;
+	// 블루프린트에서 적을 죽였을때 경험치를 받아오는 함수
+	UFUNCTION(BlueprintCallable, Category = "State")
+	void AddScore(int32 Score) const;
 
+	class ULDHUDWidget* GetHUDWidget() const;
 	void AIKill(class ALostDarkCharacter* KiiledAI) const;
 	// 게임 스코어를 올릴때
 	void AddGameScore() const;
