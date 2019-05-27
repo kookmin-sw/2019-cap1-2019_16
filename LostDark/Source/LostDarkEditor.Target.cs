@@ -8,6 +8,6 @@ public class LostDarkEditorTarget : TargetRules
 	public LostDarkEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		ExtraModuleNames.Add("LostDark");
+		ExtraModuleNames.AddRange(new string[] { "LostDark", "LostDarkSetting" });
 	}
 }

@@ -5,13 +5,22 @@
 	"Description": "",
 	"Modules": [
 		{
+			"Name": "LostDarkSetting",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"AdditionalDependencies": [
+				"CoreUObject"
+			]
+		},
+		{
 			"Name": "LostDark",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
 				"UMG",
-				"AIModule"
+				"AIModule",
+				"LostDarkSetting"
 			]
 		}
 	]

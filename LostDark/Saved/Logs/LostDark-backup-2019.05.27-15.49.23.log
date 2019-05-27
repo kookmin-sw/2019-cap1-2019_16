@@ -1,0 +1,1522 @@
+﻿Log file open, 05/28/19 00:04:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LostDark
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.243695
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.055s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.27-15.04.27:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:674][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:681][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.27-15.04.27:681][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:681][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.27-15.04.27:682][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:682][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.27-15.04.27:683][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.27-15.04.27:683][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.27-15.04.27:683][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.27-15.04.27:693][  0]LogHAL: Display: Platform has ~ 16 GB [17103896576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.27-15.04.27:693][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.27-15.04.27:693][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.27-15.04.27:693][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.27-15.04.27:694][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.27-15.04.27:694][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-15.04.27:695][  0]LogInit: Computer: DESKTOP-7NEMS3A
+[2019.05.27-15.04.27:695][  0]LogInit: User: SungHoon
+[2019.05.27-15.04.27:695][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.05.27-15.04.27:695][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.27-15.04.27:695][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.27-15.04.27:695][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.27-15.04.27:695][  0]LogMemory: Process Physical Memory: 103.01 MB used, 103.02 MB peak
+[2019.05.27-15.04.27:695][  0]LogMemory: Process Virtual Memory: 85.02 MB used, 85.02 MB peak
+[2019.05.27-15.04.27:695][  0]LogMemory: Physical Memory: 6284.77 MB used,  10026.78 MB free, 16311.55 MB total
+[2019.05.27-15.04.27:695][  0]LogMemory: Virtual Memory: 4639.90 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.05.27-15.04.27:712][  0]LogInit: Overriding language with editor language configuration option (ko).
+[2019.05.27-15.04.27:712][  0]LogInit: Overriding locale with editor locale configuration option (ko).
+[2019.05.27-15.04.28:034][  0]LogStreaming: Display: Took  0.322s to InitEngineTextLocalization.
+[2019.05.27-15.04.28:034][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.27-15.04.28:079][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.27-15.04.28:079][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.27-15.04.28:269][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.27-15.04.28:269][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.27-15.04.28:331][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.27-15.04.28:331][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.27-15.04.28:333][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.27-15.04.28:333][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.27-15.04.28:333][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.27-15.04.28:339][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.27-15.04.28:339][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.27-15.04.28:339][  0]LogWindows: EnumDisplayDevices:
+[2019.05.27-15.04.28:339][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.27-15.04.28:340][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.05.27-15.04.28:341][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.27-15.04.28:342][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.27-15.04.28:342][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.27-15.04.28:342][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.27-15.04.28:342][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.05.27-15.04.28:342][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.05.27-15.04.28:342][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.27-15.04.28:376][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.27-15.04.28:392][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.27-15.04.28:793][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.27-15.04.28:805][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.27-15.04.28:817][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.27-15.04.28:829][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.27-15.04.28:842][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.27-15.04.28:854][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.27-15.04.28:866][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.27-15.04.28:879][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.27-15.04.28:885][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-15.04.28:950][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.27-15.04.29:007][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.27-15.04.29:007][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.27-15.04.29:041][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.27-15.04.29:041][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.27-15.04.29:051][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.27-15.04.29:062][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.27-15.04.29:072][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.27-15.04.29:084][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.27-15.04.29:125][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.27-15.04.29:125][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.27-15.04.29:125][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.27-15.04.29:185][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (B:/Develope/Sourcetree/LostDark/LostDark/Intermediate/Shaders/WorkingDirectory/15696/).
+[2019.05.27-15.04.29:185][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SungHoon/AppData/Local/Temp/UnrealShaderWorkingDir/39E6C52B4F552E0DABA0FD870641D5CC/'.
+[2019.05.27-15.04.29:187][  0]LogXGEController: Cleaning working directory: C:/Users/SungHoon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.27-15.04.29:188][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.27-15.04.29:188][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.27-15.04.29:188][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.27-15.04.29:660][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.27-15.04.29:732][  0]LogDerivedDataCache: Loaded boot cache 0.07s 121MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.27-15.04.29:732][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.27-15.04.29:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.27-15.04.29:732][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.27-15.04.29:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.27-15.04.29:732][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.27-15.04.29:746][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.27-15.04.29:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.27-15.04.29:746][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.27-15.04.29:758][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SungHoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.27-15.04.29:758][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.27-15.04.29:758][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.27-15.04.29:778][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.27-15.04.29:779][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.27-15.04.29:780][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.27-15.04.29:860][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
+[2019.05.27-15.04.30:140][  0]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2019.05.27-15.04.30:140][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.27-15.04.30:270][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.27-15.04.30:274][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.27-15.04.30:274][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.27-15.04.30:274][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.27-15.04.30:274][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.27-15.04.30:290][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.05.27-15.04.30:687][  0]LogFileManager: Warning: DeleteFile recovered during retry!
+[2019.05.27-15.04.30:687][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.038213 seconds
+[2019.05.27-15.04.30:692][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.27-15.04.30:692][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.05.27-15.04.30:692][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.27-15.04.31:473][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.27-15.04.31:486][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.27-15.04.32:198][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.04.33:008][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.04.33:021][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.04.33:044][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.04.33:130][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.04.33:130][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.04.33:130][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.04.33:130][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.04.33:210][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-15.04.33:210][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-15.04.33:211][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-15.04.33:212][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-15.04.33:370][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.27-15.04.33:457][  0]LogOcInput: OculusInput pre-init called
+[2019.05.27-15.04.33:584][  0]LogEngine: Initializing Engine...
+[2019.05.27-15.04.33:585][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.27-15.04.33:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.27-15.04.33:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.27-15.04.33:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.27-15.04.33:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.27-15.04.33:863][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.27-15.04.33:875][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.27-15.04.33:899][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.04.33:928][  0]LogInit: FAudioDevice initialized.
+[2019.05.27-15.04.33:928][  0]LogNetVersion: Set ProjectVersion to 2.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.27-15.04.33:999][  0]LogDerivedDataCache: Saved boot cache 0.07s 121MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.27-15.04.34:006][  0]LogInit: Texture streaming: Enabled
+[2019.05.27-15.04.34:028][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.27-15.04.34:028][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={E5716291-42A2-90B5-5E58-98994573881C}
+[2019.05.27-15.04.34:042][  0]LogInit: Transaction tracking system initialized
+[2019.05.27-15.04.34:072][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.27-15.04.34:243][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.27-15.04.34:677][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.27-15.04.34:677][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.27-15.04.34:678][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.27-15.04.34:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.27-15.04.34:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.27-15.04.34:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.27-15.04.34:678][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.27-15.04.34:797][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 0.04s
+[2019.05.27-15.04.34:797][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-15.04.34:797][  0]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.27-15.04.34:797][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.27-15.04.34:800][  0]MapCheck: New page: 맵 체크
+[2019.05.27-15.04.34:800][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.27-15.04.34:897][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.27-15.04.34:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.27-15.04.34:926][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.27-15.04.34:926][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.076ms.
+[2019.05.27-15.04.34:926][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.129
+[2019.05.27-15.04.35:022][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.04.35:029][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.04.35:035][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.04.35:041][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.04.35:047][  0]LogCollectionManager: Loaded 0 collections in 0.002097 seconds
+[2019.05.27-15.04.35:075][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/Collections/' took 0.01s
+[2019.05.27-15.04.35:075][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Developers/SungHoon/Collections/' took 0.01s
+[2019.05.27-15.04.35:075][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Collections/' took 0.00s
+[2019.05.27-15.04.35:075][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.27-15.04.35:083][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2678 classes and 625 folders.
+[2019.05.27-15.04.35:090][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.27-15.04.35:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:094][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:098][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-15.04.35:126][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.27-15.04.35:133][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.27-15.04.35:187][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.27-15.04.35:190][  0]LogSlate: Took 0.001602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.27-15.04.35:193][  0]LogSlate: Took 0.001728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.27-15.04.35:193][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.27-15.04.35:196][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.27-15.04.35:261][  0]LogRenderer: Reallocating scene render targets to support 1168x572 Format 10 NumSamples 1 (Frame:1).
+[2019.05.27-15.04.35:289][  0]LogSlate: Took 0.001994 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.27-15.04.35:413][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.27-15.04.35:413][  0]LogLoad: (Engine Initialization) Total time: 9.16 seconds
+[2019.05.27-15.04.35:413][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.27-15.04.35:488][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.27-15.04.35:517][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.27-15.04.35:745][  4]LogAssetRegistry: Asset discovery search completed in 5.9075 seconds
+[2019.05.27-15.04.35:747][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.27-15.04.35:747][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2019.05.27-15.04.40:736][ 19]LogFileCache: Retrieving MD5 hashes for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 5.29s
+[2019.05.27-15.06.32:762][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.06.39:175][293]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.27-15.06.39:200][293]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.06.39:200][293]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.06.39:200][293]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.06.39:200][293]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.06.39:222][293]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.27-15.06.39:229][293]LogAssetEditorManager: Opening Asset editor for World /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel
+[2019.05.27-15.06.39:251][293]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/SH/Maps/SH_DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.27-15.06.39:251][293]LightingResults: New page: 라이팅 빌드
+[2019.05.27-15.06.39:252][293]LoadErrors: New page: 맵 로드중: SH_DefaultLevel.umap
+[2019.05.27-15.06.39:252][293]MapCheck: New page: 맵 체크
+[2019.05.27-15.06.39:252][293]LightingResults: New page: 라이팅 빌드
+[2019.05.27-15.06.39:373][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.27-15.06.39:422][293]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.27-15.06.39:422][293]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.078ms.
+[2019.05.27-15.06.39:422][293]LogFileHelpers: Loading map 'SH_DefaultLevel' took 0.172
+[2019.05.27-15.06.39:919][337]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.06.39:932][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.27-15.06.39:932][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.06.39:932][337]PIE: New page: PIE 세션: SH_DefaultLevel (2019. 5. 28. 오전 9:06:39)
+[2019.05.27-15.06.39:944][337]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.27-15.06.39:945][337]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.06.39:945][337]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.06.39:945][337]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.06.39:945][337]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.06.39:952][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008203s)
+[2019.05.27-15.06.39:953][337]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.27-15.06.39:953][337]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2019.05.27-15.06.39:953][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.009272s)
+[2019.05.27-15.06.39:994][337]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.06.40:012][337]LogInit: FAudioDevice initialized.
+[2019.05.27-15.06.40:054][337]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.06.40:058][337]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.28-00.06.40
+[2019.05.27-15.06.40:059][337]LogWorld: Bringing up level for play took: 0.003157
+[2019.05.27-15.06.40:077][337]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.05.27-15.06.40:078][337]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.06.40:078][337]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.06.40:079][337]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.06.40:082][337]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.06.40:083][337]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.06.40:083][337]PIE: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.851
+[2019.05.27-15.06.40:083][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.27-15.06.40:584][352]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.06.41:805][498]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(184) Success GateMeshs :+X
+[2019.05.27-15.06.41:805][498]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.06.41:805][498]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.06.41:805][498]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.06.41:805][498]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.06.42:416][571]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.06.44:942][873]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.06.44:943][873]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.06.44:943][873]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.06.44:943][873]LostDark: Warning: ALostDarkCharacter::SetCharacterState(541) New AI Level : 1
+[2019.05.27-15.06.44:943][873]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.06.44:944][873]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.06.47:359][163]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.47:359][163]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.47:718][206]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.47:986][238]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.48:186][262]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.48:186][262]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.48:544][305]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.48:812][336]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.49:012][360]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.49:012][360]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.49:374][403]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.49:644][435]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.50:043][483]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.50:043][483]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.50:401][526]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.50:675][558]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.51:058][604]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.51:058][604]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.51:416][647]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.51:683][679]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.51:883][703]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.51:883][703]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.52:242][746]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.52:508][778]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.52:708][802]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.52:708][802]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.53:066][845]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.53:333][877]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.53:533][901]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.53:533][901]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.53:891][944]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.54:159][976]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.54:358][  0]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.54:358][  0]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.54:717][ 43]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.54:983][ 75]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.55:183][ 99]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : LostDarkCharacter_0
+[2019.05.27-15.06.55:183][ 99]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.27-15.06.55:183][ 99]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_d674dbf1a3d8b7564d8f2f44734c7556>::operator ()(328) @@ HP Is Zero
+[2019.05.27-15.06.55:541][142]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.55:808][174]LogTemp: Warning: MontageEnded
+[2019.05.27-15.06.56:367][241]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.06.56:634][273]LogTemp: Warning: MontageEnded
+[2019.05.27-15.07.03:523][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.07.03:622][110]LogNet: Browse: /Game/SH/Maps/SH_DefaultLevel?restart
+[2019.05.27-15.07.03:623][110]LogLoad: LoadMap: /Game/SH/Maps/SH_DefaultLevel
+[2019.05.27-15.07.03:648][110]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.27-15.07.03:649][110]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.07.03:649][110]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.07.03:649][110]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.07.03:649][110]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.07.03:655][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007017s)
+[2019.05.27-15.07.03:656][110]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.27-15.07.03:656][110]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2019.05.27-15.07.03:656][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.007711s)
+[2019.05.27-15.07.03:656][110]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.07.03:659][110]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.28-00.07.03
+[2019.05.27-15.07.03:659][110]LogWorld: Bringing up level for play took: 0.002785
+[2019.05.27-15.07.03:661][110]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.07.03:661][110]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.07.03:661][110]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.07.03:664][110]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.07.03:665][110]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.07.03:665][110]LogLoad: Took 0.042119 seconds to LoadMap(/Game/SH/Maps/UEDPIE_0_SH_DefaultLevel)
+[2019.05.27-15.07.03:669][110]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.07.08:215][655]LostDark: Warning: ASectionTest::OnGateTriggerBeginOverlap(184) Success GateMeshs :-Y
+[2019.05.27-15.07.08:215][655]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.07.08:215][655]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.07.08:216][655]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.07.08:216][655]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.07.09:050][755]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.10:267][901]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.10:517][931]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.07.10:517][931]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.07.10:518][931]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.07.10:518][931]LostDark: Warning: ALostDarkCharacter::SetCharacterState(541) New AI Level : 1
+[2019.05.27-15.07.10:518][931]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.07.10:906][944]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.07.11:958][ 70]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.13:750][285]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.14:758][406]LostDark: Warning: ASH_ItemBox::OnCharacterOverlap(82)
+[2019.05.27-15.07.14:758][406]LostDark: Warning: AGSWeapon::BeginPlay(60) Weapon Damage : 5.072405, Modifier : 1.229211
+[2019.05.27-15.07.16:960][670]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.18:551][861]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.20:227][ 62]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.22:044][280]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.07.24:254][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.27-15.07.24:255][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.07.24:286][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.07.24:287][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.27-15.07.24:311][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.07.24:360][550]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.05.27-15.07.48:706][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.08.07:639][197]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Boss/BP_BossController.BP_BossController
+[2019.05.27-15.08.08:059][197]LogClass: Warning: Enum '/Game/UI_Kit/Blueprints/Objectives/E_ObjectiveType.E_ObjectiveType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.27-15.08.08:060][197]LogClass: Warning: Enum '/Game/UI_Kit/Widgets/Window/ResizeType.ResizeType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.27-15.08.08:109][197]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.05.27-15.08.08:874][197]LogSlate: Took 0.004036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.27-15.08.08:976][198]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.27-15.08.18:991][182]LogSlate: Window 'BP_BossController' being destroyed
+[2019.05.27-15.08.35:720][174]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_Enemy.BP_Enemy
+[2019.05.27-15.08.55:582][802]LogSlate: Window 'BP_Enemy' being destroyed
+[2019.05.27-15.08.58:383][118]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.08.58:389][118]LogAssetEditorManager: Opening Asset editor for World /Game/YR/Maps/YR_Workspace.YR_Workspace
+[2019.05.27-15.08.58:422][118]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/YR/Maps/YR_Workspace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.27-15.08.58:422][118]LightingResults: New page: 라이팅 빌드
+[2019.05.27-15.08.58:422][118]LoadErrors: New page: 맵 로드중: YR_Workspace.umap
+[2019.05.27-15.08.58:423][118]MapCheck: New page: 맵 체크
+[2019.05.27-15.08.58:423][118]LightingResults: New page: 라이팅 빌드
+[2019.05.27-15.08.58:511][118]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.27-15.08.58:559][118]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.27-15.08.58:559][118]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.09ms.
+[2019.05.27-15.08.58:560][118]LogFileHelpers: Loading map 'YR_Workspace' took 0.138
+[2019.05.27-15.08.59:130][178]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.08.59:152][178]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.08.59:152][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.08.59:152][178]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:08:59)
+[2019.05.27-15.08.59:152][178]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.08.59:155][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003172s)
+[2019.05.27-15.08.59:156][178]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.08.59:156][178]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2019.05.27-15.08.59:156][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.003940s)
+[2019.05.27-15.08.59:202][178]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.08.59:221][178]LogInit: FAudioDevice initialized.
+[2019.05.27-15.08.59:252][178]LogLoad: Game class is 'BackupGameModeBase'
+[2019.05.27-15.08.59:254][178]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.08.59
+[2019.05.27-15.08.59:255][178]LogWorld: Bringing up level for play took: 0.001857
+[2019.05.27-15.08.59:268][178]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: 0.037
+[2019.05.27-15.08.59:269][178]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.08.59:891][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.08.59:891][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.08.59:921][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.08.59:921][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.08.59:949][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.08.59:996][252]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.05.27-15.09.00:675][333]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.09.00:718][333]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.09.00:955][360]LogSlate: Took 0.001268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.05.27-15.09.00:957][360]LogSlate: Took 0.001607 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.05.27-15.09.00:958][360]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.05.27-15.09.03:477][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.09.03:535][667]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.09.03:547][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.09.03:547][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.09.03:547][667]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:09:03)
+[2019.05.27-15.09.03:547][667]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.09.03:550][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002581s)
+[2019.05.27-15.09.03:550][667]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.09.03:550][667]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2019.05.27-15.09.03:550][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.003226s)
+[2019.05.27-15.09.03:595][667]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.09.03:613][667]LogInit: FAudioDevice initialized.
+[2019.05.27-15.09.03:646][667]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.09.03:647][667]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.09.03
+[2019.05.27-15.09.03:649][667]LogWorld: Bringing up level for play took: 0.001656
+[2019.05.27-15.09.03:661][667]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.09.03:661][667]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.09.03:661][667]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.09.03:665][667]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.09.03:665][667]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.09.03:665][667]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: 0.433
+[2019.05.27-15.09.03:665][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.09.03:666][667]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.09.05:566][893]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.09.05:566][893]LogBlueprintUserMessages: [BP_Bear_2] 20.0
+[2019.05.27-15.09.05:925][936]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.09.05:925][936]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.27-15.09.06:058][952]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.09.06:083][955]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.09.06:083][955]LogBlueprintUserMessages: [BP_Bear_2] 10.0
+[2019.05.27-15.09.06:433][997]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.09.06:725][ 32]LogTemp: Warning: MontageEnded
+[2019.05.27-15.09.07:334][105]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.09.07:335][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.09.07:367][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.09.07:367][105]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.09.07:395][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.09.07:440][108]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.27-15.09.11:742][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.09.12:715][633]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.27-15.09.12:727][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.09.12:734][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Maps/YR_Workspace" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/YR/Maps/YR_Workspace.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.27-15.09.12:950][633]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/YR_Workspace8AE46062409211B55157CCBBBC320FA7.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/YR/Maps/YR_Workspace.umap'
+[2019.05.27-15.09.12:976][633]LogFileHelpers: Saving map 'YR_Workspace' took 0.242
+[2019.05.27-15.09.13:982][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.09.24:550][990]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_Enemy.BP_Enemy
+[2019.05.27-15.09.38:495][180]LogSlate: Window 'BP_Enemy' being destroyed
+[2019.05.27-15.09.39:275][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.09.39:432][283]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/YR/Mobs/BP_EnemyBT.BP_EnemyBT
+[2019.05.27-15.09.45:895][ 13]LogSlate: Window 'BP_EnemyBT' being destroyed
+[2019.05.27-15.09.46:845][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.09.47:001][142]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_EnemyController.BP_EnemyController
+[2019.05.27-15.09.56:135][995]LogRenderer: Reallocating scene render targets to support 1168x712 Format 10 NumSamples 1 (Frame:1).
+[2019.05.27-15.09.56:860][ 70]LogSlate: Window 'BP_EnemyController' being destroyed
+[2019.05.27-15.09.58:778][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.09.58:918][308]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_Enemy.BP_Enemy
+[2019.05.27-15.10.15:746][804]LogSlate: Window 'BP_Enemy' being destroyed
+[2019.05.27-15.10.22:249][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.10.25:122][876]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/MobBP/BP_Bear_Custom.BP_Bear_Custom
+[2019.05.27-15.10.31:123][351]LogSlate: Window 'BP_Bear_Custom' being destroyed
+[2019.05.27-15.10.31:818][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.10.31:973][442]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/MobBP/BP_Bear.BP_Bear
+[2019.05.27-15.10.34:113][596]LogSlate: Window 'BP_Bear' being destroyed
+[2019.05.27-15.10.34:818][673]LogEditorViewport: Clicking on Actor (LMB): BP_Bear_C (BP_Bear)
+[2019.05.27-15.10.35:985][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.10.36:098][818]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/MobBP/BP_Bear.BP_Bear
+[2019.05.27-15.19.12:032][244]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/YR/Maps/YR_Workspace' took 0.038
+[2019.05.27-15.19.12:044][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/YR/Mobs/MobBP/BP_Bear] ([1] browsable assets)...
+[2019.05.27-15.19.12:064][244]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/YR/Mobs/MobBP/BP_Bear.BP_Bear]
+[2019.05.27-15.19.12:064][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/YR/Mobs/MobBP/BP_Bear]
+[2019.05.27-15.19.12:064][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Mobs/MobBP/BP_Bear" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Saved/Autosaves/Game/YR/Mobs/MobBP/BP_Bear_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.05.27-15.19.12:100][244]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/BP_Bear_Auto1FF09774343FF5C052930FDA142FD871C.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/Autosaves/Game/YR/Mobs/MobBP/BP_Bear_Auto1.uasset'
+[2019.05.27-15.19.12:100][244]LogFileHelpers: Auto-saving content packages took 0.067
+[2019.05.27-15.21.47:496][831]LogSlate: Window 'BP_Bear*' being destroyed
+[2019.05.27-15.21.48:362][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.21.48:445][937]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.21.48:458][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.21.48:459][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.21.48:459][937]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:21:48)
+[2019.05.27-15.21.48:459][937]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.21.48:462][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003067s)
+[2019.05.27-15.21.48:463][937]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.21.48:463][937]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2019.05.27-15.21.48:463][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004492s)
+[2019.05.27-15.21.48:511][937]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.21.48:529][937]LogInit: FAudioDevice initialized.
+[2019.05.27-15.21.48:558][937]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.21.48:560][937]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.21.48
+[2019.05.27-15.21.48:561][937]LogWorld: Bringing up level for play took: 0.001769
+[2019.05.27-15.21.48:573][937]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.21.48:573][937]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.21.48:574][937]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.21.48:577][937]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.21.48:577][937]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.21.48:577][937]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: -0.654
+[2019.05.27-15.21.48:578][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.21.48:579][937]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.21.50:226][132]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.21.50:226][132]LogBlueprintUserMessages: [BP_Bear_2] 20.0
+[2019.05.27-15.21.50:585][175]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.21.50:585][175]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.27-15.21.50:743][194]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.21.50:743][194]LogBlueprintUserMessages: [BP_Bear_2] 10.0
+[2019.05.27-15.21.50:918][215]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.21.51:093][236]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.21.51:093][236]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.27-15.21.51:893][332]LogTemp: Warning: MontageEnded
+[2019.05.27-15.21.55:586][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.21.55:586][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.21.55:619][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.21.55:619][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.21.55:646][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.21.55:691][779]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.27-15.21.56:397][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.21.56:455][870]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.21.56:466][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.21.56:466][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.21.56:467][870]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:21:56)
+[2019.05.27-15.21.56:467][870]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.21.56:469][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002608s)
+[2019.05.27-15.21.56:470][870]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.21.56:470][870]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2019.05.27-15.21.56:470][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.003590s)
+[2019.05.27-15.21.56:518][870]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.21.56:540][870]LogInit: FAudioDevice initialized.
+[2019.05.27-15.21.56:572][870]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.21.56:574][870]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.21.56
+[2019.05.27-15.21.56:575][870]LogWorld: Bringing up level for play took: 0.001948
+[2019.05.27-15.21.56:588][870]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.21.56:588][870]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.21.56:588][870]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.21.56:591][870]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.21.56:591][870]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.21.56:591][870]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: -0.64
+[2019.05.27-15.21.56:591][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.21.56:592][870]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.21.58:460][ 92]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.21.59:802][253]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.22.02:149][532]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.22.04:299][790]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.22.04:299][790]LogBlueprintUserMessages: [BP_Bear_2] 20.0
+[2019.05.27-15.22.04:657][833]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.22.04:657][833]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.27-15.22.04:816][852]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.22.04:816][852]LogBlueprintUserMessages: [BP_Bear_2] 10.0
+[2019.05.27-15.22.05:166][894]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.22.05:457][929]LogTemp: Warning: MontageEnded
+[2019.05.27-15.22.06:283][ 28]LostDark: Warning: ALostDarkCharacter::AttackCheck(862) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.22.06:641][ 71]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.22.06:641][ 71]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.27-15.22.07:149][132]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.22.07:441][167]LogTemp: Warning: MontageEnded
+[2019.05.27-15.22.12:658][793]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.22.13:516][896]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.22.14:223][979]LogSlate: Took 0.010676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.05.27-15.22.14:264][979]LogSlate: Took 0.007737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2019.05.27-15.25.11:097][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.25.13:113][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.25.13:148][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.25.13:180][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.25.13:180][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.25.13:209][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.25.13:225][319]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.27-15.25.21:973][353]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/MobBP/BP_Bear.BP_Bear
+[2019.05.27-15.25.28:310][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.25.30:593][ 86]LogSlate: Window 'BP_Bear*' being destroyed
+[2019.05.27-15.25.31:119][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.25.32:098][261]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_EnemyController.BP_EnemyController
+[2019.05.27-15.26.00:351][989]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.26.00:366][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.26.00:366][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.26.00:366][989]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:26:00)
+[2019.05.27-15.26.00:367][989]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.26.00:370][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003038s)
+[2019.05.27-15.26.00:370][989]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.26.00:371][989]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2019.05.27-15.26.00:371][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004291s)
+[2019.05.27-15.26.00:424][989]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.26.00:443][989]LogInit: FAudioDevice initialized.
+[2019.05.27-15.26.00:470][989]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.26.00:472][989]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.26.00
+[2019.05.27-15.26.00:473][989]LogWorld: Bringing up level for play took: 0.001975
+[2019.05.27-15.26.00:486][989]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.26.00:486][989]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.26.00:487][989]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.26.00:490][989]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.26.00:490][989]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.26.00:490][989]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: -0.741
+[2019.05.27-15.26.00:491][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.26.00:492][989]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.26.01:178][ 63]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.26.01:445][ 95]LogTemp: Warning: MontageEnded
+[2019.05.27-15.26.02:329][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.26.03:112][295]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(751) ASSERTION : 'IsAttacking'
+[2019.05.27-15.26.03:505][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.26.03:505][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.26.03:543][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.26.03:543][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.26.03:573][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.26.03:604][345]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.05.27-15.26.04:088][403]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.26.04:101][403]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.26.04:101][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.26.04:102][403]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:26:04)
+[2019.05.27-15.26.04:102][403]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.26.04:105][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002946s)
+[2019.05.27-15.26.04:106][403]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.26.04:106][403]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2019.05.27-15.26.04:106][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004112s)
+[2019.05.27-15.26.04:155][403]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.26.04:176][403]LogInit: FAudioDevice initialized.
+[2019.05.27-15.26.04:206][403]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.26.04:207][403]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.26.04
+[2019.05.27-15.26.04:208][403]LogWorld: Bringing up level for play took: 0.001886
+[2019.05.27-15.26.04:220][403]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.26.04:220][403]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.26.04:221][403]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.26.04:224][403]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.26.04:225][403]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.26.04:225][403]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: 0.993
+[2019.05.27-15.26.04:225][403]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.26.04:227][403]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.26.06:955][702]LogEditorViewport: Clicking on Actor (LMB): LostDarkCharacter (LostDarkCharacter)
+[2019.05.27-15.26.08:476][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.26.17:491][521]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.26.22:298][981]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.23:648][143]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.25:008][305]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.26:367][438]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.27:375][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.26.27:809][601]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.34:673][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.05.27-15.26.38:030][764]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.39:380][926]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.40:214][ 26]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.41:537][180]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.26.41:639][192]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.42:989][354]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.44:512][379]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.46:187][384]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.48:880][392]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.51:570][400]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.54:249][408]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.56:928][416]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.26.59:615][424]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.02:293][432]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.04:972][440]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.07:659][448]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.10:007][455]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.13:032][464]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.15:706][472]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.18:389][480]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.21:082][488]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.23:750][496]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.26:430][504]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.29:103][512]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.31:459][519]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.34:471][528]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.37:144][536]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.39:490][543]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.42:191][551]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.45:207][560]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.47:880][568]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.50:563][576]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.53:239][584]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.55:930][592]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.27.58:294][599]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.01:312][608]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.03:992][616]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.06:669][624]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.09:343][632]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.12:017][640]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.14:696][648]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.17:368][656]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.20:056][664]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.22:739][672]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.25:421][680]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.28:098][688]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.30:777][696]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.33:443][704]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.36:110][712]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.38:788][720]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.41:454][728]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.44:149][736]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.46:829][744]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.47:862][749]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 0.000000
+[2019.05.27-15.28.48:381][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.28.48:382][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.28.48:417][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.28.48:418][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.28.48:448][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.28.48:486][799]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.05.27-15.28.49:187][873]Candidate modules for hot reload:
+[2019.05.27-15.28.49:188][873]  LostDark
+[2019.05.27-15.28.49:188][873]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,743 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.27-15.28.49:191][873]Warning: Starting HotReload took  0.1s.
+[2019.05.27-15.30.11:248][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.05.27-15.30.23:111][217]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.30.28:378][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.31.25:473][278]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.36.26:544][440]CompilerResultsLog: New page: 컴파일 - 2019. 5. 28. 오전 9:36:26
+[2019.05.27-15.36.26:550][440]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.27-15.36.26:551][440]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.27-15.36.26:551][440]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.27-15.36.26:551][440]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.27-15.36.26:552][440]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.27-15.36.26:552][440]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.27-15.36.26:552][440]CompilerResultsLog:   [2/3] UE4Editor-LostDark-743.lib
+[2019.05.27-15.36.26:553][440]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-743.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-743.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.27-15.36.26:555][440]CompilerResultsLog:   [3/3] UE4Editor-LostDark-743.dll
+[2019.05.27-15.36.26:555][440]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-743.suppressed.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-743.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.27-15.36.26:556][440]CompilerResultsLog: Total build time: 456.75 seconds (Parallel executor: 428.80 seconds)
+[2019.05.27-15.36.26:557][440]LogMainFrame: MainFrame: Module compiling took 457.372 seconds
+[2019.05.27-15.36.26:664][440]LogClass: ECharacterState HotReload.
+[2019.05.27-15.36.26:664][440]LogClass: GSCharacterData HotReload.
+[2019.05.27-15.36.26:669][440]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.36.26:674][440]LogHotReload: Re-instancing LostDarkCharacter after hot-reload.
+[2019.05.27-15.36.26:839][440]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.36.26:839][440]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.36.26:839][440]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.36.26:839][440]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.36.26:843][440]LogContentBrowser: Native class hierarchy updated for 'LostDark' in 0.0004 seconds. Added 26 classes and 2 folders.
+[2019.05.27-15.36.26:846][440]Display: HotReload successful (17 functions remapped  1 scriptstructs remapped)
+[2019.05.27-15.36.27:238][440]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2679 classes and 627 folders.
+[2019.05.27-15.36.27:238][440]Display: HotReload took 458.1s.
+[2019.05.27-15.36.31:065][452]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-15.36.33:615][727]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.36.33:629][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.36.33:630][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.36.33:630][727]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:36:33)
+[2019.05.27-15.36.33:631][727]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.36.33:634][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003319s)
+[2019.05.27-15.36.33:635][727]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.36.33:635][727]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2019.05.27-15.36.33:635][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004800s)
+[2019.05.27-15.36.33:714][727]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.36.33:732][727]LogInit: FAudioDevice initialized.
+[2019.05.27-15.36.33:765][727]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.36.33:767][727]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.36.33
+[2019.05.27-15.36.33:768][727]LogWorld: Bringing up level for play took: 0.002038
+[2019.05.27-15.36.33:781][727]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.36.33:781][727]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.36.33:782][727]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.36.33:788][727]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.36.33:788][727]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.36.33:788][727]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: 0.557
+[2019.05.27-15.36.33:789][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.36.33:790][727]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.36.40:174][491]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.36.41:524][653]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.36.41:524][653]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_d674dbf1a3d8b7564d8f2f44734c7556>::operator ()(328) @@ HP Is Zero
+[2019.05.27-15.36.47:943][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.36.52:861][  8]LogNet: Browse: /Game/YR/Maps/YR_Workspace?restart
+[2019.05.27-15.36.52:861][  8]LogLoad: LoadMap: /Game/YR/Maps/YR_Workspace
+[2019.05.27-15.36.52:887][  8]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.36.52:890][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002666s)
+[2019.05.27-15.36.52:890][  8]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.36.52:891][  8]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2019.05.27-15.36.52:891][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004051s)
+[2019.05.27-15.36.52:891][  8]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.36.52:894][  8]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.36.52
+[2019.05.27-15.36.52:895][  8]LogWorld: Bringing up level for play took: 0.003633
+[2019.05.27-15.36.52:896][  8]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.36.52:896][  8]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.36.52:897][  8]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.36.52:900][  8]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.36.52:900][  8]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.36.52:901][  8]LogLoad: Took 0.039551 seconds to LoadMap(/Game/YR/Maps/UEDPIE_0_YR_Workspace)
+[2019.05.27-15.36.52:901][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.36.55:222][286]LostDark: Warning: ALostDarkCharacter::AttackCheck(866) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.36.55:222][286]LogBlueprintUserMessages: [BP_Bear_2] 20.0
+[2019.05.27-15.36.55:580][329]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.36.55:580][329]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.27-15.36.55:739][348]LostDark: Warning: ALostDarkCharacter::AttackCheck(866) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.36.55:739][348]LogBlueprintUserMessages: [BP_Bear_2] 10.0
+[2019.05.27-15.36.55:789][354]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.36.56:088][390]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.36.56:089][390]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.27-15.36.56:263][411]LostDark: Warning: ALostDarkCharacter::AttackCheck(866) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.36.56:889][486]LogTemp: Warning: MontageEnded
+[2019.05.27-15.36.57:530][563]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.36.57:531][563]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.27-15.36.58:039][624]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.36.58:331][659]LogTemp: Warning: MontageEnded
+[2019.05.27-15.37.02:223][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.37.02:224][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.37.02:257][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.37.02:257][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.37.02:282][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.37.02:329][130]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.05.27-15.37.05:754][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.42.41:018][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_Bear_C (BP_Bear)
+[2019.05.27-15.42.44:400][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.42.52:036][311]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/MobBP/BP_Bear.BP_Bear
+[2019.05.27-15.43.05:724][898]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.27-15.43.13:918][862]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_Enemy.BP_Enemy
+[2019.05.27-15.43.32:914][438]LogSlate: Window 'BP_Enemy' being destroyed
+[2019.05.27-15.43.44:699][837]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.43.44:724][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.43.44:725][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.43.44:725][837]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:43:44)
+[2019.05.27-15.43.44:725][837]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.43.44:729][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003566s)
+[2019.05.27-15.43.44:730][837]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.43.44:730][837]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2019.05.27-15.43.44:730][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004925s)
+[2019.05.27-15.43.44:779][837]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.43.44:798][837]LogInit: FAudioDevice initialized.
+[2019.05.27-15.43.44:829][837]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.43.44:831][837]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.43.44
+[2019.05.27-15.43.44:832][837]LogWorld: Bringing up level for play took: 0.001951
+[2019.05.27-15.43.44:845][837]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.43.44:845][837]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.43.44:846][837]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.43.44:849][837]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.43.44:850][837]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.43.44:850][837]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: -0.382
+[2019.05.27-15.43.44:850][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.43.44:852][837]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.43.49:697][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.46.19:770][141]LogVSAccessor: Warning: Couldn't goto line number '1' in 'B:/Develope/Sourcetree/LostDark/LostDark/Source/LostDark/Public/LostDarkPlayerController.h'
+[2019.05.27-15.47.47:364][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.47.47:365][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.47.47:398][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.47.47:399][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.47.47:435][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.47.47:467][636]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.05.27-15.47.48:435][751]Candidate modules for hot reload:
+[2019.05.27-15.47.48:435][751]  LostDark
+[2019.05.27-15.47.48:435][751]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,7455 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.27-15.47.48:445][751]Warning: Starting HotReload took  0.0s.
+[2019.05.27-15.48.06:501][623]CompilerResultsLog: New page: 컴파일 - 2019. 5. 28. 오전 9:48:06
+[2019.05.27-15.48.06:502][623]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.27-15.48.06:502][623]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.27-15.48.06:502][623]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.27-15.48.06:502][623]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.27-15.48.06:502][623]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.27-15.48.06:502][623]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.27-15.48.06:502][623]CompilerResultsLog:   [2/3] UE4Editor-LostDark-7455.lib
+[2019.05.27-15.48.06:503][623]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-7455.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-7455.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.27-15.48.06:503][623]CompilerResultsLog:   [3/3] UE4Editor-LostDark-7455.dll
+[2019.05.27-15.48.06:503][623]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-7455.suppressed.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-7455.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.27-15.48.06:504][623]CompilerResultsLog: Total build time: 17.73 seconds (Parallel executor: 13.27 seconds)
+[2019.05.27-15.48.06:504][623]LogMainFrame: MainFrame: Module compiling took 18.071 seconds
+[2019.05.27-15.48.06:591][623]LogClass: ECharacterState HotReload.
+[2019.05.27-15.48.06:591][623]LogClass: GSCharacterData HotReload.
+[2019.05.27-15.48.06:595][623]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.48.06:600][623]LogHotReload: Re-instancing LostDarkCharacter after hot-reload.
+[2019.05.27-15.48.06:762][623]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.48.06:762][623]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.48.06:762][623]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.48.06:763][623]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.48.06:765][623]LogContentBrowser: Native class hierarchy updated for 'LostDark' in 0.0004 seconds. Added 26 classes and 2 folders.
+[2019.05.27-15.48.06:769][623]Display: HotReload successful (17 functions remapped  1 scriptstructs remapped)
+[2019.05.27-15.48.07:093][623]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2679 classes and 627 folders.
+[2019.05.27-15.48.07:093][623]Display: HotReload took 18.7s.
+[2019.05.27-15.48.08:048][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.48.08:139][743]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.48.08:154][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.48.08:155][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.48.08:155][743]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:48:08)
+[2019.05.27-15.48.08:155][743]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.48.08:158][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002914s)
+[2019.05.27-15.48.08:159][743]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.48.08:159][743]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2019.05.27-15.48.08:159][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004130s)
+[2019.05.27-15.48.08:238][743]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.48.08:256][743]LogInit: FAudioDevice initialized.
+[2019.05.27-15.48.08:290][743]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.48.08:292][743]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.48.08
+[2019.05.27-15.48.08:293][743]LogWorld: Bringing up level for play took: 0.001924
+[2019.05.27-15.48.08:306][743]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.48.08:306][743]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.48.08:307][743]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.48.08:310][743]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.48.08:311][743]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.48.08:311][743]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: 1.079
+[2019.05.27-15.48.08:311][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.48.08:312][743]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.48.10:238][972]LostDark: Warning: ALostDarkCharacter::AttackCheck(867) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.48.10:238][972]LogBlueprintUserMessages: [BP_Bear_2] 20.0
+[2019.05.27-15.48.10:597][ 15]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.48.10:747][ 33]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.48.10:864][ 47]LogTemp: Warning: MontageEnded
+[2019.05.27-15.48.11:613][137]LostDark: Warning: ALostDarkCharacter::AttackCheck(867) Hit Actor Name : BP_Bear_2
+[2019.05.27-15.48.11:613][137]LogBlueprintUserMessages: [BP_Bear_2] 10.0
+[2019.05.27-15.48.11:973][180]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.27-15.48.12:240][212]LogTemp: Warning: MontageEnded
+[2019.05.27-15.48.14:815][521]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.48.14:815][521]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_d674dbf1a3d8b7564d8f2f44734c7556>::operator ()(328) @@ HP Is Zero
+[2019.05.27-15.48.20:957][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.48.21:615][337]LogNet: Browse: /Game/YR/Maps/YR_Workspace?restart
+[2019.05.27-15.48.21:615][337]LogLoad: LoadMap: /Game/YR/Maps/YR_Workspace
+[2019.05.27-15.48.21:657][337]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.48.21:660][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002722s)
+[2019.05.27-15.48.21:661][337]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.48.21:661][337]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2019.05.27-15.48.21:662][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004181s)
+[2019.05.27-15.48.21:662][337]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.48.21:663][337]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.48.21
+[2019.05.27-15.48.21:664][337]LogWorld: Bringing up level for play took: 0.001893
+[2019.05.27-15.48.21:665][337]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.48.21:665][337]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.48.21:666][337]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.48.21:669][337]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.48.21:670][337]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.48.21:670][337]LogLoad: Took 0.054696 seconds to LoadMap(/Game/YR/Maps/UEDPIE_0_YR_Workspace)
+[2019.05.27-15.48.21:671][337]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.48.24:792][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.48.24:792][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.48.24:825][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-15.48.24:826][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.48.24:852][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-15.48.24:912][399]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.05.27-15.48.40:846][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-15.48.40:955][577]Candidate modules for hot reload:
+[2019.05.27-15.48.40:955][577]  LostDark
+[2019.05.27-15.48.40:955][577]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,2402 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.27-15.48.40:964][577]Warning: Starting HotReload took  0.0s.
+[2019.05.27-15.48.57:874][908]CompilerResultsLog: New page: 컴파일 - 2019. 5. 28. 오전 9:48:57
+[2019.05.27-15.48.57:875][908]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.27-15.48.57:875][908]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.27-15.48.57:875][908]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.27-15.48.57:875][908]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.27-15.48.57:875][908]CompilerResultsLog: Building 3 actions with 6 processes...
+[2019.05.27-15.48.57:875][908]CompilerResultsLog:   [1/3] LostDarkCharacter.cpp
+[2019.05.27-15.48.57:876][908]CompilerResultsLog:   [2/3] UE4Editor-LostDark-2402.lib
+[2019.05.27-15.48.57:876][908]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2402.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2402.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.27-15.48.57:876][908]CompilerResultsLog:   [3/3] UE4Editor-LostDark-2402.dll
+[2019.05.27-15.48.57:876][908]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2402.suppressed.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-2402.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.27-15.48.57:876][908]CompilerResultsLog: Total build time: 16.47 seconds (Parallel executor: 12.22 seconds)
+[2019.05.27-15.48.57:877][908]LogMainFrame: MainFrame: Module compiling took 16.925 seconds
+[2019.05.27-15.48.57:956][908]LogClass: ECharacterState HotReload.
+[2019.05.27-15.48.57:956][908]LogClass: GSCharacterData HotReload.
+[2019.05.27-15.48.57:960][908]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.48.57:966][908]LogHotReload: Re-instancing LostDarkCharacter after hot-reload.
+[2019.05.27-15.48.58:125][908]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-15.48.58:125][908]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-15.48.58:125][908]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-15.48.58:125][908]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-15.48.58:129][908]LogContentBrowser: Native class hierarchy updated for 'LostDark' in 0.0004 seconds. Added 26 classes and 2 folders.
+[2019.05.27-15.48.58:132][908]Display: HotReload successful (17 functions remapped  1 scriptstructs remapped)
+[2019.05.27-15.48.58:453][908]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2679 classes and 627 folders.
+[2019.05.27-15.48.58:453][908]Display: HotReload took 17.5s.
+[2019.05.27-15.49.00:356][969]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-15.49.00:370][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.49.00:371][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-15.49.00:371][969]PIE: New page: PIE 세션: YR_Workspace (2019. 5. 28. 오전 9:49:00)
+[2019.05.27-15.49.00:371][969]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_Workspace
+[2019.05.27-15.49.00:374][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002888s)
+[2019.05.27-15.49.00:375][969]LogAIModule: Creating AISystem for world YR_Workspace
+[2019.05.27-15.49.00:375][969]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2019.05.27-15.49.00:376][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_Workspace.YR_Workspace to /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace (0.004284s)
+[2019.05.27-15.49.00:450][969]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-15.49.00:469][969]LogInit: FAudioDevice initialized.
+[2019.05.27-15.49.00:502][969]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-15.49.00:504][969]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_Workspace.YR_Workspace up for play (max tick rate 0) at 2019.05.28-00.49.00
+[2019.05.27-15.49.00:505][969]LogWorld: Bringing up level for play took: 0.002098
+[2019.05.27-15.49.00:518][969]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-15.49.00:518][969]LogScript: Warning: Script Msg: Divide by zero detected: 90.000114 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.49.00:519][969]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.49.00:522][969]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.000000, Current : 0, Next : 30
+[2019.05.27-15.49.00:522][969]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.27-15.49.00:523][969]PIE: /Game/YR/Maps/UEDPIE_0_YR_Workspace 에 대한 에디터에서 플레이 시작 시간: -0.709
+[2019.05.27-15.49.00:523][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace' with GeneratedClass '/Game/YR/Maps/YR_Workspace.YR_Workspace_C' with ClassGeneratedBy '/Game/YR/Maps/YR_Workspace.YR_Workspace:PersistentLevel.YR_Workspace'
+[2019.05.27-15.49.00:524][969]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-15.49.02:950][258]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.49.04:301][420]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.27-15.49.04:301][420]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_d674dbf1a3d8b7564d8f2f44734c7556>::operator ()(328) @@ HP Is Zero
+[2019.05.27-15.49.23:868][420]LogWindows: Error: === Critical error: ===
+[2019.05.27-15.49.23:868][420]LogWindows: Error: 
+[2019.05.27-15.49.23:869][420]LogWindows: Error: Fatal error!
+[2019.05.27-15.49.23:869][420]LogWindows: Error: 
+[2019.05.27-15.49.23:869][420]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000046c
+[2019.05.27-15.49.23:869][420]LogWindows: Error: 
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa3ab3874f UE4Editor-LostDark-2402.dll!ALostDarkCharacter::TakeDamage() [b:\develope\sourcetree\lostdark\lostdark\source\lostdark\private\lostdarkcharacter.cpp:375]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5fda2fca UE4Editor-Engine.dll!UGameplayStatics::ApplyPointDamage() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gameplaystatics.cpp:496]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5f68b190 UE4Editor-Engine.dll!UGameplayStatics::execApplyPointDamage() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\kismet\gameplaystatics.h:42]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa623a4b14 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4861]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6260bc2a UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:816]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa626356cc UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2330]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa62656cc4 UE4Editor-CoreUObject.dll!UObject::execLet() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2116]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa62637d2f UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1031]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6260c5dd UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:940]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa62637d2f UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1031]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6260c5dd UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:940]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6265add3 UE4Editor-CoreUObject.dll!UObject::execVirtualFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2436]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa626356cc UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2330]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa62637d2f UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1031]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6260c5dd UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:940]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa62637d2f UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1031]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa623a4b14 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4861]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa626373c6 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1480]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5f7c4bc5 UE4Editor-Engine.dll!UAnimInstance::TriggerSingleAnimNotify() [d:\build\++ue4\sync\engine\source\runtime\engine\private\animation\animinstance.cpp:1410]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5f7c3f4b UE4Editor-Engine.dll!UAnimInstance::TriggerAnimNotifies() [d:\build\++ue4\sync\engine\source\runtime\engine\private\animation\animinstance.cpp:1359]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5f7722c4 UE4Editor-Engine.dll!UAnimInstance::DispatchQueuedAnimEvents() [d:\build\++ue4\sync\engine\source\runtime\engine\private\animation\animinstance.cpp:540]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5fb50621 UE4Editor-Engine.dll!USkeletalMeshComponent::ConditionallyDispatchQueuedAnimEvents() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:1295]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa60433c9e UE4Editor-Engine.dll!USkeletalMeshComponent::FinalizeAnimationUpdate() [d:\build\++ue4\sync\engine\source\runtime\engine\private\physicsengine\physanim.cpp:395]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5fb752b0 UE4Editor-Engine.dll!USkeletalMeshComponent::PostAnimEvaluation() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:2372]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5fb4e5b9 UE4Editor-Engine.dll!USkeletalMeshComponent::CompleteParallelAnimationEvaluation() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:3351]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5fb58046 UE4Editor-Engine.dll!FParallelAnimationCompletionTask::DoTask() [d:\build\++ue4\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:152]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa5fb5a730 UE4Editor-Engine.dll!TGraphTask<FParallelAnimationCompletionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa62991798 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:679]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa629919e0 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilIdle() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:586]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6093b949 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:573]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6094b9a2 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1474]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa6001b6e4 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:783]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa600279d9 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1473]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa581d2085 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1726]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa58af2346 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ff6462e6225 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3699]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ff6462f596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ff6462f59ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ff6463048da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ff64630659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa91847974 KERNEL32.DLL!UnknownFunction []
+[2019.05.27-15.49.23:869][420]LogWindows: Error: [Callstack] 0x00007ffa9418a271 ntdll.dll!UnknownFunction []
+[2019.05.27-15.49.23:869][420]LogWindows: Error: 
+[2019.05.27-15.49.23:906][420]LogExit: Executing StaticShutdownAfterError
+[2019.05.27-15.49.23:959][420]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.05.27-15.49.23:969][420]Log file closed, 05/28/19 00:49:23
