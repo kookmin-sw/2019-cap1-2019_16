@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B4FFF79D-525B-42F9-9C65-4EE88C390741}</UniqueIdentifier>
+      <UniqueIdentifier>{E9BE2806-DAD9-4CF0-A685-3C0ECEA642A7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{03F7266C-638B-47E1-A879-152D4A398265}</UniqueIdentifier>
+      <UniqueIdentifier>{8D1A0D09-0CA8-4140-86EF-9932E470D6D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{033AFBE7-AC27-4C5C-828E-7951C66E3F9D}</UniqueIdentifier>
+      <UniqueIdentifier>{72D2B535-5FE3-4870-95C8-016CEB1BB7D8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\BackupCharacter.cpp">
       <Filter>Source\LostDark</Filter>
@@ -51,7 +51,7 @@
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\Private">
-      <UniqueIdentifier>{942665C4-130E-4C18-9D1C-F8FCD2A555FF}</UniqueIdentifier>
+      <UniqueIdentifier>{462B2901-0AF3-4AFB-8176-48188A895D69}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\Private\BTDecorator_IsInAttackRanget.cpp">
       <Filter>Source\LostDark\Private</Filter>
@@ -83,7 +83,31 @@
     <ClCompile Include="..\..\Source\LostDark\Private\LDAIController.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDCharacterSelectWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\LostDark\Private\LDGameInstance.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGamePlayResultWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGamePlayWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDGameState.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDHUDWidget.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDPlayerState.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDSaveGame.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\LDUIPlayerController.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\LostDark\Private\LostDark.cpp">
@@ -98,11 +122,14 @@
     <ClCompile Include="..\..\Source\LostDark\Private\LostDarkPlayerController.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\LostDark\Private\SectionTest.cpp">
+      <Filter>Source\LostDark\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\LostDark\Private\SH_ItemBox.cpp">
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
     <Filter Include="Source\LostDark\Public">
-      <UniqueIdentifier>{293CE344-5030-4E74-9043-769079BB36B6}</UniqueIdentifier>
+      <UniqueIdentifier>{73CB4924-A770-4453-B553-B3926C22570E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\LostDark\Public\BTDecorator_IsInAttackRanget.h">
       <Filter>Source\LostDark\Public</Filter>
@@ -134,7 +161,31 @@
     <ClInclude Include="..\..\Source\LostDark\Public\LDAIController.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDCharacterSelectWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\LostDark\Public\LDGameInstance.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGamePlayResultWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGamePlayWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDGameState.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDHUDWidget.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDPlayerState.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDSaveGame.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\LDUIPlayerController.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\LostDark\Public\LostDark.h">
@@ -149,17 +200,20 @@
     <ClInclude Include="..\..\Source\LostDark\Public\LostDarkPlayerController.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\LostDark\Public\SectionTest.h">
+      <Filter>Source\LostDark\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\LostDark\Public\SH_ItemBox.h">
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
     <Filter Include="Source\LostDarkSetting">
-      <UniqueIdentifier>{3053C5F0-8715-48D7-B15C-588675869A28}</UniqueIdentifier>
+      <UniqueIdentifier>{F85D72F0-10CA-4811-8318-DE7886930510}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDarkSetting\LostDarkSetting.Build.cs">
       <Filter>Source\LostDarkSetting</Filter>
     </None>
     <Filter Include="Source\LostDarkSetting\Private">
-      <UniqueIdentifier>{D398BB84-8520-4098-A1FF-BDB9884426CE}</UniqueIdentifier>
+      <UniqueIdentifier>{4D543BA3-7147-415D-AD9C-4183C81D28A3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDarkSetting\Private\LDCharacterSetting.cpp">
       <Filter>Source\LostDarkSetting\Private</Filter>
@@ -168,7 +222,7 @@
       <Filter>Source\LostDarkSetting\Private</Filter>
     </ClCompile>
     <Filter Include="Source\LostDarkSetting\Public">
-      <UniqueIdentifier>{6D2E8AAF-E393-4C60-8B6E-FADF1C8D8E4A}</UniqueIdentifier>
+      <UniqueIdentifier>{E9E38BA4-ED06-4D13-9611-3FE8EDBAC523}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\LostDarkSetting\Public\LDCharacterSetting.h">
       <Filter>Source\LostDarkSetting\Public</Filter>
@@ -176,63 +230,5 @@
     <ClInclude Include="..\..\Source\LostDarkSetting\Public\LostDarkSetting.h">
       <Filter>Source\LostDarkSetting\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\LostDark\Public\SectionTest.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDPlayerState.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDHUDWidget.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDGameState.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDSaveGame.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDUIPlayerController.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDCharacterSelectWidget.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDGamePlayWidget.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\LostDark\Public\LDGamePlayResultWidget.h">
-      <Filter>Source\LostDark\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\LostDark\Private\SectionTest.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDPlayerState.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDHUDWidget.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDGameState.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDSaveGame.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDUIPlayerController.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDCharacterSelectWidget.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDGamePlayWidget.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\LostDark\Private\LDGamePlayResultWidget.cpp">
-      <Filter>Source\LostDark\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
