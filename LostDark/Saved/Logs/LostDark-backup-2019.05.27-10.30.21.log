@@ -1,0 +1,1744 @@
+﻿Log file open, 05/27/19 19:21:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LostDark
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.238994
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin ParticleText
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.058s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.27-10.21.40:034][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:034][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:040][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.27-10.21.40:040][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:040][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.27-10.21.40:041][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.27-10.21.40:041][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.27-10.21.40:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.27-10.21.40:050][  0]LogHAL: Display: Platform has ~ 16 GB [17103896576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.27-10.21.40:050][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.27-10.21.40:050][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.27-10.21.40:050][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.27-10.21.40:050][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.27-10.21.40:050][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.27-10.21.40:051][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.27-10.21.40:052][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.27-10.21.40:052][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.27-10.21.40:052][  0]LogInit: Computer: DESKTOP-7NEMS3A
+[2019.05.27-10.21.40:052][  0]LogInit: User: SungHoon
+[2019.05.27-10.21.40:052][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.05.27-10.21.40:052][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.27-10.21.40:052][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.27-10.21.40:052][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.27-10.21.40:052][  0]LogMemory: Process Physical Memory: 103.00 MB used, 103.00 MB peak
+[2019.05.27-10.21.40:052][  0]LogMemory: Process Virtual Memory: 85.08 MB used, 85.08 MB peak
+[2019.05.27-10.21.40:052][  0]LogMemory: Physical Memory: 5193.29 MB used,  11118.26 MB free, 16311.55 MB total
+[2019.05.27-10.21.40:052][  0]LogMemory: Virtual Memory: 4639.90 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.05.27-10.21.40:068][  0]LogInit: Overriding language with editor language configuration option (ko).
+[2019.05.27-10.21.40:068][  0]LogInit: Overriding locale with editor locale configuration option (ko).
+[2019.05.27-10.21.40:395][  0]LogStreaming: Display: Took  0.327s to InitEngineTextLocalization.
+[2019.05.27-10.21.40:395][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.27-10.21.40:440][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.27-10.21.40:440][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.27-10.21.40:627][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.27-10.21.40:627][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.27-10.21.40:679][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.27-10.21.40:679][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.27-10.21.40:681][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.27-10.21.40:681][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.27-10.21.40:681][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.27-10.21.40:686][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.27-10.21.40:686][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.27-10.21.40:686][  0]LogWindows: EnumDisplayDevices:
+[2019.05.27-10.21.40:687][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.27-10.21.40:687][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.05.27-10.21.40:688][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.27-10.21.40:689][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.27-10.21.40:689][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.27-10.21.40:689][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.27-10.21.40:689][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.05.27-10.21.40:689][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.05.27-10.21.40:689][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.27-10.21.40:721][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.27-10.21.40:738][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.27-10.21.41:110][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.27-10.21.41:121][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.27-10.21.41:134][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.27-10.21.41:146][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.27-10.21.41:158][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.27-10.21.41:171][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.27-10.21.41:183][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.27-10.21.41:194][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.27-10.21.41:201][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.27-10.21.41:266][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.27-10.21.41:323][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.27-10.21.41:323][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.27-10.21.41:343][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.27-10.21.41:343][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.27-10.21.41:353][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.27-10.21.41:363][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.27-10.21.41:373][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.27-10.21.41:384][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.27-10.21.41:422][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.27-10.21.41:422][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.27-10.21.41:422][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.27-10.21.41:482][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (B:/Develope/Sourcetree/LostDark/LostDark/Intermediate/Shaders/WorkingDirectory/3848/).
+[2019.05.27-10.21.41:482][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SungHoon/AppData/Local/Temp/UnrealShaderWorkingDir/BA335D664B0238B77094819A8CBB8D33/'.
+[2019.05.27-10.21.41:485][  0]LogXGEController: Cleaning working directory: C:/Users/SungHoon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.27-10.21.41:485][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.27-10.21.41:485][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.27-10.21.41:485][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.27-10.21.41:970][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.27-10.21.42:037][  0]LogDerivedDataCache: Loaded boot cache 0.07s 121MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.27-10.21.42:037][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.27-10.21.42:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.27-10.21.42:037][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.27-10.21.42:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.27-10.21.42:037][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.27-10.21.42:051][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.27-10.21.42:051][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.27-10.21.42:051][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.27-10.21.42:062][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SungHoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.27-10.21.42:062][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.27-10.21.42:062][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.27-10.21.42:081][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.27-10.21.42:082][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.27-10.21.42:083][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.27-10.21.42:162][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
+[2019.05.27-10.21.42:426][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.27-10.21.42:561][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.27-10.21.42:565][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.27-10.21.42:565][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.27-10.21.42:565][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.27-10.21.42:565][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.27-10.21.42:578][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.05.27-10.21.42:974][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.033964 seconds
+[2019.05.27-10.21.42:981][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.27-10.21.42:981][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.27-10.21.42:981][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.27-10.21.43:741][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.27-10.21.43:753][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.27-10.21.44:461][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-10.21.45:240][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-10.21.45:252][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-10.21.45:277][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-10.21.45:367][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-10.21.45:367][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-10.21.45:367][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-10.21.45:367][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-10.21.45:443][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-10.21.45:443][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-10.21.45:444][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-10.21.45:445][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-10.21.45:602][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.27-10.21.45:689][  0]LogOcInput: OculusInput pre-init called
+[2019.05.27-10.21.45:817][  0]LogEngine: Initializing Engine...
+[2019.05.27-10.21.45:818][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.27-10.21.45:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.27-10.21.45:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.27-10.21.45:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.27-10.21.45:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.27-10.21.46:021][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.27-10.21.46:034][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.27-10.21.46:091][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-10.21.46:120][  0]LogInit: FAudioDevice initialized.
+[2019.05.27-10.21.46:120][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.27-10.21.46:188][  0]LogDerivedDataCache: Saved boot cache 0.07s 121MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.27-10.21.46:199][  0]LogInit: Texture streaming: Enabled
+[2019.05.27-10.21.46:221][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.27-10.21.46:221][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={E3864B58-4BB2-06E3-FA49-9B9BEF2DA7D1}
+[2019.05.27-10.21.46:234][  0]LogInit: Transaction tracking system initialized
+[2019.05.27-10.21.46:263][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.27-10.21.46:433][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.27-10.21.46:851][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.27-10.21.46:852][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.27-10.21.46:852][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.27-10.21.46:852][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.27-10.21.46:852][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.27-10.21.46:852][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.27-10.21.46:852][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.27-10.21.46:964][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 0.03s
+[2019.05.27-10.21.46:964][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.27-10.21.46:964][  0]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.27-10.21.46:964][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.27-10.21.46:967][  0]MapCheck: New page: 맵 체크
+[2019.05.27-10.21.46:967][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.27-10.21.47:064][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.27-10.21.47:069][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.27-10.21.47:091][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.27-10.21.47:091][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.099ms.
+[2019.05.27-10.21.47:091][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.127
+[2019.05.27-10.21.47:182][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-10.21.47:188][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-10.21.47:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-10.21.47:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-10.21.47:206][  0]LogCollectionManager: Loaded 0 collections in 0.002165 seconds
+[2019.05.27-10.21.47:233][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/Collections/' took 0.01s
+[2019.05.27-10.21.47:234][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Developers/SungHoon/Collections/' took 0.00s
+[2019.05.27-10.21.47:234][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Collections/' took 0.01s
+[2019.05.27-10.21.47:234][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.27-10.21.47:240][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2684 classes and 629 folders.
+[2019.05.27-10.21.47:247][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.27-10.21.47:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:257][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:259][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.27-10.21.47:283][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.27-10.21.47:290][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.27-10.21.47:352][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.27-10.21.47:355][  0]LogSlate: Took 0.001570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.27-10.21.47:357][  0]LogSlate: Took 0.001407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.27-10.21.47:358][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.27-10.21.47:422][  0]LogRenderer: Reallocating scene render targets to support 1140x572 Format 10 NumSamples 1 (Frame:1).
+[2019.05.27-10.21.47:447][  0]LogSlate: Took 0.001466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.27-10.21.47:535][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.27-10.21.47:535][  0]LogLoad: (Engine Initialization) Total time: 8.87 seconds
+[2019.05.27-10.21.47:535][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.27-10.21.47:613][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.27-10.21.47:779][  3]LogAssetRegistry: Asset discovery search completed in 5.6388 seconds
+[2019.05.27-10.21.47:781][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.27-10.21.47:781][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2019.05.27-10.21.49:675][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-10.21.49:763][  9]LogSlate: Window '플러그인' being destroyed
+[2019.05.27-10.21.49:766][  9]LogSlate: Window '플러그인' being destroyed
+[2019.05.27-10.21.49:766][  9]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.05.27-10.21.53:237][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-10.21.55:850][737]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.27-10.21.55:870][737]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.27-10.22.14:111][914]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.27-10.22.18:983][914]LogMaterial: Display: Missing cached shader map for material CharM_Fire_Golem, compiling. 
+[2019.05.27-10.22.19:141][914]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.05.27-10.22.19:141][914]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.05.27-10.22.19:141][914]LogMaterial: Display: Missing cached shader map for material Base_01, compiling. 
+[2019.05.27-10.22.19:196][914]LogMaterial: Display: Missing cached shader map for material Furniture_01, compiling. 
+[2019.05.27-10.22.19:338][914]LogMaterial: Display: Missing cached shader map for material Props_02, compiling. 
+[2019.05.27-10.22.19:414][914]LogMaterial: Display: Missing cached shader map for material CharM_Troll_Poison, compiling. 
+[2019.05.27-10.22.19:465][914]LogMaterial: Display: Missing cached shader map for material CharM_Troll, compiling. 
+[2019.05.27-10.22.19:597][914]LogMaterial: Display: Missing cached shader map for material Base_06, compiling. 
+[2019.05.27-10.22.19:712][914]LogMaterial: Display: Missing cached shader map for material Door_01, compiling. 
+[2019.05.27-10.22.19:756][914]LogMaterial: Display: Missing cached shader map for material Base_05, compiling. 
+[2019.05.27-10.22.19:880][914]LogMaterial: Display: Missing cached shader map for material M_Bear_Master, compiling. 
+[2019.05.27-10.22.19:997][914]LogMaterial: Display: Missing cached shader map for material M_Bear_Custom, compiling. 
+[2019.05.27-10.22.20:161][914]LogMaterial: Display: Missing cached shader map for material Fire, compiling. 
+[2019.05.27-10.22.20:209][914]LogMaterial: Display: Missing cached shader map for material Props_Glass, compiling. 
+[2019.05.27-10.22.20:261][914]LogMaterial: Display: Missing cached shader map for material Props_Glass, compiling. 
+[2019.05.27-10.22.20:459][914]LogShaderCompilers: Display: Shaders left to compile 603
+[2019.05.27-10.22.21:512][914]LogShaderCompilers: Display: Shaders left to compile 593
+[2019.05.27-10.22.22:145][914]LogShaderCompilers: Display: Shaders left to compile 583
+[2019.05.27-10.22.22:801][914]LogMaterial: Display: Missing cached shader map for material Fog, compiling. 
+[2019.05.27-10.22.22:815][914]LogMaterial: Display: Missing cached shader map for material Fog, compiling. 
+[2019.05.27-10.22.23:224][914]LogMaterial: Display: Missing cached shader map for material CharM_Greater_Spider, compiling. 
+[2019.05.27-10.22.23:278][914]LogMaterial: Display: Missing cached shader map for material Props_01, compiling. 
+[2019.05.27-10.22.23:481][914]LogShaderCompilers: Display: Shaders left to compile 756
+[2019.05.27-10.22.23:623][914]LogShaderCompilers: Display: Shaders left to compile 746
+[2019.05.27-10.22.23:984][914]LogAIModule: Creating AISystem for world Dungeon
+[2019.05.27-10.22.24:083][914]LogAssetEditorManager: Opening Asset editor for World /Game/JG/Maps/Dungeon.Dungeon
+[2019.05.27-10.22.24:130][914]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/JG/Maps/Dungeon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.27-10.22.24:130][914]LightingResults: New page: 라이팅 빌드
+[2019.05.27-10.22.24:131][914]LoadErrors: New page: 맵 로드중: Dungeon.umap
+[2019.05.27-10.22.24:132][914]MapCheck: New page: 맵 체크
+[2019.05.27-10.22.24:132][914]LightingResults: New page: 라이팅 빌드
+[2019.05.27-10.22.24:576][914]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.27-10.22.24:649][914]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.27-10.22.24:649][914]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.384ms.
+[2019.05.27-10.22.24:649][914]LogFileHelpers: Loading map 'Dungeon' took 0.519
+[2019.05.27-10.22.24:716][915]LogShaderCompilers: Display: Shaders left to compile 736
+[2019.05.27-10.22.25:838][ 18]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.27-10.22.25:847][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-10.22.25:847][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-10.22.25:847][ 18]PIE: New page: PIE 세션: Dungeon (2019. 5. 28. 오전 4:22:25)
+[2019.05.27-10.22.25:859][ 18]LogLinker: Warning: '/Game/YJ/Blueprints/GameInstance' 파일을 찾을 수 없습니다.
+[2019.05.27-10.22.25:859][ 18]LogLinker: Warning: '/Game/YJ/Blueprints/GameInstance' 파일을 찾을 수 없습니다.
+[2019.05.27-10.22.25:859][ 18]LogUObjectGlobals: Warning: 'Class /Game/YJ/Blueprints/GameInstance.GameInstance_C' 오브젝트를 찾는 데 실패했습니다.
+[2019.05.27-10.22.25:859][ 18]LogPlayLevel: Creating play world package: /Game/JG/Maps/UEDPIE_0_Dungeon
+[2019.05.27-10.22.25:989][ 18]LogShaderCompilers: Display: Shaders left to compile 726
+[2019.05.27-10.22.26:007][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148047s)
+[2019.05.27-10.22.26:008][ 18]LogAIModule: Creating AISystem for world Dungeon
+[2019.05.27-10.22.26:008][ 18]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2019.05.27-10.22.26:008][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/JG/Maps/Dungeon.Dungeon to /Game/JG/Maps/UEDPIE_0_Dungeon.Dungeon (0.149345s)
+[2019.05.27-10.22.26:053][ 18]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-10.22.26:073][ 18]LogInit: FAudioDevice initialized.
+[2019.05.27-10.22.26:819][ 18]LogClass: Warning: Enum '/Game/UI_Kit/Blueprints/Objectives/E_ObjectiveType.E_ObjectiveType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.27-10.22.26:835][ 18]LogClass: Warning: Enum '/Game/UI_Kit/Widgets/Window/ResizeType.ResizeType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.27-10.22.27:040][ 18]LogBlueprint: Warning: [Compiler MinimapCapture] SceneCapture.MeshComp : 블루프린트에서 보이도록 (BlueprintReadOnly 또는  BlueprintReadWrite) 되어있지 않습니다. 마크업을 수정하거나 접근을 중단하지 않으면, 앞으로 릴리즈에서 오류가 발생할 것입니다.  MeshComp 구하기
+[2019.05.27-10.22.27:057][ 18]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] Set Input Mode Game And UI (Deprecated)  : 폐기되었습니다. Use the new version of Set Input Mode Game And UI instead
+[2019.05.27-10.22.27:263][ 18]LogShaderCompilers: Display: Shaders left to compile 716
+[2019.05.27-10.22.27:263][ 18]LogBlueprint: Warning: [Compiler MinimapCapture] [0048.60] MinimapCapture 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 455 ms] (/Game/UI_Kit/Blueprints/MinimapCapture.MinimapCapture)
+[2019.05.27-10.22.27:263][ 18]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] [0048.60] PrototypeUI_Controller 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 455 ms] (/Game/UI_Kit/Blueprints/PrototypeUI_Controller.PrototypeUI_Controller)
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Fade Border)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Fade Border_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:860][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:861][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:862][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:862][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:862][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:862][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:862][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.27:862][ 18]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.27-10.22.28:101][ 18]LogShaderCompilers: Display: Shaders left to compile 706
+[2019.05.27-10.22.28:101][ 18]LogLoad: Game class is 'MyPersonGameMode_C'
+[2019.05.27-10.22.28:164][ 18]LogWorld: Bringing World /Game/JG/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2019.05.27-19.22.28
+[2019.05.27-10.22.28:224][ 18]LogWorld: Bringing up level for play took: 0.121482
+[2019.05.27-10.22.28:242][ 18]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.05.27-10.22.28:247][ 18]Cmd: r.vsync 1
+[2019.05.27-10.22.28:247][ 18]r.VSync = "1"
+[2019.05.27-10.22.28:257][ 18]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base'!
+[2019.05.27-10.22.28:258][ 18]LogBlueprintUserMessages: [Minimap_Rectangular_196] Place a minimap Capture actor in the level to use a minimap
+[2019.05.27-10.22.28:258][ 18]PIE: /Game/JG/Maps/UEDPIE_0_Dungeon 에 대한 에디터에서 플레이 시작 시간: 3.027
+[2019.05.27-10.22.28:259][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-10.22.28:294][ 18]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0785
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:081E
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:08E6
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0938
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:09D1
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:295][ 18]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0A99
+[2019.05.27-10.22.28:314][ 18]LogShaderCompilers: Display: Shaders left to compile 696
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0785
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:081E
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:08E6
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0938
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:09D1
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:386][ 19]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0A99
+[2019.05.27-10.22.28:438][ 20]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0785
+[2019.05.27-10.22.28:438][ 20]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:081E
+[2019.05.27-10.22.28:438][ 20]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:438][ 20]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:08E6
+[2019.05.27-10.22.28:438][ 20]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0938
+[2019.05.27-10.22.28:439][ 20]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:09D1
+[2019.05.27-10.22.28:439][ 20]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:449][ 21]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:449][ 21]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:471][ 22]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:471][ 22]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:482][ 23]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:482][ 23]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:492][ 24]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:492][ 24]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:501][ 25]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:502][ 25]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:510][ 26]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:510][ 26]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:519][ 27]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:519][ 27]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:528][ 28]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:528][ 28]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:538][ 29]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:538][ 29]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:547][ 30]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:547][ 30]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:556][ 31]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:556][ 31]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:565][ 32]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:565][ 32]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:573][ 33]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:573][ 33]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:589][ 34]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:589][ 34]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:599][ 35]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:599][ 35]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:611][ 36]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:611][ 36]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:620][ 37]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:620][ 37]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:628][ 38]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:628][ 38]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:637][ 39]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:637][ 39]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:647][ 40]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:647][ 40]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:655][ 41]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:655][ 41]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:666][ 42]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:666][ 42]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:675][ 43]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:675][ 43]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:683][ 44]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:683][ 44]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:692][ 45]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:692][ 45]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:701][ 46]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:701][ 46]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:709][ 47]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:709][ 47]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:717][ 48]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:717][ 48]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:726][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:726][ 49]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:734][ 50]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:734][ 50]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:742][ 51]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:743][ 51]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:751][ 52]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:751][ 52]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:760][ 53]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:761][ 53]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:769][ 54]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:769][ 54]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:777][ 55]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:777][ 55]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:787][ 56]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:787][ 56]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:795][ 57]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:795][ 57]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:804][ 58]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:804][ 58]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:813][ 59]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:813][ 59]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:821][ 60]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:821][ 60]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:834][ 61]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:834][ 61]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:842][ 62]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:843][ 62]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:852][ 63]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:852][ 63]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:861][ 64]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:861][ 64]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:870][ 65]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:871][ 65]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:880][ 66]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:880][ 66]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:888][ 67]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:889][ 67]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:898][ 68]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:898][ 68]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:906][ 69]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:906][ 69]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:916][ 70]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:916][ 70]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:924][ 71]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:924][ 71]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:932][ 72]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:932][ 72]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:942][ 73]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:942][ 73]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:950][ 74]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:950][ 74]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:958][ 75]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:958][ 75]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:966][ 76]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:966][ 76]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:975][ 77]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:975][ 77]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:984][ 78]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:984][ 78]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:993][ 79]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.28:993][ 79]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:001][ 80]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:002][ 80]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:009][ 81]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:009][ 81]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:021][ 82]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:021][ 82]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:029][ 83]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:029][ 83]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:037][ 84]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:037][ 84]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:046][ 85]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:046][ 85]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:054][ 86]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:054][ 86]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:062][ 87]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:062][ 87]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:072][ 88]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:072][ 88]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:080][ 89]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:080][ 89]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:088][ 90]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:088][ 90]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:097][ 91]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:097][ 91]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:105][ 92]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:105][ 92]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:113][ 93]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:114][ 93]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:122][ 94]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:122][ 94]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:130][ 95]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:130][ 95]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:138][ 96]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:138][ 96]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:147][ 97]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:147][ 97]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:154][ 98]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:154][ 98]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:164][ 99]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:164][ 99]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:172][100]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:172][100]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:181][101]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:181][101]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:189][102]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:189][102]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:197][103]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:197][103]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:206][104]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:207][104]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:214][105]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:214][105]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:222][106]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:222][106]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:231][107]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:231][107]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:239][108]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:239][108]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:248][109]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:249][109]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:256][110]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:256][110]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:265][111]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:265][111]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:274][112]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:274][112]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:282][113]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:282][113]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:291][114]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:291][114]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:301][115]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:301][115]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:310][116]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:310][116]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:318][117]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:318][117]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:326][118]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:326][118]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:334][119]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:334][119]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:344][120]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:344][120]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:353][121]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:353][121]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:362][122]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:362][122]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:370][123]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:370][123]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:385][124]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:385][124]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:394][125]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:394][125]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:402][126]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:402][126]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:412][127]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:412][127]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:421][128]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:421][128]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:433][129]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:433][129]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:442][130]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:443][130]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:451][131]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:451][131]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:459][132]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:459][132]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:468][133]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:468][133]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:477][134]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:477][134]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:485][135]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:485][135]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:494][136]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:494][136]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:503][137]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:503][137]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:511][138]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:511][138]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:520][139]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:520][139]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:530][140]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:530][140]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:538][141]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:539][141]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:548][142]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:548][142]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:556][143]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:556][143]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:566][144]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:566][144]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:575][145]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:575][145]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:582][146]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:582][146]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:591][147]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:591][147]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:600][148]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:600][148]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:621][149]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:621][149]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:630][150]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:630][150]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:638][151]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:639][151]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:648][152]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:648][152]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:656][153]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:656][153]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:664][154]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:664][154]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:673][155]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:673][155]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:681][156]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:681][156]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:692][157]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:692][157]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:700][158]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:700][158]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:708][159]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:708][159]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:716][160]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:716][160]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:725][161]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:725][161]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:739][162]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:739][162]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:752][163]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:752][163]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:760][164]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:760][164]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:769][165]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:769][165]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:778][166]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:779][166]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:788][167]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:788][167]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:798][168]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:798][168]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:806][169]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:807][169]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:816][170]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:816][170]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:825][171]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:825][171]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:833][172]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:833][172]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:841][173]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:841][173]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:850][174]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:850][174]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:858][175]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:858][175]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:867][176]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:867][176]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:876][177]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:876][177]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:885][178]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:885][178]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:894][179]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:894][179]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:902][180]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:902][180]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:910][181]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:910][181]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:918][182]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:918][182]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:927][183]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:927][183]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:935][184]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:935][184]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:945][185]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:945][185]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:956][186]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:956][186]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:963][187]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:963][187]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:974][188]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:974][188]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:988][189]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:988][189]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:999][190]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.29:999][190]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:007][191]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:007][191]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:015][192]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:015][192]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:024][193]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:024][193]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:033][194]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:033][194]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:042][195]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:042][195]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:052][196]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:052][196]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:061][197]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:061][197]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:069][198]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:069][198]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:077][199]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:077][199]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:085][200]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:085][200]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:094][201]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:094][201]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:103][202]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:103][202]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:112][203]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:112][203]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:127][204]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:127][204]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:136][205]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:136][205]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:143][206]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:143][206]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:153][207]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:153][207]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:166][208]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:166][208]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:175][209]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:175][209]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:185][210]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:185][210]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:197][211]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:197][211]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:205][212]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:205][212]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:213][213]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:213][213]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:221][214]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:221][214]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:230][215]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:230][215]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:239][216]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:239][216]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:247][217]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:247][217]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:255][218]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:255][218]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:264][219]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:264][219]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:272][220]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:272][220]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:282][221]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:282][221]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:290][222]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:291][222]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:299][223]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:299][223]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:307][224]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:307][224]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:315][225]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:315][225]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:323][226]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:323][226]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:332][227]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:332][227]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:341][228]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:341][228]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:351][229]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:351][229]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:360][230]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:360][230]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:368][231]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:368][231]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:378][232]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:378][232]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.27-10.22.30:384][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-10.22.30:385][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-10.22.30:445][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-10.22.30:446][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-10.22.30:479][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-10.22.30:525][234]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.05.27-10.22.31:241][299]LogShaderCompilers: Display: Shaders left to compile 686
+[2019.05.27-10.22.32:009][383]LogShaderCompilers: Display: Shaders left to compile 676
+[2019.05.27-10.22.33:116][499]LogShaderCompilers: Display: Shaders left to compile 666
+[2019.05.27-10.22.35:900][786]LogShaderCompilers: Display: Shaders left to compile 656
+[2019.05.27-10.22.37:144][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-10.22.37:223][922]LogShaderCompilers: Display: Shaders left to compile 646
+[2019.05.27-10.22.38:321][ 36]LogShaderCompilers: Display: Shaders left to compile 636
+[2019.05.27-10.22.41:113][325]LogShaderCompilers: Display: Shaders left to compile 626
+[2019.05.27-10.22.42:592][455]LogShaderCompilers: Display: Shaders left to compile 616
+[2019.05.27-10.22.43:859][531]LogShaderCompilers: Display: Shaders left to compile 606
+[2019.05.27-10.22.46:053][662]LogShaderCompilers: Display: Shaders left to compile 596
+[2019.05.27-10.22.46:136][667]LogShaderCompilers: Display: Shaders left to compile 586
+[2019.05.27-10.22.48:224][780]LogShaderCompilers: Display: Shaders left to compile 576
+[2019.05.27-10.22.50:100][873]LogShaderCompilers: Display: Shaders left to compile 566
+[2019.05.27-10.22.51:256][947]LogShaderCompilers: Display: Shaders left to compile 556
+[2019.05.27-10.22.52:812][ 46]LogShaderCompilers: Display: Shaders left to compile 546
+[2019.05.27-10.22.53:100][ 64]LogShaderCompilers: Display: Shaders left to compile 536
+[2019.05.27-10.22.55:064][185]LogShaderCompilers: Display: Shaders left to compile 526
+[2019.05.27-10.22.55:848][234]LogShaderCompilers: Display: Shaders left to compile 516
+[2019.05.27-10.22.57:236][324]LogShaderCompilers: Display: Shaders left to compile 506
+[2019.05.27-10.22.58:047][373]LogShaderCompilers: Display: Shaders left to compile 496
+[2019.05.27-10.23.00:145][504]LogShaderCompilers: Display: Shaders left to compile 486
+[2019.05.27-10.23.01:238][567]LogShaderCompilers: Display: Shaders left to compile 476
+[2019.05.27-10.23.01:746][595]LogShaderCompilers: Display: Shaders left to compile 466
+[2019.05.27-10.23.05:000][768]LogShaderCompilers: Display: Shaders left to compile 456
+[2019.05.27-10.23.05:828][813]LogShaderCompilers: Display: Shaders left to compile 446
+[2019.05.27-10.23.07:117][887]LogShaderCompilers: Display: Shaders left to compile 436
+[2019.05.27-10.23.09:075][996]LogShaderCompilers: Display: Shaders left to compile 426
+[2019.05.27-10.23.10:421][ 56]LogShaderCompilers: Display: Shaders left to compile 416
+[2019.05.27-10.23.11:111][ 81]LogShaderCompilers: Display: Shaders left to compile 406
+[2019.05.27-10.23.13:038][178]LogShaderCompilers: Display: Shaders left to compile 396
+[2019.05.27-10.23.13:356][194]LogShaderCompilers: Display: Shaders left to compile 386
+[2019.05.27-10.23.15:744][336]LogShaderCompilers: Display: Shaders left to compile 376
+[2019.05.27-10.23.16:580][406]LogShaderCompilers: Display: Shaders left to compile 366
+[2019.05.27-10.23.19:415][634]LogShaderCompilers: Display: Shaders left to compile 356
+[2019.05.27-10.23.20:077][701]LogShaderCompilers: Display: Shaders left to compile 346
+[2019.05.27-10.23.23:191][ 28]LogShaderCompilers: Display: Shaders left to compile 336
+[2019.05.27-10.23.23:808][ 95]LogShaderCompilers: Display: Shaders left to compile 326
+[2019.05.27-10.23.26:767][407]LogShaderCompilers: Display: Shaders left to compile 316
+[2019.05.27-10.23.27:251][458]LogShaderCompilers: Display: Shaders left to compile 306
+[2019.05.27-10.23.30:454][795]LogShaderCompilers: Display: Shaders left to compile 296
+[2019.05.27-10.23.31:028][857]LogShaderCompilers: Display: Shaders left to compile 286
+[2019.05.27-10.23.33:286][ 73]LogShaderCompilers: Display: Shaders left to compile 276
+[2019.05.27-10.23.33:319][ 75]LogShaderCompilers: Display: Shaders left to compile 266
+[2019.05.27-10.23.37:575][338]LogShaderCompilers: Display: Shaders left to compile 256
+[2019.05.27-10.23.50:678][227]LogShaderCompilers: Display: Shaders left to compile 246
+[2019.05.27-10.23.53:456][423]LogShaderCompilers: Display: Shaders left to compile 236
+[2019.05.27-10.24.00:204][903]LogShaderCompilers: Display: Shaders left to compile 226
+[2019.05.27-10.24.08:396][354]LogShaderCompilers: Display: Shaders left to compile 216
+[2019.05.27-10.24.10:423][475]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.05.27-10.24.24:818][389]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.27-10.24.24:818][389]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.27-10.24.24:818][389]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.27-10.24.24:818][389]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.27-10.24.24:842][390]LogTemp: Warning: Enroll Attack Montage
+[2019.05.27-10.24.24:842][390]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.27-10.24.24:843][390]LostDark: Error: UGSCharacterStatComponent::SetNewLevel(54) ASSERTION : 'nullptr != LDGameInstance'
+[2019.05.27-10.24.26:209][499]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.05.27-10.24.28:533][729]LogAssetEditorManager: Opening Asset editor for Class /Script/LostDark.BackupCharacter
+[2019.05.27-10.24.39:860][879]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.05.27-10.24.39:861][879]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.05.27-10.24.39:861][879]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.05.27-10.24.39:861][879]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.05.27-10.24.39:861][879]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.05.27-10.24.39:861][879]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.05.27-10.24.39:876][880]LogAssetEditorManager: Opening Asset editor for Class /Script/LostDark.BackupGameModeBase
+[2019.05.27-10.24.42:504][980]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.05.27-10.24.42:597][985]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.05.27-10.24.46:943][100]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.05.27-10.24.47:519][129]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.05.27-10.24.49:781][256]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.05.27-10.24.50:522][303]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.05.27-10.24.51:884][400]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.05.27-10.24.52:599][454]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.05.27-10.24.54:404][576]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.05.27-10.24.55:114][626]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.05.27-10.24.57:102][758]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.05.27-10.24.57:295][772]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.05.27-10.24.59:152][902]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.05.27-10.25.32:482][422]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2019.05.27-10.25.32:842][422]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.05.27-10.25.46:883][877]BlueprintLog: New page: ThirdPersonGameMode 컴파일
+[2019.05.27-10.25.47:432][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2019.05.27-10.25.47:444][909]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/ThirdPersonGameMode846A60AF41502907CAA73C8229376357.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.25.47:444][909]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset', retrying in .5s...
+[2019.05.27-10.25.47:946][909]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'.
+[2019.05.27-10.25.47:946][909]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.25.52:184][909]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.25.52:189][909]EditorErrors: New page: 출력 저장
+[2019.05.27-10.25.52:189][909]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset' 저장 오류입니다.
+[2019.05.27-10.25.54:061][127]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2019.05.27-10.26.00:423][607]Cmd: TRANSACTION UNDO
+[2019.05.27-10.26.00:424][607]LogEditorTransaction: Undo Default Pawn Class 편집
+[2019.05.27-10.26.01:023][655]Cmd: TRANSACTION UNDO
+[2019.05.27-10.26.01:024][655]LogEditorTransaction: Undo 노드 추가
+[2019.05.27-10.26.07:886][228]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.27-10.26.08:478][284]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2019.05.27-10.26.10:019][435]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.27-10.26.14:780][926]BlueprintLog: New page: ThirdPersonGameMode 컴파일
+[2019.05.27-10.26.14:783][926]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_5, Actor: /Engine/Transient.World_5:PersistentLevel.REINST_ThirdPersonGameMode_C_0
+[2019.05.27-10.26.15:010][926]BlueprintLog: New page: ThirdPersonGameMode 컴파일
+[2019.05.27-10.26.15:012][926]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_5, Actor: /Engine/Transient.World_5:PersistentLevel.REINST_ThirdPersonGameMode_C_0
+[2019.05.27-10.26.15:491][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2019.05.27-10.26.15:499][934]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/ThirdPersonGameMode267ED4254B311C84EA3B53880AF1FF76.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.26.15:500][934]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset', retrying in .5s...
+[2019.05.27-10.26.16:000][934]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'.
+[2019.05.27-10.26.16:000][934]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.26.26:932][934]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.26.26:938][934]EditorErrors: New page: 출력 저장
+[2019.05.27-10.26.26:939][934]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset' 저장 오류입니다.
+[2019.05.27-10.26.27:708][ 13]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2019.05.27-10.26.27:714][ 13]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2019.05.27-10.26.49:596][455]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.27-10.26.49:681][457]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
+[2019.05.27-10.26.49:681][457]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.27-10.26.49:681][457]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.27-10.26.49:681][457]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.27-10.26.49:681][457]LogTemp: BranchPath = DESKTOP-7NEMS3A/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-7NEMS3A/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.27-10.26.49:702][459]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\SungHoon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.27-10.26.53:855][924]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.27-10.27.02:654][861]LogSlate: Took 0.001224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.05.27-10.27.02:657][861]LogSlate: Took 0.001605 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.05.27-10.27.02:658][861]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.05.27-10.27.17:063][281]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.27-10.27.17:067][281]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.27-10.27.20:627][674]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2019.05.27-10.27.29:144][616]BlueprintLog: New page: ThirdPersonGameMode 컴파일
+[2019.05.27-10.27.29:146][616]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_5, Actor: /Engine/Transient.World_5:PersistentLevel.REINST_ThirdPersonGameMode_C_0
+[2019.05.27-10.27.29:801][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2019.05.27-10.27.29:809][661]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/ThirdPersonGameMode0AEC5457483A01E63C021087BAF33222.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.29:809][661]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset', retrying in .5s...
+[2019.05.27-10.27.30:309][661]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'.
+[2019.05.27-10.27.30:309][661]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.31:566][661]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.27.31:571][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2019.05.27-10.27.31:582][661]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/ThirdPersonGameMode35ABDACD413B6862F05BB4BE974C7B8C.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.31:583][661]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset', retrying in .5s...
+[2019.05.27-10.27.32:083][661]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'.
+[2019.05.27-10.27.32:083][661]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.35:963][661]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.27.35:972][661]EditorErrors: New page: 출력 저장
+[2019.05.27-10.27.35:972][661]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset' 저장 오류입니다.
+[2019.05.27-10.27.35:972][661]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset' 저장 오류입니다.
+[2019.05.27-10.27.36:595][730]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.27-10.27.45:245][614]BlueprintLog: New page: ThirdPersonGameMode 컴파일
+[2019.05.27-10.27.45:247][614]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_5, Actor: /Engine/Transient.World_5:PersistentLevel.REINST_ThirdPersonGameMode_C_0
+[2019.05.27-10.27.45:730][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2019.05.27-10.27.45:737][639]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/ThirdPersonGameMode50519733473D8268E4FBD3955B31D23A.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.45:737][639]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset', retrying in .5s...
+[2019.05.27-10.27.46:238][639]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'.
+[2019.05.27-10.27.46:238][639]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.56:128][639]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.27.56:133][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonCPP/Blueprints/ThirdPersonGameMode" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2019.05.27-10.27.56:144][639]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/ThirdPersonGameModeA85A961C4D42632CD6F8EE8505DCB407.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.56:145][639]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset', retrying in .5s...
+[2019.05.27-10.27.56:646][639]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'.
+[2019.05.27-10.27.56:646][639]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset'
+[2019.05.27-10.27.57:102][639]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.27.57:110][639]EditorErrors: New page: 출력 저장
+[2019.05.27-10.27.57:110][639]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset' 저장 오류입니다.
+[2019.05.27-10.27.57:111][639]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/ThirdPersonCPP/Blueprints/ThirdPersonGameMode.uasset' 저장 오류입니다.
+[2019.05.27-10.27.59:022][850]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2019.05.27-10.28.26:728][499]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.27-10.28.26:816][503]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
+[2019.05.27-10.28.26:816][503]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.27-10.28.26:816][503]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.27-10.28.26:826][504]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.27-10.28.26:826][504]LogTemp: BranchPath = DESKTOP-7NEMS3A/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-7NEMS3A/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.27-10.28.26:850][506]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\SungHoon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.27-10.28.47:549][932]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (50.428 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.27-10.28.56:224][972]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.27-10.28.56:228][972]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.27-10.29.54:145][310]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.27-10.29.56:912][594]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.27-10.29.56:915][594]LogAssetEditorManager: Opening Asset editor for World /Game/DefaultLevel/DefaultLevel.DefaultLevel
+[2019.05.27-10.30.01:615][594]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.27-10.30.01:620][594]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.27-10.30.01:621][594]LightingResults: New page: 라이팅 빌드
+[2019.05.27-10.30.01:622][594]LoadErrors: New page: 맵 로드중: DefaultLevel.umap
+[2019.05.27-10.30.01:642][594]MapCheck: New page: 맵 체크
+[2019.05.27-10.30.01:642][594]LightingResults: New page: 라이팅 빌드
+[2019.05.27-10.30.01:756][594]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.27-10.30.01:796][594]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.27-10.30.01:796][594]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.074ms.
+[2019.05.27-10.30.01:797][594]LogFileHelpers: Loading map 'DefaultLevel' took 0.177
+[2019.05.27-10.30.03:676][812]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.27-10.30.13:919][509]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.27-10.30.13:937][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultLevel/DefaultLevel" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.27-10.30.14:174][509]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/DefaultLevelD6620676406426BE154843930FDCAAF6.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap'
+[2019.05.27-10.30.14:174][509]LogFileManager: Warning: DeleteFile was unable to delete 'B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap', retrying in .5s...
+[2019.05.27-10.30.14:675][509]LogFileManager: Error: Error deleting file 'B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap'.
+[2019.05.27-10.30.14:675][509]LogSavePackage: Error: Error saving 'B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap'
+[2019.05.27-10.30.14:694][509]EditorErrors: New page: 출력 저장
+[2019.05.27-10.30.14:694][509]EditorErrors: Warning: 'B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap' 저장 오류입니다.
+[2019.05.27-10.30.14:704][509]LogFileHelpers: Saving map 'DefaultLevel' took 0.768
+[2019.05.27-10.30.16:258][509]LogSlate: Window '메시지' being destroyed
+[2019.05.27-10.30.18:633][619]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.27-10.30.18:699][619]LogSlate: Window 'LostDark - 언리얼 에디터' being destroyed
+[2019.05.27-10.30.18:860][620]Cmd: QUIT_EDITOR
+[2019.05.27-10.30.19:617][620]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.05.27-10.30.19:646][620]LogExit: Preparing to exit.
+[2019.05.27-10.30.20:196][620]LogExit: Editor shut down
+[2019.05.27-10.30.20:197][620]LogExit: Transaction tracking system shut down
+[2019.05.27-10.30.20:528][620]LogExit: Object subsystem successfully closed.
+[2019.05.27-10.30.20:542][620]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.27-10.30.20:548][620]LogD3D11RHI: Shutdown
+[2019.05.27-10.30.20:548][620]LogD3D11RHI: CleanupD3DDevice
+[2019.05.27-10.30.20:555][620]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (636)
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module BlueprintGraph (634)
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (632)
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module Voice (630)
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (628)
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module SceneOutliner (626)
+[2019.05.27-10.30.20:581][620]LogModuleManager: Shutting down and abandoning module AddContentDialog (624)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module WidgetCarousel (623)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module EditorWidgets (620)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module CollectionManager (618)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module StatsViewer (616)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module FoliageEdit (614)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module LandscapeEditor (612)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module MeshPaintMode (610)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (608)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module ActorPickerMode (606)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module GeometryMode (604)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module TextureAlignMode (602)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module BspMode (600)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (598)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (596)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module AutomationWorker (594)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (592)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (590)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (588)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module PlacementMode (587)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module MaterialEditor (586)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (582)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (580)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (578)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (576)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module WebMMedia (574)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (572)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (570)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module SequenceRecorder (569)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (566)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (564)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (562)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (560)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (558)
+[2019.05.27-10.30.20:582][620]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (556)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (554)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (552)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (550)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (548)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module CharacterAI (546)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module SmartSnapping (544)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module SessionServices (542)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module ViewportSnapping (540)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module ViewportInteraction (538)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module ClothPainter (536)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (535)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module LogVisualizer (532)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module IntroTutorials (530)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (529)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (526)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (524)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (522)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (520)
+[2019.05.27-10.30.20:583][620]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (519)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (516)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (514)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (512)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (510)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (508)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module InputBindingEditor (506)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module MergeActors (504)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (502)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module LocalizationService (501)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module HardwareTargeting (498)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (496)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module UndoHistory (494)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module XmlParser (492)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module Blutility (490)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (488)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (487)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (484)
+[2019.05.27-10.30.20:985][620]LogModuleManager: Shutting down and abandoning module SettingsEditor (482)
+[2019.05.27-10.30.20:986][620]LogModuleManager: Shutting down and abandoning module ProjectLauncher (480)
+[2019.05.27-10.30.20:986][620]LogModuleManager: Shutting down and abandoning module SessionFrontend (478)
+[2019.05.27-10.30.20:986][620]LogModuleManager: Shutting down and abandoning module ProfilerClient (476)
+[2019.05.27-10.30.20:986][620]LogModuleManager: Shutting down and abandoning module DeviceManager (474)
+[2019.05.27-10.30.20:986][620]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (473)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module AutomationController (470)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module AutomationWindow (468)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module Layers (466)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (464)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module DetailCustomizations (462)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module PackagesDialog (460)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module Persona (458)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (457)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module AnimGraph (455)
+[2019.05.27-10.30.21:040][620]LogModuleManager: Shutting down and abandoning module Kismet (452)
+[2019.05.27-10.30.21:046][620]LogModuleManager: Shutting down and abandoning module GraphEditor (450)
+[2019.05.27-10.30.21:046][620]LogModuleManager: Shutting down and abandoning module ClassViewer (448)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module Toolbox (446)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module DesktopPlatform (445)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module ModuleUI (442)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module MovieSceneTools (440)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module OutputLog (438)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module GammaUI (436)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module Documentation (434)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (432)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module MovieScene (430)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (428)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module LauncherPlatform (426)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module AnalyticsET (424)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module PortalServices (422)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module PortalRpc (420)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module MessagingRpc (418)
+[2019.05.27-10.30.21:047][620]LogModuleManager: Shutting down and abandoning module AIModule (416)
+[2019.05.27-10.30.21:048][620]LogModuleManager: Shutting down and abandoning module GameplayDebugger (415)
+[2019.05.27-10.30.21:048][620]LogModuleManager: Shutting down and abandoning module AITestSuite (413)
+[2019.05.27-10.30.21:048][620]LogModuleManager: Shutting down and abandoning module NavigationSystem (411)
+[2019.05.27-10.30.21:048][620]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (408)
+[2019.05.27-10.30.21:051][620]LogModuleManager: Shutting down and abandoning module ProfilerService (406)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module TaskGraph (404)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module SteamVRController (402)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (400)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (398)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2019.05.27-10.30.21:087][620]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2019.05.27-10.30.21:088][620]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2019.05.27-10.30.21:088][620]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module HTML5Networking (370)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (368)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (366)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module BackChannel (364)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module AppleVision (362)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (360)
+[2019.05.27-10.30.21:097][620]LogModuleManager: Shutting down and abandoning module AppleImageUtils (358)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module AlembicImporter (356)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module AlembicLibrary (355)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module VariantManagerContent (348)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (344)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module PluginBrowser (342)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (340)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module PolygonModeling (338)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module MeshEditor (336)
+[2019.05.27-10.30.21:098][620]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (334)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module CryptoKeys (332)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (330)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (328)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module UObjectPlugin (326)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (324)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (322)
+[2019.05.27-10.30.21:099][620]LogModuleManager: Shutting down and abandoning module GitSourceControl (320)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module SourceControl (319)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (316)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (314)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (312)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.05.27-10.30.21:100][620]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module LostDark (300)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module LostDarkSetting (298)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (296)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (294)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module PhysXVehicles (292)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module OculusEditor (290)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.05.27-10.30.21:101][620]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.05.27-10.30.21:202][620]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module ParticleText (280)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.27-10.30.21:303][620]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.27-10.30.21:304][620]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.05.27-10.30.21:305][620]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.05.27-10.30.21:306][620]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.05.27-10.30.21:312][620]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.05.27-10.30.21:314][620]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.05.27-10.30.21:317][620]LogDerivedDataCache: Shutdown
+[2019.05.27-10.30.21:317][620]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.05.27-10.30.21:317][620]LogXGEController: Cleaning working directory: C:/Users/SungHoon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.27-10.30.21:317][620]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.05.27-10.30.21:318][620]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.05.27-10.30.21:319][620]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.05.27-10.30.21:323][620]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.05.27-10.30.21:323][620]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.05.27-10.30.21:323][620]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.05.27-10.30.21:323][620]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.05.27-10.30.21:323][620]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.05.27-10.30.21:323][620]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.05.27-10.30.21:324][620]LogHMD: Freeing OpenVRDLLHandle.
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.05.27-10.30.21:324][620]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.05.27-10.30.21:351][620]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.05.27-10.30.21:351][620]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.27-10.30.21:351][620]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD9D2EFF8-41A7-28B7-4295-33A9C7C80DD1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=a7910a0a459dcf999178bda3297db843%7C056bbaa48a0c4a2499636d86401143e9%7C76807667-412f-4270-bafa-576c186ca2d8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.27-10.30.21:358][620]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.05.27-10.30.21:359][620]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.05.27-10.30.21:359][620]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.05.27-10.30.21:359][620]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.05.27-10.30.21:359][620]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.05.27-10.30.21:359][620]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.05.27-10.30.21:359][620]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.05.27-10.30.21:360][620]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.27-10.30.21:360][620]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.27-10.30.21:362][620]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.27-10.30.21:366][620]LogExit: Exiting.
+[2019.05.27-10.30.21:378][620]Log file closed, 05/27/19 19:30:21
