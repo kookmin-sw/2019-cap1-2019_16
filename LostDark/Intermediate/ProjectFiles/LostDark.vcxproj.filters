@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\LostDark.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{95AE6CE2-AC94-48C9-9416-9661A0EEB71E}</UniqueIdentifier>
+      <UniqueIdentifier>{DDCE0FC0-1A2F-46B5-AD31-5619BDA2C74C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDark.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CCB5F233-52CF-48BA-8F15-1F3EE2B02792}</UniqueIdentifier>
+      <UniqueIdentifier>{2F7AF334-1470-435B-B47C-8FFCE2F8C904}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\LostDark">
-      <UniqueIdentifier>{E31364A0-CE75-494A-B29D-257D45CFA4A6}</UniqueIdentifier>
+      <UniqueIdentifier>{889E695E-E247-41CD-A040-33BE81B6DE65}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\BackupCharacter.cpp">
       <Filter>Source\LostDark</Filter>
@@ -51,7 +51,7 @@
       <Filter>Source\LostDark</Filter>
     </None>
     <Filter Include="Source\LostDark\Private">
-      <UniqueIdentifier>{A01F6055-55B3-4FAE-B4C4-328788897A28}</UniqueIdentifier>
+      <UniqueIdentifier>{D176D917-DAC7-4974-85F6-2100A76CEA01}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDark\Private\BTDecorator_IsInAttackRanget.cpp">
       <Filter>Source\LostDark\Private</Filter>
@@ -129,7 +129,7 @@
       <Filter>Source\LostDark\Private</Filter>
     </ClCompile>
     <Filter Include="Source\LostDark\Public">
-      <UniqueIdentifier>{FFA79731-78C5-421C-B479-41791A7DE625}</UniqueIdentifier>
+      <UniqueIdentifier>{D95D89AD-7116-4CFA-9D12-CE3F60924D29}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\LostDark\Public\BTDecorator_IsInAttackRanget.h">
       <Filter>Source\LostDark\Public</Filter>
@@ -207,13 +207,13 @@
       <Filter>Source\LostDark\Public</Filter>
     </ClInclude>
     <Filter Include="Source\LostDarkSetting">
-      <UniqueIdentifier>{280C757D-2B17-48F2-86CF-B5065DAEFD45}</UniqueIdentifier>
+      <UniqueIdentifier>{FB849D55-365B-4D5F-90C0-3F0223B3449A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\LostDarkSetting\LostDarkSetting.Build.cs">
       <Filter>Source\LostDarkSetting</Filter>
     </None>
     <Filter Include="Source\LostDarkSetting\Private">
-      <UniqueIdentifier>{15E66B3C-D166-4775-9767-8C54EDF473E4}</UniqueIdentifier>
+      <UniqueIdentifier>{94573F73-968A-4466-8499-070B0610B2D4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\LostDarkSetting\Private\LDCharacterSetting.cpp">
       <Filter>Source\LostDarkSetting\Private</Filter>
@@ -222,7 +222,7 @@
       <Filter>Source\LostDarkSetting\Private</Filter>
     </ClCompile>
     <Filter Include="Source\LostDarkSetting\Public">
-      <UniqueIdentifier>{DC8634E7-0591-4C82-9D76-7C55C25A59A6}</UniqueIdentifier>
+      <UniqueIdentifier>{4874CDA1-5CE8-47F9-805A-093EACD2B9D6}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\LostDarkSetting\Public\LDCharacterSetting.h">
       <Filter>Source\LostDarkSetting\Public</Filter>

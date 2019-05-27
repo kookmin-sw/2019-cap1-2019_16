@@ -189,11 +189,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine
-/Yc"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine
+/Yc"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

@@ -1,86 +1,19 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Capstone_Git).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
   Creating makefile for LostDarkEditor (no existing makefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for LostDarkEditor
-    Running UnrealHeaderTool "E:\Capstone_Git\LostDark\LostDark.uproject" "E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LostDarkEditor in 12.1085967 seconds
-  Deleting old hot reload file: "E:\Capstone_Git\LostDark\Binaries\Win64\UE4Editor-LostDark-166.dll".
-  Deleting old hot reload file: "E:\Capstone_Git\LostDark\Binaries\Win64\UE4Editor-LostDark-2120.dll".
-  Deleting old hot reload file: "E:\Capstone_Git\LostDark\Binaries\Win64\UE4Editor-LostDark-2120.pdb".
-  Deleting old hot reload file: "E:\Capstone_Git\LostDark\Binaries\Win64\UE4Editor-LostDark-4505.dll".
-  Building 66 actions with 12 processes...
-    [1/66] PCLaunch.rc
-    [2/66] PCLaunch.rc
-    [3/66] SharedPCH.Engine.cpp
-    [4/66] LostDarkSetting.cpp
-    [5/66] LDCharacterSetting.cpp
-    [6/66] LDCharacterSetting.gen.cpp
-    [7/66] GSAnimInstance.gen.cpp
-    [8/66] GSCharacterStatComponent.gen.cpp
-    [9/66] GSWeapon.gen.cpp
-    [10/66] LDGameState.gen.cpp
-    [11/66] LDGameInstance.gen.cpp
-    [12/66] LDAIController.gen.cpp
-    [13/66] LDSaveGame.gen.cpp
-    [14/66] GSCharacterWidget.gen.cpp
-    [15/66] LDCharacterSelectWidget.gen.cpp
-    [16/66] LDGamePlayResultWidget.gen.cpp
-    [17/66] LostDark.init.gen.cpp
-    [18/66] LDGamePlayWidget.gen.cpp
-    [19/66] BTTask_TurnToTarget.gen.cpp
-    [20/66] LDPlayerState.gen.cpp
-    [21/66] LostDark.gen.cpp
-    [22/66] BackupGameModeBase.gen.cpp
-    [23/66] LostDarkGameMode.gen.cpp
-    [24/66] LDUIPlayerController.gen.cpp
-    [25/66] LostDarkPlayerController.gen.cpp
-    [26/66] SH_ItemBox.gen.cpp
-    [27/66] LostDarkCharacter.gen.cpp
-    [28/66] SectionTest.gen.cpp
-    [29/66] BackupGameModeBase.cpp
-    [30/66] BTTask_FindPatrolPos.gen.cpp
-    [31/66] BackupCharacter.cpp
-    [32/66] LDHUDWidget.gen.cpp
-    [33/66] BTService_Detect.gen.cpp
-    [34/66] BTTask_Attack.gen.cpp
-    [35/66] GSAnimInstance.cpp
-    [36/66] GSWeapon.cpp
-    [37/66] GSCharacterStatComponent.cpp
-    [38/66] BTTask_Attack.cpp
-    [39/66] BTDecorator_IsInAttackRanget.cpp
-    [40/66] LDGameInstance.cpp
-    [41/66] GSCharacterWidget.cpp
-    [42/66] BTService_Detect.cpp
-    [43/66] BTTask_TurnToTarget.cpp
-    [44/66] BTTask_FindPatrolPos.cpp
-    [45/66] BTDecorator_IsInAttackRanget.gen.cpp
-    [46/66] LDAIController.cpp
-    [47/66] LDGameState.cpp
-    [48/66] BackupCharacter.gen.cpp
-    [49/66] LDSaveGame.cpp
-    [50/66] LDGamePlayWidget.cpp
-    [51/66] LostDark.cpp
-    [52/66] LostDarkSetting.init.gen.cpp
-    [53/66] LDPlayerState.cpp
-    [54/66] UE4Editor-LostDarkSetting.lib
-       E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.lib 라이브러리 및 E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.exp 개체를 생성하고 있습니다.
-    [55/66] LDCharacterSelectWidget.cpp
-    [56/66] LDHUDWidget.cpp
-    [57/66] LostDarkGameMode.cpp
-    [58/66] LDUIPlayerController.cpp
-    [59/66] UE4Editor-LostDarkSetting.dll
-       E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.lib 라이브러리 및 E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.exp 개체를 생성하고 있습니다.
-    [60/66] SH_ItemBox.cpp
-    [61/66] LDGamePlayResultWidget.cpp
-    [62/66] LostDarkCharacter.cpp
-    [63/66] SectionTest.cpp
-    [64/66] LostDarkPlayerController.cpp
-    [65/66] UE4Editor-LostDark.lib
-       E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
-    [66/66] UE4Editor-LostDark.dll
-       E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
+  Building 9 actions with 6 processes...
+    [1/9] PCLaunch.rc
+    [2/9] UE4Editor-LostDark.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
+    [3/9] LostDarkSetting.init.gen.cpp
+    [4/9] LostDarkSetting.cpp
+    [5/9] LDCharacterSetting.cpp
+    [6/9] LDCharacterSetting.gen.cpp
+    [7/9] UE4Editor-LostDarkSetting.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.exp 개체를 생성하고 있습니다.
+    [8/9] UE4Editor-LostDarkSetting.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.exp 개체를 생성하고 있습니다.
+    [9/9] UE4Editor-LostDark.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
   Deploying LostDarkEditor Win64 Development...
-UnrealBuildTool : error : Failed to write dependency cache: 'B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor' 경로의 일부를 찾을 수 없습니다.
-UnrealBuildTool : error : Failed to write FlatCPPIncludeDependencyCache: 'B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor' 경로의 일부를 찾을 수 없습니다.
-  Total build time: 147.23 seconds (Parallel executor: 92.09 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.21\Engine\Build\BatchFiles\Build.bat" LostDarkEditor Win64 Development "E:\Capstone_Git\LostDark\LostDark.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -1).
+  Total build time: 125.09 seconds (Parallel executor: 120.14 seconds)
