@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "LostDark/SH/LDAIController.h"
+#include "LostDark/Public/LDAIController.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -52,20 +52,20 @@ void EmptyLinkFunctionForGeneratedCodeLDAIController() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALDAIController_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "SH/LDAIController.h" },
-		{ "ModuleRelativePath", "SH/LDAIController.h" },
+		{ "IncludePath", "LDAIController.h" },
+		{ "ModuleRelativePath", "Public/LDAIController.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALDAIController_Statics::NewProp_BBAsset_MetaData[] = {
-		{ "ModuleRelativePath", "SH/LDAIController.h" },
+		{ "ModuleRelativePath", "Public/LDAIController.h" },
 		{ "ToolTip", "???????? ?\xd6\xbc? ????" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALDAIController_Statics::NewProp_BBAsset = { UE4CodeGen_Private::EPropertyClass::Object, "BBAsset", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000000, 1, nullptr, STRUCT_OFFSET(ALDAIController, BBAsset), Z_Construct_UClass_UBlackboardData_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALDAIController_Statics::NewProp_BBAsset_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALDAIController_Statics::NewProp_BBAsset_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALDAIController_Statics::NewProp_BTAsset_MetaData[] = {
-		{ "ModuleRelativePath", "SH/LDAIController.h" },
+		{ "ModuleRelativePath", "Public/LDAIController.h" },
 		{ "ToolTip", "?????\xcc\xba??? \xc6\xae?? ?\xd6\xbc? ????" },
 	};
 #endif
@@ -97,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeLDAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALDAIController, 3973008770);
+	IMPLEMENT_CLASS(ALDAIController, 150845511);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALDAIController(Z_Construct_UClass_ALDAIController, &ALDAIController::StaticClass, TEXT("/Script/LostDark"), TEXT("ALDAIController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALDAIController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

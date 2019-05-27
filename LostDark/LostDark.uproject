@@ -5,14 +5,30 @@
 	"Description": "",
 	"Modules": [
 		{
+			"Name": "LostDarkSetting",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject"
+			]
+		},
+		{
 			"Name": "LostDark",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
 				"UMG",
-				"AIModule"
+				"AIModule",
+				"LostDarkSetting"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ParticleText",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0c2d7c278eb645d5b8c3be41e2bc859e"
 		}
 	]
 }

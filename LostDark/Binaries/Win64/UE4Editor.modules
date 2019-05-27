@@ -2,6 +2,7 @@
 	"BuildId": "4541578",
 	"Modules": 
 	{
-		"LostDark": "UE4Editor-LostDark-1946.dll"
+		"LostDark": "UE4Editor-LostDark.dll",
+		"LostDarkSetting": "UE4Editor-LostDarkSetting.dll"
 	}
 }
