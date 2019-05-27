@@ -1,19 +1,77 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
-  Creating makefile for LostDarkEditor (no existing makefile)
+  Creating makefile for hot reloading LostDarkEditor (game project files are newer)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 6 processes...
-    [1/9] PCLaunch.rc
-    [2/9] UE4Editor-LostDark.lib
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
-    [3/9] LostDarkSetting.init.gen.cpp
-    [4/9] LostDarkSetting.cpp
-    [5/9] LDCharacterSetting.cpp
-    [6/9] LDCharacterSetting.gen.cpp
-    [7/9] UE4Editor-LostDarkSetting.lib
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.exp 개체를 생성하고 있습니다.
-    [8/9] UE4Editor-LostDarkSetting.dll
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.exp 개체를 생성하고 있습니다.
-    [9/9] UE4Editor-LostDark.dll
-       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
+  Parsing headers for LostDarkEditor
+    Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LostDarkEditor in 9.2729168 seconds
+  Building 63 actions with 6 processes...
+    [1/63] LostDarkSetting.cpp
+    [2/63] LostDarkSetting.init.gen.cpp
+    [3/63] LDCharacterSetting.cpp
+    [4/63] LDCharacterSetting.gen.cpp
+    [5/63] LDGameInstance.gen.cpp
+    [6/63] GSCharacterStatComponent.gen.cpp
+    [7/63] LDAIController.gen.cpp
+    [8/63] LDGamePlayResultWidget.gen.cpp
+    [9/63] GSCharacterWidget.gen.cpp
+    [10/63] LDCharacterSelectWidget.gen.cpp
+    [11/63] GSAnimInstance.gen.cpp
+    [12/63] LDGamePlayWidget.gen.cpp
+    [13/63] LDGameState.gen.cpp
+    [14/63] GSWeapon.gen.cpp
+    [15/63] LDSaveGame.gen.cpp
+    [16/63] LostDark.init.gen.cpp
+    [17/63] LDPlayerState.gen.cpp
+    [18/63] BTTask_TurnToTarget.gen.cpp
+    [19/63] BTTask_FindPatrolPos.gen.cpp
+    [20/63] LDUIPlayerController.gen.cpp
+    [21/63] LostDarkCharacter.gen.cpp
+    [22/63] LostDarkGameMode.gen.cpp
+    [23/63] LostDarkPlayerController.gen.cpp
+    [24/63] SectionTest.gen.cpp
+    [25/63] BackupGameModeBase.gen.cpp
+    [26/63] SH_ItemBox.gen.cpp
+    [27/63] LostDark.gen.cpp
+    [28/63] BackupGameModeBase.cpp
+    [29/63] LDHUDWidget.gen.cpp
+    [30/63] BackupCharacter.cpp
+    [31/63] BTTask_Attack.gen.cpp
+    [32/63] BTService_Detect.gen.cpp
+    [33/63] GSAnimInstance.cpp
+    [34/63] BTTask_Attack.cpp
+    [35/63] GSCharacterStatComponent.cpp
+    [36/63] BTDecorator_IsInAttackRanget.cpp
+    [37/63] BTTask_TurnToTarget.cpp
+    [38/63] BTService_Detect.cpp
+    [39/63] BTTask_FindPatrolPos.cpp
+    [40/63] GSWeapon.cpp
+    [41/63] LDGameInstance.cpp
+    [42/63] BTDecorator_IsInAttackRanget.gen.cpp
+    [43/63] GSCharacterWidget.cpp
+    [44/63] LDGameState.cpp
+    [45/63] LDAIController.cpp
+    [46/63] LDGamePlayWidget.cpp
+    [47/63] LDCharacterSelectWidget.cpp
+    [48/63] LDPlayerState.cpp
+    [49/63] LDHUDWidget.cpp
+    [50/63] LDSaveGame.cpp
+    [51/63] BackupCharacter.gen.cpp
+    [52/63] LostDarkGameMode.cpp
+    [53/63] LostDark.cpp
+    [54/63] LDUIPlayerController.cpp
+    [55/63] UE4Editor-LostDarkSetting-2688.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting-2688.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting-2688.suppressed.exp 개체를 생성하고 있습니다.
+    [56/63] UE4Editor-LostDarkSetting-2688.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting-2688.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting-2688.exp 개체를 생성하고 있습니다.
+    [57/63] LDGamePlayResultWidget.cpp
+    [58/63] SH_ItemBox.cpp
+    [59/63] LostDarkCharacter.cpp
+    [60/63] LostDarkPlayerController.cpp
+    [61/63] SectionTest.cpp
+    [62/63] UE4Editor-LostDark-392.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-392.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-392.exp 개체를 생성하고 있습니다.
+    [63/63] UE4Editor-LostDark-392.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-392.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-392.suppressed.exp 개체를 생성하고 있습니다.
   Deploying LostDarkEditor Win64 Development...
-  Total build time: 125.09 seconds (Parallel executor: 120.14 seconds)
+  Total build time: 239.61 seconds (Parallel executor: 225.48 seconds)
