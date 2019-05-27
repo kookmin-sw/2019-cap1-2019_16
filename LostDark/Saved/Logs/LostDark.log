@@ -10096,3 +10096,584 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.27-16.05.00:433][176]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
 [2019.05.27-16.05.15:087][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.05.27-16.05.28:249][445]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (28.364 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.05.27-17.25.14:994][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-17.27.16:568][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-17.27.17:818][632]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 D:\Down\Non Copyrighted Epic Music  Ice and Snow (Royalty Free Music).wmv)
+[2019.05.27-17.28.03:641][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JG/Sound/Epic_snowandice" FILE="E:/LD/LostDark/Content/JG/Sound/Epic_snowandice.uasset" SILENT=true
+[2019.05.27-17.28.03:665][374]LogSavePackage: Moving 'E:/LD/LostDark/Saved/Epic_snowandice27739011463010DB2876C784BAD85186.tmp' to 'E:/LD/LostDark/Content/JG/Sound/Epic_snowandice.uasset'
+[2019.05.27-17.28.06:033][374]LogLinker: Warning: '/Game/JG/Sound/Non_Copyrighted_Epic_Music__Ice_and_Snow__Royalty_Free_Music_' 파일을 찾을 수 없습니다.
+[2019.05.27-17.28.06:036][374]LogLinker: Warning: '/Game/JG/Sound/Non_Copyrighted_Epic_Music__Ice_and_Snow__Royalty_Free_Music_' 파일을 찾을 수 없습니다.
+[2019.05.27-17.28.06:036][374]LogUObjectGlobals: Warning: 'Object /Game/JG/Sound/Non_Copyrighted_Epic_Music__Ice_and_Snow__Royalty_Free_Music_.Non_Copyrighted_Epic_Music__Ice_and_Snow__Royalty_Free_Music_' 오브젝트를 찾는 데 실패했습니다.
+[2019.05.27-17.28.33:276][  9]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/JG/Sound/Start_Music.Start_Music
+[2019.05.27-17.28.33:559][  9]LogSlate: Took 0.010692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.27-17.28.55:759][289]LogSlate: Window 'Delete Assets' being destroyed
+[2019.05.27-17.30.30:782][425]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:\Down\Non Copyrighted Epic Music  Ice and Snow (Royalty Free Music).wav)
+[2019.05.27-17.30.40:089][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JG/Sound/Epic_iceandsnow" FILE="E:/LD/LostDark/Content/JG/Sound/Epic_iceandsnow.uasset" SILENT=true
+[2019.05.27-17.30.40:154][783]LogSavePackage: Moving 'E:/LD/LostDark/Saved/Epic_iceandsnow86160CCB4452709FA07B5C9935305C7D.tmp' to 'E:/LD/LostDark/Content/JG/Sound/Epic_iceandsnow.uasset'
+[2019.05.27-17.30.56:176][503]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Epic_iceandsnow 웨이브 빌드중...
+[2019.05.27-17.31.00:873][503]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 24985600 while cooking SoundWave /Game/JG/Sound/Epic_iceandsnow.Epic_iceandsnow.
+[2019.05.27-17.33.33:871][930]LogSlate: Window 'Start_Music*' being destroyed
+[2019.05.27-17.33.33:880][930]LogSlate: Window 'Start_Music*' being destroyed
+[2019.05.27-17.35.25:928][763]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Elemental' took 0.089
+[2019.05.27-17.35.25:950][763]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/JG/Sound/Start_Music] ([1] browsable assets)...
+[2019.05.27-17.35.25:950][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/JG/Sound/Start_Music]
+[2019.05.27-17.35.25:950][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JG/Sound/Start_Music" FILE="E:/LD/LostDark/Saved/Autosaves/Game/JG/Sound/Start_Music_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.05.27-17.35.25:975][763]LogSavePackage: Moving 'E:/LD/LostDark/Saved/Start_Music_Auto35EAEBD264025991B0649729BED091788.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/JG/Sound/Start_Music_Auto3.uasset'
+[2019.05.27-17.35.25:976][763]LogFileHelpers: Auto-saving content packages took 0.046
+[2019.05.27-17.39.55:050][558]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-17.40.00:091][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-18.00.11:218][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.00.21:973][979]LogEditorViewport: Clicking on Actor (LMB): Emitter (Emitter)
+[2019.05.27-18.00.40:394][652]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.06.23:938][126]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.06.39:028][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.06.50:288][779]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.06.55:394][960]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.07.04:534][135]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.07.07:300][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.07.31:195][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.07.45:762][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.07.50:792][ 32]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.27-18.07.50:929][ 33]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
+[2019.05.27-18.07.50:929][ 33]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.27-18.07.50:929][ 33]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.27-18.07.50:929][ 33]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.27-18.07.50:929][ 33]LogTemp: BranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-6TE68PK/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.27-18.07.51:018][ 35]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Gyun\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.27-18.07.55:301][173]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.05.27-18.08.30:393][653]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.27-18.08.30:407][653]LogSlate: Window '프로젝트 세팅' being destroyed
+[2019.05.27-18.09.16:081][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.10.34:960][242]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.27-18.10.35:013][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.10.35:013][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.10.35:014][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.10.35:014][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.10.35:014][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.10.35:016][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.10.35:020][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.10.35:020][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-18.10.35:030][242]PIE: New page: PIE 세션: Elemental (2019. 5. 28. 오후 12:10:35)
+[2019.05.27-18.10.35:036][242]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.27-18.10.35:975][242]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'Elemental' to remove this warning.
+[2019.05.27-18.10.36:324][242]LogPlayLevel: PIE: StaticDuplicateObject took: (1.286568s)
+[2019.05.27-18.10.36:366][242]LogAIModule: Creating AISystem for world Elemental
+[2019.05.27-18.10.36:367][242]LogPlayLevel: PIE: World Init took: (0.043646s)
+[2019.05.27-18.10.36:370][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (1.333298s)
+[2019.05.27-18.10.36:530][242]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-18.10.36:585][242]LogInit: FAudioDevice initialized.
+[2019.05.27-18.10.36:598][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-18.10.38:713][242]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.27-18.10.39:366][242]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.28-03.10.39
+[2019.05.27-18.10.39:417][242]LogWorld: Bringing up level for play took: 0.690254
+[2019.05.27-18.10.39:462][242]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 3.623
+[2019.05.27-18.10.39:463][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.10.39:463][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.10.39:463][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.10.39:463][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.10.39:463][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.10.39:463][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.10.39:464][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.10.46:631][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.10.46:631][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.10.46:631][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.10.46:631][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.10.46:631][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.10.46:631][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.10.46:632][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.10.46:634][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-18.10.46:675][561]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.27-18.10.46:855][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-18.10.46:856][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.10.46:857][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.10.46:857][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.10.46:857][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.10.46:857][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.10.46:857][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.10.46:857][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.10.47:097][562]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2019.05.27-18.10.51:258][907]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.27-18.10.51:302][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.10.51:302][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.10.51:302][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.10.51:302][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.10.51:302][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.10.51:302][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.10.51:303][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.10.51:303][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-18.10.51:303][907]PIE: New page: PIE 세션: Elemental (2019. 5. 28. 오후 12:10:51)
+[2019.05.27-18.10.51:305][907]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.27-18.10.51:676][907]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'Elemental' to remove this warning.
+[2019.05.27-18.10.51:727][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.421738s)
+[2019.05.27-18.10.51:728][907]LogAIModule: Creating AISystem for world Elemental
+[2019.05.27-18.10.51:728][907]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2019.05.27-18.10.51:729][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.423973s)
+[2019.05.27-18.10.51:857][907]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-18.10.51:891][907]LogInit: FAudioDevice initialized.
+[2019.05.27-18.10.51:902][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-18.10.53:058][907]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.27-18.10.53:444][907]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.28-03.10.53
+[2019.05.27-18.10.53:480][907]LogWorld: Bringing up level for play took: 0.413880
+[2019.05.27-18.10.53:501][907]LogScript: Warning: Script Msg: Divide by zero detected: -12.812592 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2019.05.27-18.10.53:520][907]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 1.682
+[2019.05.27-18.10.53:521][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.10.53:522][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.10.53:522][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.10.53:522][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.10.53:522][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.10.53:522][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.10.53:522][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.10.56:037][935]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.27-18.12.34:846][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.12.34:846][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.12.34:846][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.12.34:847][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.12.34:847][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.12.34:847][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.12.34:847][606]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.12.34:849][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-18.12.34:902][606]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.27-18.12.35:088][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.12.35:089][606]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.12.35:286][607]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2019.05.27-18.13.00:489][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Elemental" FILE="E:/LD/LostDark/Saved/Autosaves/Game/Maps/Elemental_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.05.27-18.13.07:089][706]LogSavePackage: Moving 'E:/LD/LostDark/Saved/Elemental_Auto4DEFA531049AAFD9ABA25A3BDC50127DC.tmp' to 'E:/LD/LostDark/Saved/Autosaves/Game/Maps/Elemental_Auto4.umap'
+[2019.05.27-18.13.07:110][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Elemental' took 6.675
+[2019.05.27-18.13.07:110][706]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.675
+[2019.05.27-18.13.26:102][765]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.05.27-18.13.43:721][263]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.13.59:881][613]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume62)
+[2019.05.27-18.14.03:229][753]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.27-18.14.03:980][783]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume64)
+[2019.05.27-18.14.06:053][869]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.05.27-18.14.06:158][869]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.14.07:195][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StaticMeshActor7)
+[2019.05.27-18.14.09:989][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-18.14.20:096][580]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume62)
+[2019.05.27-18.14.20:689][598]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume63)
+[2019.05.27-18.14.36:182][252]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SingleAnimSkeletalActor17)
+[2019.05.27-18.14.36:616][263]Cmd: DELETE
+[2019.05.27-18.14.36:616][263]Cmd: ACTOR DELETE
+[2019.05.27-18.14.37:443][263]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.05.27-18.14.37:547][263]LogEditorActor: Deleted 1 Actors (0.907 secs)
+[2019.05.27-18.14.38:509][298]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SingleAnimSkeletalActor15)
+[2019.05.27-18.14.43:347][469]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.27-18.14.44:093][491]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SingleAnimSkeletalActor26)
+[2019.05.27-18.14.51:081][753]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SingleAnimSkeletalActor25)
+[2019.05.27-18.14.54:886][874]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.27-18.15.12:188][437]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.15.18:637][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-18.15.38:561][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-18.15.47:726][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.16.00:116][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.16.13:234][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.16.17:030][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.16.27:045][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-18.17.24:740][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.27-18.17.24:850][405]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.27-18.17.24:880][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.17.24:880][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.17.24:880][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.17.24:880][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.17.24:880][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.17.24:880][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.17.24:881][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.17.24:881][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.27-18.17.24:881][405]PIE: New page: PIE 세션: Elemental (2019. 5. 28. 오후 12:17:24)
+[2019.05.27-18.17.24:882][405]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.27-18.17.25:209][405]LogBrush: Model_0 had invalid poly normals which have been fixed. Resave the level 'Elemental' to remove this warning.
+[2019.05.27-18.17.25:256][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.373878s)
+[2019.05.27-18.17.25:257][405]LogAIModule: Creating AISystem for world Elemental
+[2019.05.27-18.17.25:257][405]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2019.05.27-18.17.25:258][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.375701s)
+[2019.05.27-18.17.25:397][405]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.27-18.17.25:443][405]LogInit: FAudioDevice initialized.
+[2019.05.27-18.17.25:451][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-18.17.26:550][405]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.05.27-18.17.26:939][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.28-03.17.26
+[2019.05.27-18.17.26:973][405]LogWorld: Bringing up level for play took: 0.413053
+[2019.05.27-18.17.26:988][405]LogScript: Warning: Script Msg: Divide by zero detected: -12.812592 / 0
+Script call stack:
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGreystone/Characters/Heroes/Greystone/Greystone_AnimBlueprint.Greystone_AnimBlueprint_C:ExecuteUbergraph_Greystone_AnimBlueprint
+
+[2019.05.27-18.17.26:997][405]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 1.159
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.17.26:998][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.17.29:246][474]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.27-18.17.31:391][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.27-18.18.06:040][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.18.06:040][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.18.06:041][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.18.06:041][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.18.06:041][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.18.06:041][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.18.06:041][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.18.06:042][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.27-18.18.06:075][907]LogSlate: Window 'LostDark 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.27-18.18.06:307][907]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.27-18.18.06:308][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.27-18.18.06:467][908]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2019.05.27-18.18.11:457][950]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.27-18.18.11:474][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JG/Sound/Start_Music" FILE="E:/LD/LostDark/Content/JG/Sound/Start_Music.uasset" SILENT=true
+[2019.05.27-18.18.11:486][950]LogSavePackage: Moving 'E:/LD/LostDark/Saved/Start_Music7317B16A4912CF052293D39CF30EF5D3.tmp' to 'E:/LD/LostDark/Content/JG/Sound/Start_Music.uasset'
+[2019.05.27-18.18.11:498][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Elemental" FILE="E:/LD/LostDark/Content/Maps/Elemental.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.27-18.18.17:435][950]LogSavePackage: Moving 'E:/LD/LostDark/Saved/ElementalD5C5A1944346C754C1EDFF86E5DED5AA.tmp' to 'E:/LD/LostDark/Content/Maps/Elemental.umap'
+[2019.05.27-18.18.17:491][950]LogFileHelpers: Saving map 'Elemental' took 5.995
+[2019.05.27-18.18.17:496][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Landscape" FILE="E:/LD/LostDark/Content/Maps/Landscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.27-18.18.19:208][950]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: Landscape, Actor: /Game/Maps/Landscape.Landscape:PersistentLevel.REINST_Landscape_C_0
+[2019.05.27-18.18.20:728][950]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 512X512)
+[2019.05.27-18.18.20:765][950]LogTexture: Display: 텍스처 빌드: Texture2D_21 (BGRA8, 512X512)
+[2019.05.27-18.18.24:873][950]LogSavePackage: Moving 'E:/LD/LostDark/Saved/Landscape1CB8EC6346E098A1422437829CA548AB.tmp' to 'E:/LD/LostDark/Content/Maps/Landscape.umap'
+[2019.05.27-18.18.24:892][950]LogFileHelpers: Saving map 'Landscape' took 7.396
+[2019.05.27-18.18.28:526][965]LogSlate: Window 'LostDark - 언리얼 에디터' being destroyed
+[2019.05.27-18.18.28:537][965]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2019.05.27-18.18.29:417][966]Cmd: QUIT_EDITOR
+[2019.05.27-18.18.30:338][966]LogExit: Preparing to exit.
+[2019.05.27-18.18.34:705][966]LogExit: Editor shut down
+[2019.05.27-18.18.34:720][966]LogExit: Transaction tracking system shut down
+[2019.05.27-18.18.41:200][966]LogExit: Object subsystem successfully closed.
+[2019.05.27-18.18.43:042][966]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.05.27-18.18.43:344][966]LogD3D11RHI: Shutdown
+[2019.05.27-18.18.43:344][966]LogD3D11RHI: CleanupD3DDevice
+[2019.05.27-18.18.43:898][966]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.05.27-18.18.44:112][966]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (632)
+[2019.05.27-18.18.44:112][966]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (630)
+[2019.05.27-18.18.44:112][966]LogModuleManager: Shutting down and abandoning module Voice (628)
+[2019.05.27-18.18.44:113][966]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (626)
+[2019.05.27-18.18.44:113][966]LogModuleManager: Shutting down and abandoning module SceneOutliner (624)
+[2019.05.27-18.18.44:114][966]LogModuleManager: Shutting down and abandoning module WorldBrowser (622)
+[2019.05.27-18.18.44:116][966]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.05.27-18.18.44:156][966]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.05.27-18.18.44:156][966]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.05.27-18.18.44:156][966]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.05.27-18.18.44:158][966]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.05.27-18.18.44:161][966]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.05.27-18.18.44:162][966]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.05.27-18.18.44:163][966]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.05.27-18.18.44:163][966]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.05.27-18.18.44:163][966]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.05.27-18.18.44:163][966]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.05.27-18.18.44:164][966]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.05.27-18.18.44:164][966]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.05.27-18.18.44:164][966]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.05.27-18.18.44:165][966]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.05.27-18.18.44:166][966]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.05.27-18.18.44:167][966]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.05.27-18.18.44:167][966]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.05.27-18.18.44:167][966]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.05.27-18.18.44:172][966]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.05.27-18.18.44:763][966]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.05.27-18.18.44:768][966]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.05.27-18.18.44:768][966]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.05.27-18.18.44:768][966]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.05.27-18.18.44:768][966]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.05.27-18.18.44:768][966]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.05.27-18.18.44:769][966]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.05.27-18.18.44:771][966]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.05.27-18.18.44:775][966]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.05.27-18.18.44:776][966]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.05.27-18.18.44:777][966]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.05.27-18.18.44:777][966]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.05.27-18.18.44:777][966]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.05.27-18.18.44:781][966]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.05.27-18.18.44:782][966]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.05.27-18.18.44:792][966]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.05.27-18.18.44:820][966]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.05.27-18.18.44:822][966]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.05.27-18.18.44:822][966]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.05.27-18.18.44:822][966]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.05.27-18.18.44:822][966]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.05.27-18.18.44:822][966]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.05.27-18.18.45:590][966]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.05.27-18.18.45:590][966]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.05.27-18.18.45:590][966]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.05.27-18.18.45:590][966]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.05.27-18.18.45:590][966]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.05.27-18.18.45:591][966]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.05.27-18.18.45:591][966]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.05.27-18.18.45:593][966]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.05.27-18.18.45:595][966]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.05.27-18.18.45:595][966]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.05.27-18.18.45:595][966]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.05.27-18.18.45:596][966]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.05.27-18.18.45:596][966]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.05.27-18.18.45:597][966]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.05.27-18.18.45:597][966]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.05.27-18.18.45:597][966]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.05.27-18.18.45:600][966]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.05.27-18.18.45:601][966]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.05.27-18.18.45:601][966]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.05.27-18.18.45:603][966]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.05.27-18.18.45:603][966]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.05.27-18.18.45:604][966]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.05.27-18.18.45:605][966]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.05.27-18.18.45:676][966]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.05.27-18.18.45:678][966]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.05.27-18.18.45:678][966]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.05.27-18.18.45:681][966]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.05.27-18.18.45:682][966]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.05.27-18.18.45:683][966]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.05.27-18.18.45:683][966]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.05.27-18.18.45:686][966]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.05.27-18.18.45:687][966]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.05.27-18.18.45:687][966]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.05.27-18.18.45:694][966]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.05.27-18.18.45:696][966]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.05.27-18.18.45:698][966]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.05.27-18.18.45:699][966]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.05.27-18.18.45:700][966]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.05.27-18.18.45:700][966]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.05.27-18.18.45:701][966]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.05.27-18.18.45:702][966]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.05.27-18.18.45:702][966]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.05.27-18.18.45:708][966]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.05.27-18.18.45:708][966]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.05.27-18.18.45:709][966]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.05.27-18.18.45:710][966]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.05.27-18.18.45:710][966]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.05.27-18.18.45:710][966]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.05.27-18.18.45:710][966]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.05.27-18.18.45:710][966]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.05.27-18.18.45:710][966]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.05.27-18.18.45:712][966]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.05.27-18.18.45:712][966]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.05.27-18.18.45:712][966]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.05.27-18.18.45:712][966]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.05.27-18.18.45:723][966]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.05.27-18.18.45:862][966]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.05.27-18.18.45:863][966]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.05.27-18.18.45:863][966]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.05.27-18.18.45:864][966]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.05.27-18.18.45:864][966]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.05.27-18.18.45:864][966]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.05.27-18.18.45:864][966]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.05.27-18.18.45:865][966]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.05.27-18.18.45:865][966]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.05.27-18.18.45:866][966]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.05.27-18.18.45:866][966]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.05.27-18.18.45:866][966]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.05.27-18.18.45:866][966]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.05.27-18.18.45:866][966]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.05.27-18.18.45:868][966]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.05.27-18.18.45:868][966]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.05.27-18.18.45:868][966]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.05.27-18.18.45:877][966]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.05.27-18.18.45:877][966]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.05.27-18.18.45:877][966]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.05.27-18.18.45:877][966]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.05.27-18.18.45:878][966]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.05.27-18.18.45:879][966]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.05.27-18.18.45:879][966]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.05.27-18.18.45:882][966]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.05.27-18.18.45:883][966]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.05.27-18.18.45:883][966]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.05.27-18.18.45:884][966]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.05.27-18.18.45:884][966]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.05.27-18.18.45:885][966]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.05.27-18.18.45:885][966]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.05.27-18.18.45:886][966]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.05.27-18.18.45:886][966]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.05.27-18.18.45:887][966]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.05.27-18.18.45:890][966]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.05.27-18.18.45:892][966]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.05.27-18.18.45:893][966]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.05.27-18.18.45:894][966]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.05.27-18.18.45:894][966]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.05.27-18.18.45:894][966]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.05.27-18.18.45:895][966]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.05.27-18.18.45:895][966]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.05.27-18.18.45:895][966]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.05.27-18.18.45:898][966]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.05.27-18.18.45:899][966]LogModuleManager: Shutting down and abandoning module LostDark (296)
+[2019.05.27-18.18.45:899][966]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.05.27-18.18.45:899][966]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.05.27-18.18.45:899][966]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.05.27-18.18.45:899][966]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.05.27-18.18.45:901][966]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.05.27-18.18.45:901][966]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.05.27-18.18.45:901][966]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.05.27-18.18.46:002][966]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.05.27-18.18.46:103][966]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.05.27-18.18.46:103][966]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.05.27-18.18.46:103][966]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.05.27-18.18.46:104][966]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.05.27-18.18.46:104][966]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.05.27-18.18.46:104][966]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.05.27-18.18.46:106][966]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.05.27-18.18.46:119][966]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.05.27-18.18.46:120][966]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.05.27-18.18.46:127][966]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.05.27-18.18.46:128][966]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.05.27-18.18.46:131][966]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.05.27-18.18.46:151][966]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.05.27-18.18.46:152][966]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.05.27-18.18.46:152][966]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.05.27-18.18.46:152][966]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.05.27-18.18.46:153][966]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.05.27-18.18.46:154][966]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.05.27-18.18.46:155][966]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.05.27-18.18.46:160][966]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.05.27-18.18.46:167][966]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.05.27-18.18.46:168][966]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.05.27-18.18.46:169][966]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.05.27-18.18.46:169][966]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.05.27-18.18.46:170][966]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.05.27-18.18.46:170][966]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.05.27-18.18.46:170][966]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.05.27-18.18.46:171][966]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.05.27-18.18.46:172][966]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.05.27-18.18.46:172][966]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.05.27-18.18.46:174][966]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.05.27-18.18.46:174][966]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.05.27-18.18.46:176][966]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.05.27-18.18.46:179][966]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.05.27-18.18.46:180][966]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.05.27-18.18.46:181][966]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.05.27-18.18.46:185][966]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.05.27-18.18.46:186][966]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.05.27-18.18.46:189][966]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.05.27-18.18.46:189][966]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.05.27-18.18.46:209][966]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.05.27-18.18.46:209][966]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.05.27-18.18.46:210][966]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.05.27-18.18.46:210][966]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.05.27-18.18.46:210][966]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.05.27-18.18.46:210][966]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.05.27-18.18.46:211][966]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.05.27-18.18.46:211][966]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.05.27-18.18.46:211][966]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.05.27-18.18.46:212][966]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.05.27-18.18.46:214][966]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.05.27-18.18.46:214][966]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.05.27-18.18.46:215][966]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.05.27-18.18.46:220][966]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.05.27-18.18.46:221][966]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.05.27-18.18.46:221][966]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.05.27-18.18.46:222][966]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.05.27-18.18.46:229][966]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.05.27-18.18.46:269][966]LogDerivedDataCache: Shutdown
+[2019.05.27-18.18.46:269][966]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.05.27-18.18.46:270][966]LogXGEController: Cleaning working directory: C:/Users/Gyun/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.27-18.18.46:272][966]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.05.27-18.18.46:274][966]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.05.27-18.18.46:275][966]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.05.27-18.18.46:276][966]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.05.27-18.18.46:278][966]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.05.27-18.18.46:278][966]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.05.27-18.18.46:279][966]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.05.27-18.18.46:279][966]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.05.27-18.18.46:280][966]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.05.27-18.18.46:280][966]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.05.27-18.18.46:282][966]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.05.27-18.18.46:282][966]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.05.27-18.18.46:282][966]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.05.27-18.18.46:282][966]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.05.27-18.18.46:282][966]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.05.27-18.18.46:283][966]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.05.27-18.18.46:283][966]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.05.27-18.18.46:334][966]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.05.27-18.18.46:334][966]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.05.27-18.18.46:335][966]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.05.27-18.18.46:335][966]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.05.27-18.18.46:336][966]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.05.27-18.18.46:346][966]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.05.27-18.18.46:346][966]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.05.27-18.18.46:355][966]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.05.27-18.18.46:356][966]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.05.27-18.18.46:476][966]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.05.27-18.18.46:476][966]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.05.27-18.18.46:477][966]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.05.27-18.18.46:477][966]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.05.27-18.18.46:477][966]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.05.27-18.18.46:477][966]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.05.27-18.18.46:478][966]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.05.27-18.18.46:478][966]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.05.27-18.18.46:478][966]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.05.27-18.18.46:478][966]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.05.27-18.18.46:478][966]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.05.27-18.18.46:479][966]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.05.27-18.18.46:479][966]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.05.27-18.18.46:479][966]LogHMD: Freeing OpenVRDLLHandle.
+[2019.05.27-18.18.46:479][966]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.05.27-18.18.46:480][966]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.05.27-18.18.46:480][966]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.05.27-18.18.46:480][966]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.05.27-18.18.46:480][966]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.05.27-18.18.46:484][966]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.05.27-18.18.46:487][966]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.05.27-18.18.46:507][966]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.05.27-18.18.46:507][966]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.05.27-18.18.46:507][966]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCB31CCCD-462B-1559-3C72-549A664FC921%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2dd62e794bb60d011c0437bc5fedd3f6%7C16131dcc48094270861cb057c293c0f1%7C61cfa3aa-2517-4813-baa9-e1d171afcfee&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.05.27-18.18.46:536][966]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.05.27-18.18.46:551][966]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.05.27-18.18.46:552][966]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.05.27-18.18.46:552][966]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.05.27-18.18.46:552][966]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.05.27-18.18.46:552][966]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.05.27-18.18.46:556][966]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.05.27-18.18.46:556][966]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.05.27-18.18.46:558][966]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.05.27-18.18.46:558][966]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.05.27-18.18.46:561][966]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.05.27-18.18.46:561][966]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.05.27-18.18.46:562][966]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.05.27-18.18.46:564][966]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.05.27-18.18.46:565][966]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.05.27-18.18.46:565][966]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.05.27-18.18.46:565][966]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.05.27-18.18.46:566][966]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.05.27-18.18.46:588][966]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.05.27-18.18.46:588][966]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.05.27-18.18.46:588][966]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.05.27-18.18.46:589][966]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.05.27-18.18.46:589][966]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.05.27-18.18.46:589][966]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.05.27-18.18.46:589][966]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.05.27-18.18.46:590][966]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.05.27-18.18.46:591][966]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.05.27-18.18.46:591][966]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.05.27-18.18.46:591][966]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.05.27-18.18.46:600][966]LogExit: Exiting.
+[2019.05.27-18.18.46:637][966]Log file closed, 05/28/19 03:18:46
