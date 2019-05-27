@@ -933,7 +933,9 @@ void ALostDarkCharacter::SetControlMode(EControlMode NewControlMode)
 		// ProbeChannel, ProbeSize를 사용하여 충돌체크, 카메라 클리핑이 일어나는것을 방지한다. (카메라와 플레이어 사이에 다른 물체가 간섭하면, 캐릭터로 줌인함)
 		CameraBoom->bDoCollisionTest = true;
 		// 좌우 회전 막음. true인 경우, Pawn의 Yaw가 플레이어 컨트롤러의 Yaw에 매칭되도록 함. (마우스 회전-> 플레이어 컨트롤러 -> 폰의 회전값 변경했음)
+		bUseControllerRotationPitch = false; // 추가
 		bUseControllerRotationYaw = false;
+		bUseControllerRotationRoll = false; // 추가
 		// 캐릭터가 움직이는 방향으로 캐릭터를 자동으로 회전시켜주는 CharacterMovement 함수임.
 		GetCharacterMovement()->bOrientRotationToMovement = true;
 		//
@@ -990,8 +992,12 @@ void ALostDarkCharacter::MoveForward(float Value)
 	switch (CurrentControlMode)
 	{
 	case ALostDarkCharacter::EControlMode::BackView:
-		// 컨트롤 회전 값으로부터 회전행렬을 만들고, 원하는 방향 축을 대입해 캐릭터가 움직이는 방향으로 이동하게 한다.
-		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), Value);
+		if (Controller != NULL)
+		{
+			// 컨트롤 회전 값으로부터 회전행렬을 만들고, 원하는 방향 축을 대입해 캐릭터가 움직이는 방향으로 이동하게 한다.
+			const FRotator YawRotation(0, GetControlRotation().Yaw, 0);
+			AddMovementInput(FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X), Value);
+		}
 		break;
 	case ALostDarkCharacter::EControlMode::QuaterView:
 		DirectionToMove.X = Value;
