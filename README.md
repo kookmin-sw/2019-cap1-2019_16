@@ -1,7 +1,7 @@
 # 2019 소프트웨어 융합대학 캡스톤 디자인Ⅰ 16조 Surreal
 ![team](./Docs/img/TeamLogo_resize.png)
-# LOST DARK
-![game](./Docs/img/GameLogo_resize.png)
+# REVISION
+![game](./Docs/img/REVISION.png)
 
 
 ### 팀페이지 주소 -> https://kookmin-sw.github.io/2019-cap1-2019_16/
@@ -28,26 +28,22 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 ### 김성훈(팀장)
 * 학번 : 20133203
 * Email : 610ksh@kookmin.ac.kr
-* 역할 : Camera Moving, Character Attack & Animation 적용
-* 예정 : Character Attack & skill 구현, Map Level Design
+* 역할 : Camera Moving, Character Attack & Animation 적용, Character Attack & skill 구현, Map Level Design
 
 ### 김종균
 * 학번 : 20103319
 * Email : kimzoo30@naver.com
-* 역할 : Character Dodge & Animation 적용, Scene 전환 및 카메라 연출
-* 예정 : Map Level Design, Camera 연출
+* 역할 : Character Dodge & Animation 적용, Scene 전환 및 카메라 연출, Map Level Design, Camera 연출, Game UI
 
 ### 송영륜
 * 학번 : 20143070
 * Email : songyr01@kookmin.ac.kr
-* 역할 : Enemy AI 개발 및 Animation 적용, Enemy 종류별 제작
-* 예정 : Boss Monster AI & skill 구현, Enemy Attack 구현
+* 역할 : Enemy AI 개발 및 Animation 적용, Enemy 종류별 제작, Enemy Attack 구현, Boss Monster AI 개발, Boss skill 제작
 
 ### 장윤지
 * 학번 : 20153222
 * Email : engineering11111@gmail.com
-* 역할 : Camera Moving 및 시점 변환, Text UI, NPC 상호작용
-* 예정 : Quest 제작, 다양한 NPC 구현
+* 역할 : Camera Moving 및 시점 변환, Text UI, NPC 상호작용, Quest System 제작, Game UI, Mini Map
 
 ### 갈경달
 * 학번 : 20155277
@@ -57,15 +53,14 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 
 ## 5. 사용법
 
-1. 계정 생성 및 로그인
+1. 플레이어 이름 입력
 2. 게임 접속 및 시작
 3. 튜토리얼
 4. 퀘스트를 따라 진행
 5. 분기 선택
 6. 보스몬스터와 전투
-7. 엔딩 - 엔딩은 스토리상 절정에 해당하는 부분으로, 플레이어의 선택에 따라 최종 엔딩이 달라짐
+7. 엔딩 - 스토리를 진행하면서 선택하는 분기에 따라 최종 엔딩이 달라짐
 
-향후 프로젝트가 진행됨에 따라 추가할 예정입니다.
 
 ## 6. 개발 현황
 
@@ -78,5 +73,7 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 #### 2) 게임 시스템
 - 몬스터가 플레이어를 발견하면 추적, 공격
 - 몬스터가 공격받고 데미지를 받아 HP 0이 되면 사망
-- NPC에게 접근해 마우스 좌클릭 시 NPC와 대화
+- NPC를 마우스 좌클릭 시 NPC와 대화
 - 맵과 맵을 이동 시, Fade in/out 효과와 함께 Scene 전환
+- Mini Map을 통해 현재 위치를 파악
+- 직관적인 UI
