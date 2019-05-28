@@ -24,7 +24,7 @@
 /wd4838
 /we4668
 /I .
-/I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkSetting\Private
+/I E:\LD\LostDark\Source\LostDarkSetting\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -65,10 +65,10 @@
 /I Runtime\Core\Public\Traits
 /I Runtime\Core\Public\UObject
 /I Runtime\Core\Public\Windows
-/I B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDarkSetting
-/I B:\Develope\Sourcetree\LostDark\LostDark\Source
-/I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkSetting\Public
-/I B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkSetting
+/I E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Inc\LostDarkSetting
+/I E:\LD\LostDark\Source
+/I E:\LD\LostDark\Source\LostDarkSetting\Public
+/I E:\LD\LostDark\Source\LostDarkSetting
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
@@ -417,18 +417,17 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkSetting\Private\LostDarkSetting.cpp"
-/FI"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\Definitions.LostDarkSetting.h"
-/Fo"B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\LostDarkSetting.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"E:\LD\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"E:\LD\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\LD\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\LD\LostDark\Source\LostDarkSetting\Private\LostDarkSetting.cpp"
+/FI"E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\Definitions.LostDarkSetting.h"
+/Fo"E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\LostDarkSetting.cpp.obj"
 /TP
 /GR-
 /W4
