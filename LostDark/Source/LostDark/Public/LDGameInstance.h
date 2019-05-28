@@ -52,7 +52,7 @@ public:
 	ULDGameInstance();
 
 	virtual void Init() override;
-	// 캐릭터 데이터 테이블에서 정보를 가져오는 함수. 해당 테이블 행의 정보를 가져옴. Level에 따른 모든 정보 접근 가능
+	// 캐릭터 데이터 테이블에서 정보를 가져오는 함수. 해당 테이블 행의 모든 정보를 가져옴. Level에 따른 모든 정보 접근 가능
 	FGSCharacterData* GetGSCharacterData(int32 Level);
 
 	// 비동기 방식으로 애셋을 로딩하는 클래스

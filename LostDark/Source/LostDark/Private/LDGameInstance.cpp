@@ -2,9 +2,10 @@
 
 #include "LDGameInstance.h"
 
+// 에디터가 켜지면 자동 실행
 ULDGameInstance::ULDGameInstance()
 {
-	// 데이터 테이블 레퍼런스를 변수에 넣어줌. 일종의 string 변수 만든거임
+	// 액셀 데이터를 바인딩함. // 데이터 테이블 레퍼런스를 변수에 넣어줌. 일종의 string 변수 만든거임
 	FString CharacterDataPath = TEXT("/Game/SH/GameData/LostDarkCharacterData.LostDarkCharacterData");
 	// 가져온 정보로 사용할 변수를 실제로 만듦
 	static ConstructorHelpers::FObjectFinder<UDataTable> DT_GSCHARACTER(*CharacterDataPath);
@@ -16,6 +17,7 @@ ULDGameInstance::ULDGameInstance()
 	//ABCHECK(GSCharacterTable->RowMap.Num()>0);
 }
 
+// 게임이 시작되면 최초로 시작되는 함수. 즉, 이미 데이터 테이블이 완성되고 들어와진 상태임. 접근 가능.
 void ULDGameInstance::Init()
 {
 	Super::Init();
@@ -23,7 +25,7 @@ void ULDGameInstance::Init()
 	//ABLOG(Warning,TEXT("DropExp of Level 20 GSCharacter : %d"), GetGSCharacterData(20)->DropExp);
 }
 
-// 실제 스탯 데이터가 저장된 구조체를 반환해주는 함수.
+// 캐릭터 레벨에 따른 실제 스탯 데이터가 저장된 구조체를 반환해주는 함수.
 FGSCharacterData * ULDGameInstance::GetGSCharacterData(int32 Level)
 {
 	// 실제로 테이블에서 찾는 함수

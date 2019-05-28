@@ -365,6 +365,7 @@ float ALostDarkCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Da
 	*/
 
 	// 캐릭터스텟 (액터 컴포넌트)에 있는 SetDamage를 호출함. 데미지 받은 데이터를 그쪽으로 넘겨줌. 참고로 거기서 상호작용 끝내고 반대로 반환함.
+	// 데미지 받은거 현재 캐릭터 스텟에 적용
 	CharacterStat->SetDamage(FinalDamage);
 
 	// 현재 상태가 DEAD라면

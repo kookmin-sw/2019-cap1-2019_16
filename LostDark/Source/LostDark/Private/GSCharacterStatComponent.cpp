@@ -15,10 +15,9 @@ UGSCharacterStatComponent::UGSCharacterStatComponent()
 	bWantsInitializeComponent = true;
 
 	// 최초 레벨 1로
-	Level = 1;
+	Level = 3;
 	// ...
 }
-
 
 // Called when the game starts
 void UGSCharacterStatComponent::BeginPlay()
@@ -29,14 +28,6 @@ void UGSCharacterStatComponent::BeginPlay()
 	
 }
 
-// PostInitializeComponent보다 먼저 불리어지는 함수. (※생성자보다는 당연히 느림.)
-void UGSCharacterStatComponent::InitializeComponent()
-{
-	Super::InitializeComponent();
-	SetNewLevel(Level); // Level 1이 들어감 (생성자에서 초기화)
-}
-
-
 // Called every frame
 void UGSCharacterStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
@@ -44,16 +35,25 @@ void UGSCharacterStatComponent::TickComponent(float DeltaTime, ELevelTick TickTy
 
 	// ...
 }
+// PostInitializeComponent보다 먼저 불리어지는 함수. (※생성자보다는 당연히 느림.)
 
-// 게임이 최초에 시작됐을때(InitializeComponent) or 새로운 레벨을 설정할때
+// PostInitializeComponent 함수가 호출되기 전에 먼저 호출된다. 최초 실행시 한번.
+void UGSCharacterStatComponent::InitializeComponent()
+{
+	Super::InitializeComponent();
+	SetNewLevel(Level); // Level 1이 들어감 (생성자에서 초기화)
+}
+
+
+// 레벨 설정 함수
 void UGSCharacterStatComponent::SetNewLevel(int32 NewLevel)
 {
-	// 현재 프로젝트 설정에 넣어진 게임 인스턴스를 변수로 가져와 할당. (스탯정보가 담긴 클래스)
+	// 현재 프로젝트 설정에 넣어진 게임 인스턴스를 변수로 가져와 할당. (스탯정보가 담긴 클래스) -> 게임인스턴스에는 실제 데이터 테이블이 존재
 	auto LDGameInstance = Cast<ULDGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 	// 혹시 월드에 설정된 게임인스터스가 없다면 (None) 예외처리
 	ABCHECK(nullptr != LDGameInstance);
 
-	// NewLevel에 해당하는 테이블 행(Row) 데이터 전부 구조체 변수로 가져옴. (실제 스탯 정보는 구조체에 있음)
+	// 현재 레벨에 해당하는 테이블 행(Row) 데이터 모두를 구조체 변수로 가져옴. (실제 스탯 정보는 GameInstance에 있음)
 	CurrentStatData = LDGameInstance->GetGSCharacterData(NewLevel);
 	ABLOG(Warning, TEXT("Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp")); ///디버깅용 코드
 	if (nullptr != CurrentStatData)
@@ -62,17 +62,15 @@ void UGSCharacterStatComponent::SetNewLevel(int32 NewLevel)
 		Level = NewLevel; /// 최초에는 Level = Level이 됨.
 		// 현재 HP를 최대 HP값으로 설정
 		SetHP(CurrentStatData->MaxHP);
-		// 현재 HP, 다음 레벨에 해당하는 HP로 변경
-		// CurrentHP = CurrentStatData->MaxHP;
 	}
-	// 해당 Level이 없을때, 예를들어 1000 Level 데이터를 참조하려고 할때.
+	// 해당 Level이 없을때, 예를들어 1000 Level 데이터를 참조하려고 할때. 예외처리
 	else
 	{
 		ABLOG(Error, TEXT("Level (%d) data doesn't exist"), NewLevel);
 	}
 }
 
-// 데미지 상호작용 및 브로드캐스트(델리게이트) (TakeDamage처리할때 호출함)
+// 데미지 상호작용 및 브로드캐스트(델리게이트) (TakeDamage내부에서 호출함)
 void UGSCharacterStatComponent::SetDamage(float NewDamage)
 {
 	// 현재 캐릭터 데이터 테이블을 가지고 있지 않다면 예외처리
@@ -92,10 +90,11 @@ void UGSCharacterStatComponent::SetDamage(float NewDamage)
 // HP를 설정해줌
 void UGSCharacterStatComponent::SetHP(float NewHP)
 {
-	// 현재 HP를 새롭게 설정
+	// 현재 HP를 변경해줌
 	CurrentHP = NewHP;
 	// HP가 변한것을 브로드 캐스트
 	OnHPChanged.Broadcast(); /// GSCharacterWidget.cpp에 Lambda 함수로 구현되어 있음. /// 처음 브로드 캐스트는 아무 효과없음. 받으려고 등록된 함수가 없기때문.
+	HPChanged();
 	// KINAD_SMALL_NUMBER : 무시 가능한 오차를 측정하도록 사용하는 float의 0값에 가까운 숫자.
 	if (CurrentHP < KINDA_SMALL_NUMBER)
 	{

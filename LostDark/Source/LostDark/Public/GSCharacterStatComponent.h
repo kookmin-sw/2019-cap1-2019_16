@@ -6,6 +6,15 @@
 #include "Components/ActorComponent.h"
 #include "GSCharacterStatComponent.generated.h"
 
+/*
+	캐릭터 레벨 정보에서 HP 정보까지 모든 스탯을 스탯 컴포넌트 (해당 클래스)에서 관리함.
+	- struct FGSCharacterData* 변수 필요.
+	- 데이터를 관리하는 변수들은 private로 한정해 선언한다.
+	- 레벨은 SetNewLevel 함수를 통해서만 변경할 수 있도록 설계한다.
+	- 게임 인스턴스에서 데이터를 가져와 초기화하고 레벨이 변경되면 해당 스탯이 바뀌도록 제작한다.
+	
+*/
+
 // 멀리캐스트 델리게이트 선언
 DECLARE_MULTICAST_DELEGATE(FOnHPIsZeroDelegate); // Dead 판정을 위한 델리게이트
 DECLARE_MULTICAST_DELEGATE(FOnHPChangeDelegate); // UI 위젯을 위한 델리게이트(->GSCharacterWidget)
@@ -45,6 +54,10 @@ public:
 	// 델리게이트 변수
 	FOnHPIsZeroDelegate OnHPIsZero;
 	FOnHPChangeDelegate OnHPChanged;
+
+	// 코드 내부의 함수는 정의할 필요 없음. 코드에서는 그냥 함수를 호출하기만 하고, 블루프린트로 정의한 부분에서 실행하게 됨.
+	UFUNCTION(BlueprintImplementableEvent, Category = "Delegate")
+		void HPChanged();
 
 private:
 	// 캐릭터 데이터 테이블 구조체 참조 변수. 정확히 말하자면, 하나의 행(Row) 구조체 정보를 가져오는 변수. ex) Level 4의 데이터 정보들

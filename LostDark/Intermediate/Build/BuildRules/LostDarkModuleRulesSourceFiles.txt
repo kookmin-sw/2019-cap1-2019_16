@@ -1,4 +1,4 @@
-E:\LD\LostDark\Source\LostDark\LostDark.Build.cs
-E:\LD\LostDark\Source\LostDarkSetting\LostDarkSetting.Build.cs
-E:\LD\LostDark\Source\LostDark.Target.cs
-E:\LD\LostDark\Source\LostDarkEditor.Target.cs
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark\LostDark.Build.cs
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkSetting\LostDarkSetting.Build.cs
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDark.Target.cs
+B:\Develope\Sourcetree\LostDark\LostDark\Source\LostDarkEditor.Target.cs
