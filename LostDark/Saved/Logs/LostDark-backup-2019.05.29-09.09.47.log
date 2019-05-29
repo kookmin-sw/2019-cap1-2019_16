@@ -1,0 +1,1198 @@
+﻿Log file open, 05/29/19 18:00:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LostDark
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.269723
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.072s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:944][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.29-09.00.51:944][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.29-09.00.51:945][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:945][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:947][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.29-09.00.51:947][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.29-09.00.51:948][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.29-09.00.51:948][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.29-09.00.51:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.29-09.00.51:959][  0]LogHAL: Display: Platform has ~ 32 GB [34308259840 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.29-09.00.51:959][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.29-09.00.51:959][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.29-09.00.51:959][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.29-09.00.51:960][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.29-09.00.51:960][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.29-09.00.51:961][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Sourcetree/RV/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.29-09.00.51:961][  0]LogInit: Computer: DESKTOP-310PAVJ
+[2019.05.29-09.00.51:961][  0]LogInit: User: 관리자
+[2019.05.29-09.00.51:961][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.29-09.00.51:961][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.29-09.00.51:961][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.05.29-09.00.51:961][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.29-09.00.51:961][  0]LogMemory: Process Physical Memory: 104.25 MB used, 104.25 MB peak
+[2019.05.29-09.00.51:961][  0]LogMemory: Process Virtual Memory: 89.64 MB used, 89.64 MB peak
+[2019.05.29-09.00.51:961][  0]LogMemory: Physical Memory: 7729.80 MB used,  24989.11 MB free, 32718.91 MB total
+[2019.05.29-09.00.51:961][  0]LogMemory: Virtual Memory: 4648.57 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.05.29-09.00.51:973][  0]LogInit: Using OS detected language (ko-KR).
+[2019.05.29-09.00.51:973][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.05.29-09.00.51:973][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.05.29-09.00.52:348][  0]LogStreaming: Display: Took  0.375s to InitEngineTextLocalization.
+[2019.05.29-09.00.52:349][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.29-09.00.52:383][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.29-09.00.52:383][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.29-09.00.52:544][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.29-09.00.52:544][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.29-09.00.52:594][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.29-09.00.52:595][  0]LogD3D11RHI:       6061/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.29-09.00.52:596][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.29-09.00.52:596][  0]LogD3D11RHI:       0/0/16359 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.29-09.00.52:596][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.29-09.00.52:601][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.29-09.00.52:601][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.29-09.00.52:601][  0]LogWindows: EnumDisplayDevices:
+[2019.05.29-09.00.52:601][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.29-09.00.52:601][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.29-09.00.52:602][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.29-09.00.52:602][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.29-09.00.52:602][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.29-09.00.52:602][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.29-09.00.52:602][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.05.29-09.00.52:602][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.05.29-09.00.52:602][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2019.05.29-09.00.52:636][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.29-09.00.52:648][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.29-09.00.52:920][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.29-09.00.52:933][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.29-09.00.52:946][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.29-09.00.52:960][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.29-09.00.52:973][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.29-09.00.52:986][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.29-09.00.52:999][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.29-09.00.53:012][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.29-09.00.53:019][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:090][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.29-09.00.53:092][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.29-09.00.53:149][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.29-09.00.53:149][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.29-09.00.53:171][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.29-09.00.53:171][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.29-09.00.53:183][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.29-09.00.53:194][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.29-09.00.53:206][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.29-09.00.53:219][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.29-09.00.53:273][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.29-09.00.53:273][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.29-09.00.53:273][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.29-09.00.53:332][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../../Sourcetree/RV/LostDark/Intermediate/Shaders/WorkingDirectory/7160/).
+[2019.05.29-09.00.53:332][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/관리자/AppData/Local/Temp/UnrealShaderWorkingDir/91E665E541C2FE6A49EE4187C2D3D62F/'.
+[2019.05.29-09.00.53:335][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.29-09.00.53:335][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.29-09.00.53:335][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.29-09.00.53:880][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.29-09.00.53:957][  0]LogDerivedDataCache: Loaded boot cache 0.08s 121MB C:/Users/관리자/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.29-09.00.53:957][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/관리자/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.29-09.00.53:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Sourcetree/RV/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.29-09.00.53:958][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.29-09.00.53:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Sourcetree/RV/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.29-09.00.53:958][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.29-09.00.53:973][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.29-09.00.53:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.29-09.00.53:973][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.29-09.00.53:985][  0]LogDerivedDataCache: Using Local data cache path C:/Users/관리자/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.29-09.00.53:985][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.29-09.00.53:985][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.29-09.00.54:007][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.29-09.00.54:009][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.29-09.00.54:009][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.29-09.00.54:089][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2019.05.29-09.00.54:420][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.29-09.00.54:571][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.29-09.00.54:575][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.29-09.00.54:575][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.29-09.00.54:575][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.29-09.00.54:575][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.29-09.00.54:589][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.05.29-09.00.55:075][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.098360 seconds
+[2019.05.29-09.00.55:082][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.29-09.00.55:082][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.29-09.00.55:082][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.29-09.00.55:900][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.29-09.00.55:912][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.29-09.00.56:672][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.00.57:670][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.00.57:685][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.00.57:717][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.00.57:827][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.29-09.00.57:827][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.29-09.00.57:827][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.29-09.00.57:827][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.29-09.00.57:916][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.29-09.00.57:916][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.29-09.00.57:917][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.29-09.00.57:917][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.29-09.00.58:075][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.29-09.00.58:123][  0]LogOcInput: OculusInput pre-init called
+[2019.05.29-09.00.58:261][  0]LogEngine: Initializing Engine...
+[2019.05.29-09.00.58:261][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.29-09.00.58:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.29-09.00.58:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.29-09.00.58:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.29-09.00.58:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.29-09.00.58:502][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.29-09.00.58:517][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.29-09.00.58:528][  0]LogInit: XAudio2 using '디지털 오디오(S/PDIF)(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.00.58:542][  0]LogInit: FAudioDevice initialized.
+[2019.05.29-09.00.58:543][  0]LogNetVersion: Set ProjectVersion to 2.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.29-09.00.58:639][  0]LogDerivedDataCache: Saved boot cache 0.10s 121MB C:/Users/관리자/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.29-09.00.58:649][  0]LogInit: Texture streaming: Enabled
+[2019.05.29-09.00.58:667][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.29-09.00.58:679][  0]LogInit: Transaction tracking system initialized
+[2019.05.29-09.00.58:709][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.29-09.00.58:920][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.29-09.00.59:416][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.29-09.00.59:417][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.29-09.00.59:417][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.29-09.00.59:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.29-09.00.59:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.29-09.00.59:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.29-09.00.59:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.29-09.00.59:557][  0]LogFileCache: Scanning file cache for directory 'C:/Sourcetree/RV/LostDark/Content/' took 0.06s
+[2019.05.29-09.00.59:557][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.29-09.00.59:557][  0]Cmd: MAP LOAD FILE="../../../../../../Sourcetree/RV/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.29-09.00.59:557][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.29-09.00.59:560][  0]MapCheck: New page: 맵 체크
+[2019.05.29-09.00.59:560][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.29-09.00.59:678][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.29-09.00.59:683][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.29-09.00.59:706][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.29-09.00.59:706][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.153ms.
+[2019.05.29-09.00.59:706][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.150
+[2019.05.29-09.00.59:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.00.59:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.00.59:808][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.00.59:815][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.00.59:822][  0]LogCollectionManager: Loaded 0 collections in 0.002018 seconds
+[2019.05.29-09.00.59:849][  0]LogFileCache: Scanning file cache for directory 'C:/Sourcetree/RV/LostDark/Saved/Collections/' took 0.01s
+[2019.05.29-09.00.59:849][  0]LogFileCache: Scanning file cache for directory 'C:/Sourcetree/RV/LostDark/Content/Developers/관리자/Collections/' took 0.00s
+[2019.05.29-09.00.59:849][  0]LogFileCache: Scanning file cache for directory 'C:/Sourcetree/RV/LostDark/Content/Collections/' took 0.01s
+[2019.05.29-09.00.59:849][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.29-09.00.59:859][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2678 classes and 625 folders.
+[2019.05.29-09.00.59:866][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.29-09.00.59:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:868][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:870][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:872][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:874][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:878][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.29-09.00.59:904][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.29-09.00.59:912][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.05.29-09.00.59:984][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.29-09.00.59:987][  0]LogSlate: Took 0.001627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.29-09.00.59:989][  0]LogSlate: Took 0.001662 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.29-09.00.59:990][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.29-09.00.59:994][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.29-09.01.00:078][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.05.29-09.01.00:111][  0]LogSlate: Took 0.001878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.29-09.01.00:193][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.29-09.01.00:193][  0]LogLoad: (Engine Initialization) Total time: 9.77 seconds
+[2019.05.29-09.01.00:193][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.29-09.01.00:283][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.29-09.01.01:417][ 84]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.05.29-09.01.01:417][ 84]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.05.29-09.01.01:556][ 97]LogPackageName: SearchForPackageOnDisk took   0.139s, but failed to resolve S_ClothTarps_03.
+[2019.05.29-09.01.01:556][ 97]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2019.05.29-09.01.04:451][368]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.29-09.01.05:360][441]LogFileCache: Retrieving MD5 hashes for directory 'C:/Sourcetree/RV/LostDark/Content/' took 5.14s
+[2019.05.29-09.01.06:651][551]LogAssetRegistry: Asset discovery search completed in 12.5846 seconds
+[2019.05.29-09.01.06:654][551]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.29-09.01.06:655][551]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
+[2019.05.29-09.01.25:543][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.01.32:704][562]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.29-09.01.44:139][562]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.01.44:274][562]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Elemental.Elemental
+[2019.05.29-09.01.44:329][562]Cmd: MAP LOAD FILE="../../../../../../Sourcetree/RV/LostDark/Content/Maps/Elemental.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.29-09.01.44:329][562]LightingResults: New page: 라이팅 빌드
+[2019.05.29-09.01.44:330][562]LoadErrors: New page: 맵 로드중: Elemental.umap
+[2019.05.29-09.01.44:330][562]MapCheck: New page: 맵 체크
+[2019.05.29-09.01.44:330][562]LightingResults: New page: 라이팅 빌드
+[2019.05.29-09.01.44:472][562]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Elemental.Elemental:PersistentLevel.iceGiantDebris_1.SkeletalMeshComponent0'
+[2019.05.29-09.01.44:475][562]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Elemental.Elemental:PersistentLevel.iceGiantDebris_3.SkeletalMeshComponent0'
+[2019.05.29-09.01.44:517][562]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/Elemental.Elemental:PersistentLevel.iceGiantDebris_6.SkeletalMeshComponent0'
+[2019.05.29-09.01.44:587][562]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Throne_ExteriorCastle) is flushing async loading
+[2019.05.29-09.01.44:588][562]LogStreaming: Display: Flushing async loaders.
+[2019.05.29-09.01.44:943][562]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Throne_Cave) is flushing async loading
+[2019.05.29-09.01.45:295][562]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Exterior_01_FX) is flushing async loading
+[2019.05.29-09.01.45:309][562]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Landscape) is flushing async loading
+[2019.05.29-09.01.46:200][562]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/JG/Maps/ElvenRuins) is flushing async loading
+[2019.05.29-09.01.47:144][562]LogClass: Warning: Enum '/Game/UI_Kit/Blueprints/Objectives/E_ObjectiveType.E_ObjectiveType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.29-09.01.47:160][562]LogClass: Warning: Enum '/Game/UI_Kit/Widgets/Window/ResizeType.ResizeType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.29-09.01.47:388][562]LogBlueprint: Warning: [Compiler MinimapCapture] SceneCapture.MeshComp : 블루프린트에서 보이도록 (BlueprintReadOnly 또는  BlueprintReadWrite) 되어있지 않습니다. 마크업을 수정하거나 접근을 중단하지 않으면, 앞으로 릴리즈에서 오류가 발생할 것입니다.  MeshComp 구하기
+[2019.05.29-09.01.47:407][562]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] Set Input Mode Game And UI (Deprecated)  : 폐기되었습니다. Use the new version of Set Input Mode Game And UI instead
+[2019.05.29-09.01.47:808][562]LogBlueprint: Warning: [Compiler MinimapCapture] [0057.39] MinimapCapture 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 676 ms] (/Game/UI_Kit/Blueprints/MinimapCapture.MinimapCapture)
+[2019.05.29-09.01.47:808][562]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] [0057.39] PrototypeUI_Controller 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 676 ms] (/Game/UI_Kit/Blueprints/PrototypeUI_Controller.PrototypeUI_Controller)
+[2019.05.29-09.01.49:338][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:339][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:339][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:371][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:371][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:371][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Fade Border_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:371][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Unknown sequence)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:372][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:373][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Complete Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:374][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (New Objective)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:375][562]LogMovieScene: Warning: Legacy data detected in sequence '/Game/UI_Kit/Widgets/Objectives/W_Objective (Fade Border)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:376][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:377][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:378][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (New Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.49:379][562]LogMovieScene: Warning: Legacy data detected in sequence '/Engine/Transient (Complete Objective_INST)'. This will cause deterministic cooking issues. Please resave the package.
+[2019.05.29-09.01.50:083][562]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/JG/Maps/Dungeon) is flushing async loading
+[2019.05.29-09.01.54:309][562]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.05.29-09.01.54:990][562]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.29-09.01.54:990][562]LogEditorServer: Warning: WorldSettings_1 contains streaming level '/Game/JG/Maps/Dungeon' which isn't loaded.
+[2019.05.29-09.01.54:991][562]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 1.095ms.
+[2019.05.29-09.01.54:991][562]LogFileHelpers: Loading map 'Elemental' took 10.663
+[2019.05.29-09.01.59:421][810]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.29-09.01.59:438][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.01.59:438][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.01.59:438][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.01.59:438][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.01.59:438][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.01.59:438][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.01.59:439][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.01.59:439][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.01.59:439][810]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:01:59)
+[2019.05.29-09.01.59:451][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.01.59:689][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.237523s)
+[2019.05.29-09.01.59:689][810]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.01.59:689][810]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2019.05.29-09.01.59:690][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.239015s)
+[2019.05.29-09.01.59:731][810]LogInit: XAudio2 using '디지털 오디오(S/PDIF)(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.01.59:740][810]LogInit: FAudioDevice initialized.
+[2019.05.29-09.01.59:746][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.02.00:791][810]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.02.01:100][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.02.01
+[2019.05.29-09.02.02:422][810]LogWorld: Bringing up level for play took: 1.627507
+[2019.05.29-09.02.03:293][810]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.05.29-09.02.03:293][810]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.02.03:293][810]LogScript: Warning: Script Msg: Divide by zero detected: -92.812622 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.02.03:294][810]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.02.03:306][810]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.466667, Current : 210, Next : 450
+[2019.05.29-09.02.03:307][810]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.02.03:314][810]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 4.739
+[2019.05.29-09.02.03:316][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.02.03:316][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.02.03:317][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.02.03:317][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.02.03:317][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.02.03:317][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.02.03:318][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.02.03:524][810]LogRenderer: Reallocating scene render targets to support 1208x680 Format 10 NumSamples 1 (Frame:1).
+[2019.05.29-09.02.05:562][894]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.29-09.02.06:972][ 17]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.02.07:652][ 73]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.02.14:178][602]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.02.31:013][889]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.02.39:306][509]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Troll_Magma_2
+[2019.05.29-09.02.39:306][509]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 10
+[2019.05.29-09.02.39:306][509]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.488889, Current : 220, Next : 450
+[2019.05.29-09.02.39:669][536]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.29-09.02.39:669][536]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.29-09.02.39:828][548]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Troll_Albino_2
+[2019.05.29-09.02.39:828][548]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 10
+[2019.05.29-09.02.39:828][548]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.511111, Current : 230, Next : 450
+[2019.05.29-09.02.40:161][572]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.29-09.02.40:470][600]LogTemp: Warning: MontageEnded
+[2019.05.29-09.02.42:182][767]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.03.56:936][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.03.56:937][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.03.56:962][839]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.29-09.03.57:000][839]LogStreaming: Display: UWorld::AddToWorld: unregistering components for /Game/Maps/UEDPIE_0_Landscape took (less than) 27.29 ms
+[2019.05.29-09.03.57:100][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.29-09.03.57:101][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.03.57:101][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.03.57:101][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.03.57:101][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.03.57:101][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.03.57:101][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.03.57:102][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.03.57:249][840]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.05.29-09.04.14:836][371]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.29-09.04.18:049][689]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.29-09.04.23:765][250]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.29-09.04.25:337][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.04.35:859][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.04.45:568][986]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x27be720bfa0 [can pipeline])
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.235.3.78) port 443 (#1))
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 3 (upload completely sent off: 764 out of 764 bytes)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 6 (Closing connection 1)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB6C3BA55-4B68-CB9B-C8D7-55AA0FA812E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=e67f4b0a4e0eb0e1b58eefae13c2a3d9%7C056bbaa48a0c4a2499636d86401143e9%7Ce5fb62be-da0c-4d76-b74c-339d343d9a73&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: 0000027C54929F80: libcurl info message cache 10 (Closing connection 2)
+[2019.05.29-09.05.07:394][754]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB6C3BA55-4B68-CB9B-C8D7-55AA0FA812E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=e67f4b0a4e0eb0e1b58eefae13c2a3d9%7C056bbaa48a0c4a2499636d86401143e9%7Ce5fb62be-da0c-4d76-b74c-339d343d9a73&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.29-09.05.22:482][  7]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{574c29ad-2a13-4dd8-a4ae-074170469f1f} was removed. Shutting down audio device.
+[2019.05.29-09.05.22:606][  7]LogInit: XAudio2 using '디지털 오디오(S/PDIF)(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.05.26:779][292]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.06.28:635][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.06.28:636][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.06.28:636][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.06.28:636][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.06.28:636][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.06.28:636][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.06.28:636][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.06.28:636][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.06.28:636][699]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:06:28)
+[2019.05.29-09.06.28:636][699]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.06.28:866][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.230252s)
+[2019.05.29-09.06.28:866][699]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.06.28:866][699]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2019.05.29-09.06.28:867][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.231466s)
+[2019.05.29-09.06.28:911][699]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.06.28:920][699]LogInit: FAudioDevice initialized.
+[2019.05.29-09.06.28:926][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.06.29:675][699]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.06.29:835][699]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.06.29
+[2019.05.29-09.06.29:860][699]LogWorld: Bringing up level for play took: 0.182492
+[2019.05.29-09.06.30:224][699]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.06.30:224][699]LogScript: Warning: Script Msg: Divide by zero detected: -92.812622 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.06.30:225][699]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.06.30:241][699]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.511111, Current : 230, Next : 450
+[2019.05.29-09.06.30:241][699]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.06.30:250][699]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 1.676
+[2019.05.29-09.06.30:293][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.06.30:293][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.06.30:294][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.06.30:294][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.06.30:294][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.06.30:294][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.06.30:295][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.06.32:463][841]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.29-09.06.32:973][883]Set new viewmode: ShaderComplexity
+[2019.05.29-09.06.32:976][883]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.06.33:659][939]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.06.34:314][997]Set new viewmode: ShaderComplexity
+[2019.05.29-09.06.35:093][ 57]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.06.36:021][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.06.36:021][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.06.36:021][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.06.36:022][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.06.36:022][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.06.36:022][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.06.36:022][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.06.36:023][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.06.36:049][134]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.29-09.06.36:159][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.29-09.06.36:160][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.06.36:161][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.06.36:161][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.06.36:161][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.06.36:161][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.06.36:161][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.06.36:161][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.06.36:280][135]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.05.29-09.06.38:133][299]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.29-09.06.38:150][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.06.38:151][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.06.38:151][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.06.38:151][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.06.38:151][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.06.38:151][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.06.38:151][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.06.38:151][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.06.38:151][299]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:06:38)
+[2019.05.29-09.06.38:151][299]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.06.38:438][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.286052s)
+[2019.05.29-09.06.38:439][299]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.06.38:439][299]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2019.05.29-09.06.38:440][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.288090s)
+[2019.05.29-09.06.38:498][299]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.06.38:506][299]LogInit: FAudioDevice initialized.
+[2019.05.29-09.06.38:511][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.06.39:650][299]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.06.39:857][299]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.06.39
+[2019.05.29-09.06.39:899][299]LogWorld: Bringing up level for play took: 0.247538
+[2019.05.29-09.06.40:621][299]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.06.40:621][299]LogScript: Warning: Script Msg: Divide by zero detected: -92.812622 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.06.40:622][299]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.06.40:631][299]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.511111, Current : 230, Next : 450
+[2019.05.29-09.06.40:631][299]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.06.40:636][299]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 2.062
+[2019.05.29-09.06.40:637][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.06.40:637][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.06.40:637][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.06.40:637][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.06.40:637][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.06.40:638][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.06.40:638][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.06.42:775][455]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonGreystone/Characters/Heroes/Greystone/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.05.29-09.06.45:430][682]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.06.46:052][736]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.29-09.06.46:677][794]LostDark: Error: ALostDarkCharacter::OnAttackMontageEnded(752) ASSERTION : 'IsAttacking'
+[2019.05.29-09.06.50:244][946]LogRenderer: Reallocating scene render targets to support 1728x916 Format 10 NumSamples 1 (Frame:649).
+[2019.05.29-09.07.07:917][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.07.18:449][391]LogHttp: Warning: 0000027C5494D580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.29-09.07.18:449][391]LogHttp: Warning: 0000027C5494D580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.29-09.07.18:449][391]LogHttp: Warning: 0000027C5494D580: libcurl info message cache 1 (Closing connection 3)
+[2019.05.29-09.07.18:788][392]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB6C3BA55-4B68-CB9B-C8D7-55AA0FA812E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=e67f4b0a4e0eb0e1b58eefae13c2a3d9%7C056bbaa48a0c4a2499636d86401143e9%7Ce5fb62be-da0c-4d76-b74c-339d343d9a73&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.29-09.07.27:166][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.07.27:166][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.07.27:167][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.07.27:167][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.07.27:167][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.07.27:167][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.07.27:167][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.07.27:167][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.07.27:194][661]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.29-09.07.27:308][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.29-09.07.27:309][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.07.27:310][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.07.27:310][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.07.27:310][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.07.27:310][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.07.27:310][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.07.27:310][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.07.27:497][662]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.05.29-09.07.34:968][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.07.40:130][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.07.42:698][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.07.45:743][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.07.58:515][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.08.08:805][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.08.15:179][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.08.15:320][192]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.08.15:343][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.08.15:343][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.08.15:343][192]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:08:15)
+[2019.05.29-09.08.15:343][192]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.08.15:605][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.261736s)
+[2019.05.29-09.08.15:606][192]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.08.15:606][192]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2019.05.29-09.08.15:607][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.263127s)
+[2019.05.29-09.08.15:654][192]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.08.15:664][192]LogInit: FAudioDevice initialized.
+[2019.05.29-09.08.15:670][192]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.08.16:772][192]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.08.17:003][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.08.17
+[2019.05.29-09.08.17:028][192]LogWorld: Bringing up level for play took: 0.254090
+[2019.05.29-09.08.17:585][192]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.08.17:585][192]LogScript: Warning: Script Msg: Divide by zero detected: -92.812622 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.08.17:585][192]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.08.17:592][192]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.511111, Current : 230, Next : 450
+[2019.05.29-09.08.17:592][192]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.08.17:597][192]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 3.022
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.08.17:598][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.08.18:723][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.08.18:723][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.08.18:723][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.08.18:723][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.08.18:723][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.08.18:723][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.08.18:724][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.08.18:724][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.08.18:749][255]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.29-09.08.18:856][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.29-09.08.18:857][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.08.18:857][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.08.18:857][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.08.18:857][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.08.18:858][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.08.18:858][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.08.18:858][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.08.18:986][256]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.29-09.08.22:165][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.08.46:410][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.08.49:126][747]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.29-09.08.49:127][747]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.29-09.08.49:127][747]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.29-09.08.49:127][747]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.29-09.08.49:148][748]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.08.49:148][748]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.08.49:149][748]LostDark: Error: UGSCharacterStatComponent::SetNewLevel(53) ASSERTION : 'nullptr != LDGameInstance'
+[2019.05.29-09.08.53:256][ 89]LogEditor: Attempting to add actor of class 'LostDarkCharacter' to level at -722.62,65127.70,421.96
+[2019.05.29-09.08.53:256][ 89]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.08.53:257][ 89]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.08.54:075][168]LogEditor: Attempting to add actor of class 'LostDarkCharacter' to level at -1080.00,65530.00,478.00
+[2019.05.29-09.08.54:077][168]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.08.54:077][168]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.08.57:129][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.08.57:244][365]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.08.57:265][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.08.57:265][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.08.57:265][365]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:08:57)
+[2019.05.29-09.08.57:265][365]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.08.57:505][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.238567s)
+[2019.05.29-09.08.57:505][365]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.08.57:505][365]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2019.05.29-09.08.57:506][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.239707s)
+[2019.05.29-09.08.57:580][365]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.08.57:599][365]LogInit: FAudioDevice initialized.
+[2019.05.29-09.08.57:613][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.08.59:385][365]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.08.59:587][365]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.08.59:588][365]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.08.59:595][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.08.59
+[2019.05.29-09.08.59:629][365]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.08.59:644][365]LogWorld: Bringing up level for play took: 0.256690
+[2019.05.29-09.09.00:182][365]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.09.00:183][365]LogScript: Warning: Script Msg: Divide by zero detected: -92.812622 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.09.00:184][365]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.00:199][365]LostDark: Warning: ALostDarkCharacter::SetCharacterState(542) New AI Level : 1
+[2019.05.29-09.09.00:199][365]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.00:203][365]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.511111, Current : 230, Next : 450
+[2019.05.29-09.09.00:204][365]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.00:214][365]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 3.639
+[2019.05.29-09.09.00:215][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.00:216][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.00:216][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.00:216][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.00:216][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.00:216][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.00:217][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.01:068][379]LogStreaming: Display: Flushing async loaders.
+[2019.05.29-09.09.01:073][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.01:074][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.01:074][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.01:074][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.01:074][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.01:074][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.01:074][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.01:074][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.09.01:101][379]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.29-09.09.01:215][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.29-09.09.01:216][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.01:217][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.01:217][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.01:217][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.01:217][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.01:217][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.01:217][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.01:353][380]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.03:542][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.03:542][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.09.03:542][620]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:09:03)
+[2019.05.29-09.09.03:542][620]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.09.03:778][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.235350s)
+[2019.05.29-09.09.03:778][620]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.09.03:778][620]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2019.05.29-09.09.03:779][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.236499s)
+[2019.05.29-09.09.03:828][620]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.09.03:836][620]LogInit: FAudioDevice initialized.
+[2019.05.29-09.09.03:871][620]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.09.05:264][620]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.09.05:265][620]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.09.05:270][620]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.09.05
+[2019.05.29-09.09.05:296][620]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.05:301][620]LogWorld: Bringing up level for play took: 0.223678
+[2019.05.29-09.09.05:721][620]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.09.05:721][620]LogScript: Warning: Script Msg: Divide by zero detected: -92.812622 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.09.05:722][620]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.05:727][620]LostDark: Warning: ALostDarkCharacter::SetCharacterState(542) New AI Level : 1
+[2019.05.29-09.09.05:728][620]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.05:729][620]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.511111, Current : 230, Next : 450
+[2019.05.29-09.09.05:729][620]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.05:731][620]PIE: /Game/Maps/UEDPIE_0_Elemental 에 대한 에디터에서 플레이 시작 시간: 3.156
+[2019.05.29-09.09.05:731][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.05:731][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.05:731][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.05:731][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.05:732][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.05:732][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.05:732][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.05:801][620]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.09.06:894][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.06:894][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.06:894][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.06:894][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.06:894][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.06:895][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.06:895][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.06:895][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.09.07:014][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.29-09.09.07:016][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.07:016][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.07:016][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.07:016][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.07:016][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.07:016][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.07:017][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.07:080][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.29-09.09.07:172][693]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.05.29-09.09.09:460][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.09.15:420][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.29-09.09.18:807][537]LogHttp: Warning: 0000027C5EB40B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.29-09.09.18:807][537]LogHttp: Warning: 0000027C5EB40B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.29-09.09.18:807][537]LogHttp: Warning: 0000027C5EB40B80: libcurl info message cache 1 (Closing connection 4)
+[2019.05.29-09.09.18:821][538]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB6C3BA55-4B68-CB9B-C8D7-55AA0FA812E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=e67f4b0a4e0eb0e1b58eefae13c2a3d9%7C056bbaa48a0c4a2499636d86401143e9%7Ce5fb62be-da0c-4d76-b74c-339d343d9a73&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.29-09.09.36:199][662]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.09.38:181][765]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Elemental.Elemental:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental' with GeneratedClass '/Game/Maps/Elemental.Elemental_C' with ClassGeneratedBy '/Game/Maps/Elemental.Elemental:PersistentLevel.Elemental'
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle' with GeneratedClass '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle_C' with ClassGeneratedBy '/Game/Maps/Throne_ExteriorCastle.Throne_ExteriorCastle:PersistentLevel.Throne_ExteriorCastle'
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave' with GeneratedClass '/Game/Maps/Throne_Cave.Throne_Cave_C' with ClassGeneratedBy '/Game/Maps/Throne_Cave.Throne_Cave:PersistentLevel.Throne_Cave'
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX' with GeneratedClass '/Game/Maps/Exterior_01_FX.Exterior_01_FX_C' with ClassGeneratedBy '/Game/Maps/Exterior_01_FX.Exterior_01_FX:PersistentLevel.Exterior_01_FX'
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Landscape.Landscape:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape' with GeneratedClass '/Game/Maps/Landscape.Landscape_C' with ClassGeneratedBy '/Game/Maps/Landscape.Landscape:PersistentLevel.Landscape'
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins' with GeneratedClass '/Game/JG/Maps/ElvenRuins.ElvenRuins_C' with ClassGeneratedBy '/Game/JG/Maps/ElvenRuins.ElvenRuins:PersistentLevel.ElvenRuins'
+[2019.05.29-09.09.38:203][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel' has LevelScriptBlueprint '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon' with GeneratedClass '/Game/JG/Maps/Dungeon.Dungeon_C' with ClassGeneratedBy '/Game/JG/Maps/Dungeon.Dungeon:PersistentLevel.Dungeon'
+[2019.05.29-09.09.38:203][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.29-09.09.38:204][765]PIE: New page: PIE 세션: Elemental (2019. 5. 30. 오전 3:09:38)
+[2019.05.29-09.09.38:204][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Elemental
+[2019.05.29-09.09.38:432][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.228288s)
+[2019.05.29-09.09.38:433][765]LogAIModule: Creating AISystem for world Elemental
+[2019.05.29-09.09.38:433][765]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2019.05.29-09.09.38:433][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Elemental.Elemental to /Game/Maps/UEDPIE_0_Elemental.Elemental (0.229447s)
+[2019.05.29-09.09.38:521][765]LogInit: XAudio2 using 'FullHD TV-4(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.29-09.09.38:529][765]LogInit: FAudioDevice initialized.
+[2019.05.29-09.09.38:559][765]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.29-09.09.40:197][765]LogTemp: Warning: Enroll Attack Montage
+[2019.05.29-09.09.40:198][765]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.29-09.09.40:211][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Elemental.Elemental up for play (max tick rate 0) at 2019.05.29-18.09.40
+[2019.05.29-09.09.40:248][765]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(57) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.29-09.09.40:253][765]LogWorld: Bringing up level for play took: 0.333913
+[2019.05.29-09.09.47:675][765]LogWindows: Error: === Critical error: ===
+[2019.05.29-09.09.47:675][765]LogWindows: Error: 
+[2019.05.29-09.09.47:675][765]LogWindows: Error: Fatal error!
+[2019.05.29-09.09.47:675][765]LogWindows: Error: 
+[2019.05.29-09.09.47:675][765]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION writing address 0x00000310
+[2019.05.29-09.09.47:675][765]LogWindows: Error: 
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd7386d641 UE4Editor-CoreUObject.dll!FWeakObjectPtr::operator=() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\weakobjectptr.cpp:29]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd9feeaa3b UE4Editor-LostDark-4985.dll!UnknownFunction []
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd9fef7618 UE4Editor-LostDark-4985.dll!UnknownFunction []
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd9fef40e9 UE4Editor-LostDark-4985.dll!UnknownFunction []
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd70843c95 UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3230]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd71c9060c UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\worldsettings.cpp:251]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd7104eb41 UE4Editor-Engine.dll!AGameStateBase::HandleBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gamestatebase.cpp:177]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd71c3865e UE4Editor-Engine.dll!UWorld::BeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\world.cpp:3737]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd70fec1f1 UE4Editor-Engine.dll!UGameInstance::StartPlayInEditorGameInstance() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gameinstance.cpp:408]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd6ed0ac89 UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:3324]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd6ed2b350 UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:2451]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd6ed492e6 UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:1270]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd6e741891 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1640]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffd6f062346 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ff601bf6225 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3699]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ff601c0596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ff601c059ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ff601c148da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ff601c1659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffdc4d67974 KERNEL32.DLL!UnknownFunction []
+[2019.05.29-09.09.47:675][765]LogWindows: Error: [Callstack] 0x00007ffdc7b8a271 ntdll.dll!UnknownFunction []
+[2019.05.29-09.09.47:675][765]LogWindows: Error: 
+[2019.05.29-09.09.47:694][765]LogExit: Executing StaticShutdownAfterError
+[2019.05.29-09.09.47:760][765]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.05.29-09.09.47:761][765]Log file closed, 05/29/19 18:09:47
