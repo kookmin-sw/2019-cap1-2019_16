@@ -2,4 +2,8 @@
 
 클릭시 영상으로 이동합니다.
 
-[![sample](../Docs/img/REVISION.png)](https://www.youtube.com/watch?v=kGukikHSh3s&feature=youtu.be)
+[![sample](../img/GameLogo.PNG)](https://www.youtube.com/watch?v=kGukikHSh3s&feature=youtu.be)
+
+[![sample](../Docs/img/GameLogo.PNG)](https://www.youtube.com/watch?v=kGukikHSh3s&feature=youtu.be)
+
+[![sample](./Docs/img/GameLogo.PNG)](https://www.youtube.com/watch?v=kGukikHSh3s&feature=youtu.be)
