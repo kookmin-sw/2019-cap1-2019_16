@@ -20,7 +20,7 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 ## 3. 소개 영상
 
 사진을 클릭하면 유튜브로 이동합니다.
-[![sample](./Docs/img/preview.png)](https://www.youtube.com/watch?v=kGukikHSh3s&feature=youtu.be)
+[![sample](./Docs/img/preview.png)](https://www.youtube.com/watch?v=gSdnVxPBhc8)
 
 ## 4. 팀 소개
 
@@ -28,22 +28,22 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 ### 김성훈(팀장)
 * 학번 : 20133203
 * Email : 610ksh@kookmin.ac.kr
-* 역할 : Camera Moving, Character Attack & Animation 적용, Character Attack & skill 구현, Map Level Design
+* 역할 : Camera Setting, Character(AI, Moving, Attack), Game Menu & System UI, Map Level Design
 
 ### 김종균
 * 학번 : 20103319
 * Email : kimzoo30@naver.com
-* 역할 : Character Dodge & Animation 적용, Scene 전환 및 카메라 연출, Map Level Design, Camera 연출, Game UI
+* 역할 : Character(Dodge) , Scene Change 및 Camera 연출, Matinee, Map Level Design, Character UI
 
 ### 송영륜
 * 학번 : 20143070
 * Email : songyr01@kookmin.ac.kr
-* 역할 : Enemy AI 개발 및 Animation 적용, Enemy 종류별 제작, Enemy Attack 구현, Boss Monster AI 개발, Boss skill 제작
+* 역할 : Enemy(AI, Moving, Attack), Enemy Variation, Boss(AI, Moving, Attack, Skill), Mob UI
 
 ### 장윤지
 * 학번 : 20153222
 * Email : engineering11111@gmail.com
-* 역할 : Camera Moving 및 시점 변환, Text UI, NPC 상호작용, Quest System 제작, Game UI, Mini Map
+* 역할 : Camera Moving, NPC Variation, Quest System, System UI(Mini Map, Inventory), Character UI 
 
 ### 갈경달
 * 학번 : 20155277
@@ -53,27 +53,43 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 
 ## 5. 사용법
 
-1. 플레이어 이름 입력
-2. 게임 접속 및 시작
-3. 튜토리얼
-4. 퀘스트를 따라 진행
-5. 분기 선택
-6. 보스몬스터와 전투
-7. 엔딩 - 스토리를 진행하면서 선택하는 분기에 따라 최종 엔딩이 달라짐
+1) 플레이어 이름 입력
+2) 게임 접속 및 시작
+3) NPC 대화와 맵 구조를 따라 게임 진행
+4) 던전 입장
+5) 보스몬스터와 전투
+6) 엔딩
 
 
 ## 6. 개발 현황
 
-#### 1) 조작
+#### 1) 조작법
+
+![keyboard](./Docs/img/HowToUse.png)
 - 키보드(WASD)를 사용한 플레이어 이동
 - 마우스 좌클릭 시 공격
 - 마우스 우클릭 시 시점 좌우 회전
 - Shift키를 눌러 회피
 
 #### 2) 게임 시스템
-- 몬스터가 플레이어를 발견하면 추적, 공격
-- 몬스터가 공격받고 데미지를 받아 HP 0이 되면 사망
-- NPC를 마우스 좌클릭 시 NPC와 대화
+- 몬스터가 플레이어를 발견하면 추적, 공격, 공격받고 HP 0이 되면 사망
+- NPC를 마우스 좌클릭 시, NPC와 대화
 - 맵과 맵을 이동 시, Fade in/out 효과와 함께 Scene 전환
 - Mini Map을 통해 현재 위치를 파악
-- 직관적인 UI
+
+## 7. 그래픽 리소스
+
+1) Elemental Demo
+2) FX Variety Pack
+3) Infinity Blade: Adversaries
+4) Inventory System
+5) Multistory Dungeons
+6) Quadruped Fantasy Creature
+7) Roll and Dodges Animation Set
+8) User Interface Kit
+9) Paragon: Gideon
+10) Paragon: Greystone
+11) Paragon: Kwang
+12) Infinity Blade: Fire Lands
+13) Infinity Blade: Grass Lands
+
