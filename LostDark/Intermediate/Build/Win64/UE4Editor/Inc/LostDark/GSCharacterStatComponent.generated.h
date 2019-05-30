@@ -13,8 +13,44 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LOSTDARK_GSCharacterStatComponent_generated_h
 
-#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_RPC_WRAPPERS
-#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execMaxHP) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->MaxHP(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetDropExp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetDropExp(); \
+		P_NATIVE_END; \
+	}
+
+
+#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execMaxHP) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=P_THIS->MaxHP(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetDropExp) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetDropExp(); \
+		P_NATIVE_END; \
+	}
+
+
 #define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_EVENT_PARMS
 #define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_CALLBACK_WRAPPERS
 #define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_INCLASS_NO_PURE_DECLS \

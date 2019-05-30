@@ -129,3 +129,8 @@ int32 UGSCharacterStatComponent::GetDropExp() const
 {
 	return CurrentStatData->DropExp;
 }
+
+float UGSCharacterStatComponent::MaxHP() const
+{
+	return CurrentStatData->MaxHP;
+}
