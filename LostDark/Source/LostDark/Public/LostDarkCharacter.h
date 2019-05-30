@@ -204,6 +204,8 @@ public:
 	// 게임 시작후 최초 빙의했을때 자동 호출하는 함수
 	virtual void PossessedBy(AController* NewController) override;
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Attack")
+		void AttackSound();
 
 	// 무기 장착여부 조사
 	bool CanSetWeapon();

@@ -1,0 +1,972 @@
+﻿Log file open, 05/31/19 04:22:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LostDark
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.242661
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.161s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.042s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.30-19.22.01:197][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:197][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:203][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.30-19.22.01:203][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.30-19.22.01:204][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.30-19.22.01:204][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.30-19.22.01:204][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.30-19.22.01:235][  0]LogHAL: Display: Platform has ~ 16 GB [17103896576 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.30-19.22.01:235][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.30-19.22.01:235][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.30-19.22.01:235][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.30-19.22.01:236][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.30-19.22.01:236][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [B:/Develope/Sourcetree/LostDark/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.30-19.22.01:236][  0]LogInit: Computer: DESKTOP-7NEMS3A
+[2019.05.30-19.22.01:236][  0]LogInit: User: SungHoon
+[2019.05.30-19.22.01:236][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.05.30-19.22.01:236][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.05.30-19.22.01:236][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.30-19.22.01:236][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.30-19.22.01:236][  0]LogMemory: Process Physical Memory: 104.57 MB used, 104.58 MB peak
+[2019.05.30-19.22.01:236][  0]LogMemory: Process Virtual Memory: 97.44 MB used, 97.44 MB peak
+[2019.05.30-19.22.01:236][  0]LogMemory: Physical Memory: 3889.66 MB used,  12421.89 MB free, 16311.55 MB total
+[2019.05.30-19.22.01:236][  0]LogMemory: Virtual Memory: 4651.90 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.05.30-19.22.01:253][  0]LogInit: Overriding language with editor language configuration option (ko).
+[2019.05.30-19.22.01:253][  0]LogInit: Overriding locale with editor locale configuration option (ko).
+[2019.05.30-19.22.01:579][  0]LogStreaming: Display: Took  0.326s to InitEngineTextLocalization.
+[2019.05.30-19.22.01:579][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.30-19.22.01:623][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.30-19.22.01:623][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.30-19.22.01:812][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.30-19.22.01:812][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.30-19.22.01:862][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.30-19.22.01:862][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.30-19.22.01:863][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.30-19.22.01:863][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.30-19.22.01:864][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.30-19.22.01:869][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.30-19.22.01:869][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.30-19.22.01:869][  0]LogWindows: EnumDisplayDevices:
+[2019.05.30-19.22.01:869][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.30-19.22.01:870][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.05.30-19.22.01:871][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.30-19.22.01:872][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.30-19.22.01:872][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.30-19.22.01:872][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.30-19.22.01:872][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.05.30-19.22.01:872][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.05.30-19.22.01:872][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.30-19.22.01:902][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.30-19.22.01:919][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.30-19.22.02:294][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.30-19.22.02:305][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.30-19.22.02:317][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.30-19.22.02:329][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.30-19.22.02:341][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.30-19.22.02:353][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.30-19.22.02:365][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.30-19.22.02:378][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.30-19.22.02:384][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:448][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.30-19.22.02:449][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.30-19.22.02:505][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.30-19.22.02:505][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.30-19.22.02:526][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.30-19.22.02:526][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.30-19.22.02:536][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.30-19.22.02:548][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.30-19.22.02:559][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.30-19.22.02:570][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.30-19.22.02:608][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.30-19.22.02:608][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.30-19.22.02:608][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.30-19.22.02:670][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (B:/Develope/Sourcetree/LostDark/LostDark/Intermediate/Shaders/WorkingDirectory/2960/).
+[2019.05.30-19.22.02:670][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SungHoon/AppData/Local/Temp/UnrealShaderWorkingDir/F296EB18474C744648C45DAEC157CB74/'.
+[2019.05.30-19.22.02:673][  0]LogXGEController: Cleaning working directory: C:/Users/SungHoon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.30-19.22.02:673][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.30-19.22.02:673][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.30-19.22.02:673][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.30-19.22.03:138][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.30-19.22.03:211][  0]LogDerivedDataCache: Loaded boot cache 0.07s 132MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.30-19.22.03:211][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.30-19.22.03:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.30-19.22.03:211][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.30-19.22.03:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file B:/Develope/Sourcetree/LostDark/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.30-19.22.03:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.30-19.22.03:225][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.30-19.22.03:225][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.30-19.22.03:225][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.30-19.22.03:236][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SungHoon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.30-19.22.03:236][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.30-19.22.03:236][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.30-19.22.03:256][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.30-19.22.03:257][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.30-19.22.03:258][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.30-19.22.03:336][  0]LogAssetRegistry: FAssetRegistry took 0.0311 seconds to start up
+[2019.05.30-19.22.03:607][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.30-19.22.03:746][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.30-19.22.03:750][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.30-19.22.03:750][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.30-19.22.03:750][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.30-19.22.03:750][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.30-19.22.03:765][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.05.30-19.22.04:199][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.054803 seconds
+[2019.05.30-19.22.04:206][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.30-19.22.04:206][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.30-19.22.04:206][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.30-19.22.05:021][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.30-19.22.05:034][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.30-19.22.06:240][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.22.12:155][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.22.12:168][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.22.12:192][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.22.12:478][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.30-19.22.12:478][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.30-19.22.12:478][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.30-19.22.12:478][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.30-19.22.12:814][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.30-19.22.12:814][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.30-19.22.12:815][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.30-19.22.12:816][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.30-19.22.12:971][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.30-19.22.13:059][  0]LogOcInput: OculusInput pre-init called
+[2019.05.30-19.22.13:192][  0]LogEngine: Initializing Engine...
+[2019.05.30-19.22.13:193][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.30-19.22.13:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.30-19.22.13:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.30-19.22.13:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.30-19.22.13:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.30-19.22.13:470][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.30-19.22.13:484][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.30-19.22.13:508][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.30-19.22.13:539][  0]LogInit: FAudioDevice initialized.
+[2019.05.30-19.22.13:539][  0]LogNetVersion: Set ProjectVersion to 2.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.30-19.22.13:607][  0]LogDerivedDataCache: Saved boot cache 0.07s 121MB C:/Users/SungHoon/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.30-19.22.13:613][  0]LogInit: Texture streaming: Enabled
+[2019.05.30-19.22.13:643][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.30-19.22.13:667][  0]LogInit: Transaction tracking system initialized
+[2019.05.30-19.22.13:697][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.30-19.22.13:865][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.30-19.22.14:311][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.30-19.22.14:311][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.30-19.22.14:311][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.30-19.22.14:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.30-19.22.14:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.30-19.22.14:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.30-19.22.14:311][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.30-19.22.14:423][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 0.09s
+[2019.05.30-19.22.14:423][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.30-19.22.14:423][  0]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.30-19.22.14:449][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.30-19.22.14:451][  0]MapCheck: New page: 맵 체크
+[2019.05.30-19.22.14:452][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.30-19.22.14:558][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.30-19.22.14:562][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.30-19.22.14:586][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.30-19.22.14:586][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.068ms.
+[2019.05.30-19.22.14:586][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.163
+[2019.05.30-19.22.14:664][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.30-19.22.14:671][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.30-19.22.14:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.30-19.22.14:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.30-19.22.14:689][  0]LogCollectionManager: Loaded 0 collections in 0.002125 seconds
+[2019.05.30-19.22.14:717][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/Collections/' took 0.01s
+[2019.05.30-19.22.14:717][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Developers/SungHoon/Collections/' took 0.01s
+[2019.05.30-19.22.14:717][  0]LogFileCache: Scanning file cache for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/Collections/' took 0.00s
+[2019.05.30-19.22.14:717][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.30-19.22.14:725][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2678 classes and 625 folders.
+[2019.05.30-19.22.14:732][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.30-19.22.14:734][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:734][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:735][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:735][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:735][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:737][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:740][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:740][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:740][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:744][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:744][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.30-19.22.14:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.30-19.22.14:774][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.30-19.22.14:830][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.30-19.22.14:832][  0]LogSlate: Took 0.001364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.30-19.22.14:835][  0]LogSlate: Took 0.001351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.30-19.22.14:835][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.30-19.22.14:837][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.30-19.22.14:902][  0]LogRenderer: Reallocating scene render targets to support 1208x696 Format 10 NumSamples 1 (Frame:1).
+[2019.05.30-19.22.14:928][  0]LogSlate: Took 0.001449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.30-19.22.15:006][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.30-19.22.15:006][  0]LogLoad: (Engine Initialization) Total time: 15.65 seconds
+[2019.05.30-19.22.15:006][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.30-19.22.15:101][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.30-19.22.15:144][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.30-19.22.15:302][  3]LogAssetRegistry: Asset discovery search completed in 11.9881 seconds
+[2019.05.30-19.22.15:305][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.30-19.22.15:305][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.05.30-19.22.20:149][ 71]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.30-19.22.20:154][ 71]LogFileCache: Retrieving MD5 hashes for directory 'B:/Develope/Sourcetree/LostDark/LostDark/Content/' took 5.12s
+[2019.05.30-19.22.58:967][640]LogAudioDerivedData: Display: OGG 압축 오디오 포맷 Gideon_Effort_Laugh_010 웨이브 빌드중...
+[2019.05.30-19.22.59:006][640]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 432808 while cooking SoundWave /Game/ParagonGideon/Audio/Wavs/Gideon_Effort_Laugh_010.Gideon_Effort_Laugh_010.
+[2019.05.30-19.30.25:672][671]Candidate modules for hot reload:
+[2019.05.30-19.30.25:672][671]  LostDark
+[2019.05.30-19.30.25:672][671]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,1291 Win64 Development -TargetType=Editor -Project="B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" -canskiplink "B:/Develope/Sourcetree/LostDark/LostDark/LostDark.uproject" ]
+[2019.05.30-19.30.25:674][671]Warning: Starting HotReload took  0.5s.
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: New page: 컴파일 - 2019. 5. 31. 오후 1:31:02
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (source directory changed)
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Parsing headers for LostDarkEditor
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Reflection code generated for LostDarkEditor in 9.6096429 seconds
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Building 15 actions with 6 processes...
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [1/15] LostDark.init.gen.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [2/15] GSAnimInstance.gen.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [3/15] LostDarkCharacter.gen.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [4/15] BTTask_Attack.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [5/15] BTDecorator_IsInAttackRanget.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [6/15] BTTask_TurnToTarget.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [7/15] BTService_Detect.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [8/15] GSAnimInstance.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [9/15] SH_ItemBox.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [10/15] LostDarkGameMode.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [11/15] SectionTest.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [12/15] LostDarkPlayerController.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [13/15] LostDarkCharacter.cpp
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [14/15] UE4Editor-LostDark-1291.lib
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1291.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1291.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:   [15/15] UE4Editor-LostDark-1291.dll
+[2019.05.30-19.31.02:252][935]CompilerResultsLog:      B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1291.suppressed.lib ???̺귯?? ?? B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1291.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.30-19.31.02:252][935]CompilerResultsLog: Total build time: 36.03 seconds (Parallel executor: 20.58 seconds)
+[2019.05.30-19.31.02:252][935]LogMainFrame: MainFrame: Module compiling took 36.583 seconds
+[2019.05.30-19.31.02:350][935]LogClass: Could not find existing class GSAnimInstance in package /Script/LostDark for HotReload, assuming new class
+[2019.05.30-19.31.02:351][935]LogClass: Function AnimNotify_AttackHitCheck is new.
+[2019.05.30-19.31.02:351][935]LogClass: Function AnimNotify_IsInputCombo is new.
+[2019.05.30-19.31.02:351][935]LogClass: Function AnimNotify_NextAttackCheck is new.
+[2019.05.30-19.31.02:420][935]LogClass: Could not find existing class LostDarkCharacter in package /Script/LostDark for HotReload, assuming new class
+[2019.05.30-19.31.02:420][935]LogClass: Function OnAttackMontageEnded is new.
+[2019.05.30-19.31.02:420][935]LogClass: Function OnDodgeMontageEnded is new.
+[2019.05.30-19.31.02:426][935]LogClass: ECharacterState HotReload.
+[2019.05.30-19.31.02:426][935]LogClass: GSCharacterData HotReload.
+[2019.05.30-19.31.02:426][935]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.31.02:488][935]LogHotReload: Re-instancing GSAnimInstance after hot-reload.
+[2019.05.30-19.31.02:524][935]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.31.02:678][935]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.31.02:875][935]LogHotReload: Re-instancing LostDarkCharacter after hot-reload.
+[2019.05.30-19.31.02:985][935]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.30-19.31.02:985][935]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.30-19.31.02:985][935]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.30-19.31.02:985][935]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.30-19.31.02:988][935]LogContentBrowser: Native class hierarchy updated for 'LostDark' in 0.0004 seconds. Added 26 classes and 2 folders.
+[2019.05.30-19.31.02:990][935]Display: HotReload successful (13 functions remapped  1 scriptstructs remapped)
+[2019.05.30-19.31.03:121][935]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2679 classes and 627 folders.
+[2019.05.30-19.31.03:121][935]Display: HotReload took 37.9s.
+[2019.05.30-19.31.37:171][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.30-19.32.11:562][ 69]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.32.15:613][504]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.30-19.32.15:629][504]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SH/Blueprints/MainCharacter.MainCharacter
+[2019.05.30-19.32.16:025][504]LogClass: Warning: Enum '/Game/UI_Kit/Blueprints/Objectives/E_ObjectiveType.E_ObjectiveType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.30-19.32.16:027][504]LogClass: Warning: Enum '/Game/UI_Kit/Widgets/Window/ResizeType.ResizeType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.30-19.32.16:082][504]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.05.30-19.32.16:817][504]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.32.16:817][504]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.32.16:818][504]LostDark: Error: UGSCharacterStatComponent::SetNewLevel(54) ASSERTION : 'nullptr != LDGameInstance'
+[2019.05.30-19.32.16:819][504]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.32.16:819][504]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.32.16:820][504]LostDark: Error: UGSCharacterStatComponent::SetNewLevel(54) ASSERTION : 'nullptr != LDGameInstance'
+[2019.05.30-19.32.16:827][504]LogSlate: Took 0.003904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.30-19.32.16:915][505]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.30-19.32.26:335][556]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.32.26:340][556]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:670][317]BlueprintLog: New page: MainCharacter 컴파일
+[2019.05.30-19.33.49:685][317]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.33.49:685][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:687][317]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.33.49:687][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:695][317]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.33.49:695][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:697][317]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.33.49:697][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:860][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:860][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:861][317]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.33.49:862][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:862][317]LostDark: Error: UGSCharacterStatComponent::SetNewLevel(54) ASSERTION : 'nullptr != LDGameInstance'
+[2019.05.30-19.33.49:869][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.49:870][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.33.50:359][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SH/Blueprints/MainCharacter" FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/SH/Blueprints/MainCharacter.uasset" SILENT=true
+[2019.05.30-19.33.50:436][367]LogSavePackage: Moving 'B:/Develope/Sourcetree/LostDark/LostDark/Saved/MainCharacter2096A91A4341F4F2C444A59FCFC3AC79.tmp' to 'B:/Develope/Sourcetree/LostDark/LostDark/Content/SH/Blueprints/MainCharacter.uasset'
+[2019.05.30-19.33.52:511][609]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.30-19.33.52:535][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.30-19.33.52:535][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.30-19.33.52:535][609]PIE: New page: PIE 세션: DefaultLevel (2019. 5. 31. 오후 1:33:52)
+[2019.05.30-19.33.52:554][609]LogPlayLevel: Creating play world package: /Game/DefaultLevel/UEDPIE_0_DefaultLevel
+[2019.05.30-19.33.52:557][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002617s)
+[2019.05.30-19.33.52:557][609]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.30-19.33.52:558][609]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2019.05.30-19.33.52:558][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultLevel/DefaultLevel.DefaultLevel to /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel (0.003570s)
+[2019.05.30-19.33.52:607][609]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.30-19.33.52:628][609]LogInit: FAudioDevice initialized.
+[2019.05.30-19.33.52:635][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.30-19.33.52:674][609]LogLoad: Game class is 'BackupGameModeBase'
+[2019.05.30-19.33.52:676][609]LogWorld: Bringing World /Game/DefaultLevel/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2019.05.31-04.33.52
+[2019.05.30-19.33.52:676][609]LogWorld: Bringing up level for play took: 0.000793
+[2019.05.30-19.33.52:698][609]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.05.30-19.33.52:701][609]PIE: /Game/DefaultLevel/UEDPIE_0_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.289
+[2019.05.30-19.33.52:702][609]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.30-19.33.52:716][609]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.05.30-19.33.53:817][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.30-19.33.53:817][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.30-19.33.53:839][717]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.30-19.33.53:870][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.30-19.33.53:870][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel' with GeneratedClass '/Game/DefaultLevel/DefaultLevel.DefaultLevel_C' with ClassGeneratedBy '/Game/DefaultLevel/DefaultLevel.DefaultLevel:PersistentLevel.DefaultLevel'
+[2019.05.30-19.33.53:923][719]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.05.30-19.34.01:721][479]LogBlueprint: Warning: [Compiler MinimapCapture] SceneCapture.MeshComp : 블루프린트에서 보이도록 (BlueprintReadOnly 또는  BlueprintReadWrite) 되어있지 않습니다. 마크업을 수정하거나 접근을 중단하지 않으면, 앞으로 릴리즈에서 오류가 발생할 것입니다.  MeshComp 구하기
+[2019.05.30-19.34.01:738][479]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] Set Input Mode Game And UI (Deprecated)  : 폐기되었습니다. Use the new version of Set Input Mode Game And UI instead
+[2019.05.30-19.34.01:921][479]LogBlueprint: Warning: [Compiler MinimapCapture] [0722.57] MinimapCapture 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 407 ms] (/Game/UI_Kit/Blueprints/MinimapCapture.MinimapCapture)
+[2019.05.30-19.34.01:922][479]LogBlueprint: Warning: [Compiler PrototypeUI_Controller] [0722.57] PrototypeUI_Controller 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 407 ms] (/Game/UI_Kit/Blueprints/PrototypeUI_Controller.PrototypeUI_Controller)
+[2019.05.30-19.34.01:979][479]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.30-19.34.01:979][479]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.30-19.34.01:979][479]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.30-19.34.01:979][479]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.30-19.34.03:399][479]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.30-19.34.03:455][479]LogAssetEditorManager: Opening Asset editor for World /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel
+[2019.05.30-19.34.03:497][479]Cmd: MAP LOAD FILE="B:/Develope/Sourcetree/LostDark/LostDark/Content/SH/Maps/SH_DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.30-19.34.03:497][479]LightingResults: New page: 라이팅 빌드
+[2019.05.30-19.34.03:497][479]LoadErrors: New page: 맵 로드중: SH_DefaultLevel.umap
+[2019.05.30-19.34.03:498][479]MapCheck: New page: 맵 체크
+[2019.05.30-19.34.03:498][479]LightingResults: New page: 라이팅 빌드
+[2019.05.30-19.34.03:690][479]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.30-19.34.03:772][479]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.30-19.34.03:772][479]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.079ms.
+[2019.05.30-19.34.03:772][479]LogFileHelpers: Loading map 'SH_DefaultLevel' took 0.276
+[2019.05.30-19.34.04:917][597]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.30-19.34.04:939][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.30-19.34.04:939][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.30-19.34.04:939][597]PIE: New page: PIE 세션: SH_DefaultLevel (2019. 5. 31. 오후 1:34:04)
+[2019.05.30-19.34.04:939][597]LogPlayLevel: Creating play world package: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel
+[2019.05.30-19.34.04:940][597]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.30-19.34.04:940][597]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.30-19.34.04:940][597]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.30-19.34.04:940][597]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.30-19.34.04:947][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007342s)
+[2019.05.30-19.34.04:947][597]LogAIModule: Creating AISystem for world SH_DefaultLevel
+[2019.05.30-19.34.04:947][597]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2019.05.30-19.34.04:947][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel to /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel (0.008057s)
+[2019.05.30-19.34.04:995][597]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.30-19.34.05:014][597]LogInit: FAudioDevice initialized.
+[2019.05.30-19.34.05:045][597]LogLoad: Game class is 'MainGameMode_C'
+[2019.05.30-19.34.05:049][597]LogWorld: Bringing World /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel.SH_DefaultLevel up for play (max tick rate 0) at 2019.05.31-04.34.05
+[2019.05.30-19.34.05:050][597]LogWorld: Bringing up level for play took: 0.003171
+[2019.05.30-19.34.05:063][597]LogTemp: Warning: Enroll Attack Montage
+[2019.05.30-19.34.05:063][597]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.30-19.34.05:063][597]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.30-19.34.05:077][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base'!
+[2019.05.30-19.34.05:077][597]LogBlueprintUserMessages: [Minimap_Rectangular_196] Place a minimap Capture actor in the level to use a minimap
+[2019.05.30-19.34.05:078][597]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.500000, Current : 350, Next : 700
+[2019.05.30-19.34.05:078][597]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.30-19.34.05:078][597]PIE: /Game/SH/Maps/UEDPIE_0_SH_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.088
+[2019.05.30-19.34.05:078][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel' with GeneratedClass '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel_C' with ClassGeneratedBy '/Game/SH/Maps/SH_DefaultLevel.SH_DefaultLevel:PersistentLevel.SH_DefaultLevel'
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0785
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:081E
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:08E6
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0938
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:09D1
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:101][597]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0A99
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0785
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:081E
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:08E6
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0938
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:09D1
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:115][598]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0A99
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0785
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:081E
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Minimap Material Instance 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:08E6
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:0938
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Minimap Cap Actor 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Minimap_Rectangular_C /Engine/Transient.UnrealEdEngine_0:LDGameInstance_1.ExampleLayout3_copy_C_0.WidgetTree_0.Minimap_Rectangular_196
+	Function /Game/UI_Kit/Widgets/Misc/Minimap_Base.Minimap_Base_C:ExecuteUbergraph_Minimap_Base:09D1
+[2019.05.30-19.34.05:124][599]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:131][600]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:131][600]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:140][601]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:140][601]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:149][602]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:149][602]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:157][603]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:157][603]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:165][604]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:165][604]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:173][605]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:173][605]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:181][606]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:181][606]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:189][607]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:189][607]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:198][608]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:198][608]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:206][609]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:207][609]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:215][610]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:215][610]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:223][611]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:223][611]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:232][612]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:232][612]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:240][613]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:240][613]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:248][614]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:248][614]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:256][615]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:256][615]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:264][616]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:264][616]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:273][617]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:273][617]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:281][618]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:282][618]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:290][619]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:290][619]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:298][620]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:298][620]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:306][621]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:306][621]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:315][622]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:315][622]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:324][623]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:324][623]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:333][624]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:333][624]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:341][625]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:341][625]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:349][626]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:349][626]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:358][627]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:358][627]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:366][628]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:366][628]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:374][629]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:374][629]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:383][630]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:383][630]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:391][631]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:391][631]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:399][632]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:399][632]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:408][633]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:408][633]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:416][634]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:416][634]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:424][635]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:424][635]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:432][636]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:432][636]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:440][637]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:441][637]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:449][638]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:449][638]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:457][639]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.05:457][639]LogScript: Warning: Script Msg: Divide by zero: Divide_VectorFloat
+[2019.05.30-19.34.15:769][640]LogWindows: Error: === Critical error: ===
+[2019.05.30-19.34.15:769][640]LogWindows: Error: 
+[2019.05.30-19.34.15:769][640]LogWindows: Error: Fatal error!
+[2019.05.30-19.34.15:769][640]LogWindows: Error: 
+[2019.05.30-19.34.15:769][640]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2019.05.30-19.34.15:769][640]LogWindows: Error: 
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff98b278a90 UE4Editor-LostDark-1291.dll!ALostDarkCharacter::AttackSound() [b:\develope\sourcetree\lostdark\lostdark\intermediate\build\win64\ue4editor\inc\lostdark\lostdarkcharacter.gen.cpp:38]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff98b24bbdc UE4Editor-LostDark-1291.dll!UGSAnimInstance::PlayAttackMontage() [b:\develope\sourcetree\lostdark\lostdark\source\lostdark\private\gsaniminstance.cpp:91]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff98b261ed0 UE4Editor-LostDark-1291.dll!ALostDarkCharacter::Attack() [b:\develope\sourcetree\lostdark\lostdark\source\lostdark\private\lostdarkcharacter.cpp:690]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd5da699 UE4Editor-Engine.dll!FInputActionUnifiedDelegate::Execute() [d:\build\++ue4\sync\engine\source\runtime\engine\classes\components\inputcomponent.h:232]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd60c642 UE4Editor-Engine.dll!UPlayerInput::ProcessInputStack() [d:\build\++ue4\sync\engine\source\runtime\engine\private\userinterface\playerinput.cpp:1295]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd0c1bdc UE4Editor-Engine.dll!APlayerController::ProcessPlayerInput() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:2476]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd0d6b28 UE4Editor-Engine.dll!APlayerController::TickPlayerInput() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:4404]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd0bf63b UE4Editor-Engine.dll!APlayerController::PlayerTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:2137]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd0d5908 UE4Editor-Engine.dll!APlayerController::TickActor() [d:\build\++ue4\sync\engine\source\runtime\engine\private\playercontroller.cpp:4543]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bc25f123 UE4Editor-Engine.dll!FActorTickFunction::ExecuteTick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:137]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd504a2d UE4Editor-Engine.dll!TGraphTask<FTickFunctionTask>::ExecuteTask() [d:\build\++ue4\sync\engine\source\runtime\core\public\async\taskgraphinterfaces.h:829]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bef01798 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksNamedThread() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:679]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bef01c56 UE4Editor-Core.dll!FNamedTaskThread::ProcessTasksUntilQuit() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:575]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bef15085 UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() [d:\build\++ue4\sync\engine\source\runtime\core\private\async\taskgraph.cpp:1444]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd55bb64 UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:556]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bd56b9a2 UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\ticktaskmanager.cpp:1474]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bcc3b6e4 UE4Editor-Engine.dll!UWorld::RunTickGroup() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:783]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9bcc474e2 UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1460]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9ba4b2085 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1726]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9badd2346 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff660926225 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3699]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff66093596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff6609359ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff6609448da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff66094659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9ee2c7974 KERNEL32.DLL!UnknownFunction []
+[2019.05.30-19.34.15:769][640]LogWindows: Error: [Callstack] 0x00007ff9f0b3a271 ntdll.dll!UnknownFunction []
+[2019.05.30-19.34.15:769][640]LogWindows: Error: 
+[2019.05.30-19.34.15:784][640]LogExit: Executing StaticShutdownAfterError
+[2019.05.30-19.34.15:795][640]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.05.30-19.34.15:799][640]Log file closed, 05/31/19 04:34:15

@@ -79,10 +79,13 @@ private:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		UAnimMontage* DodgeMontage;
 
+
 public:
 	// 콤보 입력 들어왔는지 확인함
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Attack, Meta = (AllowPrivateAccess = true))
 		bool IsInputCombo;
 
+	UPROPERTY(VisibleAnywhere)
+	class ALostDarkCharacter* LDCharacter;
 
 };

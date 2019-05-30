@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	LOSTDARK_API UClass* Z_Construct_UClass_ALostDarkCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_LostDark();
+	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_AttackSound();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded();
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_ALostDarkCharacter_AttackSound = FName(TEXT("AttackSound"));
+	void ALostDarkCharacter::AttackSound()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ALostDarkCharacter_AttackSound),NULL);
+	}
 	void ALostDarkCharacter::StaticRegisterNativesALostDarkCharacter()
 	{
 		UClass* Class = ALostDarkCharacter::StaticClass();
@@ -39,6 +45,29 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 			{ "OnDodgeMontageEnded", &ALostDarkCharacter::execOnDodgeMontageEnded },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ALostDarkCharacter_AttackSound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALostDarkCharacter_AttackSound_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Attack" },
+		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALostDarkCharacter_AttackSound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALostDarkCharacter, "AttackSound", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALostDarkCharacter_AttackSound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALostDarkCharacter_AttackSound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALostDarkCharacter_AttackSound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALostDarkCharacter_AttackSound_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded_Statics
 	{
@@ -233,6 +262,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_LostDark,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ALostDarkCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ALostDarkCharacter_AttackSound, "AttackSound" }, // 1512388926
 		{ &Z_Construct_UFunction_ALostDarkCharacter_OnAttackMontageEnded, "OnAttackMontageEnded" }, // 1139576670
 		{ &Z_Construct_UFunction_ALostDarkCharacter_OnDodgeMontageEnded, "OnDodgeMontageEnded" }, // 3398893993
 	};
@@ -492,7 +522,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 2338006689);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 3174561816);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

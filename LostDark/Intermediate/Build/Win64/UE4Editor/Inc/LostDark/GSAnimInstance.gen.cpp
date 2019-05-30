@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_IsInputCombo();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck();
+	LOSTDARK_API UClass* Z_Construct_UClass_ALostDarkCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
 	void UGSAnimInstance::StaticRegisterNativesUGSAnimInstance()
@@ -114,6 +115,10 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LDCharacter_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LDCharacter;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsInputCombo_MetaData[];
 #endif
 		static void NewProp_IsInputCombo_SetBit(void* Obj);
@@ -161,6 +166,13 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		{ "ToolTip", "GS = GreyStone" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_LDCharacter_MetaData[] = {
+		{ "Category", "GSAnimInstance" },
+		{ "ModuleRelativePath", "Public/GSAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_LDCharacter = { UE4CodeGen_Private::EPropertyClass::Object, "LDCharacter", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020001, 1, nullptr, STRUCT_OFFSET(UGSAnimInstance, LDCharacter), Z_Construct_UClass_ALostDarkCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_LDCharacter_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_LDCharacter_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInputCombo_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -228,6 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentPawnSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000015, 1, nullptr, STRUCT_OFFSET(UGSAnimInstance, CurrentPawnSpeed), METADATA_PARAMS(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_CurrentPawnSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSAnimInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_LDCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_IsInputCombo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_DodgeMontage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSAnimInstance_Statics::NewProp_AttackMontage,
@@ -258,7 +271,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSAnimInstance, 372182571);
+	IMPLEMENT_CLASS(UGSAnimInstance, 960772212);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSAnimInstance(Z_Construct_UClass_UGSAnimInstance, &UGSAnimInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSAnimInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSAnimInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -60,6 +60,8 @@ class UAnimMontage;
 	}
 
 
+#define LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_EVENT_PARMS
+#define LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_CALLBACK_WRAPPERS
 #define LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALostDarkCharacter(); \
@@ -120,12 +122,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALostDarkCharacter); \
 	FORCEINLINE static uint32 __PPO__DodgeSpeed() { return STRUCT_OFFSET(ALostDarkCharacter, DodgeSpeed); }
 
 
-#define LostDark_Source_LostDark_Public_LostDarkCharacter_h_18_PROLOG
+#define LostDark_Source_LostDark_Public_LostDarkCharacter_h_18_PROLOG \
+	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_EVENT_PARMS
+
+
 #define LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_RPC_WRAPPERS \
+	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_CALLBACK_WRAPPERS \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_INCLASS \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_STANDARD_CONSTRUCTORS \
 public: \
@@ -137,6 +143,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_PRIVATE_PROPERTY_OFFSET \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_CALLBACK_WRAPPERS \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_INCLASS_NO_PURE_DECLS \
 	LostDark_Source_LostDark_Public_LostDarkCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \

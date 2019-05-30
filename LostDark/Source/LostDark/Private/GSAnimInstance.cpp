@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "GSAnimInstance.h"
+#include "LostDarkCharacter.h"
 
 // 생성자
 UGSAnimInstance::UGSAnimInstance()
@@ -85,7 +86,11 @@ void UGSAnimInstance::PlayAttackMontage()
 	//	// 몽타주 재생시킴 (재생시킬 몽타주 정보, 속도)
 	//	Montage_Play(AttackMontage, 1.0f);
 	//}
-
+	LDCharacter = Cast<ALostDarkCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
+	if (LDCharacter != NULL)
+	{
+		LDCharacter->AttackSound();
+	}
 	// 자신이 죽었다면 return.
 	ABCHECK(!IsDead);
 	// 등록된 몽타주 재생.
