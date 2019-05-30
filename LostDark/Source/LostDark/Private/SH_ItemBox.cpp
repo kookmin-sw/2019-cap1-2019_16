@@ -79,7 +79,7 @@ void ASH_ItemBox::Tick(float DeltaTime)
 // Overlap 될때마다 자동 호출되는 함수. 델리게이트. 바인딩됨.
 void ASH_ItemBox::OnCharacterOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	ABLOG_S(Warning);
+	//ABLOG_S(Warning);
 	// 충돌처리되는 상대측 정보를 등록. 우리 콜리전 채널에는 반드시 플레이어만 들어오니까 이렇게 하나만 간단하게 코딩하면됨.
 	auto GSCharacter = Cast<ALostDarkCharacter>(OtherActor);
 	// 만약 충돌된 대상이 플레이어가 아니라면 예외처리.
