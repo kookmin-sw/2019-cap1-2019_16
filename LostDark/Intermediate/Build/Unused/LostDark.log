@@ -1,83 +1,77 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\LD).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (B:\Develope\Sourcetree\LostDark).
   Creating makefile for LostDarkEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for LostDarkEditor
-    Running UnrealHeaderTool "E:\LD\LostDark\LostDark.uproject" "E:\LD\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LostDarkEditor in 13.08003 seconds
-  Deleting old hot reload file: "E:\LD\LostDark\Binaries\Win64\UE4Editor-LostDark-8925.dll".
-  Deleting old hot reload file: "E:\LD\LostDark\Binaries\Win64\UE4Editor-LostDark-8925.pdb".
-  Building 66 actions with 4 processes...
-    [1/66] PCLaunch.rc
-    [2/66] PCLaunch.rc
-    [3/66] SharedPCH.Engine.cpp
-    Detected compiler newer than Visual Studio 2017, please update min version checking in WindowsPlatformCompilerSetup.h
-    [4/66] LostDarkSetting.cpp
-    [5/66] LDCharacterSetting.cpp
-    [6/66] LDCharacterSetting.gen.cpp
-    [7/66] LDGameInstance.gen.cpp
-    [8/66] LDGamePlayResultWidget.gen.cpp
-    [9/66] LDAIController.gen.cpp
-    [10/66] LDCharacterSelectWidget.gen.cpp
-    [11/66] GSCharacterStatComponent.gen.cpp
-    [12/66] GSAnimInstance.gen.cpp
-    [13/66] GSCharacterWidget.gen.cpp
-    [14/66] LDGamePlayWidget.gen.cpp
-    [15/66] GSWeapon.gen.cpp
-    [16/66] LDGameState.gen.cpp
-    [17/66] BTTask_TurnToTarget.gen.cpp
-    [18/66] LDSaveGame.gen.cpp
-    [19/66] LDPlayerState.gen.cpp
-    [20/66] LostDark.init.gen.cpp
-    [21/66] LDUIPlayerController.gen.cpp
-    [22/66] LostDark.gen.cpp
-    [23/66] BTTask_FindPatrolPos.gen.cpp
-    [24/66] LostDarkCharacter.gen.cpp
-    [25/66] LostDarkGameMode.gen.cpp
-    [26/66] LostDarkPlayerController.gen.cpp
-    [27/66] SectionTest.gen.cpp
-    [28/66] SH_ItemBox.gen.cpp
-    [29/66] BackupGameModeBase.gen.cpp
-    [30/66] LDHUDWidget.gen.cpp
-    [31/66] BackupCharacter.cpp
-    [32/66] BackupGameModeBase.cpp
-    [33/66] BTService_Detect.gen.cpp
-    [34/66] BTTask_Attack.gen.cpp
-    [35/66] BTTask_Attack.cpp
-    [36/66] BTDecorator_IsInAttackRanget.cpp
-    [37/66] BTService_Detect.cpp
-    [38/66] BTTask_FindPatrolPos.cpp
-    [39/66] GSAnimInstance.cpp
-    [40/66] GSCharacterStatComponent.cpp
-    [41/66] BTTask_TurnToTarget.cpp
-    [42/66] GSCharacterWidget.cpp
-    [43/66] GSWeapon.cpp
-    [44/66] LDGameInstance.cpp
-    [45/66] BTDecorator_IsInAttackRanget.gen.cpp
-    [46/66] LDAIController.cpp
-    [47/66] LDCharacterSelectWidget.cpp
-    [48/66] LDGameState.cpp
-    [49/66] LDGamePlayWidget.cpp
-    [50/66] LDHUDWidget.cpp
-    [51/66] LDPlayerState.cpp
-    [52/66] LDSaveGame.cpp
-    [53/66] LostDark.cpp
-    [54/66] LDUIPlayerController.cpp
-    [55/66] BackupCharacter.gen.cpp
-    [56/66] LostDarkGameMode.cpp
-    [57/66] LostDarkCharacter.cpp
-    [58/66] SH_ItemBox.cpp
-    [59/66] LDGamePlayResultWidget.cpp
-    [60/66] LostDarkSetting.init.gen.cpp
-    [61/66] UE4Editor-LostDarkSetting.lib
-       E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.lib 라이브러리 및 E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.exp 개체를 생성하고 있습니다.
-    [62/66] UE4Editor-LostDarkSetting.dll
-       E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.lib 라이브러리 및 E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.exp 개체를 생성하고 있습니다.
-    [63/66] LostDarkPlayerController.cpp
-    [64/66] SectionTest.cpp
-    [65/66] UE4Editor-LostDark.lib
-       E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
-    [66/66] UE4Editor-LostDark.dll
-       E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 E:\LD\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
+    Running UnrealHeaderTool "B:\Develope\Sourcetree\LostDark\LostDark\LostDark.uproject" "B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for LostDarkEditor in 8.5506017 seconds
+  Building 64 actions with 6 processes...
+    [1/64] SharedPCH.Engine.cpp
+    [2/64] LostDarkSetting.cpp
+    [3/64] LDCharacterSetting.cpp
+    [4/64] LDCharacterSetting.gen.cpp
+    [5/64] LDGameInstance.gen.cpp
+    [6/64] LDGamePlayResultWidget.gen.cpp
+    [7/64] GSCharacterStatComponent.gen.cpp
+    [8/64] LDCharacterSelectWidget.gen.cpp
+    [9/64] LDAIController.gen.cpp
+    [10/64] GSCharacterWidget.gen.cpp
+    [11/64] GSAnimInstance.gen.cpp
+    [12/64] GSWeapon.gen.cpp
+    [13/64] LDGamePlayWidget.gen.cpp
+    [14/64] LDGameState.gen.cpp
+    [15/64] LDSaveGame.gen.cpp
+    [16/64] BTTask_TurnToTarget.gen.cpp
+    [17/64] LostDark.init.gen.cpp
+    [18/64] LDPlayerState.gen.cpp
+    [19/64] LDUIPlayerController.gen.cpp
+    [20/64] LostDark.gen.cpp
+    [21/64] LostDarkGameMode.gen.cpp
+    [22/64] LostDarkCharacter.gen.cpp
+    [23/64] BTTask_FindPatrolPos.gen.cpp
+    [24/64] LostDarkPlayerController.gen.cpp
+    [25/64] SH_ItemBox.gen.cpp
+    [26/64] SectionTest.gen.cpp
+    [27/64] BackupGameModeBase.gen.cpp
+    [28/64] BackupGameModeBase.cpp
+    [29/64] BackupCharacter.cpp
+    [30/64] LDHUDWidget.gen.cpp
+    [31/64] BTService_Detect.gen.cpp
+    [32/64] BTTask_Attack.gen.cpp
+    [33/64] BTService_Detect.cpp
+    [34/64] BTDecorator_IsInAttackRanget.cpp
+    [35/64] GSAnimInstance.cpp
+    [36/64] BTTask_Attack.cpp
+    [37/64] BTTask_TurnToTarget.cpp
+    [38/64] BTTask_FindPatrolPos.cpp
+    [39/64] GSCharacterStatComponent.cpp
+    [40/64] GSWeapon.cpp
+    [41/64] GSCharacterWidget.cpp
+    [42/64] BTDecorator_IsInAttackRanget.gen.cpp
+    [43/64] LDGameInstance.cpp
+    [44/64] LDAIController.cpp
+    [45/64] LDGameState.cpp
+    [46/64] LDGamePlayWidget.cpp
+    [47/64] LDCharacterSelectWidget.cpp
+    [48/64] LDPlayerState.cpp
+    [49/64] LDSaveGame.cpp
+    [50/64] LDHUDWidget.cpp
+    [51/64] BackupCharacter.gen.cpp
+    [52/64] LostDark.cpp
+    [53/64] LDUIPlayerController.cpp
+    [54/64] LostDarkGameMode.cpp
+    [55/64] LostDarkSetting.init.gen.cpp
+    [56/64] UE4Editor-LostDarkSetting.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.suppressed.exp 개체를 생성하고 있습니다.
+    [57/64] LDGamePlayResultWidget.cpp
+    [58/64] UE4Editor-LostDarkSetting.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDarkSetting\UE4Editor-LostDarkSetting.exp 개체를 생성하고 있습니다.
+    [59/64] SH_ItemBox.cpp
+    [60/64] LostDarkCharacter.cpp
+    [61/64] SectionTest.cpp
+    [62/64] LostDarkPlayerController.cpp
+    [63/64] UE4Editor-LostDark.lib
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.exp 개체를 생성하고 있습니다.
+    [64/64] UE4Editor-LostDark.dll
+       B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.lib 라이브러리 및 B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark.suppressed.exp 개체를 생성하고 있습니다.
   Deploying LostDarkEditor Win64 Development...
-  Total build time: 219.69 seconds (Parallel executor: 160.64 seconds)
+  Total build time: 91.30 seconds (Parallel executor: 76.75 seconds)
