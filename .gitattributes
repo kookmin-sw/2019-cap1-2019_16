@@ -1,1 +1,7 @@
-lastdemo.mp4 filter=lfs diff=lfs merge=lfs -text
+Elemental_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+Landscape.umap filter=lfs diff=lfs merge=lfs -text
+Landscape_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+Dungeon_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+ElvenRuins_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+Throne_ExteriorCastle_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+Forge.umap filter=lfs diff=lfs merge=lfs -text

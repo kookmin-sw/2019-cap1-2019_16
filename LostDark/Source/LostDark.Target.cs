@@ -8,6 +8,6 @@ public class LostDarkTarget : TargetRules
 	public LostDarkTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		ExtraModuleNames.Add("LostDark");
+		ExtraModuleNames.AddRange(new string[] { "LostDark", "LostDarkSetting" });
 	}
 }
