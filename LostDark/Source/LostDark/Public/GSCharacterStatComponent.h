@@ -59,10 +59,6 @@ public:
 	FOnHPIsZeroDelegate OnHPIsZero;
 	FOnHPChangeDelegate OnHPChanged;
 
-	// 코드 내부의 함수는 정의할 필요 없음. 코드에서는 그냥 함수를 호출하기만 하고, 블루프린트로 정의한 부분에서 실행하게 됨.
-	UFUNCTION(BlueprintImplementableEvent, Category = "Delegate")
-		void HPChanged();
-
 private:
 	// 캐릭터 데이터 테이블 구조체 참조 변수. 정확히 말하자면, 하나의 행(Row) 구조체 정보를 가져오는 변수. ex) Level 4의 데이터 정보들
 	struct FGSCharacterData* CurrentStatData = nullptr;
@@ -73,4 +69,7 @@ private:
 	// 현재 HP / Transient는 UPROPERTY 속성을 저장하지 않는다는걸 의미한다. 수시로 변할수 있는 데이터이기에 보관하는것이 의미 없음.
 	UPROPERTY(Transient, BlueprintReadOnly, Category = Stat, Meta = (AllowPrivateAccess = true))
 		float CurrentHP;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Stat, Meta = (AllowPrivateAccess = true))
+		bool IsInitialHP = false;
 };

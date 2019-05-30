@@ -51,8 +51,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_EVENT_PARMS
-#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_CALLBACK_WRAPPERS
 #define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGSCharacterStatComponent(); \
@@ -97,19 +95,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGSCharacterStatComponent); \
 
 #define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Level() { return STRUCT_OFFSET(UGSCharacterStatComponent, Level); } \
-	FORCEINLINE static uint32 __PPO__CurrentHP() { return STRUCT_OFFSET(UGSCharacterStatComponent, CurrentHP); }
+	FORCEINLINE static uint32 __PPO__CurrentHP() { return STRUCT_OFFSET(UGSCharacterStatComponent, CurrentHP); } \
+	FORCEINLINE static uint32 __PPO__IsInitialHP() { return STRUCT_OFFSET(UGSCharacterStatComponent, IsInitialHP); }
 
 
-#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_22_PROLOG \
-	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_EVENT_PARMS
-
-
+#define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_22_PROLOG
 #define LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_PRIVATE_PROPERTY_OFFSET \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_RPC_WRAPPERS \
-	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_CALLBACK_WRAPPERS \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_INCLASS \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_STANDARD_CONSTRUCTORS \
 public: \
@@ -121,7 +116,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_PRIVATE_PROPERTY_OFFSET \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_CALLBACK_WRAPPERS \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_INCLASS_NO_PURE_DECLS \
 	LostDark_Source_LostDark_Public_GSCharacterStatComponent_h_25_ENHANCED_CONSTRUCTORS \
 private: \

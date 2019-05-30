@@ -18,14 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_LostDark();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSCharacterStatComponent_GetDropExp();
-	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSCharacterStatComponent_MaxHP();
 // End Cross Module References
-	static FName NAME_UGSCharacterStatComponent_HPChanged = FName(TEXT("HPChanged"));
-	void UGSCharacterStatComponent::HPChanged()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_UGSCharacterStatComponent_HPChanged),NULL);
-	}
 	void UGSCharacterStatComponent::StaticRegisterNativesUGSCharacterStatComponent()
 	{
 		UClass* Class = UGSCharacterStatComponent::StaticClass();
@@ -66,30 +60,6 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGSCharacterStatComponent_GetDropExp_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Delegate" },
-		{ "ModuleRelativePath", "Public/GSCharacterStatComponent.h" },
-		{ "ToolTip", "?\xda\xb5? ?????? ?\xd4\xbc??? ?????? ?\xca\xbf? ????. ?\xda\xb5\xe5\xbf\xa1???? ?\xd7\xb3? ?\xd4\xbc??? \xc8\xa3???\xcf\xb1\xe2\xb8\xb8 ?\xcf\xb0?, ????????\xc6\xae?? ?????? ?\xce\xba\xd0\xbf??? ?????\xcf\xb0? ??." },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSCharacterStatComponent, "HPChanged", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -138,6 +108,11 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsInitialHP_MetaData[];
+#endif
+		static void NewProp_IsInitialHP_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsInitialHP;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHP_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHP;
@@ -155,7 +130,6 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGSCharacterStatComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UGSCharacterStatComponent_GetDropExp, "GetDropExp" }, // 2185293338
-		{ &Z_Construct_UFunction_UGSCharacterStatComponent_HPChanged, "HPChanged" }, // 2881400875
 		{ &Z_Construct_UFunction_UGSCharacterStatComponent_MaxHP, "MaxHP" }, // 889956658
 	};
 #if WITH_METADATA
@@ -167,6 +141,18 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		{ "ToolTip", "UI ?????? ???? ????????\xc6\xae(->GSCharacterWidget)" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Stat" },
+		{ "ModuleRelativePath", "Public/GSCharacterStatComponent.h" },
+	};
+#endif
+	void Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP_SetBit(void* Obj)
+	{
+		((UGSCharacterStatComponent*)Obj)->IsInitialHP = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP = { UE4CodeGen_Private::EPropertyClass::Bool, "IsInitialHP", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UGSCharacterStatComponent), &Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP_SetBit, METADATA_PARAMS(Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_CurrentHP_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -185,6 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000801, 1, nullptr, STRUCT_OFFSET(UGSCharacterStatComponent, Level), METADATA_PARAMS(Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGSCharacterStatComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_IsInitialHP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_CurrentHP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGSCharacterStatComponent_Statics::NewProp_Level,
 	};
@@ -211,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeGSCharacterStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSCharacterStatComponent, 3553500235);
+	IMPLEMENT_CLASS(UGSCharacterStatComponent, 1940722001);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSCharacterStatComponent(Z_Construct_UClass_UGSCharacterStatComponent, &UGSCharacterStatComponent::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSCharacterStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSCharacterStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

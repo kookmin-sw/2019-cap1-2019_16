@@ -94,7 +94,7 @@ void UGSCharacterStatComponent::SetHP(float NewHP)
 	CurrentHP = NewHP;
 	// HP가 변한것을 브로드 캐스트
 	OnHPChanged.Broadcast(); /// GSCharacterWidget.cpp에 Lambda 함수로 구현되어 있음. /// 처음 브로드 캐스트는 아무 효과없음. 받으려고 등록된 함수가 없기때문.
-	HPChanged();
+
 	// KINAD_SMALL_NUMBER : 무시 가능한 오차를 측정하도록 사용하는 float의 0값에 가까운 숫자.
 	if (CurrentHP < KINDA_SMALL_NUMBER)
 	{
@@ -103,6 +103,7 @@ void UGSCharacterStatComponent::SetHP(float NewHP)
 		// HP가 0이하로 떨어지면 브로드캐스트 (사망상태로)
 		OnHPIsZero.Broadcast(); /// LostDarkCharacter에 Lambda 함수로 구현되어있음.
 	}
+	IsInitialHP = true;
 }
 
 // 공격력 반환 함수
