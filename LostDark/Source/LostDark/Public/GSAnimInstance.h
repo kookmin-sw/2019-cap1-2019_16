@@ -54,6 +54,8 @@ private:
 	// 이 노티파이가 불려진 이후에 들어온 공격만 콤보로 받아들임
 	UFUNCTION()
 		void AnimNotify_IsInputCombo();
+	UFUNCTION()
+		void AnimNotify_PlaySound();
 
 	// 현재 몽타주 섹션의 이름을 출력하기 위한 함수
 	FName GetAttackMontageSectionName(int32 Section);

@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_IsInputCombo();
 	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck();
+	LOSTDARK_API UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound();
 	LOSTDARK_API UClass* Z_Construct_UClass_ALostDarkCharacter_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 // End Cross Module References
@@ -31,6 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 			{ "AnimNotify_AttackHitCheck", &UGSAnimInstance::execAnimNotify_AttackHitCheck },
 			{ "AnimNotify_IsInputCombo", &UGSAnimInstance::execAnimNotify_IsInputCombo },
 			{ "AnimNotify_NextAttackCheck", &UGSAnimInstance::execAnimNotify_NextAttackCheck },
+			{ "AnimNotify_PlaySound", &UGSAnimInstance::execAnimNotify_PlaySound },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -103,6 +105,28 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/GSAnimInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGSAnimInstance, "AnimNotify_PlaySound", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UGSAnimInstance_NoRegister()
 	{
 		return UGSAnimInstance::StaticClass();
@@ -157,6 +181,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		{ &Z_Construct_UFunction_UGSAnimInstance_AnimNotify_AttackHitCheck, "AnimNotify_AttackHitCheck" }, // 2427124280
 		{ &Z_Construct_UFunction_UGSAnimInstance_AnimNotify_IsInputCombo, "AnimNotify_IsInputCombo" }, // 39452795
 		{ &Z_Construct_UFunction_UGSAnimInstance_AnimNotify_NextAttackCheck, "AnimNotify_NextAttackCheck" }, // 2898517785
+		{ &Z_Construct_UFunction_UGSAnimInstance_AnimNotify_PlaySound, "AnimNotify_PlaySound" }, // 915086675
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGSAnimInstance_Statics::Class_MetaDataParams[] = {
@@ -271,7 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeGSAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGSAnimInstance, 960772212);
+	IMPLEMENT_CLASS(UGSAnimInstance, 1451954328);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGSAnimInstance(Z_Construct_UClass_UGSAnimInstance, &UGSAnimInstance::StaticClass, TEXT("/Script/LostDark"), TEXT("UGSAnimInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGSAnimInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

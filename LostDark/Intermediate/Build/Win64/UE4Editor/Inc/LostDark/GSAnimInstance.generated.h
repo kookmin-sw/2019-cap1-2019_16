@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define LostDark_Source_LostDark_Public_GSAnimInstance_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAnimNotify_PlaySound) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AnimNotify_PlaySound(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAnimNotify_IsInputCombo) \
 	{ \
 		P_FINISH; \
@@ -41,6 +49,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define LostDark_Source_LostDark_Public_GSAnimInstance_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAnimNotify_PlaySound) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->AnimNotify_PlaySound(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAnimNotify_IsInputCombo) \
 	{ \

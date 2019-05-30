@@ -86,11 +86,6 @@ void UGSAnimInstance::PlayAttackMontage()
 	//	// 몽타주 재생시킴 (재생시킬 몽타주 정보, 속도)
 	//	Montage_Play(AttackMontage, 1.0f);
 	//}
-	LDCharacter = Cast<ALostDarkCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
-	if (LDCharacter != NULL)
-	{
-		LDCharacter->AttackSound();
-	}
 	// 자신이 죽었다면 return.
 	ABCHECK(!IsDead);
 	// 등록된 몽타주 재생.
@@ -131,6 +126,16 @@ void UGSAnimInstance::AnimNotify_IsInputCombo()
 {
 	// 이제부터 들어오는 공격은 전부 추가 콤보 공격임.
 	IsInputCombo = true;
+}
+
+void UGSAnimInstance::AnimNotify_PlaySound()
+{
+	UE_LOG(LogTemp, Warning, TEXT("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"));
+	LDCharacter = Cast<ALostDarkCharacter>(UGameplayStatics::GetPlayerCharacter(this, 0));
+	if (LDCharacter != NULL)
+	{
+		LDCharacter->AttackSound();
+	}
 }
 
 // 다음 공격 섹션 정보를 출력
