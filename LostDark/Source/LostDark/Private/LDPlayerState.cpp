@@ -12,7 +12,7 @@ ALDPlayerState::ALDPlayerState()
 	GameScore = 0;
 	GameHighScore = 0;
 	Exp = 0;
-	// 엔진 초기화시, 슬롯 네임은 Player1로 지정됨
+	// 엔진 초기화시, 세이브 슬롯 네임은 Player1로 지정됨
 	SaveSlotName = TEXT("Player1");
 	CharacterIndex = 0;
 }

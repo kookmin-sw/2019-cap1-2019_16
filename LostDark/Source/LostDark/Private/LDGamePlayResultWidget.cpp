@@ -22,7 +22,7 @@ void ULDGamePlayResultWidget::NativeConstruct()
 
 	auto Result = Cast<UTextBlock>(GetWidgetFromName(TEXT("txtResult")));
 	ABCHECK(Result != nullptr);
-	Result->SetText(FText::FromString(CurrentGameState->IsGameCleared() ? TEXT("Mission Complete") : TEXT("Mission Failed")));
+	Result->SetText(FText::FromString(CurrentGameState->IsGameCleared() ? TEXT("Mission Complete") : TEXT("Game Over")));
 
 	auto TotalScore = Cast<UTextBlock>(GetWidgetFromName(TEXT("txtTotalScore")));
 	ABCHECK(TotalScore != nullptr);

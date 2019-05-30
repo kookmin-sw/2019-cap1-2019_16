@@ -117,8 +117,8 @@ void ALostDarkPlayerController::ChangeInputMode(bool bGameMode)
 	// true면 게임화면만
 	if (bGameMode)
 	{
-		SetInputMode(GameInputMode);
-		bShowMouseCursor = false;
+		//SetInputMode(GameInputMode);
+		bShowMouseCursor = true;
 	}
 	// false면 UI에만
 	else

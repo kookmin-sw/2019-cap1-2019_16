@@ -497,9 +497,9 @@ void ALostDarkCharacter::SetupPlayerInputComponent(class UInputComponent* Player
 
 	/// 원래 위의것과 똑같은 형태로 짜야하는데, 기존의 함수를 그대로 사용해봄.
 	// 부모 Pawn 클래스에 있는 AddControllerYawInput 함수를 호출함
-	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APawn::AddControllerYawInput);
-	// 부모 Pawn 클래스에 있는 AddControllerPitchInput 함수를 호출함
-	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APawn::AddControllerPitchInput);
+	//PlayerInputComponent->BindAxis(TEXT("Turn"), this, &APawn::AddControllerYawInput);
+	////// 부모 Pawn 클래스에 있는 AddControllerPitchInput 함수를 호출함
+	//PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &APawn::AddControllerPitchInput);
 
 }
 
@@ -717,7 +717,7 @@ void ALostDarkCharacter::Dodge()
 			if (bIsPlayer)
 			{
 				// 키입력 없앰.
-				DisableInput(LDPlayerController);
+				//DisableInput(LDPlayerController);
 			}
 			GSAnim->PlayDodgeMontage();
 			// 이동
@@ -921,7 +921,7 @@ void ALostDarkCharacter::SetControlMode(EControlMode NewControlMode)
 		//CameraBoom->SetRelativeRotation(FRotator::ZeroRotator);
 
 		// Boom 길이 초기화
-		BoomLengthTo = 450.0f;
+		BoomLengthTo = 550.0f;
 		/// 없던거 추가함
 		BoomRotationTo = FRotator::ZeroRotator;
 

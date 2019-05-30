@@ -334,7 +334,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		{ "ToolTip", "???? ?\xdd\xb0? (??????)" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius = { UE4CodeGen_Private::EPropertyClass::Float, "AttackRadius", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000020815, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, AttackRadius), METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius = { UE4CodeGen_Private::EPropertyClass::Float, "AttackRadius", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000015, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, AttackRadius), METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRadius_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -342,7 +342,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange = { UE4CodeGen_Private::EPropertyClass::Float, "AttackRange", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000020815, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, AttackRange), METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange = { UE4CodeGen_Private::EPropertyClass::Float, "AttackRange", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000000015, 1, nullptr, STRUCT_OFFSET(ALostDarkCharacter, AttackRange), METADATA_PARAMS(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_AttackRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALostDarkCharacter_Statics::NewProp_GSAnim_MetaData[] = {
 		{ "ModuleRelativePath", "Public/LostDarkCharacter.h" },
@@ -492,7 +492,7 @@ void EmptyLinkFunctionForGeneratedCodeLostDarkCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALostDarkCharacter, 1868131412);
+	IMPLEMENT_CLASS(ALostDarkCharacter, 2338006689);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALostDarkCharacter(Z_Construct_UClass_ALostDarkCharacter, &ALostDarkCharacter::StaticClass, TEXT("/Script/LostDark"), TEXT("ALostDarkCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALostDarkCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -100,8 +100,8 @@ void ULDCharacterSelectWidget::OnConfirmClicked()
 	// 새로운 세이브 데이터 변수 만듦.
 	ULDSaveGame* NewPlayerData = NewObject<ULDSaveGame>();
 	NewPlayerData->PlayerName = CharacterName;
-	NewPlayerData->Level = 5;
-	NewPlayerData->Exp = 10;
+	NewPlayerData->Level = 3;
+	NewPlayerData->Exp = 0;
 	NewPlayerData->HighScore = 0; // 현재까지 최대 클리어한 횟수(죽인 횟수)
 	NewPlayerData->CharacterIndex = CurrentIndex; // 애셋 경로의 인덱스를 저장
 
@@ -111,7 +111,7 @@ void ULDCharacterSelectWidget::OnConfirmClicked()
 	if (UGameplayStatics::SaveGameToSlot(NewPlayerData, LDPlayerState->SaveSlotName, 2))
 	{
 		// 새로운 레벨을 연다. 2번째 인자에는 맵 애셋 이름을 넣어줘야한다.
-		UGameplayStatics::OpenLevel(GetWorld(), TEXT("SH_DefaultLevel"));
+		UGameplayStatics::OpenLevel(GetWorld(), TEXT("Elemental"));
 	}
 	else
 	{

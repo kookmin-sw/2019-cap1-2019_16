@@ -33,7 +33,7 @@ ALostDarkGameMode::ALostDarkGameMode()
 	// 게임 스테이트 정보 등록.
 	GameStateClass = ALDGameState::StaticClass();
 	// 최종 목표는 2
-	ScoreToClear = 2;
+	ScoreToClear = 9999;
 }
 
 void ALostDarkGameMode::PostInitializeComponents()
