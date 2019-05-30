@@ -1,0 +1,1370 @@
+﻿Log file open, 05/29/19 01:34:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: LostDark
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.425815
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.081s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: AMD Ryzen 5 1600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.28-16.34.49:937][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.28-16.34.49:937][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.28-16.34.49:937][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:937][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.28-16.34.49:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:938][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:942][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.28-16.34.49:942][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.28-16.34.49:943][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.28-16.34.49:943][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.28-16.34.49:943][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.28-16.34.49:961][  0]LogHAL: Display: Platform has ~ 16 GB [17104289792 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.28-16.34.49:961][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.28-16.34.49:961][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.28-16.34.49:962][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.28-16.34.49:962][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Scalability.ini]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.28-16.34.49:963][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.28-16.34.49:963][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Capstone_Git/LostDark/Saved/Config/Windows/Engine.ini]
+[2019.05.28-16.34.49:963][  0]LogInit: Computer: OWN-PC
+[2019.05.28-16.34.49:963][  0]LogInit: User: YR
+[2019.05.28-16.34.49:963][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.05.28-16.34.49:963][  0]LogInit: High frequency timer resolution =3.119136 MHz
+[2019.05.28-16.34.49:963][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.28-16.34.49:964][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.28-16.34.49:964][  0]LogMemory: Process Physical Memory: 104.13 MB used, 104.13 MB peak
+[2019.05.28-16.34.49:964][  0]LogMemory: Process Virtual Memory: 94.41 MB used, 94.41 MB peak
+[2019.05.28-16.34.49:964][  0]LogMemory: Physical Memory: 7429.97 MB used,  8881.95 MB free, 16311.92 MB total
+[2019.05.28-16.34.49:964][  0]LogMemory: Virtual Memory: 4673.08 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.05.28-16.34.49:993][  0]LogInit: Using OS detected language (ko-KR).
+[2019.05.28-16.34.49:993][  0]LogInit: Using OS detected locale (ko-KR).
+[2019.05.28-16.34.49:994][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2019.05.28-16.34.50:410][  0]LogStreaming: Display: Took  0.417s to InitEngineTextLocalization.
+[2019.05.28-16.34.50:410][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.28-16.34.50:464][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.28-16.34.50:464][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.28-16.34.50:730][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.28-16.34.50:730][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.28-16.34.50:820][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.05.28-16.34.50:820][  0]LogD3D11RHI:       8088/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.28-16.34.50:822][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.28-16.34.50:822][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.28-16.34.50:822][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.28-16.34.50:832][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.28-16.34.50:832][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.28-16.34.50:832][  0]LogWindows: EnumDisplayDevices:
+[2019.05.28-16.34.50:832][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.05.28-16.34.50:833][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.05.28-16.34.50:833][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.05.28-16.34.50:834][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.05.28-16.34.50:835][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.28-16.34.50:835][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.05.28-16.34.50:835][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2019.05.28-16.34.50:835][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2019.05.28-16.34.50:835][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.05.28-16.34.50:890][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.28-16.34.50:909][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.28-16.34.51:300][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.28-16.34.51:319][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.28-16.34.51:342][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.28-16.34.51:361][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.28-16.34.51:380][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.28-16.34.51:398][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.28-16.34.51:417][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.28-16.34.51:435][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.28-16.34.51:444][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.28-16.34.51:540][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.28-16.34.51:609][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.28-16.34.51:609][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.28-16.34.51:639][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.28-16.34.51:639][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.28-16.34.51:655][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.28-16.34.51:670][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.28-16.34.51:686][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.28-16.34.51:702][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.28-16.34.51:758][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.28-16.34.51:758][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.28-16.34.51:759][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.28-16.34.51:852][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (E:/Capstone_Git/LostDark/Intermediate/Shaders/WorkingDirectory/4288/).
+[2019.05.28-16.34.51:852][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/songy/AppData/Local/Temp/UnrealShaderWorkingDir/008B6B4F40178CEFDCE4FCAD1B73341F/'.
+[2019.05.28-16.34.51:857][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.28-16.34.51:857][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.28-16.34.51:857][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.28-16.34.52:441][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.28-16.34.52:505][  0]LogDerivedDataCache: Loaded boot cache 0.06s 121MB C:/Users/songy/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.28-16.34.52:505][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/songy/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.28-16.34.52:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Capstone_Git/LostDark/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.28-16.34.52:505][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.28-16.34.52:505][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Capstone_Git/LostDark/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.28-16.34.52:505][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.28-16.34.52:523][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.28-16.34.52:524][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.28-16.34.52:524][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.28-16.34.52:536][  0]LogDerivedDataCache: Using Local data cache path C:/Users/songy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.28-16.34.52:536][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.28-16.34.52:536][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.28-16.34.52:561][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.28-16.34.52:562][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.28-16.34.52:563][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.28-16.34.52:671][  0]LogAssetRegistry: FAssetRegistry took 0.0369 seconds to start up
+[2019.05.28-16.34.53:063][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.28-16.34.53:248][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.28-16.34.53:255][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.28-16.34.53:255][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.28-16.34.53:255][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.28-16.34.53:255][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.28-16.34.53:272][  0]LogNetVersion: LostDark 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1003383482)
+[2019.05.28-16.34.53:929][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.117428 seconds
+[2019.05.28-16.34.53:939][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.28-16.34.53:939][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.05.28-16.34.53:939][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.28-16.34.55:047][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.28-16.34.55:062][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.28-16.34.56:266][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.34.59:182][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.34.59:199][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.34.59:233][  0]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.34.59:842][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.28-16.34.59:842][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.28-16.34.59:842][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.28-16.34.59:843][  0]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.28-16.35.00:192][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.28-16.35.00:192][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.28-16.35.00:194][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.28-16.35.00:195][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.28-16.35.00:392][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.28-16.35.00:591][  0]LogOcInput: OculusInput pre-init called
+[2019.05.28-16.35.00:740][  0]LogEngine: Initializing Engine...
+[2019.05.28-16.35.00:741][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.28-16.35.00:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.28-16.35.00:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.28-16.35.00:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.28-16.35.00:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.28-16.35.01:002][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.28-16.35.01:025][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.28-16.35.01:134][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.35.01:179][  0]LogInit: FAudioDevice initialized.
+[2019.05.28-16.35.01:179][  0]LogNetVersion: Set ProjectVersion to 2.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.28-16.35.01:299][  0]LogDerivedDataCache: Saved boot cache 0.12s 121MB C:/Users/songy/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.28-16.35.01:313][  0]LogInit: Texture streaming: Enabled
+[2019.05.28-16.35.01:344][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.28-16.35.01:387][  0]LogInit: Transaction tracking system initialized
+[2019.05.28-16.35.01:438][  0]BlueprintLog: New page: 에디터 로드
+[2019.05.28-16.35.01:717][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2019.05.28-16.35.02:319][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.28-16.35.02:319][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.28-16.35.02:319][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.28-16.35.02:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.28-16.35.02:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.28-16.35.02:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.28-16.35.02:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.28-16.35.02:414][  0]LogFileCache: Scanning file cache for directory 'E:/Capstone_Git/LostDark/Content/' took 0.06s
+[2019.05.28-16.35.02:517][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2019.05.28-16.35.02:517][  0]Cmd: MAP LOAD FILE="E:/Capstone_Git/LostDark/Content/DefaultLevel/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.28-16.35.02:518][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.28-16.35.02:524][  0]MapCheck: New page: 맵 체크
+[2019.05.28-16.35.02:524][  0]LightingResults: New page: 라이팅 빌드
+[2019.05.28-16.35.02:660][  0]LogAIModule: Creating AISystem for world DefaultLevel
+[2019.05.28-16.35.02:666][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.28-16.35.02:700][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.28-16.35.02:700][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.09ms.
+[2019.05.28-16.35.02:700][  0]LogFileHelpers: Loading map 'DefaultLevel' took 0.183
+[2019.05.28-16.35.02:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.35.02:842][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.35.02:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.35.02:859][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.35.02:923][  0]LogCollectionManager: Loaded 0 collections in 0.003189 seconds
+[2019.05.28-16.35.02:966][  0]LogFileCache: Scanning file cache for directory 'E:/Capstone_Git/LostDark/Saved/Collections/' took 0.01s
+[2019.05.28-16.35.02:966][  0]LogFileCache: Scanning file cache for directory 'E:/Capstone_Git/LostDark/Content/Developers/YR/Collections/' took 0.01s
+[2019.05.28-16.35.02:966][  0]LogFileCache: Scanning file cache for directory 'E:/Capstone_Git/LostDark/Content/Collections/' took 0.00s
+[2019.05.28-16.35.02:966][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.28-16.35.02:980][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2678 classes and 625 folders.
+[2019.05.28-16.35.02:996][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.05.28-16.35.03:007][  0]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.05.28-16.35.03:007][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.05.28-16.35.03:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:015][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:034][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:056][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:074][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:082][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:093][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:099][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:112][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:119][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:154][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:160][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:204][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:210][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:216][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.28-16.35.03:381][  0]LogPackageName: SearchForPackageOnDisk took   0.224s, but failed to resolve S_ClothTarps_03.
+[2019.05.28-16.35.03:381][  0]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2019.05.28-16.35.03:381][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.05.28-16.35.03:399][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.05.28-16.35.05:416][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.28-16.35.05:462][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.28-16.35.05:467][  0]LogSlate: Took 0.002736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.28-16.35.05:471][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LostDark
+[2019.05.28-16.35.05:471][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.28-16.35.05:471][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.28-16.35.05:471][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.28-16.35.05:471][  0]LogSlate: Took 0.002460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2019.05.28-16.35.05:471][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.28-16.35.05:483][  0]LogTemp: BranchPath = OWN-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = OWN-PC/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.28-16.35.05:483][  0]LogSlate: Took 0.005542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.28-16.35.05:694][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\songy\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.28-16.35.05:694][  0]LogRenderer: Reallocating scene render targets to support 1092x688 Format 10 NumSamples 1 (Frame:1).
+[2019.05.28-16.35.05:746][  0]LogSlate: Took 0.002089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2019.05.28-16.35.05:844][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.05.28-16.35.05:844][  0]LogLoad: (Engine Initialization) Total time: 18.44 seconds
+[2019.05.28-16.35.05:844][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.28-16.35.05:935][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.28-16.35.05:990][  0]LogSlate: Took 0.005513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.28-16.35.11:006][421]LogFileCache: Retrieving MD5 hashes for directory 'E:/Capstone_Git/LostDark/Content/' took 5.13s
+[2019.05.28-16.35.14:963][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.35.15:306][905]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.28-16.35.15:702][951]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.28-16.35.15:891][951]LogBlueprint: Error: [Compiler BP_Enemy] 사용 중인  <이름없음>  핀은 더 이상  Add Score  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2019.05.28-16.35.15:891][951]LogBlueprint: Error: [Compiler BP_Enemy] 사용 중인  타깃  핀은 더 이상  Add Score  노드에 존재하지 않습니다. 노드를 새로고치거나 연결을 끊어 제거하세요.
+[2019.05.28-16.35.15:891][951]LogBlueprint: Warning: [Compiler BP_Enemy] 기본값이 아닌  Score  입력 핀이  Add Score  노드에 더 이상 존재하지 않습니다. 노드를 새로고치거나 핀을 기본값으로 리셋시켜 제거하세요.
+[2019.05.28-16.35.15:891][951]LogBlueprint: Error: [Compiler BP_Enemy] LostDarkPlayerController' 에서 "AddScore" 라는 이름의 함수를 찾을 수 없습니다.
+ Add Score  에 대해 'LostDarkPlayerController' 컴파일이 되었는지 확인하세요.
+[2019.05.28-16.35.15:913][951]LogBlueprint: Warning: [Compiler BP_Enemy] [0028.50] BP_Enemy 컴파일에 실패했습니다. 치명적 오류 3 회, 경고 1 회, [소요시간 33 ms] (/Game/YR/Mobs/BP_Enemy.BP_Enemy)
+[2019.05.28-16.35.17:125][951]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.35.17:140][951]LogAssetEditorManager: Opening Asset editor for World /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel
+[2019.05.28-16.35.17:179][951]Cmd: MAP LOAD FILE="E:/Capstone_Git/LostDark/Content/YR/Maps/YR_DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.28-16.35.17:179][951]LightingResults: New page: 라이팅 빌드
+[2019.05.28-16.35.17:180][951]LoadErrors: New page: 맵 로드중: YR_DefaultLevel.umap
+[2019.05.28-16.35.17:181][951]MapCheck: New page: 맵 체크
+[2019.05.28-16.35.17:181][951]LightingResults: New page: 라이팅 빌드
+[2019.05.28-16.35.17:377][951]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.28-16.35.17:443][951]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.28-16.35.17:443][951]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.111ms.
+[2019.05.28-16.35.17:444][951]LogFileHelpers: Loading map 'YR_DefaultLevel' took 0.266
+[2019.05.28-16.35.21:698][433]LogAssetRegistry: Asset discovery search completed in 29.0488 seconds
+[2019.05.28-16.35.21:700][433]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2019.05.28-16.35.23:318][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.35.23:734][665]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.35.23:761][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.35.23:761][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.35.26:740][665]LogSlate: Window '메시지' being destroyed
+[2019.05.28-16.35.32:602][358]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Mobs/BP_Enemy.BP_Enemy
+[2019.05.28-16.35.33:078][358]LogClass: Warning: Enum '/Game/UI_Kit/Blueprints/Objectives/E_ObjectiveType.E_ObjectiveType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.28-16.35.33:080][358]LogClass: Warning: Enum '/Game/UI_Kit/Widgets/Window/ResizeType.ResizeType' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2019.05.28-16.35.33:124][358]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
+[2019.05.28-16.35.34:156][358]LogSlate: Took 0.005531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.28-16.35.34:377][359]LogSlate: Took 0.004745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.28-16.35.49:898][987]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.05.28-16.35.49:901][987]Candidate modules for hot reload:
+[2019.05.28-16.35.49:901][987]  LostDark
+[2019.05.28-16.35.49:901][987]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=LostDark,1482 Win64 Development -TargetType=Editor -Project="E:/Capstone_Git/LostDark/LostDark.uproject" -canskiplink "E:/Capstone_Git/LostDark/LostDark.uproject" ]
+[2019.05.28-16.35.49:904][987]Warning: Starting HotReload took  0.0s.
+[2019.05.28-16.36.06:053][751]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Boss/BP_Boss.BP_Boss
+[2019.05.28-16.36.28:611][873]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.37.30:691][951]LogSlate: Window 'BP_Boss*' being destroyed
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: New page: 컴파일 - 2019. 5. 29. 오전 10:38:26
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Capstone_Git).
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: Creating makefile for hot reloading LostDarkEditor (.uproject file is newer)
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: Parsing headers for LostDarkEditor
+[2019.05.28-16.38.26:067][253]CompilerResultsLog:   Running UnrealHeaderTool "E:\Capstone_Git\LostDark\LostDark.uproject" "E:\Capstone_Git\LostDark\Intermediate\Build\Win64\LostDarkEditor\Development\LostDarkEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.28-16.38.26:067][253]CompilerResultsLog: Reflection code generated for LostDarkEditor in 12.3439481 seconds
+[2019.05.28-16.38.26:068][253]CompilerResultsLog: Building 59 actions with 12 processes...
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [1/59] PCLaunch.rc
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [2/59] SharedPCH.Engine.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [3/59] GSCharacterStatComponent.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [4/59] GSAnimInstance.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [5/59] GSWeapon.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [6/59] LDGameInstance.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [7/59] LDAIController.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [8/59] LDGamePlayWidget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [9/59] GSCharacterWidget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [10/59] LDGamePlayResultWidget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [11/59] LDCharacterSelectWidget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [12/59] BTTask_Attack.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [13/59] LostDark.init.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [14/59] BTTask_FindPatrolPos.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [15/59] BTTask_TurnToTarget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [16/59] LDGameState.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [17/59] LDPlayerState.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [18/59] LDSaveGame.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [19/59] LDUIPlayerController.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [20/59] BackupCharacter.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [21/59] LostDarkCharacter.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [22/59] LostDark.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [23/59] BackupGameModeBase.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [24/59] SectionTest.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [25/59] LDHUDWidget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [26/59] LostDarkPlayerController.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [27/59] BackupGameModeBase.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [28/59] LostDarkGameMode.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [29/59] SH_ItemBox.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [30/59] BTDecorator_IsInAttackRanget.gen.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [31/59] GSAnimInstance.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [32/59] GSWeapon.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [33/59] GSCharacterStatComponent.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [34/59] BTTask_Attack.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [35/59] LDCharacterSelectWidget.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [36/59] GSCharacterWidget.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [37/59] BTService_Detect.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [38/59] BTDecorator_IsInAttackRanget.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [39/59] BTTask_TurnToTarget.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [40/59] SH_ItemBox.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [41/59] BTTask_FindPatrolPos.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [42/59] LDGameInstance.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [43/59] LDAIController.cpp
+[2019.05.28-16.38.26:068][253]CompilerResultsLog:   [44/59] LDGamePlayResultWidget.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [45/59] LDGameState.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [46/59] LDSaveGame.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [47/59] LostDark.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [48/59] LDPlayerState.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [49/59] LDGamePlayWidget.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [50/59] BackupCharacter.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [51/59] LDHUDWidget.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [52/59] LostDarkGameMode.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [53/59] LDUIPlayerController.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [54/59] LostDarkPlayerController.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [55/59] SectionTest.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [56/59] LostDarkCharacter.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [57/59] BTService_Detect.gen.cpp
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [58/59] UE4Editor-LostDark-1482.lib
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:      E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1482.lib ???̺귯?? ?? E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1482.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:   [59/59] UE4Editor-LostDark-1482.dll
+[2019.05.28-16.38.26:069][253]CompilerResultsLog:      E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1482.suppressed.lib ???̺귯?? ?? E:\Capstone_Git\LostDark\Intermediate\Build\Win64\UE4Editor\Development\LostDark\UE4Editor-LostDark-1482.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2019.05.28-16.38.26:069][253]CompilerResultsLog: ERROR: Failed to write dependency cache: 'B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+[2019.05.28-16.38.26:069][253]CompilerResultsLog: ERROR: Failed to write FlatCPPIncludeDependencyCache: 'B:\Develope\Sourcetree\LostDark\LostDark\Intermediate\Build\Win64\LostDarkEditor' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+[2019.05.28-16.38.26:069][253]CompilerResultsLog: Total build time: 155.70 seconds (Parallel executor: 95.29 seconds)
+[2019.05.28-16.38.26:069][253]LogMainFrame: MainFrame: Module compiling took 156.171 seconds
+[2019.05.28-16.38.26:208][253]LogClass: Could not find existing class LostDarkPlayerController in package /Script/LostDark for HotReload, assuming new class
+[2019.05.28-16.38.26:208][253]LogClass: Function AddScore is new.
+[2019.05.28-16.38.26:213][253]LogClass: ECharacterState HotReload.
+[2019.05.28-16.38.26:213][253]LogClass: GSCharacterData HotReload.
+[2019.05.28-16.38.26:222][253]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.38.26:232][253]LogHotReload: Re-instancing LostDarkGameMode after hot-reload.
+[2019.05.28-16.38.26:461][253]LogHotReload: Re-instancing LostDarkPlayerController after hot-reload.
+[2019.05.28-16.38.26:681][253]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+XGate
+[2019.05.28-16.38.26:681][253]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-XGate
+[2019.05.28-16.38.26:681][253]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :+YGate
+[2019.05.28-16.38.26:681][253]LostDark: Error: ASectionTest::ASectionTest(58) Success GateMeshs :-YGate
+[2019.05.28-16.38.26:688][253]LogContentBrowser: Native class hierarchy updated for 'LostDark' in 0.0006 seconds. Added 26 classes and 2 folders.
+[2019.05.28-16.38.26:695][253]Display: HotReload successful (17 functions remapped  1 scriptstructs remapped)
+[2019.05.28-16.38.27:310][253]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2679 classes and 627 folders.
+[2019.05.28-16.38.27:311][253]Display: HotReload took 157.4s.
+[2019.05.28-16.39.22:519][801]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.39.23:699][848]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.39.23:741][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.23:742][848]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2019.05.28-16.39.23:773][848]LogPlayLevel: [PlayLevel] Compiling BP_Enemy before play...
+[2019.05.28-16.39.24:081][848]LogPlayLevel: PlayLevel: Blueprint regeneration took 338 ms (1 blueprints)
+[2019.05.28-16.39.24:081][848]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:39:24)
+[2019.05.28-16.39.24:096][848]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.39.24:102][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005494s)
+[2019.05.28-16.39.24:103][848]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.39.24:103][848]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2019.05.28-16.39.24:103][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.007133s)
+[2019.05.28-16.39.24:226][848]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.39.24:254][848]LogInit: FAudioDevice initialized.
+[2019.05.28-16.39.24:266][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.39.24:312][848]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.39.24:320][848]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.39.24
+[2019.05.28-16.39.24:336][848]LogWorld: Bringing up level for play took: 0.018213
+[2019.05.28-16.39.24:408][848]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.05.28-16.39.24:409][848]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.39.24:411][848]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.39.24:418][848]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.39.24:437][848]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.39.24:439][848]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.39.24:441][848]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.012
+[2019.05.28-16.39.24:441][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.24:568][848]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.05.28-16.39.26:068][882]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.39.28:715][ 21]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.28:716][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.39.28:739][ 21]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.28-16.39.28:783][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.39.28:783][ 21]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.28:940][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.05.28-16.39.38:346][767]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.39.38:369][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.38:369][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.39.38:370][767]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:39:38)
+[2019.05.28-16.39.38:370][767]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.39.38:374][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004039s)
+[2019.05.28-16.39.38:374][767]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.39.38:374][767]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2019.05.28-16.39.38:374][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004761s)
+[2019.05.28-16.39.38:489][767]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.39.38:522][767]LogInit: FAudioDevice initialized.
+[2019.05.28-16.39.38:558][767]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.39.38:559][767]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.39.38
+[2019.05.28-16.39.38:562][767]LogWorld: Bringing up level for play took: 0.003398
+[2019.05.28-16.39.38:574][767]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.39.38:574][767]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.39.38:575][767]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.39.38:579][767]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.39.38:580][767]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.39.38:580][767]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.128
+[2019.05.28-16.39.38:580][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.38:582][767]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.39.48:273][327]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 300.000000
+[2019.05.28-16.39.48:273][327]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_d674dbf1a3d8b7564d8f2f44734c7556>::operator ()(328) @@ HP Is Zero
+[2019.05.28-16.39.50:092][349]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.50:093][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.39.50:146][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.39.50:147][349]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.50:195][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.39.50:219][350]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.28-16.39.54:003][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.39.54:078][534]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.39.54:101][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.54:101][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.39.54:102][534]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:39:54)
+[2019.05.28-16.39.54:102][534]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.39.54:106][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003896s)
+[2019.05.28-16.39.54:106][534]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.39.54:107][534]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2019.05.28-16.39.54:107][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004705s)
+[2019.05.28-16.39.54:228][534]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.39.54:260][534]LogInit: FAudioDevice initialized.
+[2019.05.28-16.39.54:296][534]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.39.54:298][534]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.39.54
+[2019.05.28-16.39.54:301][534]LogWorld: Bringing up level for play took: 0.003608
+[2019.05.28-16.39.54:314][534]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.39.54:314][534]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.39.54:315][534]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.39.54:319][534]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.39.54:320][534]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.39.54:320][534]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.133
+[2019.05.28-16.39.54:320][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.54:321][534]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.39.54:827][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.54:828][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.39.54:870][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.39.54:870][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.39.54:912][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.39.54:938][592]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.28-16.39.55:407][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.40.00:989][135]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/YR/Boss/BP_Griffon.BP_Griffon
+[2019.05.28-16.40.38:904][391]LogSlate: Took 0.017755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.05.28-16.40.38:924][391]LogSlate: Took 0.018000 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.05.28-16.40.44:445][969]BlueprintLog: New page: BP_Enemy 컴파일
+[2019.05.28-16.42.10:328][388]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.42.55:924][418]LogBlueprint: Warning: Blueprint BP_Griffon (child of/implements BP_Boss) has a member variable with a conflicting name (NewVar_0). Changing to NewVar_0_0.
+[2019.05.28-16.43.02:862][182]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.43.15:679][493]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.43.20:822][851]LogSlate: Window '콘텐츠 저장' being destroyed
+[2019.05.28-16.43.20:847][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Boss/BP_Boss" FILE="E:/Capstone_Git/LostDark/Content/YR/Boss/BP_Boss.uasset" SILENT=true
+[2019.05.28-16.43.20:926][851]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/BP_BossC9568F944D8583867473FD98CA125959.tmp' to 'E:/Capstone_Git/LostDark/Content/YR/Boss/BP_Boss.uasset'
+[2019.05.28-16.43.20:943][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Boss/BP_Griffon" FILE="E:/Capstone_Git/LostDark/Content/YR/Boss/BP_Griffon.uasset" SILENT=true
+[2019.05.28-16.43.21:036][851]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/BP_Griffon59E6F7A344C9FDB22872DB86F623D66A.tmp' to 'E:/Capstone_Git/LostDark/Content/YR/Boss/BP_Griffon.uasset'
+[2019.05.28-16.43.21:041][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Maps/YR_DefaultLevel" FILE="E:/Capstone_Git/LostDark/Content/YR/Maps/YR_DefaultLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.28-16.43.21:430][851]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/YR_DefaultLevel5DEF60C746681954ADA1149F9AC83570.tmp' to 'E:/Capstone_Git/LostDark/Content/YR/Maps/YR_DefaultLevel.umap'
+[2019.05.28-16.43.21:472][851]LogFileHelpers: Saving map 'YR_DefaultLevel' took 0.430
+[2019.05.28-16.43.21:474][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Mobs/BP_Enemy" FILE="E:/Capstone_Git/LostDark/Content/YR/Mobs/BP_Enemy.uasset" SILENT=true
+[2019.05.28-16.43.21:537][851]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/BP_Enemy9C21859148881AD8988FBA8D05AE2F8D.tmp' to 'E:/Capstone_Git/LostDark/Content/YR/Mobs/BP_Enemy.uasset'
+[2019.05.28-16.43.21:907][889]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.43.21:952][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.21:952][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.43.21:952][889]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:43:21)
+[2019.05.28-16.43.21:952][889]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.43.21:956][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003911s)
+[2019.05.28-16.43.21:957][889]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.43.21:957][889]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2019.05.28-16.43.21:957][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004722s)
+[2019.05.28-16.43.22:080][889]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.43.22:115][889]LogInit: FAudioDevice initialized.
+[2019.05.28-16.43.22:148][889]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.43.22:150][889]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.43.22
+[2019.05.28-16.43.22:152][889]LogWorld: Bringing up level for play took: 0.003455
+[2019.05.28-16.43.22:166][889]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.43.22:166][889]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.43.22:167][889]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.43.22:174][889]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.43.22:174][889]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.43.22:175][889]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.278
+[2019.05.28-16.43.22:175][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.22:176][889]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.43.24:765][192]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.43.24:766][192]LogBlueprintUserMessages: [BP_Griffon_5] 20.0
+[2019.05.28-16.43.25:127][234]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.25:127][234]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.43.25:629][293]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.25:927][328]LogTemp: Warning: MontageEnded
+[2019.05.28-16.43.27:715][538]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.28-16.43.27:740][541]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.43.27:741][541]LogBlueprintUserMessages: [BP_Griffon_5] 10.0
+[2019.05.28-16.43.28:097][582]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.28:366][614]LogTemp: Warning: MontageEnded
+[2019.05.28-16.43.28:711][655]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 10.000000
+[2019.05.28-16.43.29:400][737]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.29:668][769]LogTemp: Warning: MontageEnded
+[2019.05.28-16.43.31:666][  7]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.43.31:666][  7]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.43.31:666][  7]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.43.31:668][  7]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.43.32:029][ 50]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.32:299][ 82]LogTemp: Warning: MontageEnded
+[2019.05.28-16.43.33:578][235]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.33:846][267]LogTemp: Warning: MontageEnded
+[2019.05.28-16.43.35:609][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.35:609][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.43.35:653][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.43.35:653][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.35:698][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.43.35:726][477]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.05.28-16.43.36:502][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.43.45:162][429]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.43.47:262][601]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.43.47:307][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.47:307][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.43.47:307][601]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:43:47)
+[2019.05.28-16.43.47:307][601]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.43.47:311][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003717s)
+[2019.05.28-16.43.47:312][601]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.43.47:312][601]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2019.05.28-16.43.47:312][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004493s)
+[2019.05.28-16.43.47:431][601]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.43.47:463][601]LogInit: FAudioDevice initialized.
+[2019.05.28-16.43.47:497][601]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.43.47:499][601]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.43.47
+[2019.05.28-16.43.47:501][601]LogWorld: Bringing up level for play took: 0.003379
+[2019.05.28-16.43.47:515][601]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.43.47:515][601]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.43.47:516][601]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.43.47:520][601]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.43.47:520][601]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.43.47:520][601]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 1.068
+[2019.05.28-16.43.47:521][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.47:522][601]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.43.50:406][932]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.43.50:770][975]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.50:770][975]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.43.50:930][994]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.43.51:265][ 34]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.51:265][ 34]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-16.43.51:317][ 40]LogCharacterMovement: BP_Griffon_5 is stuck and failed to move! Velocity: X=-6.93 Y=17.25 Z=0.00 Location: X=167.00 Y=81.45 Z=60.09 Normal: X=-0.76 Y=-0.50 Z=-0.42 PenetrationDepth:5.973 Actor:LostDarkCharacter_0 Component:CharacterMesh0 BoneName:hand_l (0 other events since notify)
+[2019.05.28-16.43.51:445][ 55]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.43.51:446][ 55]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.43.51:446][ 55]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.43.51:448][ 55]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.43.52:069][128]LogTemp: Warning: MontageEnded
+[2019.05.28-16.43.52:667][199]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.43.52:667][199]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.43.53:077][248]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.53:077][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.43.53:121][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.43.53:121][248]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.43.53:165][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.43.53:192][249]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.05.28-16.43.53:775][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.44.12:291][299]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.44.12:317][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.12:317][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.44.12:317][299]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:44:12)
+[2019.05.28-16.44.12:317][299]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.44.12:321][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003752s)
+[2019.05.28-16.44.12:322][299]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.44.12:322][299]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2019.05.28-16.44.12:322][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004542s)
+[2019.05.28-16.44.12:436][299]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.44.12:467][299]LogInit: FAudioDevice initialized.
+[2019.05.28-16.44.12:476][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.44.12:512][299]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.44.12:514][299]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.44.12
+[2019.05.28-16.44.12:516][299]LogWorld: Bringing up level for play took: 0.003656
+[2019.05.28-16.44.12:530][299]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.44.12:530][299]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.44.12:531][299]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.44.12:536][299]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.44.12:536][299]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.44.12:540][299]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.087
+[2019.05.28-16.44.12:540][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.12:542][299]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.44.14:645][486]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.44.15:011][519]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.44.15:011][519]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.44.15:167][533]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.44.15:513][564]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.44.15:513][564]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-16.44.15:687][580]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.44.15:688][580]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.44.15:688][580]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.44.15:689][580]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.44.16:315][638]LogTemp: Warning: MontageEnded
+[2019.05.28-16.44.16:389][645]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.16:390][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.44.16:413][645]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.28-16.44.16:474][645]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.44.16:474][645]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.16:584][646]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.28-16.44.19:734][771]LogSlate: Window '색 선택 툴' being destroyed
+[2019.05.28-16.44.20:976][901]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.44.21:941][946]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.44.21:987][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.21:987][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.44.21:988][946]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:44:21)
+[2019.05.28-16.44.21:988][946]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.44.21:991][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003612s)
+[2019.05.28-16.44.21:992][946]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.44.21:992][946]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2019.05.28-16.44.21:992][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004349s)
+[2019.05.28-16.44.22:123][946]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.44.22:158][946]LogInit: FAudioDevice initialized.
+[2019.05.28-16.44.22:167][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.44.22:201][946]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.44.22:203][946]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.44.22
+[2019.05.28-16.44.22:205][946]LogWorld: Bringing up level for play took: 0.003667
+[2019.05.28-16.44.22:219][946]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.44.22:219][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.44.22:220][946]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.44.22:224][946]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.44.22:225][946]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.44.22:226][946]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.227
+[2019.05.28-16.44.22:226][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.22:228][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.44.23:822][ 79]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.44.24:190][112]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.44.24:190][112]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.44.24:342][126]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.44.24:686][157]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.44.24:686][157]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-16.44.24:868][174]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.44.24:868][174]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.44.24:868][174]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.44.24:870][174]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.44.25:491][230]LogTemp: Warning: MontageEnded
+[2019.05.28-16.44.26:301][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.26:302][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.44.26:324][302]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.28-16.44.26:369][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.44.26:370][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.44.26:483][303]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.28-16.45.06:374][845]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.45.09:475][127]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.45.18:408][ 64]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.45.20:086][196]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.45.20:135][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.45.20:135][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.45.20:135][196]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:45:20)
+[2019.05.28-16.45.20:135][196]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.45.20:141][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005462s)
+[2019.05.28-16.45.20:141][196]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.45.20:142][196]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2019.05.28-16.45.20:142][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.006496s)
+[2019.05.28-16.45.20:255][196]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.45.20:288][196]LogInit: FAudioDevice initialized.
+[2019.05.28-16.45.20:299][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.45.20:329][196]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.45.20:331][196]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.45.20
+[2019.05.28-16.45.20:333][196]LogWorld: Bringing up level for play took: 0.003948
+[2019.05.28-16.45.20:346][196]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.45.20:346][196]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.45.20:347][196]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.45.20:351][196]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.45.20:351][196]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.45.20:353][196]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.099
+[2019.05.28-16.45.20:353][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.45.20:355][196]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.45.21:891][342]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.45.22:247][377]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.45.22:247][377]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.45.22:406][393]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.45.22:752][429]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.45.22:753][429]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-16.45.22:925][447]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.45.22:925][447]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.45.22:925][447]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.45.22:927][447]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.45.23:550][509]LogTemp: Warning: MontageEnded
+[2019.05.28-16.45.24:193][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.45.24:193][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.45.24:215][574]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.28-16.45.24:261][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.45.24:261][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.45.24:374][575]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.28-16.45.57:388][270]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.45.58:170][297]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.45.58:215][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.45.58:216][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.45.58:216][297]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:45:58)
+[2019.05.28-16.45.58:216][297]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.45.58:220][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004356s)
+[2019.05.28-16.45.58:220][297]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.45.58:220][297]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2019.05.28-16.45.58:220][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.005193s)
+[2019.05.28-16.45.58:339][297]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.45.58:371][297]LogInit: FAudioDevice initialized.
+[2019.05.28-16.45.58:380][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.45.58:414][297]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.45.58:416][297]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.45.58
+[2019.05.28-16.45.58:419][297]LogWorld: Bringing up level for play took: 0.004557
+[2019.05.28-16.45.58:433][297]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.45.58:433][297]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.45.58:434][297]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.45.58:438][297]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.45.58:439][297]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.45.58:440][297]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.013
+[2019.05.28-16.45.58:441][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.45.58:442][297]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.46.00:363][460]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.46.00:726][493]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.46.00:726][493]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.46.00:889][508]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.46.01:227][538]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.46.01:227][538]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-16.46.01:405][554]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.46.01:406][554]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.46.01:406][554]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.46.01:406][554]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.46.01:977][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.46.01:977][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.46.02:001][605]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.28-16.46.02:049][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.46.02:049][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.46.02:165][606]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.28-16.46.17:774][358]LogSlate: Took 0.004804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.05.28-16.46.20:112][493]LogSlate: Window '변수 유형 변경' being destroyed
+[2019.05.28-16.46.21:933][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Boss/BP_Boss" FILE="E:/Capstone_Git/LostDark/Content/YR/Boss/BP_Boss.uasset" SILENT=true
+[2019.05.28-16.46.22:001][693]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/BP_Boss20D6908448EF411CA4CD5AAF18987A3C.tmp' to 'E:/Capstone_Git/LostDark/Content/YR/Boss/BP_Boss.uasset'
+[2019.05.28-16.46.55:430][207]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.48.16:481][351]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.48.18:328][494]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.48.18:372][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.18:372][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.48.18:372][494]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:48:18)
+[2019.05.28-16.48.18:372][494]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.48.18:376][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003683s)
+[2019.05.28-16.48.18:377][494]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.48.18:377][494]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2019.05.28-16.48.18:377][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004495s)
+[2019.05.28-16.48.18:496][494]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.48.18:527][494]LogInit: FAudioDevice initialized.
+[2019.05.28-16.48.18:560][494]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.48.18:561][494]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.48.18
+[2019.05.28-16.48.18:563][494]LogWorld: Bringing up level for play took: 0.003479
+[2019.05.28-16.48.18:576][494]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.48.18:576][494]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.48.18:577][494]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.48.18:583][494]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.48.18:584][494]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.48.18:584][494]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.131
+[2019.05.28-16.48.18:584][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.18:586][494]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.48.23:332][ 50]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.48.23:695][ 92]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.48.23:695][ 92]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-16.48.23:856][111]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.48.24:198][149]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-16.48.24:198][149]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-16.48.24:371][168]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-16.48.24:371][168]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-16.48.24:371][168]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.48.24:373][168]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-16.48.24:987][240]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.24:987][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.48.25:029][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.48.25:029][240]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.25:078][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.48.25:107][241]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.05.28-16.48.25:755][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-16.48.35:310][254]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.48.35:990][269]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-16.48.36:035][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.36:035][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-16.48.36:035][269]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 10:48:36)
+[2019.05.28-16.48.36:035][269]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-16.48.36:039][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003692s)
+[2019.05.28-16.48.36:039][269]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-16.48.36:039][269]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2019.05.28-16.48.36:039][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.004453s)
+[2019.05.28-16.48.36:163][269]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-16.48.36:195][269]LogInit: FAudioDevice initialized.
+[2019.05.28-16.48.36:206][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.48.36:241][269]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-16.48.36:243][269]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-01.48.36
+[2019.05.28-16.48.36:245][269]LogWorld: Bringing up level for play took: 0.003651
+[2019.05.28-16.48.36:258][269]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-16.48.36:258][269]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.48.36:258][269]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.48.36:263][269]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-16.48.36:263][269]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-16.48.36:266][269]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: -0.187
+[2019.05.28-16.48.36:266][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.36:268][269]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-16.48.37:808][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.37:809][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-16.48.37:833][414]LogSlate: Window 'REVISION 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2019.05.28-16.48.37:885][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-16.48.37:885][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-16.48.37:992][415]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.28-16.51.19:800][231]BlueprintLog: New page: BP_Boss 컴파일
+[2019.05.28-16.54.04:189][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Maps/YR_DefaultLevel" FILE="E:/Capstone_Git/LostDark/Saved/Autosaves/Game/YR/Maps/YR_DefaultLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.05.28-16.54.04:545][909]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/YR_DefaultLevel_Auto1E31E24594BE4FD1F642862BFDFA85C12.tmp' to 'E:/Capstone_Git/LostDark/Saved/Autosaves/Game/YR/Maps/YR_DefaultLevel_Auto1.umap'
+[2019.05.28-16.54.04:548][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/YR/Maps/YR_DefaultLevel' took 0.417
+[2019.05.28-16.54.04:548][909]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.417
+[2019.05.28-16.54.04:550][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/YR/Boss/BP_Griffon] ([1] browsable assets)...
+[2019.05.28-16.54.04:571][909]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/YR/Boss/BP_Griffon.BP_Griffon]
+[2019.05.28-16.54.04:571][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/YR/Boss/BP_Griffon]
+[2019.05.28-16.54.04:571][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Boss/BP_Griffon" FILE="E:/Capstone_Git/LostDark/Saved/Autosaves/Game/YR/Boss/BP_Griffon_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.05.28-16.54.04:671][909]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/BP_Griffon_Auto173259F7847EE6973058C0EADC4E0DF6D.tmp' to 'E:/Capstone_Git/LostDark/Saved/Autosaves/Game/YR/Boss/BP_Griffon_Auto1.uasset'
+[2019.05.28-16.54.04:673][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/YR/Boss/BP_Boss] ([1] browsable assets)...
+[2019.05.28-16.54.04:673][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/YR/Boss/BP_Boss]
+[2019.05.28-16.54.04:673][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YR/Boss/BP_Boss" FILE="E:/Capstone_Git/LostDark/Saved/Autosaves/Game/YR/Boss/BP_Boss_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.05.28-16.54.04:756][909]LogSavePackage: Moving 'E:/Capstone_Git/LostDark/Saved/BP_Boss_Auto1F4F7BFDB4CA0ADE235F528A34A68F899.tmp' to 'E:/Capstone_Git/LostDark/Saved/Autosaves/Game/YR/Boss/BP_Boss_Auto1.uasset'
+[2019.05.28-16.54.04:756][909]LogFileHelpers: Auto-saving content packages took 0.208
+[2019.05.28-17.47.00:472][442]LogEditorViewport: Clicking on Actor (LMB): BP_Griffon_C (BP_Griffon)
+[2019.05.28-17.47.06:628][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-17.47.06:693][966]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-17.47.06:760][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-17.47.06:761][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-17.47.06:761][966]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 11:47:06)
+[2019.05.28-17.47.06:761][966]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-17.47.06:767][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005447s)
+[2019.05.28-17.47.06:768][966]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-17.47.06:768][966]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2019.05.28-17.47.06:768][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.006875s)
+[2019.05.28-17.47.06:909][966]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-17.47.06:943][966]LogInit: FAudioDevice initialized.
+[2019.05.28-17.47.06:973][966]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-17.47.06:975][966]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-02.47.06
+[2019.05.28-17.47.06:978][966]LogWorld: Bringing up level for play took: 0.004228
+[2019.05.28-17.47.06:992][966]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-17.47.06:992][966]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-17.47.06:993][966]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-17.47.07:000][966]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-17.47.07:001][966]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-17.47.07:001][966]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.549
+[2019.05.28-17.47.07:001][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-17.47.07:003][966]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-17.47.13:482][732]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-17.47.13:841][775]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-17.47.13:841][775]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-17.47.14:000][794]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-17.47.14:341][835]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-17.47.14:342][835]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-17.47.14:525][857]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-17.47.14:525][857]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-17.47.14:525][857]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-17.47.14:527][857]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-17.47.15:145][931]LogTemp: Warning: MontageEnded
+[2019.05.28-17.47.15:671][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-17.47.15:671][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-17.47.15:717][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.28-17.47.15:717][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-17.47.15:766][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.28-17.47.15:802][995]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.05.28-17.47.17:381][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-17.47.20:821][541]LogMaterial: Display: Missing cached shader map for material CharM_Fire_Golem, compiling. 
+[2019.05.28-17.47.21:003][541]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.05.28-17.47.21:003][541]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.05.28-17.47.21:003][541]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.05.28-17.47.21:003][541]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.05.28-17.47.21:003][541]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.05.28-17.47.21:003][541]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.05.28-17.47.22:309][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.28-17.47.22:411][599]LogTemp: Repeating last play command: 선택된 뷰포트
+[2019.05.28-17.47.22:483][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-17.47.22:483][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.28-17.47.22:483][599]PIE: New page: PIE 세션: YR_DefaultLevel (2019. 5. 29. 오전 11:47:22)
+[2019.05.28-17.47.22:483][599]LogPlayLevel: Creating play world package: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel
+[2019.05.28-17.47.22:489][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006782s)
+[2019.05.28-17.47.22:490][599]LogAIModule: Creating AISystem for world YR_DefaultLevel
+[2019.05.28-17.47.22:491][599]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2019.05.28-17.47.22:491][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel to /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel (0.008043s)
+[2019.05.28-17.47.22:658][599]LogInit: XAudio2 using 'Realtek HD Audio 2nd output(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.28-17.47.22:701][599]LogInit: FAudioDevice initialized.
+[2019.05.28-17.47.22:740][599]LogLoad: Game class is 'LostDarkGameMode'
+[2019.05.28-17.47.22:744][599]LogWorld: Bringing World /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel.YR_DefaultLevel up for play (max tick rate 0) at 2019.05.29-02.47.22
+[2019.05.28-17.47.22:748][599]LogWorld: Bringing up level for play took: 0.007809
+[2019.05.28-17.47.22:764][599]LogTemp: Warning: Enroll Attack Montage
+[2019.05.28-17.47.22:764][599]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-17.47.22:765][599]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-17.47.22:774][599]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-17.47.22:775][599]LostDark: Warning: UGSCharacterStatComponent::SetNewLevel(58) Game Start! CurrentStatData initialize~~~ by GSCharacterStatComponent.cpp
+[2019.05.28-17.47.22:775][599]PIE: /Game/YR/Maps/UEDPIE_0_YR_DefaultLevel 에 대한 에디터에서 플레이 시작 시간: 0.323
+[2019.05.28-17.47.22:776][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel' has LevelScriptBlueprint '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel' with GeneratedClass '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel_C' with ClassGeneratedBy '/Game/YR/Maps/YR_DefaultLevel.YR_DefaultLevel:PersistentLevel.YR_DefaultLevel'
+[2019.05.28-17.47.22:778][599]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/SH/Animations/GS_AnimBlueprint.GS_AnimBlueprint_C:ExecuteUbergraph_GS_AnimBlueprint
+
+[2019.05.28-17.47.24:388][714]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-17.47.24:741][745]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-17.47.24:741][745]LogTemp: Warning: Called JumpTo Function, Combo : 2
+[2019.05.28-17.47.24:902][758]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-17.47.25:248][792]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-17.47.25:249][792]LogTemp: Warning: Called JumpTo Function, Combo : 3
+[2019.05.28-17.47.25:421][809]LostDark: Warning: ALostDarkCharacter::AttackCheck(863) Hit Actor Name : BP_Griffon_5
+[2019.05.28-17.47.25:421][809]LostDark: Warning: ALostDarkPlayerController::AddScore(100) New AI Level : 0
+[2019.05.28-17.47.25:421][809]LostDark: Warning: ALDPlayerState::GetExpRatio(87) Ratio : 0.666667, Current : 20, Next : 30
+[2019.05.28-17.47.25:422][809]LogBlueprintUserMessages: [BP_Griffon_5] 0
+[2019.05.28-17.47.26:044][883]LogTemp: Warning: MontageEnded
+[2019.05.28-17.47.26:588][947]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_a35245af5678173ca763887e2a4841f8>::operator ()(310) OnNextAttackCheck
+[2019.05.28-17.47.26:858][970]LogTemp: Warning: MontageEnded
+[2019.05.28-17.47.27:587][ 56]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.28-17.47.29:056][231]LostDark: Warning: ALostDarkCharacter::TakeDamage(354) Actor : LostDarkCharacter_0 took Damage : 50.000000
+[2019.05.28-17.47.29:057][231]LostDark: Warning: ALostDarkCharacter::PostInitializeComponents::<lambda_d674dbf1a3d8b7564d8f2f44734c7556>::operator ()(328) @@ HP Is Zero
