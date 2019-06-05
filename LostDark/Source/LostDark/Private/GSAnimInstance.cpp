@@ -128,7 +128,7 @@ void UGSAnimInstance::AnimNotify_IsInputCombo()
 	IsInputCombo = true;
 }
 
-void UGSAnimInstance::AnimNotify_PlaySound()
+void UGSAnimInstance::AnimNotify_SoundPlay()
 {
 	UE_LOG(LogTemp, Warning, TEXT("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"));
 	LDCharacter = Cast<ALostDarkCharacter>(UGameplayStatics::GetPlayerCharacter(this, 0));
