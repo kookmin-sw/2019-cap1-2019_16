@@ -103,7 +103,7 @@ ALostDarkCharacter::ALostDarkCharacter()
 	AttackRadius = 50.0f;
 
 	// 기본 공격범위
-	AttackRange = 80.0f;
+	AttackRange = 140.0f;
 
 	///* 부착할 무기 애셋 캐릭터 메시에 부착  */
 	//FName WeaponSocket(TEXT("sword_bottom")); //이름은 실제 bone의 이름과 일치해야함.
@@ -396,7 +396,7 @@ void ALostDarkCharacter::PossessedBy(AController * NewController)
 		// 백뷰 (플레이어 시작)
 		SetControlMode(EControlMode::BackView);
 		// 걷는 속도 조절
-		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+		GetCharacterMovement()->MaxWalkSpeed = 800.0f;
 	}
 	// 플레이어가 아닌 AI라면
 	else

@@ -55,7 +55,7 @@ private:
 	UFUNCTION()
 		void AnimNotify_IsInputCombo();
 	UFUNCTION()
-		void AnimNotify_PlaySound();
+		void AnimNotify_SoundPlay();
 
 	// 현재 몽타주 섹션의 이름을 출력하기 위한 함수
 	FName GetAttackMontageSectionName(int32 Section);
