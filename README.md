@@ -11,7 +11,7 @@
 
 ## 1. 프로잭트 소개
 
-Unreal Engine으로 제작한 PC 플랫폼의 3D 어드벤쳐 RPG 게임 LostDark 입니다. 게임 중 조작은 키보드와 마우스를 사용합니다. 플레이어는 스토리의 진행에 따라 퀘스트를 수행하거나 필드의 몬스터를 처치하고 보상으로 경험치를 얻고 성장합니다. 게임 진행 중에 퀘스트를 통해 사용자에게 자율성을 부여하여 선택할 수 있는 분기점을 제공합니다. 던전의 최종 보스를 물리치면 게임이 끝납니다. 게임 진행 중 플레이어의 선택에 따라 엔딩이 달라집니다.
+Unreal Engine으로 제작한 PC 플랫폼의 3D 어드벤쳐 RPG 게임 REVISION 입니다. 게임 중 조작은 키보드와 마우스를 사용합니다. 플레이어는 스토리의 진행에 따라 퀘스트를 수행하거나 필드의 몬스터를 처치하고 보상으로 경험치를 얻고 성장합니다. 게임 진행 중에 퀘스트를 통해 사용자에게 자율성을 부여하여 선택할 수 있는 분기점을 제공합니다. 던전의 최종 보스를 물리치면 게임이 끝납니다. 게임 진행 중 플레이어의 선택에 따라 엔딩이 달라집니다.
 
 ## 2. Abstract
 
@@ -20,7 +20,7 @@ LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. D
 ## 3. 소개 영상
 
 사진을 클릭하면 유튜브로 이동합니다.
-[![sample](./Docs/img/preview.png)](https://www.youtube.com/watch?v=gSdnVxPBhc8)
+[![sample](./Docs/img/preview.png)](https://youtu.be/snXDtPwN6Lk)
 
 ## 4. 팀 소개
 
