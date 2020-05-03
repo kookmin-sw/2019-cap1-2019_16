@@ -15,7 +15,7 @@ Unreal Engine으로 제작한 PC 플랫폼의 3D 어드벤쳐 RPG 게임 REVISIO
 
 ## 2. Abstract
 
-LostDark is a 3D adventure RPG game on PC platform created with Unreal Engine. During the game, use the keyboard and mouse to operate. As the story progresses, the player performs quests, kills monsters in the field, and gains experience as a reward. During the game, the user can be given autonomy through quests and provide a branch point to choose from. The game ends when you defeat the final boss of the dungeon. The ending will depend on the player's choice during the game.
+REVISION is a 3D adventure RPG game on PC platform created with Unreal Engine. During the game, use the keyboard and mouse to operate. As the story progresses, the player performs quests, kills monsters in the field, and gains experience as a reward. During the game, the user can be given autonomy through quests and provide a branch point to choose from. The game ends when you defeat the final boss of the dungeon. The ending will depend on the player's choice during the game.
 
 ## 3. 소개 영상
 
